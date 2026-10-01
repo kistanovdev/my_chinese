@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "lesson": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "sentences": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 18,
+      "items": {
+        "type": "object",
+        "properties": {
+          "chinese": { "type": "string", "minLength": 2 },
+          "pinyin": { "type": "string", "minLength": 2 },
+          "english_hint": { "type": "string", "minLength": 2 },
+          "scenario": { "type": "string", "minLength": 2 },
+          "focus": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "priority": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "source_note": { "type": "string", "minLength": 2 }
+        },
+        "required": [
+          "chinese",
+          "pinyin",
+          "english_hint",
+          "scenario",
+          "focus",
+          "priority",
+          "source_note"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["lesson", "sentences"],
+  "additionalProperties": false
+}
+
