@@ -110,12 +110,14 @@ The first version is intentionally small:
 
 - Python scripts for extraction, validation, and ElevenLabs generation
 - Static HTML/CSS/JavaScript practice interface
-- Browser local storage for scheduling and progress
-- Local Python HTTP server and automatic browser launch
+- A local JSON progress file saved atomically after every rating
+- Local Python standard-library HTTP server and automatic browser launch
 - JSON as the reviewed deck format
 
-This avoids a database and frontend build system while leaving a clean path to
-a packaged desktop or mobile app later.
+This avoids a database, web framework, and frontend build system while leaving
+a clean path to a small PyInstaller binary later. The first launcher can simply
+be `python3 app.py`; it will start localhost, open the browser, and save progress
+through a tiny local JSON endpoint.
 
 ## MVP acceptance criteria
 
@@ -134,4 +136,3 @@ a packaged desktop or mobile app later.
 - Two versus three repetitions as the global default (three is proposed)
 - Whether pinyin is available immediately or only after the first attempt
 - Whether progress should eventually sync across devices
-

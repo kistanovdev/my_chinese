@@ -16,9 +16,13 @@ Discover each pair:
 
 The initial inventory contains 15 pairs from 2026-07-08 through 2026-09-30.
 
-## Stage 2: extract candidates
+## Stage 2: generate candidates with Codex
 
-Extract candidates from these parts of each analysis:
+`scripts/generate_sentences.py` invokes `codex exec` non-interactively once per
+lesson. A JSON Schema constrains each final response, and each completed lesson
+is checkpointed under `data/generated/`.
+
+Codex extracts candidates from these parts of each analysis:
 
 - Explicit corrected forms after `Better:`, `Correct:`, or `→`
 - Positive examples identified as already correct
@@ -98,7 +102,10 @@ a top-priority recurring error.
 
 ## Review gates
 
-A candidate cannot become `reviewed` until it passes all checks:
+A generated candidate should not be sent to the full TTS run until it passes
+these checks. The Codex prompt performs an initial language review, the Python
+scripts enforce the data contract, and `build/sentences.json` remains easy to
+inspect before spending ElevenLabs credits:
 
 - Chinese is grammatical and idiomatic.
 - Meaning matches the intended scenario.
@@ -108,15 +115,28 @@ A candidate cannot become `reviewed` until it passes all checks:
 - Source lesson and focus pattern are recorded.
 - Personal facts are not invented when the source is ambiguous.
 
+## Compilation
+
+`scripts/compile_deck.py` validates all 15 checkpoint files, creates stable IDs,
+merges exact duplicate sentences, combines their sources and focus tags, and
+writes `build/sentences.json`.
+
 ## Audio generation
 
-Generate audio only for `reviewed` entries. Synthesis should be incremental:
+`scripts/synthesize_audio.py` sends the compiled `tts_text` values to
+ElevenLabs. Synthesis is incremental:
 
 1. Compute a content hash from TTS text, model, voice, and settings.
 2. Skip an entry when a matching audio file already exists.
 3. Save generation metadata beside the deck.
 4. Retry transient failures without duplicating successful requests.
-5. Validate that every reviewed item has a non-empty playable audio file.
+5. Validate that every item has a non-empty playable audio file.
+
+## App-data build
+
+`scripts/build_app_data.py` combines the compiled deck with the audio manifest.
+It fails on missing audio by default and writes `dist/deck.json`, the only
+content contract the future practice app needs to understand.
 
 ## Data lifecycle
 
@@ -125,12 +145,13 @@ transcripts + analyses
         ↓
 candidate extraction
         ↓
-data/sentences.draft.json
-        ↓ human/content review
-data/sentences.reviewed.json
-        ↓ ElevenLabs synthesis
-audio/*.mp3 + audio-manifest.json
+data/generated/YYYY-MM-DD.json
+        ↓ validation and deduplication
+build/sentences.json
+        ↓ ElevenLabs synthesis and caching
+audio/*.mp3 + build/audio-manifest.json
+        ↓ final validation
+dist/deck.json
         ↓
 practice web app
 ```
-

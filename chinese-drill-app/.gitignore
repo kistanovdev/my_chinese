@@ -1,8 +1,11 @@
 .env
 audio/*.mp3
 audio/*.json
+audio/*.tmp
 data/sentences.draft.json
 data/progress.json
+data/generated/*.json
+build/*.json
+dist/*.json
 __pycache__/
 *.pyc
-
