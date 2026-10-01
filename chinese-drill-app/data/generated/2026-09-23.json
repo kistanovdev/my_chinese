@@ -1,0 +1,174 @@
+{
+  "lesson": "2026-09-23",
+  "sentences": [
+    {
+      "chinese": "我在苹果公司工作了五年了。",
+      "pinyin": "Wǒ zài Píngguǒ gōngsī gōngzuò le wǔ nián le.",
+      "english_hint": "I've been working at Apple for five years.",
+      "scenario": "Tell a colleague how long you have worked at Apple.",
+      "focus": [
+        "duration after verb",
+        "ongoing duration: 了……了"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's repeated difficulty placing the five-year work duration."
+    },
+    {
+      "chinese": "我再读一次。",
+      "pinyin": "Wǒ zài dú yí cì.",
+      "english_hint": "I'll read it again.",
+      "scenario": "Read a Chinese passage a second time.",
+      "focus": [
+        "再 + verb + 一次"
+      ],
+      "priority": 5,
+      "source_note": "The learner repeatedly placed 再 after 读; the analysis corrects the order."
+    },
+    {
+      "chinese": "请你再说一次。",
+      "pinyin": "Qǐng nǐ zài shuō yí cì.",
+      "english_hint": "Please say it again.",
+      "scenario": "Ask someone to repeat what you missed.",
+      "focus": [
+        "再 + verb + 一次",
+        "polite request"
+      ],
+      "priority": 5,
+      "source_note": "The analysis supplies this useful variation on the recurring 再 word-order problem."
+    },
+    {
+      "chinese": "如果我不明白，我就问你。",
+      "pinyin": "Rúguǒ wǒ bù míngbai, wǒ jiù wèn nǐ.",
+      "english_hint": "If I don't understand, I'll ask you.",
+      "scenario": "Tell your Chinese teacher what you will do when confused.",
+      "focus": [
+        "如果……就……",
+        "问 + person"
+      ],
+      "priority": 4,
+      "source_note": "Direct correction of 如果我不明白，我说你 in the analysis."
+    },
+    {
+      "chinese": "我给经理打电话。",
+      "pinyin": "Wǒ gěi jīnglǐ dǎ diànhuà.",
+      "english_hint": "I'll call the manager.",
+      "scenario": "Say whom you will call at work.",
+      "focus": [
+        "给 + person + 打电话"
+      ],
+      "priority": 5,
+      "source_note": "Transfers the corrected phone-call structure to the workplace drill supplied in the analysis."
+    },
+    {
+      "chinese": "我们总结了会议的内容。",
+      "pinyin": "Wǒmen zǒngjié le huìyì de nèiróng.",
+      "english_hint": "We summarized the meeting's content.",
+      "scenario": "Report what your team did after a meeting.",
+      "focus": [
+        "会议 as a noun",
+        "总结 + object",
+        "completed action: 了"
+      ],
+      "priority": 5,
+      "source_note": "The analysis replaces the learner's 我的开会 with 会议的内容."
+    },
+    {
+      "chinese": "我们休息五分钟吧。",
+      "pinyin": "Wǒmen xiūxi wǔ fēnzhōng ba.",
+      "english_hint": "Let's take a five-minute break.",
+      "scenario": "Suggest a short break during a lesson or meeting.",
+      "focus": [
+        "verb + duration",
+        "分钟",
+        "suggestion: 吧"
+      ],
+      "priority": 4,
+      "source_note": "Direct correction of the learner's request 我们休息五分."
+    },
+    {
+      "chinese": "我们商量一下什么时候开会。",
+      "pinyin": "Wǒmen shāngliang yíxià shénme shíhou kāihuì.",
+      "english_hint": "Let's discuss when to meet.",
+      "scenario": "Agree on a meeting time with colleagues.",
+      "focus": [
+        "商量一下 + embedded question",
+        "什么时候"
+      ],
+      "priority": 4,
+      "source_note": "The analysis supplies this scheduling drill and clarifies 商量 as discussing what to do."
+    },
+    {
+      "chinese": "我们怎么处理这个问题？",
+      "pinyin": "Wǒmen zěnme chǔlǐ zhège wèntí?",
+      "english_hint": "How do we handle this problem?",
+      "scenario": "Ask your team how to handle a work problem.",
+      "focus": [
+        "怎么 + verb",
+        "处理问题"
+      ],
+      "priority": 4,
+      "source_note": "The analysis explicitly confirms 处理问题 as natural and lists this sentence among priority vocabulary examples."
+    },
+    {
+      "chinese": "我觉得这个方案有道理。",
+      "pinyin": "Wǒ juéde zhège fāng’àn yǒu dàoli.",
+      "english_hint": "I think this plan makes sense.",
+      "scenario": "Support a proposed plan in a meeting.",
+      "focus": [
+        "我觉得……",
+        "有道理"
+      ],
+      "priority": 3,
+      "source_note": "Included in the analysis's final speaking practice; the learner struggled to recall 有道理."
+    },
+    {
+      "chinese": "我对这个决定有意见。",
+      "pinyin": "Wǒ duì zhège juédìng yǒu yìjiàn.",
+      "english_hint": "I have objections to this decision.",
+      "scenario": "State your objection to a work decision.",
+      "focus": [
+        "对 + matter + 有意见"
+      ],
+      "priority": 5,
+      "source_note": "The analysis distinguishes having objections from giving feedback, a distinction the learner repeatedly questioned."
+    },
+    {
+      "chinese": "我想给经理提个意见。",
+      "pinyin": "Wǒ xiǎng gěi jīnglǐ tí ge yìjiàn.",
+      "english_hint": "I'd like to give the manager some feedback.",
+      "scenario": "Say you would like to offer feedback at work.",
+      "focus": [
+        "给 + person + 提意见",
+        "我想……"
+      ],
+      "priority": 5,
+      "source_note": "Combines the analysis's useful phrase with its manager example to practise the repeatedly confused feedback structure."
+    },
+    {
+      "chinese": "虽然我很忙，但是我还想学中文。",
+      "pinyin": "Suīrán wǒ hěn máng, dànshì wǒ hái xiǎng xué Zhōngwén.",
+      "english_hint": "Although I'm busy, I still want to study Chinese.",
+      "scenario": "Express your wish to study despite a busy schedule.",
+      "focus": [
+        "虽然……但是……",
+        "还: still"
+      ],
+      "priority": 4,
+      "source_note": "The analysis explicitly assigns this production prompt under contrast with 还."
+    },
+    {
+      "chinese": "就这么决定吧。",
+      "pinyin": "Jiù zhème juédìng ba.",
+      "english_hint": "Let's settle on that.",
+      "scenario": "Close a discussion once everyone has agreed.",
+      "focus": [
+        "就这么……吧",
+        "decision chunk"
+      ],
+      "priority": 3,
+      "source_note": "Listed as a useful phrase; the learner asked how 这么 works in this decision-making chunk."
+    }
+  ],
+  "generated_at": "2026-10-01T23:03:28+00:00",
+  "generator": "codex-cli"
+}

@@ -1,0 +1,175 @@
+{
+  "lesson": "2026-09-14",
+  "sentences": [
+    {
+      "chinese": "我们学了一点儿。",
+      "pinyin": "Wǒmen xué le yìdiǎnr.",
+      "english_hint": "We studied a little.",
+      "scenario": "Say how much you studied last class.",
+      "focus": [
+        "verb + 一点儿",
+        "了"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我们一点学习 by placing the amount after the verb."
+    },
+    {
+      "chinese": "这个地方干净吗？",
+      "pinyin": "Zhège dìfang gānjìng ma?",
+      "english_hint": "Is this place clean?",
+      "scenario": "Ask about a restaurant's cleanliness.",
+      "focus": [
+        "adjective predicate",
+        "吗 question"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of the unnecessary 是 before 干净."
+    },
+    {
+      "chinese": "他们比我知道得多。",
+      "pinyin": "Tāmen bǐ wǒ zhīdào de duō.",
+      "english_hint": "They know more than I do.",
+      "scenario": "Compare your knowledge with experienced teammates.",
+      "focus": [
+        "A + 比 + B",
+        "verb + 得 + comparison"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's word order when describing experienced colleagues."
+    },
+    {
+      "chinese": "我们的例会都是视频会议。",
+      "pinyin": "Wǒmen de lìhuì dōu shì shìpín huìyì.",
+      "english_hint": "Our regular meetings are all video meetings.",
+      "scenario": "Explain how your team holds regular meetings.",
+      "focus": [
+        "都 + 是",
+        "meeting format"
+      ],
+      "priority": 5,
+      "source_note": "Analysis correction distinguishes regular meetings from their video format; learner works from home."
+    },
+    {
+      "chinese": "我一有消息，就通知你。",
+      "pinyin": "Wǒ yì yǒu xiāoxi, jiù tōngzhī nǐ.",
+      "english_hint": "I'll notify you as soon as I have an update.",
+      "scenario": "Promise a colleague a quick update.",
+      "focus": [
+        "一……就……",
+        "消息",
+        "通知你"
+      ],
+      "priority": 5,
+      "source_note": "Core analysis model; 消息 and 通知 caused repeated hesitation during the lesson."
+    },
+    {
+      "chinese": "中文课一结束，我就去工作。",
+      "pinyin": "Zhōngwén kè yì jiéshù, wǒ jiù qù gōngzuò.",
+      "english_hint": "I'll go to work as soon as Chinese class ends.",
+      "scenario": "Describe your plan immediately after class.",
+      "focus": [
+        "一……就……",
+        "subject placement"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill answer addresses difficulty producing a complete 一……就…… sentence."
+    },
+    {
+      "chinese": "如果系统有问题，我们就检查一下。",
+      "pinyin": "Rúguǒ xìtǒng yǒu wèntí, wǒmen jiù jiǎnchá yíxià.",
+      "english_hint": "If the system has a problem, we'll check it.",
+      "scenario": "Explain your team's response to a system problem.",
+      "focus": [
+        "如果……就……",
+        "检查一下"
+      ],
+      "priority": 5,
+      "source_note": "Analysis model grounded in the learner's description of system problems at work."
+    },
+    {
+      "chinese": "如果他们需要帮忙，就给我们打电话。",
+      "pinyin": "Rúguǒ tāmen xūyào bāngmáng, jiù gěi wǒmen dǎ diànhuà.",
+      "english_hint": "If they need help, they call us.",
+      "scenario": "Explain how another team asks your team for help.",
+      "focus": [
+        "如果……就……",
+        "需要帮忙",
+        "给 + person + 打电话"
+      ],
+      "priority": 5,
+      "source_note": "Analysis model reinforces 需要帮忙, a chunk the learner struggled to produce at work."
+    },
+    {
+      "chinese": "如果客户不满意，我们就商量一下。",
+      "pinyin": "Rúguǒ kèhù bù mǎnyì, wǒmen jiù shāngliang yíxià.",
+      "english_hint": "If the customer is unhappy, we'll discuss it.",
+      "scenario": "Suggest what to do about an unhappy customer.",
+      "focus": [
+        "如果……就……",
+        "商量一下"
+      ],
+      "priority": 4,
+      "source_note": "Analysis drill answer combines the customer context with the repeatedly practiced 商量一下."
+    },
+    {
+      "chinese": "下课以后，我去看女儿。",
+      "pinyin": "Xià kè yǐhòu, wǒ qù kàn nǚ'ér.",
+      "english_hint": "After class, I'll go see my daughter.",
+      "scenario": "Say when you will go see your daughter.",
+      "focus": [
+        "……以后",
+        "time before action"
+      ],
+      "priority": 5,
+      "source_note": "Analysis model practices time order using the learner's established family context."
+    },
+    {
+      "chinese": "我们开会是为了解决问题。",
+      "pinyin": "Wǒmen kāi huì shì wèile jiějué wèntí.",
+      "english_hint": "We hold meetings to solve problems.",
+      "scenario": "Explain why your team is meeting.",
+      "focus": [
+        "……是为了……",
+        "解决问题"
+      ],
+      "priority": 5,
+      "source_note": "Core purpose model in the analysis and its recommended practice routine."
+    },
+    {
+      "chinese": "这是一百台电脑。",
+      "pinyin": "Zhè shì yì bǎi tái diànnǎo.",
+      "english_hint": "These are one hundred computers.",
+      "scenario": "Identify a group of one hundred computers in a work example.",
+      "focus": [
+        "number + 台 + 电脑"
+      ],
+      "priority": 5,
+      "source_note": "Adds a complete sentence around 一百台电脑; the learner repeatedly omitted 台."
+    },
+    {
+      "chinese": "价格跌了一百美元。",
+      "pinyin": "Jiàgé diē le yì bǎi měiyuán.",
+      "english_hint": "The price fell by one hundred dollars.",
+      "scenario": "Describe a price decrease in a product example.",
+      "focus": [
+        "subject + 跌了 + amount"
+      ],
+      "priority": 5,
+      "source_note": "Direct analysis correction of 一百美元跌了; price-change wording recurred."
+    },
+    {
+      "chinese": "我可以给你百分之十五的折扣。",
+      "pinyin": "Wǒ kěyǐ gěi nǐ bǎifēnzhī shíwǔ de zhékòu.",
+      "english_hint": "I can give you a fifteen percent discount.",
+      "scenario": "Offer the product discount discussed in class.",
+      "focus": [
+        "百分之 + number",
+        "给 + person + discount"
+      ],
+      "priority": 5,
+      "source_note": "Uses the analysis's corrected 百分之十五的折扣; reversed percentage order recurred."
+    }
+  ],
+  "generated_at": "2026-10-01T23:01:31+00:00",
+  "generator": "codex-cli"
+}

@@ -1,0 +1,173 @@
+{
+  "lesson": "2026-07-13",
+  "sentences": [
+    {
+      "chinese": "我今天早上五点起床了。",
+      "pinyin": "Wǒ jīntiān zǎoshang wǔ diǎn qǐchuáng le.",
+      "english_hint": "I got up at five this morning.",
+      "scenario": "Tell someone when you got up today.",
+      "focus": [
+        "time before verb",
+        "completed action: 了"
+      ],
+      "priority": 5,
+      "source_note": "00:21 correction removes 在 before the time expression."
+    },
+    {
+      "chinese": "我会游泳，但是不会冲浪。",
+      "pinyin": "Wǒ huì yóuyǒng, dànshì bú huì chōnglàng.",
+      "english_hint": "I can swim, but I can't surf.",
+      "scenario": "Explain your skills at the beach.",
+      "focus": [
+        "会 versus 能",
+        "会……但是不会……"
+      ],
+      "priority": 5,
+      "source_note": "02:17 correction and Drill 1 use 会 for learned skills."
+    },
+    {
+      "chinese": "我还没坐过帆船。",
+      "pinyin": "Wǒ hái méi zuò guo fānchuán.",
+      "english_hint": "I haven't been on a sailboat yet.",
+      "scenario": "Answer a question about sailing experience.",
+      "focus": [
+        "还没……过",
+        "experience: 过"
+      ],
+      "priority": 5,
+      "source_note": "04:46 correction adds 过 to express lack of experience."
+    },
+    {
+      "chinese": "我坐在后排会晕车。",
+      "pinyin": "Wǒ zuò zài hòupái huì yùnchē.",
+      "english_hint": "I get carsick in the back seat.",
+      "scenario": "Explain why you need a different seat.",
+      "focus": [
+        "坐在 + location",
+        "会 for a likely result"
+      ],
+      "priority": 5,
+      "source_note": "Vocabulary model addresses the learner's recurring difficulty describing carsickness in the back seat."
+    },
+    {
+      "chinese": "这种气味让我晕车。",
+      "pinyin": "Zhè zhǒng qìwèi ràng wǒ yùnchē.",
+      "english_hint": "This smell makes me carsick.",
+      "scenario": "Explain your reaction to a smell in the car.",
+      "focus": [
+        "让 + person + result",
+        "晕车 versus 晕船"
+      ],
+      "priority": 5,
+      "source_note": "09:36 correction supplies a complete cause-and-result sentence and the correct word for carsickness."
+    },
+    {
+      "chinese": "我滑冰的时候，腿很疼。",
+      "pinyin": "Wǒ huábīng de shíhou, tuǐ hěn téng.",
+      "english_hint": "My legs hurt when I ice skate.",
+      "scenario": "Explain what hurts during skating.",
+      "focus": [
+        "……的时候",
+        "很 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "19:01 correction replaces 疼很多 with 很疼 and puts the situation first."
+    },
+    {
+      "chinese": "我跟家人一起旅游。",
+      "pinyin": "Wǒ gēn jiārén yìqǐ lǚyóu.",
+      "english_hint": "I travel with my family.",
+      "scenario": "Say whom you travel with.",
+      "focus": [
+        "跟……一起 + verb"
+      ],
+      "priority": 5,
+      "source_note": "38:13 correction moves the companion before the main verb."
+    },
+    {
+      "chinese": "我下个月要去欧洲旅游。",
+      "pinyin": "Wǒ xià ge yuè yào qù Ōuzhōu lǚyóu.",
+      "english_hint": "I'm going to Europe next month.",
+      "scenario": "Describe the travel plan discussed in class.",
+      "focus": [
+        "下个月",
+        "time before verb",
+        "去 + place + 旅游"
+      ],
+      "priority": 5,
+      "source_note": "40:00 correction addresses both next-month wording and destination word order."
+    },
+    {
+      "chinese": "我有很多问题。",
+      "pinyin": "Wǒ yǒu hěn duō wèntí.",
+      "english_hint": "I have lots of questions.",
+      "scenario": "Tell your teacher you have questions.",
+      "focus": [
+        "有 + noun",
+        "很多 + noun"
+      ],
+      "priority": 5,
+      "source_note": "54:34 correction supplies 有 in a complete sentence."
+    },
+    {
+      "chinese": "请再说一遍。",
+      "pinyin": "Qǐng zài shuō yí biàn.",
+      "english_hint": "Please say it again.",
+      "scenario": "Ask someone to repeat an unclear question.",
+      "focus": [
+        "请再 + verb",
+        "一遍"
+      ],
+      "priority": 5,
+      "source_note": "58:42 correction; requests for repetition also recur around 46:03."
+    },
+    {
+      "chinese": "我爸爸住在俄罗斯。",
+      "pinyin": "Wǒ bàba zhù zài Éluósī.",
+      "english_hint": "My dad lives in Russia.",
+      "scenario": "Tell someone where your father lives.",
+      "focus": [
+        "住在 + place"
+      ],
+      "priority": 5,
+      "source_note": "01:00:33 correction fixes repeated placement of 住在 after family members' locations."
+    },
+    {
+      "chinese": "我早就想去中国了。",
+      "pinyin": "Wǒ zǎo jiù xiǎng qù Zhōngguó le.",
+      "english_hint": "I've wanted to visit China for a long time.",
+      "scenario": "Describe your longstanding wish to visit China.",
+      "focus": [
+        "早就想……了"
+      ],
+      "priority": 4,
+      "source_note": "Drill 6 models this longstanding-wish pattern; China travel is a major personal topic."
+    },
+    {
+      "chinese": "我还没去过中国。",
+      "pinyin": "Wǒ hái méi qù guo Zhōngguó.",
+      "english_hint": "I haven't been to China yet.",
+      "scenario": "Explain that your planned China trip will be your first.",
+      "focus": [
+        "还没……过",
+        "去过 + place"
+      ],
+      "priority": 5,
+      "source_note": "Drill 3 and the final routine correct the learner's wording for not having visited China."
+    },
+    {
+      "chinese": "旅游的时候，我喜欢自由行。",
+      "pinyin": "Lǚyóu de shíhou, wǒ xǐhuan zìyóuxíng.",
+      "english_hint": "When traveling, I prefer independent travel.",
+      "scenario": "Explain your preferred way to travel.",
+      "focus": [
+        "……的时候",
+        "喜欢 + travel style"
+      ],
+      "priority": 4,
+      "source_note": "Drill 4 practices this situation-first structure; the learner expresses this preference at 01:18:44."
+    }
+  ],
+  "generated_at": "2026-10-01T22:53:10+00:00",
+  "generator": "codex-cli"
+}

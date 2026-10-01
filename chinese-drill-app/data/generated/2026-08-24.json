@@ -1,0 +1,172 @@
+{
+  "lesson": "2026-08-24",
+  "sentences": [
+    {
+      "chinese": "你听得到我说话吗？",
+      "pinyin": "Nǐ tīng de dào wǒ shuōhuà ma?",
+      "english_hint": "Can you hear me?",
+      "scenario": "Check your audio at the start of an online lesson.",
+      "focus": [
+        "听得到",
+        "complete question"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 你听我 at 00:28; hearing structures recur in the lesson."
+    },
+    {
+      "chinese": "我没听到，请再说一遍。",
+      "pinyin": "Wǒ méi tīngdào, qǐng zài shuō yí biàn.",
+      "english_hint": "I didn't hear; please say it again.",
+      "scenario": "Ask someone to repeat a missed sentence.",
+      "focus": [
+        "没听到",
+        "再 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill addressing the confusion between 不听 and 没听到 at 09:00."
+    },
+    {
+      "chinese": "我在手机上看新闻。",
+      "pinyin": "Wǒ zài shǒujī shàng kàn xīnwén.",
+      "english_hint": "I read news on my phone.",
+      "scenario": "Explain how you read the news.",
+      "focus": [
+        "在 + place + action",
+        "手机上"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of 我在手机看这个 at 04:29."
+    },
+    {
+      "chinese": "我在家学中文。",
+      "pinyin": "Wǒ zài jiā xué Zhōngwén.",
+      "english_hint": "I study Chinese at home.",
+      "scenario": "Practice saying where you study Chinese.",
+      "focus": [
+        "在 + place + action"
+      ],
+      "priority": 2,
+      "source_note": "Explicit supporting drill in the analysis for location before action."
+    },
+    {
+      "chinese": "谁告诉你的？",
+      "pinyin": "Shéi gàosu nǐ de?",
+      "english_hint": "Who told you?",
+      "scenario": "Ask a colleague for the source of some news.",
+      "focus": [
+        "告诉 + person",
+        "source question"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill for recurring difficulty identifying who provided information."
+    },
+    {
+      "chinese": "是同事告诉我的。",
+      "pinyin": "Shì tóngshì gàosu wǒ de.",
+      "english_hint": "A colleague told me.",
+      "scenario": "Practice identifying a colleague as the source.",
+      "focus": [
+        "是……的",
+        "告诉 + person"
+      ],
+      "priority": 5,
+      "source_note": "Explicit analysis drill clarifying the teller and receiver."
+    },
+    {
+      "chinese": "你听谁说的？",
+      "pinyin": "Nǐ tīng shéi shuō de?",
+      "english_hint": "Who did you hear it from?",
+      "scenario": "Ask where someone heard a workplace update.",
+      "focus": [
+        "听谁说的"
+      ],
+      "priority": 5,
+      "source_note": "Repeated source question practice around 23:47–24:21."
+    },
+    {
+      "chinese": "我是听老师说的。",
+      "pinyin": "Wǒ shì tīng lǎoshī shuō de.",
+      "english_hint": "I heard it from my teacher.",
+      "scenario": "Practice naming your teacher as the source.",
+      "focus": [
+        "是……的",
+        "听 + person + 说"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill simplifying the correction from 讲 to 听 at 25:14."
+    },
+    {
+      "chinese": "我今天没有时间看新闻。",
+      "pinyin": "Wǒ jīntiān méiyǒu shíjiān kàn xīnwén.",
+      "english_hint": "I don't have time to read news today.",
+      "scenario": "Explain why you haven't checked the news.",
+      "focus": [
+        "没有时间 + action"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill building on the learner's successful 没有时间看报纸."
+    },
+    {
+      "chinese": "我今天有时间学中文。",
+      "pinyin": "Wǒ jīntiān yǒu shíjiān xué Zhōngwén.",
+      "english_hint": "I have time to study Chinese today.",
+      "scenario": "Say that your schedule allows Chinese study.",
+      "focus": [
+        "有时间 + action"
+      ],
+      "priority": 4,
+      "source_note": "Explicit analysis drill pairing available time with an action."
+    },
+    {
+      "chinese": "我今天要做很多事情。",
+      "pinyin": "Wǒ jīntiān yào zuò hěn duō shìqing.",
+      "english_hint": "I have many things to do today.",
+      "scenario": "Explain your busy work schedule.",
+      "focus": [
+        "要 + action",
+        "事情"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 一定做很多东西 at 15:00 using 要 and 事情."
+    },
+    {
+      "chinese": "我们明天真的不用上班吗？",
+      "pinyin": "Wǒmen míngtiān zhēn de bú yòng shàngbān ma?",
+      "english_hint": "Do we really not have to work tomorrow?",
+      "scenario": "Confirm surprising news about tomorrow's schedule.",
+      "focus": [
+        "time word order",
+        "不用 + action",
+        "真的……吗"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of the incomplete work schedule question at 28:00."
+    },
+    {
+      "chinese": "我不太相信这个消息。",
+      "pinyin": "Wǒ bú tài xiāngxìn zhège xiāoxi.",
+      "english_hint": "I don't really believe this news.",
+      "scenario": "Express doubt about an unconfirmed update.",
+      "focus": [
+        "不太 + verb",
+        "相信"
+      ],
+      "priority": 3,
+      "source_note": "Recommended vocabulary sentence in the analysis; news reactions were a major lesson topic."
+    },
+    {
+      "chinese": "昨天晚上发生了什么？",
+      "pinyin": "Zuótiān wǎnshang fāshēng le shénme?",
+      "english_hint": "What happened last night?",
+      "scenario": "Ask about an event you missed while traveling.",
+      "focus": [
+        "time + verb",
+        "发生了什么"
+      ],
+      "priority": 4,
+      "source_note": "Question practiced near 37:35–38:18 after the learner mentioned taking a flight."
+    }
+  ],
+  "generated_at": "2026-10-01T22:55:50+00:00",
+  "generator": "codex-cli"
+}

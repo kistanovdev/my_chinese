@@ -1,0 +1,173 @@
+{
+  "lesson": "2026-07-08",
+  "sentences": [
+    {
+      "chinese": "我们公司星期五放假。",
+      "pinyin": "Wǒmen gōngsī xīngqīwǔ fàngjià.",
+      "english_hint": "Our company gives us Friday off.",
+      "scenario": "Tell a colleague about your day off.",
+      "focus": [
+        "time before verb",
+        "放假"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the use of 周末 when the learner meant a company day off."
+    },
+    {
+      "chinese": "我们经常烧烤。",
+      "pinyin": "Wǒmen jīngcháng shāokǎo.",
+      "english_hint": "We often barbecue.",
+      "scenario": "Describe a usual holiday activity.",
+      "focus": [
+        "frequency + verb",
+        "烧烤"
+      ],
+      "priority": 5,
+      "source_note": "Analysis supplies this correction for the learner's fragmented barbecue description."
+    },
+    {
+      "chinese": "晚上的时候，我们看烟花。",
+      "pinyin": "Wǎnshang de shíhou, wǒmen kàn yānhuā.",
+      "english_hint": "In the evening, we watch fireworks.",
+      "scenario": "Describe your evening holiday activity.",
+      "focus": [
+        "……的时候",
+        "看 + object"
+      ],
+      "priority": 4,
+      "source_note": "Builds a complete sentence from the learner's evening fireworks description."
+    },
+    {
+      "chinese": "我还没去过中国。",
+      "pinyin": "Wǒ hái méi qùguo Zhōngguó.",
+      "english_hint": "I haven't been to China yet.",
+      "scenario": "Answer a question about visiting China.",
+      "focus": [
+        "还没 + verb + 过"
+      ],
+      "priority": 5,
+      "source_note": "The learner successfully used this experience pattern after several pauses."
+    },
+    {
+      "chinese": "我没吃过汤圆。",
+      "pinyin": "Wǒ méi chīguo tāngyuán.",
+      "english_hint": "I've never eaten tangyuan.",
+      "scenario": "Say whether you have tried this food.",
+      "focus": [
+        "没 + verb + 过"
+      ],
+      "priority": 4,
+      "source_note": "The learner said they had not eaten tangyuan; the analysis gives this drill."
+    },
+    {
+      "chinese": "我去过法国，但是没去过意大利。",
+      "pinyin": "Wǒ qùguo Fǎguó, dànshì méi qùguo Yìdàlì.",
+      "english_hint": "I've been to France, but not Italy.",
+      "scenario": "Compare two countries in your travel history.",
+      "focus": [
+        "verb + 过",
+        "但是"
+      ],
+      "priority": 4,
+      "source_note": "Matches the learner's stated travel history and the analysis's contrast drill."
+    },
+    {
+      "chinese": "明年我打算去中国旅游。",
+      "pinyin": "Míngnián wǒ dǎsuàn qù Zhōngguó lǚyóu.",
+      "english_hint": "I plan to travel to China next year.",
+      "scenario": "Explain your next big travel plan.",
+      "focus": [
+        "time + subject + 打算",
+        "去 + place + 旅游"
+      ],
+      "priority": 5,
+      "source_note": "Corrects recurring travel word order and uses the learner's next-year China plan."
+    },
+    {
+      "chinese": "我们打算在中国待四个星期。",
+      "pinyin": "Wǒmen dǎsuàn zài Zhōngguó dāi sì ge xīngqī.",
+      "english_hint": "We plan to stay in China for four weeks.",
+      "scenario": "Tell someone how long your China trip will be.",
+      "focus": [
+        "打算",
+        "在 + place",
+        "verb + duration"
+      ],
+      "priority": 5,
+      "source_note": "The learner described a four-week China trip; analysis supplies the complete structure."
+    },
+    {
+      "chinese": "我在苹果公司工作八年了。",
+      "pinyin": "Wǒ zài Píngguǒ gōngsī gōngzuò bā nián le.",
+      "english_hint": "I've been working at Apple for eight years.",
+      "scenario": "Tell a colleague how long you have worked there.",
+      "focus": [
+        "在 + workplace",
+        "verb + duration + 了"
+      ],
+      "priority": 5,
+      "source_note": "Corrects duration placement; analysis gives this version for the ongoing job."
+    },
+    {
+      "chinese": "你能听到我说话吗？",
+      "pinyin": "Nǐ néng tīngdào wǒ shuōhuà ma?",
+      "english_hint": "Can you hear me?",
+      "scenario": "Check your audio during an online meeting.",
+      "focus": [
+        "能……吗",
+        "听到"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of the learner's audio-check question."
+    },
+    {
+      "chinese": "这个用中文怎么说？",
+      "pinyin": "Zhège yòng Zhōngwén zěnme shuō?",
+      "english_hint": "How do you say this in Chinese?",
+      "scenario": "Ask for a word when you get stuck.",
+      "focus": [
+        "用中文怎么说"
+      ],
+      "priority": 5,
+      "source_note": "Analysis supplies this useful chunk; vocabulary requests recur throughout the lesson."
+    },
+    {
+      "chinese": "我们休息五分钟吧。",
+      "pinyin": "Wǒmen xiūxi wǔ fēnzhōng ba.",
+      "english_hint": "Let's take a five-minute break.",
+      "scenario": "Suggest a short break during a lesson.",
+      "focus": [
+        "verb + duration",
+        "吧",
+        "分钟"
+      ],
+      "priority": 4,
+      "source_note": "Corrects the learner's repeated use of 五分 for a five-minute break."
+    },
+    {
+      "chinese": "我太太的牙疼得很厉害。",
+      "pinyin": "Wǒ tàitai de yá téng de hěn lìhai.",
+      "english_hint": "My wife's tooth hurts a lot.",
+      "scenario": "Explain the problem when looking for a dentist.",
+      "focus": [
+        "verb + 得 + degree"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects the intensity phrase in the learner's account of their wife's toothache."
+    },
+    {
+      "chinese": "看牙花了两百欧元。",
+      "pinyin": "Kàn yá huā le liǎng bǎi ōuyuán.",
+      "english_hint": "The dental visit cost two hundred euros.",
+      "scenario": "Tell someone what the dental visit cost.",
+      "focus": [
+        "花了 + amount",
+        "看牙"
+      ],
+      "priority": 4,
+      "source_note": "Analysis replaces 买 with 花 for the treatment cost described by the learner."
+    }
+  ],
+  "generated_at": "2026-10-01T22:52:15+00:00",
+  "generator": "codex-cli"
+}

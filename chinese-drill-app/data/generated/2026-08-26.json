@@ -1,0 +1,170 @@
+{
+  "lesson": "2026-08-26",
+  "sentences": [
+    {
+      "chinese": "白天我们没有时间。",
+      "pinyin": "Báitiān wǒmen méiyǒu shíjiān.",
+      "english_hint": "We don’t have time during the day.",
+      "scenario": "Explain why daytime classes are difficult.",
+      "focus": [
+        "白天",
+        "time before predicate"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the recurring fragment 天的时候 when discussing the family schedule."
+    },
+    {
+      "chinese": "我跟我太太说，我有中文课。",
+      "pinyin": "Wǒ gēn wǒ tàitai shuō, wǒ yǒu Zhōngwén kè.",
+      "english_hint": "I tell my wife I have Chinese class.",
+      "scenario": "Tell your wife about your class.",
+      "focus": [
+        "跟某人说"
+      ],
+      "priority": 5,
+      "source_note": "Uses the corrected 跟我太太说 structure from the schedule discussion."
+    },
+    {
+      "chinese": "我的女儿还没起床。",
+      "pinyin": "Wǒ de nǚ'ér hái méi qǐchuáng.",
+      "english_hint": "My daughter hasn’t got up yet.",
+      "scenario": "Explain why the morning is unusually quiet.",
+      "focus": [
+        "还没 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 不起床 to 还没起床 for the daughter’s situation."
+    },
+    {
+      "chinese": "早上八点我有中文课。",
+      "pinyin": "Zǎoshang bā diǎn wǒ yǒu Zhōngwén kè.",
+      "english_hint": "I have Chinese class at eight in the morning.",
+      "scenario": "State your current morning class time.",
+      "focus": [
+        "time expression",
+        "有中文课"
+      ],
+      "priority": 5,
+      "source_note": "Taken from the corrected sentence about telling the learner’s wife the class time."
+    },
+    {
+      "chinese": "我想把中文课改到上午十点。",
+      "pinyin": "Wǒ xiǎng bǎ Zhōngwén kè gǎi dào shàngwǔ shí diǎn.",
+      "english_hint": "I want to move Chinese class to ten a.m.",
+      "scenario": "Ask your teacher to move the class later.",
+      "focus": [
+        "把 + event + 改到 + time"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of the learner’s request to reschedule Chinese class."
+    },
+    {
+      "chinese": "很多人想在苹果公司工作。",
+      "pinyin": "Hěn duō rén xiǎng zài Píngguǒ gōngsī gōngzuò.",
+      "english_hint": "Many people want to work at Apple.",
+      "scenario": "Explain why many people apply to Apple.",
+      "focus": [
+        "在 + place + verb",
+        "想 + verb phrase"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 想工作在苹果 by placing 在苹果公司 before 工作."
+    },
+    {
+      "chinese": "我在这家公司工作了四年。",
+      "pinyin": "Wǒ zài zhè jiā gōngsī gōngzuò le sì nián.",
+      "english_hint": "I worked at this company for four years.",
+      "scenario": "Describe the length of your earlier work experience.",
+      "focus": [
+        "在 + place",
+        "verb + 了 + duration"
+      ],
+      "priority": 5,
+      "source_note": "Uses the four-year duration and corrected word order from the learner’s work story."
+    },
+    {
+      "chinese": "伦敦和纽约一样贵。",
+      "pinyin": "Lúndūn hé Niǔyuē yíyàng guì.",
+      "english_hint": "London is as expensive as New York.",
+      "scenario": "Compare costs in two cities you discussed.",
+      "focus": [
+        "和……一样 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of 伦敦比纽约一样."
+    },
+    {
+      "chinese": "你的电脑不能用了。",
+      "pinyin": "Nǐ de diànnǎo bù néng yòng le.",
+      "english_hint": "Your computer no longer works.",
+      "scenario": "Describe a customer’s computer problem.",
+      "focus": [
+        "不能用",
+        "change-of-state 了"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 不用 to 不能用 in the technical support story."
+    },
+    {
+      "chinese": "我帮你。",
+      "pinyin": "Wǒ bāng nǐ.",
+      "english_hint": "I’ll help you.",
+      "scenario": "Offer help with a computer problem.",
+      "focus": [
+        "帮 + person"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of 帮忙你; analysis recommends 帮你."
+    },
+    {
+      "chinese": "公司想招聘两个人。",
+      "pinyin": "Gōngsī xiǎng zhāopìn liǎng ge rén.",
+      "english_hint": "The company wants to hire two people.",
+      "scenario": "Explain your team’s hiring needs.",
+      "focus": [
+        "company + 招聘 + people",
+        "两 + measure word"
+      ],
+      "priority": 3,
+      "source_note": "Learner discussed recruiting two people; analysis distinguishes 招聘 from 应聘."
+    },
+    {
+      "chinese": "我想应聘公司的另一个职位。",
+      "pinyin": "Wǒ xiǎng yìngpìn gōngsī de lìng yí ge zhíwèi.",
+      "english_hint": "I want to apply for another position at the company.",
+      "scenario": "Discuss moving to another job within your company.",
+      "focus": [
+        "person + 应聘 + position",
+        "另一个"
+      ],
+      "priority": 3,
+      "source_note": "Analysis supplies this model for the learner’s internal job-change story."
+    },
+    {
+      "chinese": "我参加了一个招聘会。",
+      "pinyin": "Wǒ cānjiā le yí ge zhāopìnhuì.",
+      "english_hint": "I attended a job fair.",
+      "scenario": "Start telling the story of how you found your job.",
+      "focus": [
+        "参加 + event",
+        "completed action 了"
+      ],
+      "priority": 3,
+      "source_note": "Shortened from the analysis’s final work-story drill about attending a university job fair."
+    },
+    {
+      "chinese": "对我来说，这两个词很像。",
+      "pinyin": "Duì wǒ lái shuō, zhè liǎng ge cí hěn xiàng.",
+      "english_hint": "To me, these two words are very similar.",
+      "scenario": "Discuss 学习 and 休息 with your teacher.",
+      "focus": [
+        "对我来说",
+        "很像"
+      ],
+      "priority": 5,
+      "source_note": "Shortens the analysis’s correction of 对我的来说 and 很一样 in the pronunciation discussion."
+    }
+  ],
+  "generated_at": "2026-10-01T22:56:48+00:00",
+  "generator": "codex-cli"
+}

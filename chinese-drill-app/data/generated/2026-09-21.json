@@ -1,0 +1,173 @@
+{
+  "lesson": "2026-09-21",
+  "sentences": [
+    {
+      "chinese": "我再读一遍。",
+      "pinyin": "Wǒ zài dú yí biàn.",
+      "english_hint": "I'll read it again.",
+      "scenario": "Repeat a sentence during Chinese class.",
+      "focus": [
+        "再 + verb",
+        "一遍"
+      ],
+      "priority": 5,
+      "source_note": "00:46 correction: put 再 before 读 and use 一遍 for a complete repetition."
+    },
+    {
+      "chinese": "这两个字看起来很像。",
+      "pinyin": "Zhè liǎng ge zì kàn qǐlái hěn xiàng.",
+      "english_hint": "These two characters look similar.",
+      "scenario": "Compare two Chinese characters you confuse.",
+      "focus": [
+        "看起来 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "43:28 correction; similar character confusion also occurred around 02:08."
+    },
+    {
+      "chinese": "我需要准备明天的会议。",
+      "pinyin": "Wǒ xūyào zhǔnbèi míngtiān de huìyì.",
+      "english_hint": "I need to prepare for tomorrow's meeting.",
+      "scenario": "Explain a task before a work meeting.",
+      "focus": [
+        "需要 + verb",
+        "准备"
+      ],
+      "priority": 4,
+      "source_note": "Analysis vocabulary model corrects the learner's confusion of 准备 with 'suggest' at 28:26."
+    },
+    {
+      "chinese": "我不同意他的观点。",
+      "pinyin": "Wǒ bù tóngyì tā de guāndiǎn.",
+      "english_hint": "I disagree with his viewpoint.",
+      "scenario": "Respond to an opinion during a meeting.",
+      "focus": [
+        "不同意 + person + 的观点"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill 3; the learner repeatedly worked on expressing disagreement and distinguishing 同意 from 接受."
+    },
+    {
+      "chinese": "我可以第一个发言。",
+      "pinyin": "Wǒ kěyǐ dì yí ge fāyán.",
+      "english_hint": "I can speak first.",
+      "scenario": "Volunteer to speak first at a meeting.",
+      "focus": [
+        "可以 + action",
+        "第一个 + verb"
+      ],
+      "priority": 5,
+      "source_note": "29:31 correction replaces vague 做 with the specific action 发言."
+    },
+    {
+      "chinese": "我正在上中文课。",
+      "pinyin": "Wǒ zhèngzài shàng Zhōngwén kè.",
+      "english_hint": "I'm having my Chinese lesson.",
+      "scenario": "Explain to your child why you are busy.",
+      "focus": [
+        "正在 + verb",
+        "上课"
+      ],
+      "priority": 5,
+      "source_note": "36:36 correction uses 正在上中文课; the learner's child interrupted the lesson."
+    },
+    {
+      "chinese": "我希望我的孩子会说俄语。",
+      "pinyin": "Wǒ xīwàng wǒ de háizi huì shuō Éyǔ.",
+      "english_hint": "I hope my children can speak Russian.",
+      "scenario": "Describe your wish for your children's language skills.",
+      "focus": [
+        "希望 + clause",
+        "会 + learned ability"
+      ],
+      "priority": 5,
+      "source_note": "40:36 correction: 希望 expresses the learner's wish, and 会 expresses language ability."
+    },
+    {
+      "chinese": "每场比赛我都看了。",
+      "pinyin": "Měi chǎng bǐsài wǒ dōu kàn le.",
+      "english_hint": "I watched every match.",
+      "scenario": "Tell a friend how much football you watched.",
+      "focus": [
+        "每 + measure word + noun + 都",
+        "场",
+        "了"
+      ],
+      "priority": 5,
+      "source_note": "49:47 correction adds the match measure word 场 and 都; 每 constructions also caused difficulty earlier."
+    },
+    {
+      "chinese": "昨天你看了比赛吗？",
+      "pinyin": "Zuótiān nǐ kàn le bǐsài ma?",
+      "english_hint": "Did you watch the match yesterday?",
+      "scenario": "Ask a friend about yesterday's match.",
+      "focus": [
+        "time + subject + verb",
+        "看了"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill 5 addresses repeated questions about completed viewing versus experience and ongoing viewing."
+    },
+    {
+      "chinese": "你看过世界杯比赛吗？",
+      "pinyin": "Nǐ kàn guo Shìjièbēi bǐsài ma?",
+      "english_hint": "Have you ever watched a World Cup match?",
+      "scenario": "Ask about a friend's football viewing experience.",
+      "focus": [
+        "verb + 过",
+        "experience question"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill 5 contrasts 看过 with 看了 and 在看 after the learner's repeated aspect questions."
+    },
+    {
+      "chinese": "我给你打电话的时候，你在看比赛吗？",
+      "pinyin": "Wǒ gěi nǐ dǎ diànhuà de shíhou, nǐ zài kàn bǐsài ma?",
+      "english_hint": "Were you watching the match when I called?",
+      "scenario": "Ask what your friend was doing during your call.",
+      "focus": [
+        "……的时候",
+        "在 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill 5 gives this model for the learner's recurring question about 'were you watching.'"
+    },
+    {
+      "chinese": "我老板有二十六年的工作经验。",
+      "pinyin": "Wǒ lǎobǎn yǒu èrshíliù nián de gōngzuò jīngyàn.",
+      "english_hint": "My boss has twenty-six years of work experience.",
+      "scenario": "Explain your boss's experience to a colleague.",
+      "focus": [
+        "有 + number + 年的 + experience",
+        "年 versus 岁"
+      ],
+      "priority": 5,
+      "source_note": "57:23 correction and analysis drill 1: the learner repeatedly used 岁 for years of work experience."
+    },
+    {
+      "chinese": "连老板都不知道。",
+      "pinyin": "Lián lǎobǎn dōu bù zhīdào.",
+      "english_hint": "Even the boss doesn't know.",
+      "scenario": "Emphasize that a work question remains unanswered.",
+      "focus": [
+        "连 + emphasized person + 都"
+      ],
+      "priority": 5,
+      "source_note": "Analysis section 5 supplies this short model; the learner struggled with 连……都 and its word order."
+    },
+    {
+      "chinese": "我马上要开会了。",
+      "pinyin": "Wǒ mǎshàng yào kāihuì le.",
+      "english_hint": "I have a meeting shortly.",
+      "scenario": "End your Chinese lesson before a work meeting.",
+      "focus": [
+        "马上要……了",
+        "开会"
+      ],
+      "priority": 5,
+      "source_note": "01:08:23 correction: use the verb phrase 开会 when explaining the imminent meeting."
+    }
+  ],
+  "generated_at": "2026-10-01T23:02:30+00:00",
+  "generator": "codex-cli"
+}

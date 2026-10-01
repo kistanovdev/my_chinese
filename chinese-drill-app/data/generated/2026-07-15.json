@@ -1,0 +1,171 @@
+{
+  "lesson": "2026-07-15",
+  "sentences": [
+    {
+      "chinese": "我没跟不好的老板一起工作过。",
+      "pinyin": "Wǒ méi gēn bù hǎo de lǎobǎn yìqǐ gōngzuò guo.",
+      "english_hint": "I've never worked with a bad boss.",
+      "scenario": "Describe your experience with bosses.",
+      "focus": [
+        "没……过",
+        "跟……一起工作"
+      ],
+      "priority": 5,
+      "source_note": "03:20 correction: place 跟……一起 before 工作 and use 没……过 for experience."
+    },
+    {
+      "chinese": "你在英国住了多少年了？",
+      "pinyin": "Nǐ zài Yīngguó zhù le duōshao nián le?",
+      "english_hint": "How many years have you lived in the UK?",
+      "scenario": "Ask someone how long they have lived in the UK.",
+      "focus": [
+        "在＋地点＋动词",
+        "住了……年了"
+      ],
+      "priority": 5,
+      "source_note": "03:54 correction: place and verb must come before the duration."
+    },
+    {
+      "chinese": "你在中国工作过吗？",
+      "pinyin": "Nǐ zài Zhōngguó gōngzuò guo ma?",
+      "english_hint": "Have you ever worked in China?",
+      "scenario": "Ask about someone's overseas work experience.",
+      "focus": [
+        "动词＋过＋吗",
+        "在＋地点＋动词"
+      ],
+      "priority": 5,
+      "source_note": "05:26 correction: 工作过吗 asks about experience."
+    },
+    {
+      "chinese": "我在网上看报纸。",
+      "pinyin": "Wǒ zài wǎngshàng kàn bàozhǐ.",
+      "english_hint": "I read newspapers online.",
+      "scenario": "Explain where you read newspapers.",
+      "focus": [
+        "在网上＋动词"
+      ],
+      "priority": 5,
+      "source_note": "22:03 correction: add 在 and put 在网上 before 看报纸."
+    },
+    {
+      "chinese": "如果文章有意思，我就看。",
+      "pinyin": "Rúguǒ wénzhāng yǒu yìsi, wǒ jiù kàn.",
+      "english_hint": "If the article is interesting, I read it.",
+      "scenario": "Explain how you choose articles to read.",
+      "focus": [
+        "如果……就……",
+        "形容词作谓语"
+      ],
+      "priority": 5,
+      "source_note": "29:30 correction: complete the conditional sentence; 有意思 does not need 是."
+    },
+    {
+      "chinese": "我不喜欢听广播。",
+      "pinyin": "Wǒ bù xǐhuan tīng guǎngbō.",
+      "english_hint": "I don't like listening to the radio.",
+      "scenario": "State your preference when discussing radio.",
+      "focus": [
+        "不喜欢＋动词"
+      ],
+      "priority": 5,
+      "source_note": "32:21 correction: remove 的 between 喜欢 and 听广播."
+    },
+    {
+      "chinese": "她和我同岁。",
+      "pinyin": "Tā hé wǒ tóngsuì.",
+      "english_hint": "She's the same age as me.",
+      "scenario": "Point out that a woman is your age.",
+      "focus": [
+        "和……同岁"
+      ],
+      "priority": 4,
+      "source_note": "55:36 correction: use 和我同岁 to express equal age."
+    },
+    {
+      "chinese": "他下棋下得比我好。",
+      "pinyin": "Tā xià qí xià de bǐ wǒ hǎo.",
+      "english_hint": "He plays chess better than me.",
+      "scenario": "Compare your chess skills with someone you know.",
+      "focus": [
+        "动词＋得",
+        "比……好",
+        "下棋"
+      ],
+      "priority": 5,
+      "source_note": "01:22:00 correction and comparison drill: use 下棋 and 得 to compare skill."
+    },
+    {
+      "chinese": "我没去过中国。",
+      "pinyin": "Wǒ méi qù guo Zhōngguó.",
+      "english_hint": "I've never been to China.",
+      "scenario": "Answer a question about visiting China.",
+      "focus": [
+        "没……过"
+      ],
+      "priority": 5,
+      "source_note": "Experience drill; at 12:19 the learner confirmed never having visited China."
+    },
+    {
+      "chinese": "明年我打算去中国。",
+      "pinyin": "Míngnián wǒ dǎsuàn qù Zhōngguó.",
+      "english_hint": "I plan to go to China next year.",
+      "scenario": "Describe the travel plan discussed in this lesson.",
+      "focus": [
+        "时间＋主语",
+        "打算＋动词"
+      ],
+      "priority": 4,
+      "source_note": "12:19 travel intention; the analysis models 明年我打算去."
+    },
+    {
+      "chinese": "如果我有时间，我就看比赛。",
+      "pinyin": "Rúguǒ wǒ yǒu shíjiān, wǒ jiù kàn bǐsài.",
+      "english_hint": "If I have time, I watch the match.",
+      "scenario": "Explain when you can watch a match.",
+      "focus": [
+        "如果……就……"
+      ],
+      "priority": 4,
+      "source_note": "Condition drill supported by the learner's interest in watching football matches."
+    },
+    {
+      "chinese": "这个视频有中文字幕。",
+      "pinyin": "Zhège shìpín yǒu Zhōngwén zìmù.",
+      "english_hint": "This video has Chinese subtitles.",
+      "scenario": "Point out a feature that helps you study Chinese.",
+      "focus": [
+        "有＋名词",
+        "中文字幕"
+      ],
+      "priority": 3,
+      "source_note": "Priority vocabulary example; the learner discussed understanding videos through listening and reading."
+    },
+    {
+      "chinese": "我有一张和他的合照。",
+      "pinyin": "Wǒ yǒu yì zhāng hé tā de hézhào.",
+      "english_hint": "I have a photo of us together.",
+      "scenario": "Mention your photo with the person being discussed.",
+      "focus": [
+        "一张＋照片",
+        "和……的合照"
+      ],
+      "priority": 4,
+      "source_note": "59:49 correction: use 张 and 合照 for the learner's photo with Tim Cook."
+    },
+    {
+      "chinese": "这里的网络很好。",
+      "pinyin": "Zhèlǐ de wǎngluò hěn hǎo.",
+      "english_hint": "The internet connection here is good.",
+      "scenario": "Comment on the internet connection while traveling.",
+      "focus": [
+        "地点＋的＋名词",
+        "形容词作谓语"
+      ],
+      "priority": 3,
+      "source_note": "Priority vocabulary example addressing the learner's difficulty describing internet connections during travel."
+    }
+  ],
+  "generated_at": "2026-10-01T22:54:06+00:00",
+  "generator": "codex-cli"
+}

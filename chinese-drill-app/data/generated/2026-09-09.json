@@ -1,0 +1,173 @@
+{
+  "lesson": "2026-09-09",
+  "sentences": [
+    {
+      "chinese": "我必须参加每次会议。",
+      "pinyin": "Wǒ bìxū cānjiā měi cì huìyì.",
+      "english_hint": "I must attend every meeting.",
+      "scenario": "Explain your meeting obligations at work.",
+      "focus": [
+        "必须 + verb",
+        "参加会议",
+        "每次"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated use of 一定 for obligation and confusion between 开会 and 会议."
+    },
+    {
+      "chinese": "我一定要上中文课。",
+      "pinyin": "Wǒ yídìng yào shàng Zhōngwén kè.",
+      "english_hint": "I must attend Chinese class.",
+      "scenario": "Make Chinese class a firm commitment.",
+      "focus": [
+        "一定要 + verb",
+        "上中文课"
+      ],
+      "priority": 5,
+      "source_note": "Analysis gives this variation to practice obligation with 一定要."
+    },
+    {
+      "chinese": "我有很多工作要做。",
+      "pinyin": "Wǒ yǒu hěn duō gōngzuò yào zuò.",
+      "english_hint": "I have a lot of work to do.",
+      "scenario": "Explain why you are busy.",
+      "focus": [
+        "有 + something + 要 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我要很多工作 when describing an existing workload."
+    },
+    {
+      "chinese": "我有一个会议要参加。",
+      "pinyin": "Wǒ yǒu yí ge huìyì yào cānjiā.",
+      "english_hint": "I have a meeting to attend.",
+      "scenario": "Explain an upcoming work commitment.",
+      "focus": [
+        "有 + something + 要 + verb",
+        "参加会议"
+      ],
+      "priority": 5,
+      "source_note": "Analysis variation combines the core 有……要…… structure with the meeting chunk."
+    },
+    {
+      "chinese": "我忘了今天还有中文课。",
+      "pinyin": "Wǒ wàng le jīntiān hái yǒu Zhōngwén kè.",
+      "english_hint": "I forgot I had Chinese class today.",
+      "scenario": "Explain why you nearly missed class.",
+      "focus": [
+        "忘了 + clause",
+        "还有"
+      ],
+      "priority": 5,
+      "source_note": "Corrects word order in the learner's explanation about forgetting class."
+    },
+    {
+      "chinese": "我不能错过中文课。",
+      "pinyin": "Wǒ bù néng cuòguò Zhōngwén kè.",
+      "english_hint": "I can't miss Chinese class.",
+      "scenario": "Explain why you need to attend class.",
+      "focus": [
+        "不能 + verb",
+        "错过中文课"
+      ],
+      "priority": 5,
+      "source_note": "Repeated difficulty producing miss; analysis corrects 错 to the complete word 错过."
+    },
+    {
+      "chinese": "我以为今天不用工作。",
+      "pinyin": "Wǒ yǐwéi jīntiān bú yòng gōngzuò.",
+      "english_hint": "I thought I didn't have to work today.",
+      "scenario": "Explain your mistaken assumption about the holiday.",
+      "focus": [
+        "以为 + clause",
+        "不用 + verb"
+      ],
+      "priority": 4,
+      "source_note": "Shortens the analysis correction of 今天不是工作 while preserving the learner's intent."
+    },
+    {
+      "chinese": "我想试试不看拼音读课文。",
+      "pinyin": "Wǒ xiǎng shìshi bú kàn pīnyīn dú kèwén.",
+      "english_hint": "I want to try reading without pinyin.",
+      "scenario": "Suggest a reading exercise during Chinese class.",
+      "focus": [
+        "想试试",
+        "不看…… + verb"
+      ],
+      "priority": 4,
+      "source_note": "Analysis corrects the learner's request to read the text without looking at pinyin."
+    },
+    {
+      "chinese": "你觉得怎么样？",
+      "pinyin": "Nǐ juéde zěnmeyàng?",
+      "english_hint": "What do you think?",
+      "scenario": "Ask for feedback after suggesting a study exercise.",
+      "focus": [
+        "你觉得怎么样"
+      ],
+      "priority": 5,
+      "source_note": "Corrects recurring 你觉得什么 when asking for an opinion."
+    },
+    {
+      "chinese": "如果明天有中文课，我就早点起床。",
+      "pinyin": "Rúguǒ míngtiān yǒu Zhōngwén kè, wǒ jiù zǎodiǎn qǐchuáng.",
+      "english_hint": "If I have Chinese class tomorrow, I'll get up earlier.",
+      "scenario": "Plan your morning around a possible class.",
+      "focus": [
+        "如果……就……",
+        "早点 + verb"
+      ],
+      "priority": 4,
+      "source_note": "Analysis variation connects the conditional pattern with getting up and attending class."
+    },
+    {
+      "chinese": "虽然今天是假期，但是我还有中文课。",
+      "pinyin": "Suīrán jīntiān shì jiàqī, dànshì wǒ hái yǒu Zhōngwén kè.",
+      "english_hint": "Although today is a holiday, I still have Chinese class.",
+      "scenario": "Explain why your holiday morning includes class.",
+      "focus": [
+        "虽然……但是……",
+        "还有"
+      ],
+      "priority": 4,
+      "source_note": "Analysis model reflects the learner's holiday and forgotten Chinese class."
+    },
+    {
+      "chinese": "这份工作不但工资高，而且福利也很好。",
+      "pinyin": "Zhè fèn gōngzuò bú dàn gōngzī gāo, érqiě fúlì yě hěn hǎo.",
+      "english_hint": "This job has both high pay and good benefits.",
+      "scenario": "Describe two advantages of a job in the lesson exercise.",
+      "focus": [
+        "不但……而且……",
+        "也"
+      ],
+      "priority": 4,
+      "source_note": "Analysis model reinforces the addition pattern and vocabulary repeatedly encountered in reading."
+    },
+    {
+      "chinese": "这是十年前的我。",
+      "pinyin": "Zhè shì shí nián qián de wǒ.",
+      "english_hint": "This is me ten years ago.",
+      "scenario": "Point yourself out in an old photograph.",
+      "focus": [
+        "时间 + 前",
+        "……的我"
+      ],
+      "priority": 4,
+      "source_note": "Corrects repeated 十年以后 when showing a photograph from ten years earlier."
+    },
+    {
+      "chinese": "她比我小。",
+      "pinyin": "Tā bǐ wǒ xiǎo.",
+      "english_hint": "She is younger than me.",
+      "scenario": "Explain that your sister is younger.",
+      "focus": [
+        "比 + person + adjective"
+      ],
+      "priority": 4,
+      "source_note": "Analysis corrects 她很小了; omits the uncertain age difference."
+    }
+  ],
+  "generated_at": "2026-10-01T22:59:36+00:00",
+  "generator": "codex-cli"
+}

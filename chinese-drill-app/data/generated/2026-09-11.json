@@ -1,0 +1,175 @@
+{
+  "lesson": "2026-09-11",
+  "sentences": [
+    {
+      "chinese": "我的听力还可以。",
+      "pinyin": "Wǒ de tīnglì hái kěyǐ.",
+      "english_hint": "My listening is okay.",
+      "scenario": "Tell a teacher how your listening is.",
+      "focus": [
+        "complete sentence",
+        "还可以"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 一点不错 when describing listening ability."
+    },
+    {
+      "chinese": "我学过一点汉字。",
+      "pinyin": "Wǒ xuéguo yìdiǎn Hànzì.",
+      "english_hint": "I've studied a little Chinese writing.",
+      "scenario": "Describe your previous character study.",
+      "focus": [
+        "experience with 过",
+        "verb + 一点 + noun"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the fragmented statement about having studied some characters."
+    },
+    {
+      "chinese": "我不认识这个字。",
+      "pinyin": "Wǒ bú rènshi zhège zì.",
+      "english_hint": "I don't recognize this character.",
+      "scenario": "Point out an unfamiliar character in class.",
+      "focus": [
+        "认识 for characters",
+        "negation"
+      ],
+      "priority": 5,
+      "source_note": "The analysis distinguishes recognizing characters with 认识 from understanding with 明白."
+    },
+    {
+      "chinese": "这个字怎么读？",
+      "pinyin": "Zhège zì zěnme dú?",
+      "english_hint": "How do you read this character?",
+      "scenario": "Ask for a character's pronunciation.",
+      "focus": [
+        "怎么 + verb",
+        "asking for help"
+      ],
+      "priority": 5,
+      "source_note": "Recommended help request for recurring character recognition difficulties."
+    },
+    {
+      "chinese": "请把拼音遮起来。",
+      "pinyin": "Qǐng bǎ pīnyīn zhē qǐlái.",
+      "english_hint": "Please cover the pinyin.",
+      "scenario": "Ask to practice reading characters without pinyin.",
+      "focus": [
+        "把 + object + verb",
+        "起来"
+      ],
+      "priority": 3,
+      "source_note": "Matches the learner's expressed preference to hide pinyin during reading."
+    },
+    {
+      "chinese": "我们可以读黄色的部分吗？",
+      "pinyin": "Wǒmen kěyǐ dú huángsè de bùfen ma?",
+      "english_hint": "Can we read the yellow section?",
+      "scenario": "Choose a highlighted section to read in class.",
+      "focus": [
+        "可以……吗",
+        "的 + noun"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我们可以读黄的 by making the reference explicit with 部分."
+    },
+    {
+      "chinese": "我想去一下洗手间。",
+      "pinyin": "Wǒ xiǎng qù yíxià xǐshǒujiān.",
+      "english_hint": "I'd like to use the restroom.",
+      "scenario": "Request a brief break during class.",
+      "focus": [
+        "想 + verb",
+        "verb + 一下"
+      ],
+      "priority": 3,
+      "source_note": "Corrects 浴室 to 洗手间 for the learner's class-break request."
+    },
+    {
+      "chinese": "我们星期一上午在公司开会。",
+      "pinyin": "Wǒmen xīngqīyī shàngwǔ zài gōngsī kāihuì.",
+      "english_hint": "We have a meeting at the office on Monday morning.",
+      "scenario": "Practice stating a meeting's time and place.",
+      "focus": [
+        "subject + time + place + action"
+      ],
+      "priority": 5,
+      "source_note": "Explicit word-order model in the analysis; used as schedule practice, not a claim about the learner's routine."
+    },
+    {
+      "chinese": "我们讨论一下这个计划吧。",
+      "pinyin": "Wǒmen tǎolùn yíxià zhège jìhuà ba.",
+      "english_hint": "Let's discuss this plan.",
+      "scenario": "Suggest discussing a plan with colleagues.",
+      "focus": [
+        "verb + 一下",
+        "suggestion with 吧"
+      ],
+      "priority": 5,
+      "source_note": "Practices corrected 讨论 and the repeatedly explained 一下 chunk."
+    },
+    {
+      "chinese": "你有什么意见？",
+      "pinyin": "Nǐ yǒu shénme yìjiàn?",
+      "english_hint": "What suggestions do you have?",
+      "scenario": "Ask a colleague for input during a meeting.",
+      "focus": [
+        "有什么 + noun",
+        "meeting input"
+      ],
+      "priority": 4,
+      "source_note": "Listed as a priority vocabulary model; 意见 also caused difficulty during meeting reading."
+    },
+    {
+      "chinese": "我们的课几点结束？",
+      "pinyin": "Wǒmen de kè jǐ diǎn jiéshù?",
+      "english_hint": "What time does our class end?",
+      "scenario": "Check when class finishes before your next commitment.",
+      "focus": [
+        "几点 + verb",
+        "结束"
+      ],
+      "priority": 4,
+      "source_note": "Practices 结束 after the learner confused it with 介绍."
+    },
+    {
+      "chinese": "请介绍一下自己。",
+      "pinyin": "Qǐng jièshào yíxià zìjǐ.",
+      "english_hint": "Please introduce yourself.",
+      "scenario": "Invite someone to introduce themselves at a meeting.",
+      "focus": [
+        "请 + verb + 一下",
+        "介绍"
+      ],
+      "priority": 4,
+      "source_note": "Analysis pairs this model with 结束 to distinguish introducing from ending."
+    },
+    {
+      "chinese": "如果我不明白，就问老师。",
+      "pinyin": "Rúguǒ wǒ bù míngbai, jiù wèn lǎoshī.",
+      "english_hint": "If I don't understand, I'll ask the teacher.",
+      "scenario": "Explain what you do when an explanation is unclear.",
+      "focus": [
+        "如果……就……",
+        "明白 for understanding"
+      ],
+      "priority": 4,
+      "source_note": "Explicit conditional drill answer in the analysis, tied to asking for learning help."
+    },
+    {
+      "chinese": "我等一下要开会，得走了。",
+      "pinyin": "Wǒ děng yíxià yào kāihuì, děi zǒu le.",
+      "english_hint": "I have a meeting soon and need to go.",
+      "scenario": "Leave class because a meeting is about to start.",
+      "focus": [
+        "time before action",
+        "要 + verb",
+        "得 + verb + 了"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's fragmented meeting-related departure statement; recommended for memorization."
+    }
+  ],
+  "generated_at": "2026-10-01T23:00:31+00:00",
+  "generator": "codex-cli"
+}

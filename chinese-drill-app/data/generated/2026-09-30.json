@@ -1,0 +1,172 @@
+{
+  "lesson": "2026-09-30",
+  "sentences": [
+    {
+      "chinese": "我今天还没开始工作。",
+      "pinyin": "Wǒ jīntiān hái méi kāishǐ gōngzuò.",
+      "english_hint": "I haven't started work yet today.",
+      "scenario": "Explain why you have no work update yet.",
+      "focus": [
+        "还没 + verb",
+        "subject + time + action"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我还没有工作, which means not having a job yet."
+    },
+    {
+      "chinese": "我工作到晚上六七点。",
+      "pinyin": "Wǒ gōngzuò dào wǎnshang liù qī diǎn.",
+      "english_hint": "I work until six or seven in the evening.",
+      "scenario": "Tell someone when your workday ends.",
+      "focus": [
+        "verb + 到 + time"
+      ],
+      "priority": 5,
+      "source_note": "The learner struggled to express working until six or seven; analysis supplies 工作到."
+    },
+    {
+      "chinese": "我下个月打算买一辆新车。",
+      "pinyin": "Wǒ xià ge yuè dǎsuàn mǎi yí liàng xīn chē.",
+      "english_hint": "I plan to buy a new car next month.",
+      "scenario": "Explain your upcoming car purchase.",
+      "focus": [
+        "subject + time + 打算 + action",
+        "一辆车"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill combines the learner's new-car plan with the correction 下个月."
+    },
+    {
+      "chinese": "我再读一次。",
+      "pinyin": "Wǒ zài dú yí cì.",
+      "english_hint": "I'll read it again.",
+      "scenario": "Try a Chinese passage again after feedback.",
+      "focus": [
+        "再 + verb + 一次"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我读再一次, repeated several times during the lesson."
+    },
+    {
+      "chinese": "我觉得这个很好吃。",
+      "pinyin": "Wǒ juéde zhège hěn hǎochī.",
+      "english_hint": "I think this is delicious.",
+      "scenario": "Give your opinion of a dish.",
+      "focus": [
+        "我觉得 + clause",
+        "很 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我觉得这个是好吃的 by using the adjective directly."
+    },
+    {
+      "chinese": "我去中国旅游的时候，想看懂菜单。",
+      "pinyin": "Wǒ qù Zhōngguó lǚyóu de shíhou, xiǎng kàndǒng càidān.",
+      "english_hint": "When I travel to China, I want to understand menus.",
+      "scenario": "Explain why you are learning Chinese food names.",
+      "focus": [
+        "……的时候",
+        "看懂"
+      ],
+      "priority": 4,
+      "source_note": "Analysis corrects the travel clause and supplies 看懂 for the learner's menu-reading goal."
+    },
+    {
+      "chinese": "这辆车比那辆车贵。",
+      "pinyin": "Zhè liàng chē bǐ nà liàng chē guì.",
+      "english_hint": "This car is more expensive than that one.",
+      "scenario": "Compare two cars while shopping.",
+      "focus": [
+        "A + 比 + B + adjective"
+      ],
+      "priority": 4,
+      "source_note": "Direct comparison drill from the analysis, tied to the car-shopping discussion."
+    },
+    {
+      "chinese": "虽然这辆车很贵，但是很耐用。",
+      "pinyin": "Suīrán zhè liàng chē hěn guì, dànshì hěn nàiyòng.",
+      "english_hint": "Although this car is expensive, it is durable.",
+      "scenario": "Explain why an expensive car may be worth buying.",
+      "focus": [
+        "虽然……但是……",
+        "耐用"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill reinforces 耐用, repeatedly confused with 难用."
+    },
+    {
+      "chinese": "虽然这些东西很便宜，但是质量很好。",
+      "pinyin": "Suīrán zhèxiē dōngxi hěn piányi, dànshì zhìliàng hěn hǎo.",
+      "english_hint": "Although these things are cheap, their quality is good.",
+      "scenario": "Describe inexpensive purchases that turned out well.",
+      "focus": [
+        "虽然……但是……",
+        "质量很好"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill reflects the learner's inexpensive kitchen purchases and repeated difficulty recalling 质量."
+    },
+    {
+      "chinese": "你喜欢什么品牌的手机？",
+      "pinyin": "Nǐ xǐhuan shénme pǐnpái de shǒujī?",
+      "english_hint": "What phone brand do you like?",
+      "scenario": "Ask someone about their phone preferences.",
+      "focus": [
+        "什么 + noun + 的 + noun",
+        "品牌"
+      ],
+      "priority": 5,
+      "source_note": "品牌 is a priority word in the analysis; the learner repeatedly needed prompts to recall it."
+    },
+    {
+      "chinese": "你的手机是什么型号的？",
+      "pinyin": "Nǐ de shǒujī shì shénme xínghào de?",
+      "english_hint": "What model is your phone?",
+      "scenario": "Ask which phone model someone uses.",
+      "focus": [
+        "是什么……的",
+        "型号"
+      ],
+      "priority": 5,
+      "source_note": "Analysis prioritizes 型号; the learner repeatedly struggled to recall it during phone comparisons."
+    },
+    {
+      "chinese": "这本书是我在二手店买的。",
+      "pinyin": "Zhè běn shū shì wǒ zài èrshǒu diàn mǎi de.",
+      "english_hint": "I bought this book at a secondhand shop.",
+      "scenario": "Explain where you found a Chinese book.",
+      "focus": [
+        "是……在……买的",
+        "二手"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects the missing 在; the learner showed books bought at a secondhand shop."
+    },
+    {
+      "chinese": "这辆车是我在网上买的。",
+      "pinyin": "Zhè liàng chē shì wǒ zài wǎngshàng mǎi de.",
+      "english_hint": "I bought this car online.",
+      "scenario": "Explain how you bought your car.",
+      "focus": [
+        "是……在……买的",
+        "在网上"
+      ],
+      "priority": 4,
+      "source_note": "Analysis drill supported by the learner's account of buying a car online."
+    },
+    {
+      "chinese": "我没说要买这些东西。",
+      "pinyin": "Wǒ méi shuō yào mǎi zhèxiē dōngxi.",
+      "english_hint": "I didn't say I wanted to buy these things.",
+      "scenario": "Challenge unwanted extras added to a car purchase.",
+      "focus": [
+        "没说 + clause",
+        "要 + verb"
+      ],
+      "priority": 4,
+      "source_note": "Analysis supplies this concise sentence for the learner's dealership story."
+    }
+  ],
+  "generated_at": "2026-10-01T23:05:22+00:00",
+  "generator": "codex-cli"
+}

@@ -1,0 +1,173 @@
+{
+  "lesson": "2026-08-20",
+  "sentences": [
+    {
+      "chinese": "这次我们去了五个国家。",
+      "pinyin": "Zhè cì wǒmen qù le wǔ ge guójiā.",
+      "english_hint": "We visited five countries on this trip.",
+      "scenario": "Summarize your recent trip.",
+      "focus": [
+        "这次＋去了",
+        "completed visit"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 去过 to 去了 for the particular five-country trip."
+    },
+    {
+      "chinese": "我们先去了德国，然后去了荷兰。",
+      "pinyin": "Wǒmen xiān qù le Déguó, ránhòu qù le Hélán.",
+      "english_hint": "We went to Germany first, then the Netherlands.",
+      "scenario": "Explain the order of your visits.",
+      "focus": [
+        "先……然后……",
+        "去了"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects the learner's account of traveling from Germany to the Netherlands."
+    },
+    {
+      "chinese": "我去过英国。",
+      "pinyin": "Wǒ qù guo Yīngguó.",
+      "english_hint": "I've been to the UK.",
+      "scenario": "Tell someone about your travel experience.",
+      "focus": [
+        "去过",
+        "experience"
+      ],
+      "priority": 5,
+      "source_note": "The analysis contrasts 去过 with 去了; the UK visit is supported by the trip discussion."
+    },
+    {
+      "chinese": "我住在加州。",
+      "pinyin": "Wǒ zhù zài Jiāzhōu.",
+      "english_hint": "I live in California.",
+      "scenario": "Say where you live.",
+      "focus": [
+        "住在＋place"
+      ],
+      "priority": 5,
+      "source_note": "The analysis gives this personal drill to practice 住在 instead of the noun 住宅."
+    },
+    {
+      "chinese": "我家离这条河很近。",
+      "pinyin": "Wǒ jiā lí zhè tiáo hé hěn jìn.",
+      "english_hint": "My home is close to this river.",
+      "scenario": "Point out your home on a map.",
+      "focus": [
+        "A离B很近"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我的家很近 by naming the river as the reference point."
+    },
+    {
+      "chinese": "我家附近可能会发生水灾。",
+      "pinyin": "Wǒ jiā fùjìn kěnéng huì fāshēng shuǐzāi.",
+      "english_hint": "There may be flooding near my home.",
+      "scenario": "Explain a possible problem near your home.",
+      "focus": [
+        "可能会发生",
+        "place＋possibility"
+      ],
+      "priority": 5,
+      "source_note": "Repeated flood descriptions used 可以 and 有发生; the analysis corrects them to 可能会发生."
+    },
+    {
+      "chinese": "在这张地图上看不到这个地方。",
+      "pinyin": "Zài zhè zhāng dìtú shàng kàn bu dào zhège dìfang.",
+      "english_hint": "You can't see this place on this map.",
+      "scenario": "Explain why you cannot point out a place.",
+      "focus": [
+        "在……上",
+        "看不到"
+      ],
+      "priority": 4,
+      "source_note": "Adapts the map correction 看不到阿拉木图 using a reusable place reference."
+    },
+    {
+      "chinese": "起床以后，我看了新闻。",
+      "pinyin": "Qǐchuáng yǐhòu, wǒ kàn le xīnwén.",
+      "english_hint": "After getting up, I read the news.",
+      "scenario": "Describe your morning sequence.",
+      "focus": [
+        "……以后",
+        "completed action"
+      ],
+      "priority": 5,
+      "source_note": "The analysis supplies this shorter correction for the learner's morning news account."
+    },
+    {
+      "chinese": "我在手机上看到了一条新闻。",
+      "pinyin": "Wǒ zài shǒujī shàng kàn dào le yì tiáo xīnwén.",
+      "english_hint": "I saw a news story on my phone.",
+      "scenario": "Say where you saw a news story.",
+      "focus": [
+        "在手机上",
+        "看到了一条新闻"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 读我的手机 to reading news 在手机上."
+    },
+    {
+      "chinese": "我的朋友吃饭以后生病了。",
+      "pinyin": "Wǒ de péngyou chīfàn yǐhòu shēngbìng le.",
+      "english_hint": "My friend became ill after eating.",
+      "scenario": "Explain when your friend became ill.",
+      "focus": [
+        "……以后",
+        "生病了"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 以前 to 以后 in the restaurant account without asserting food poisoning."
+    },
+    {
+      "chinese": "学中文的人越来越多。",
+      "pinyin": "Xué Zhōngwén de rén yuè lái yuè duō.",
+      "english_hint": "More and more people are learning Chinese.",
+      "scenario": "Discuss the growing number of Chinese learners.",
+      "focus": [
+        "……的人",
+        "越来越多"
+      ],
+      "priority": 4,
+      "source_note": "The analysis gives this study-related variation to reinforce 多 for increasing numbers of people."
+    },
+    {
+      "chinese": "我不知道这家饭馆好不好。",
+      "pinyin": "Wǒ bù zhīdào zhè jiā fànguǎn hǎo bu hǎo.",
+      "english_hint": "I don't know whether this restaurant is good.",
+      "scenario": "Express uncertainty about a restaurant.",
+      "focus": [
+        "不知道……好不好",
+        "whether"
+      ],
+      "priority": 5,
+      "source_note": "Repeated uncertainty used 如果 for whether; the analysis provides this restaurant variation."
+    },
+    {
+      "chinese": "我想问一个问题。",
+      "pinyin": "Wǒ xiǎng wèn yí ge wèntí.",
+      "english_hint": "I'd like to ask a question.",
+      "scenario": "Start a question during Chinese class.",
+      "focus": [
+        "想问",
+        "一个问题"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我要一个问题 and recurring attempts to introduce a question."
+    },
+    {
+      "chinese": "你会说广东话吗？",
+      "pinyin": "Nǐ huì shuō Guǎngdōnghuà ma?",
+      "english_hint": "Can you speak Cantonese?",
+      "scenario": "Ask someone about their language skills.",
+      "focus": [
+        "会＋skill",
+        "吗 question"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 不知道说广东话 to 会说广东话 when asking about a learned skill."
+    }
+  ],
+  "generated_at": "2026-10-01T22:55:00+00:00",
+  "generator": "codex-cli"
+}

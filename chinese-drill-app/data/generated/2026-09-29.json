@@ -1,0 +1,169 @@
+{
+  "lesson": "2026-09-29",
+  "sentences": [
+    {
+      "chinese": "我有很多工作要做。",
+      "pinyin": "Wǒ yǒu hěn duō gōngzuò yào zuò.",
+      "english_hint": "I have a lot of work to do.",
+      "scenario": "Explain why you are busy this week.",
+      "focus": [
+        "有……要做",
+        "complete sentence"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the incomplete sentence about having lots of work at 00:19."
+    },
+    {
+      "chinese": "我有一个问题要问。",
+      "pinyin": "Wǒ yǒu yí ge wèntí yào wèn.",
+      "english_hint": "I have a question to ask.",
+      "scenario": "Speak up during a lesson or meeting.",
+      "focus": [
+        "有……要……"
+      ],
+      "priority": 5,
+      "source_note": "Analysis gives this variation to reinforce the core work sentence pattern."
+    },
+    {
+      "chinese": "我有一封邮件要写。",
+      "pinyin": "Wǒ yǒu yì fēng yóujiàn yào xiě.",
+      "english_hint": "I have an email to write.",
+      "scenario": "Describe a task you need to finish at work.",
+      "focus": [
+        "有……要……",
+        "一封邮件"
+      ],
+      "priority": 4,
+      "source_note": "Analysis supplies this practical work variation."
+    },
+    {
+      "chinese": "请再说一次。",
+      "pinyin": "Qǐng zài shuō yí cì.",
+      "english_hint": "Please say it again.",
+      "scenario": "Ask someone to repeat a question.",
+      "focus": [
+        "再 + verb + 一次"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the repetition request at 05:45; 再 placement recurs elsewhere."
+    },
+    {
+      "chinese": "我再读一次。",
+      "pinyin": "Wǒ zài dú yí cì.",
+      "english_hint": "I'll read it again.",
+      "scenario": "Try reading a Chinese sentence again.",
+      "focus": [
+        "再 + verb + 一次"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated verb-order errors at 10:25 and 31:39."
+    },
+    {
+      "chinese": "这个字怎么读？",
+      "pinyin": "Zhège zì zěnme dú?",
+      "english_hint": "How do you read this character?",
+      "scenario": "Ask about a character you cannot pronounce.",
+      "focus": [
+        "怎么 + verb",
+        "reading repair"
+      ],
+      "priority": 4,
+      "source_note": "Analysis recommends this phrase for recurring character-reading difficulty."
+    },
+    {
+      "chinese": "我知道意思，但是忘了怎么读。",
+      "pinyin": "Wǒ zhīdào yìsi, dànshì wàng le zěnme dú.",
+      "english_hint": "I know the meaning, but forgot how to read it.",
+      "scenario": "Explain why you hesitate over a familiar character.",
+      "focus": [
+        "但是",
+        "忘了怎么……"
+      ],
+      "priority": 4,
+      "source_note": "Analysis supplies this phrase; the learner repeatedly recognizes meanings without recalling pronunciation."
+    },
+    {
+      "chinese": "这个玩具是在中国生产的。",
+      "pinyin": "Zhège wánjù shì zài Zhōngguó shēngchǎn de.",
+      "english_hint": "This toy was made in China.",
+      "scenario": "Describe where a toy was made.",
+      "focus": [
+        "是在……生产的"
+      ],
+      "priority": 5,
+      "source_note": "Analysis shortens the correction about the daughter's toys into this model."
+    },
+    {
+      "chinese": "这个空调怎么用？",
+      "pinyin": "Zhège kōngtiáo zěnme yòng?",
+      "english_hint": "How do you use this air conditioner?",
+      "scenario": "Ask your host how to use the air conditioner.",
+      "focus": [
+        "怎么用"
+      ],
+      "priority": 4,
+      "source_note": "Corrects the learner's question during the London accommodation story at 25:47."
+    },
+    {
+      "chinese": "他们不能马上来帮你。",
+      "pinyin": "Tāmen bù néng mǎshàng lái bāng nǐ.",
+      "english_hint": "They can't come help you right away.",
+      "scenario": "Explain that help will take time to arrive.",
+      "focus": [
+        "帮 + person",
+        "来 + verb"
+      ],
+      "priority": 4,
+      "source_note": "Analysis corrects 帮忙你 to 帮你 in the travel discussion at 29:17."
+    },
+    {
+      "chinese": "这张桌子是用木头做的。",
+      "pinyin": "Zhè zhāng zhuōzi shì yòng mùtou zuò de.",
+      "english_hint": "This table is made of wood.",
+      "scenario": "Describe the material of a table.",
+      "focus": [
+        "是用……做的"
+      ],
+      "priority": 4,
+      "source_note": "Analysis provides this model for the lesson's discussion of materials."
+    },
+    {
+      "chinese": "手机除了能打电话，还能拍照。",
+      "pinyin": "Shǒujī chúle néng dǎ diànhuà, hái néng pāizhào.",
+      "english_hint": "A phone can take photos as well as make calls.",
+      "scenario": "Name two things a phone can do.",
+      "focus": [
+        "除了……还……",
+        "能 + verb"
+      ],
+      "priority": 4,
+      "source_note": "Analysis supplies this drill based on the discussion of phone functions."
+    },
+    {
+      "chinese": "有时候设计更重要。",
+      "pinyin": "Yǒu shíhou shèjì gèng zhòngyào.",
+      "english_hint": "Sometimes design matters more.",
+      "scenario": "Explain that product priorities depend on the situation.",
+      "focus": [
+        "adjective predicate",
+        "更重要"
+      ],
+      "priority": 4,
+      "source_note": "Uses the first clause of the analysis correction at 01:19:18, removing unnecessary 是."
+    },
+    {
+      "chinese": "我今天还没有打电话。",
+      "pinyin": "Wǒ jīntiān hái méiyǒu dǎ diànhuà.",
+      "english_hint": "I haven't made a call today yet.",
+      "scenario": "Say whether you have used your phone for calls today.",
+      "focus": [
+        "还没有 + verb",
+        "time before verb"
+      ],
+      "priority": 3,
+      "source_note": "Builds on successful 还没有 usage in the learner's phone discussion at 01:17."
+    }
+  ],
+  "generated_at": "2026-10-01T23:04:23+00:00",
+  "generator": "codex-cli"
+}

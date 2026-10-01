@@ -1,0 +1,176 @@
+{
+  "lesson": "2026-09-02",
+  "sentences": [
+    {
+      "chinese": "我想再读一遍。",
+      "pinyin": "Wǒ xiǎng zài dú yí biàn.",
+      "english_hint": "I want to read it again.",
+      "scenario": "Ask to reread a Chinese passage.",
+      "focus": [
+        "我想 + verb",
+        "再 before verb"
+      ],
+      "priority": 5,
+      "source_note": "13:10 correction: 再 belongs before 读."
+    },
+    {
+      "chinese": "请再说一遍。",
+      "pinyin": "Qǐng zài shuō yí biàn.",
+      "english_hint": "Please say it again.",
+      "scenario": "Ask someone to repeat a question.",
+      "focus": [
+        "请 + verb",
+        "再 before verb"
+      ],
+      "priority": 5,
+      "source_note": "Ready-to-use phrase; repetition requests also caused difficulty at 22:01."
+    },
+    {
+      "chinese": "这个用中文怎么说？",
+      "pinyin": "Zhège yòng Zhōngwén zěnme shuō?",
+      "english_hint": "How do you say this in Chinese?",
+      "scenario": "Ask for a Chinese word during class.",
+      "focus": [
+        "怎么 question",
+        "用中文"
+      ],
+      "priority": 5,
+      "source_note": "Analysis phrase supported by repeated vocabulary questions."
+    },
+    {
+      "chinese": "我每年要参加四次培训。",
+      "pinyin": "Wǒ měi nián yào cānjiā sì cì péixùn.",
+      "english_hint": "I attend four training sessions each year.",
+      "scenario": "Describe your annual work training.",
+      "focus": [
+        "每年 + verb",
+        "参加培训",
+        "次 for occasions"
+      ],
+      "priority": 5,
+      "source_note": "04:22 correction replaces 个 with 次 and supplies 参加."
+    },
+    {
+      "chinese": "我们要参加一个月的培训。",
+      "pinyin": "Wǒmen yào cānjiā yí ge yuè de péixùn.",
+      "english_hint": "We need to attend a month of training.",
+      "scenario": "Explain the length of a work training program.",
+      "focus": [
+        "参加培训",
+        "duration + 的 + noun"
+      ],
+      "priority": 5,
+      "source_note": "02:48 correction distinguishes one month of training from monthly training."
+    },
+    {
+      "chinese": "培训要多长时间？",
+      "pinyin": "Péixùn yào duō cháng shíjiān?",
+      "english_hint": "How long does the training take?",
+      "scenario": "Ask about a training schedule.",
+      "focus": [
+        "多长时间 question",
+        "question word without 吗"
+      ],
+      "priority": 5,
+      "source_note": "Analysis question drill addresses the fragmented training-length question at 11:02."
+    },
+    {
+      "chinese": "他在我们公司工作了一年半。",
+      "pinyin": "Tā zài wǒmen gōngsī gōngzuò le yì nián bàn.",
+      "english_hint": "He worked at our company for a year and a half.",
+      "scenario": "Describe a former colleague's time at your company.",
+      "focus": [
+        "在 + place + verb",
+        "verb + 了 + duration"
+      ],
+      "priority": 5,
+      "source_note": "Analysis duration drill reflects the learner's colleague story at 20:09."
+    },
+    {
+      "chinese": "你在英国住了多久了？",
+      "pinyin": "Nǐ zài Yīngguó zhù le duō jiǔ le?",
+      "english_hint": "How long have you lived in the UK?",
+      "scenario": "Ask someone about living abroad.",
+      "focus": [
+        "verb + duration",
+        "多久了 question"
+      ],
+      "priority": 5,
+      "source_note": "Analysis question drill addresses recurring residence word-order problems near 01:00:51."
+    },
+    {
+      "chinese": "你是从哪所大学毕业的？",
+      "pinyin": "Nǐ shì cóng nǎ suǒ dàxué bìyè de?",
+      "english_hint": "Which university did you graduate from?",
+      "scenario": "Ask about someone's education in a work conversation.",
+      "focus": [
+        "是……的",
+        "哪所大学",
+        "毕业"
+      ],
+      "priority": 5,
+      "source_note": "18:16 correction supplies 毕业 and the university classifier 所."
+    },
+    {
+      "chinese": "我负责这个项目。",
+      "pinyin": "Wǒ fùzé zhège xiàngmù.",
+      "english_hint": "I'm responsible for this project.",
+      "scenario": "Practice explaining a project responsibility.",
+      "focus": [
+        "负责 + task"
+      ],
+      "priority": 5,
+      "source_note": "Analysis model clarifies 负责 as a verb; project responsibility is a suggested substitution."
+    },
+    {
+      "chinese": "公司支付我的餐费和住宿费。",
+      "pinyin": "Gōngsī zhīfù wǒ de cānfèi hé zhùsùfèi.",
+      "english_hint": "The company pays for my meals and accommodation.",
+      "scenario": "Explain who covers your business trip expenses.",
+      "focus": [
+        "支付 + expense",
+        "和 joining nouns"
+      ],
+      "priority": 5,
+      "source_note": "44:18 correction replaces 买 with 支付 for meal and accommodation costs."
+    },
+    {
+      "chinese": "我不用付钱。",
+      "pinyin": "Wǒ bú yòng fù qián.",
+      "english_hint": "I don't need to pay.",
+      "scenario": "Explain that your Chinese classes cost you nothing.",
+      "focus": [
+        "不用 + verb",
+        "付钱"
+      ],
+      "priority": 5,
+      "source_note": "46:57 correction addresses repeated confusion about paying for company-funded classes."
+    },
+    {
+      "chinese": "我认识这个词，但是还不会用。",
+      "pinyin": "Wǒ rènshi zhège cí, dànshì hái bú huì yòng.",
+      "english_hint": "I recognize this word, but can't use it yet.",
+      "scenario": "Explain a speaking difficulty to your Chinese teacher.",
+      "focus": [
+        "但是 contrast",
+        "还不会 + verb"
+      ],
+      "priority": 4,
+      "source_note": "Analysis ready-to-use phrase reflects the learner's strong recognition but weaker production."
+    },
+    {
+      "chinese": "因为他有工作经验，所以我选他。",
+      "pinyin": "Yīnwèi tā yǒu gōngzuò jīngyàn, suǒyǐ wǒ xuǎn tā.",
+      "english_hint": "I choose him because he has work experience.",
+      "scenario": "Explain your choice in the candidate exercise.",
+      "focus": [
+        "因为……所以……",
+        "有工作经验"
+      ],
+      "priority": 4,
+      "source_note": "Shortened analysis reason pattern; the learner chose the experienced third candidate."
+    }
+  ],
+  "generated_at": "2026-10-01T22:58:37+00:00",
+  "generator": "codex-cli"
+}

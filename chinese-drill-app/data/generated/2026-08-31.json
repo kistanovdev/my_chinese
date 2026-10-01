@@ -1,0 +1,167 @@
+{
+  "lesson": "2026-08-31",
+  "sentences": [
+    {
+      "chinese": "我昨天吃了拉面。",
+      "pinyin": "Wǒ zuótiān chī le lāmiàn.",
+      "english_hint": "I ate noodles yesterday.",
+      "scenario": "Tell someone what you ate yesterday.",
+      "focus": [
+        "subject + time + verb + object"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the misplaced object in the learner's opening sentence."
+    },
+    {
+      "chinese": "我要去开会了。",
+      "pinyin": "Wǒ yào qù kāihuì le.",
+      "english_hint": "I need to go to a meeting now.",
+      "scenario": "End your Chinese lesson to attend a meeting.",
+      "focus": [
+        "要去 + action",
+        "开会 as a verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 一个开会 at the end of the lesson."
+    },
+    {
+      "chinese": "他必须会说英文。",
+      "pinyin": "Tā bìxū huì shuō Yīngwén.",
+      "english_hint": "He must be able to speak English.",
+      "scenario": "State a required language skill for a manager.",
+      "focus": [
+        "必须会 + skill"
+      ],
+      "priority": 5,
+      "source_note": "The analysis identifies repeated confusion between 一定说 and 必须会."
+    },
+    {
+      "chinese": "他必须有五年的工作经验。",
+      "pinyin": "Tā bìxū yǒu wǔ nián de gōngzuò jīngyàn.",
+      "english_hint": "He must have five years of work experience.",
+      "scenario": "Explain the experience required for a manager.",
+      "focus": [
+        "必须有 + qualification",
+        "duration + 的 + noun"
+      ],
+      "priority": 5,
+      "source_note": "The learner discussed a five-year experience requirement; the analysis supplies this drill."
+    },
+    {
+      "chinese": "他必须经常出差。",
+      "pinyin": "Tā bìxū jīngcháng chūchāi.",
+      "english_hint": "He must travel frequently for work.",
+      "scenario": "Describe a job's business travel requirement.",
+      "focus": [
+        "必须 + action"
+      ],
+      "priority": 5,
+      "source_note": "The analysis uses this sentence to complete the three essential requirement patterns."
+    },
+    {
+      "chinese": "如果没有工作经验，就不能当经理。",
+      "pinyin": "Rúguǒ méiyǒu gōngzuò jīngyàn, jiù bù néng dāng jīnglǐ.",
+      "english_hint": "Without work experience, you cannot be a manager.",
+      "scenario": "Explain why experience is necessary for a management job.",
+      "focus": [
+        "如果……就……",
+        "当 + job"
+      ],
+      "priority": 5,
+      "source_note": "Shortens the analysis's conditional correction and preserves 当经理."
+    },
+    {
+      "chinese": "我在苹果公司工作了八年。",
+      "pinyin": "Wǒ zài Píngguǒ gōngsī gōngzuò le bā nián.",
+      "english_hint": "I have worked at Apple for eight years.",
+      "scenario": "Tell a colleague how long you have worked at Apple.",
+      "focus": [
+        "在 + workplace + 工作了 + duration"
+      ],
+      "priority": 5,
+      "source_note": "The learner stated eight years at Apple; the analysis supplies this corrected duration drill."
+    },
+    {
+      "chinese": "他在这个团队工作了七八年。",
+      "pinyin": "Tā zài zhège tuánduì gōngzuò le qī bā nián.",
+      "english_hint": "He has worked on this team for seven or eight years.",
+      "scenario": "Describe your manager's approximate time on the team.",
+      "focus": [
+        "在 + workplace + 工作了 + duration",
+        "approximate numbers"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's word order and retains uncertainty about seven or eight years."
+    },
+    {
+      "chinese": "要去中国出差。",
+      "pinyin": "Yào qù Zhōngguó chūchāi.",
+      "english_hint": "Need to travel to China for work.",
+      "scenario": "Describe a China travel requirement for a job.",
+      "focus": [
+        "去 + destination + 出差"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 要中国出差 without claiming the learner personally has an upcoming trip."
+    },
+    {
+      "chinese": "我也做过四年客服。",
+      "pinyin": "Wǒ yě zuò guo sì nián kèfú.",
+      "english_hint": "I also worked in customer service for four years.",
+      "scenario": "Mention your previous customer service experience.",
+      "focus": [
+        "做过 + duration + job"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of the learner's description of four years in customer service."
+    },
+    {
+      "chinese": "你可以再说一遍吗？",
+      "pinyin": "Nǐ kěyǐ zài shuō yí biàn ma?",
+      "english_hint": "Could you say that again?",
+      "scenario": "Ask your teacher to repeat something during a call.",
+      "focus": [
+        "再 + verb + 一遍",
+        "可以……吗"
+      ],
+      "priority": 4,
+      "source_note": "Corrects the repetition request and supports recurring requests to hear material again."
+    },
+    {
+      "chinese": "我听得到你说话。",
+      "pinyin": "Wǒ tīng de dào nǐ shuōhuà.",
+      "english_hint": "I can hear you.",
+      "scenario": "Confirm that the audio works again.",
+      "focus": [
+        "听得到 + object"
+      ],
+      "priority": 4,
+      "source_note": "Direct correction of 我听你 after the connection problem."
+    },
+    {
+      "chinese": "中国菜有点贵。",
+      "pinyin": "Zhōngguó cài yǒudiǎn guì.",
+      "english_hint": "Chinese food is a little expensive.",
+      "scenario": "Comment on Chinese restaurant prices.",
+      "focus": [
+        "有点 + adjective"
+      ],
+      "priority": 4,
+      "source_note": "Corrects 一点贵 and retains the learner's comment about Chinese food prices."
+    },
+    {
+      "chinese": "对我来说，现在健康也很重要。",
+      "pinyin": "Duì wǒ lái shuō, xiànzài jiànkāng yě hěn zhòngyào.",
+      "english_hint": "Health is also important to me now.",
+      "scenario": "Explain what matters to you at this stage of life.",
+      "focus": [
+        "对……来说",
+        "time + 也 + 很 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Directly corrects the learner's word order without changing important to most important."
+    }
+  ],
+  "generated_at": "2026-10-01T22:57:45+00:00",
+  "generator": "codex-cli"
+}
