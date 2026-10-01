@@ -15,8 +15,24 @@ The app's job is deliberately narrow:
 ## Current status
 
 The Python content pipeline is implemented, the Berlitz 5 source set is
-inventoried, and a small pilot deck demonstrates the proposed sentence format.
-No Codex generation or ElevenLabs synthesis requests have been made yet.
+inventoried, and the first local practice app is implemented. The current deck
+contains 202 sentences with 202 cached ElevenLabs MP3 files.
+
+## Launch the app
+
+From Terminal:
+
+```bash
+cd /Users/kistanov/github/my_chinese/chinese-drill-app
+python3 app.py
+```
+
+The app opens at `http://127.0.0.1:8765`. Press `Ctrl-C` in Terminal to stop
+it. On macOS, you can also double-click `Launch Chinese Drills.command`.
+
+Progress is saved to `data/progress.json` immediately after every rating. The
+server binds only to localhost and the app makes no network calls during normal
+practice.
 
 ## Proposed MVP
 
@@ -34,6 +50,8 @@ No Codex generation or ElevenLabs synthesis requests have been made yet.
 
 ```text
 chinese-drill-app/
+  app.py                   # Local server and progress persistence
+  Launch Chinese Drills.command
   README.md
   .env.example
   data/
@@ -52,7 +70,7 @@ chinese-drill-app/
   dist/                  # Final JSON consumed by the future app
   scripts/               # Pipeline tools
   tests/
-  web/                   # Practice UI (next milestone)
+  web/                   # Framework-free practice interface
 ```
 
 ## Inputs
@@ -103,6 +121,9 @@ python3 scripts/synthesize_audio.py --limit 8
 
 Copy `.env.example` to `.env`, add the ElevenLabs key and a Mandarin-native
 voice ID, then keep `.env` private. Codex uses the existing Codex CLI login.
+On macOS the audio stage uses verified system `curl` by default so HTTPS honors
+the certificates trusted by Keychain; certificate verification is never
+disabled.
 
 ## Requirements
 

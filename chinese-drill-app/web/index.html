@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#173f35" />
+    <title>Chinese Drill</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2216%22 fill=%22%23173f35%22/><text x=%2232%22 y=%2244%22 text-anchor=%22middle%22 font-size=%2238%22 fill=%22white%22>声</text></svg>" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <button class="brand" id="home-button" type="button" aria-label="Go home">
+          <span class="brand-mark" aria-hidden="true">声</span>
+          <span>
+            <strong>Chinese Drill</strong>
+            <small>Build the sentence. Trust the rhythm.</small>
+          </span>
+        </button>
+        <div class="save-state" id="save-state" aria-live="polite">
+          <span class="save-dot"></span>
+          <span>Saved locally</span>
+        </div>
+      </header>
+
+      <main>
+        <section class="screen dashboard-screen" id="dashboard-screen">
+          <div class="hero-copy">
+            <p class="eyebrow">TODAY'S PRACTICE</p>
+            <h1>Make the right sentence feel automatic.</h1>
+            <p class="hero-description">
+              Listen first. Repeat aloud during the pause. Rate the structure,
+              not your accent.
+            </p>
+          </div>
+
+          <div class="stats-grid" aria-label="Learning progress">
+            <article class="stat-card accent-card">
+              <span class="stat-label">Ready now</span>
+              <strong id="due-count">—</strong>
+              <span class="stat-detail">due and new sentences</span>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Practised</span>
+              <strong id="practised-count">—</strong>
+              <span class="stat-detail">of <span id="deck-count">—</span> sentences</span>
+            </article>
+            <article class="stat-card">
+              <span class="stat-label">Reviews</span>
+              <strong id="review-count">—</strong>
+              <span class="stat-detail">saved across sessions</span>
+            </article>
+          </div>
+
+          <section class="session-panel">
+            <div>
+              <p class="eyebrow">SESSION SETUP</p>
+              <h2>A short, focused round</h2>
+            </div>
+            <div class="settings-row">
+              <label>
+                <span>Sentences</span>
+                <select id="session-size">
+                  <option value="10">10</option>
+                  <option value="15">15</option>
+                  <option value="20">20</option>
+                  <option value="30">30</option>
+                </select>
+              </label>
+              <label>
+                <span>Repeats</span>
+                <select id="repetitions">
+                  <option value="2">2 times</option>
+                  <option value="3">3 times</option>
+                </select>
+              </label>
+              <label>
+                <span>Speed</span>
+                <select id="playback-speed">
+                  <option value="0.85">0.85×</option>
+                  <option value="1">Natural</option>
+                </select>
+              </label>
+            </div>
+            <button class="primary-button start-button" id="start-button" type="button" disabled>
+              Start practice
+              <span aria-hidden="true">→</span>
+            </button>
+            <p class="session-note" id="session-note">Loading your deck…</p>
+          </section>
+
+          <p class="shortcut-note">During practice: Space plays · R reveals · 1–4 rates</p>
+        </section>
+
+        <section class="screen practice-screen hidden" id="practice-screen">
+          <div class="practice-header">
+            <button class="text-button" id="exit-session" type="button">← End session</button>
+            <div class="progress-copy">
+              <span id="card-position">1 of 15</span>
+              <div class="progress-track" aria-hidden="true">
+                <div class="progress-fill" id="progress-fill"></div>
+              </div>
+            </div>
+          </div>
+
+          <article class="drill-card" id="drill-card">
+            <div class="card-meta">
+              <span class="lesson-chip" id="lesson-chip">Lesson</span>
+              <span class="focus-list" id="focus-list"></span>
+            </div>
+
+            <div class="scenario-block">
+              <span class="section-label">YOUR SITUATION</span>
+              <p id="scenario-text">Loading…</p>
+            </div>
+
+            <div class="answer-block concealed" id="answer-block">
+              <p class="chinese" id="chinese-text" lang="zh-Hans"></p>
+              <p class="pinyin" id="pinyin-text"></p>
+              <p class="english-hint" id="english-text"></p>
+            </div>
+
+            <div class="audio-zone">
+              <button class="play-button" id="play-button" type="button" disabled>
+                <span class="play-icon" aria-hidden="true">▶</span>
+                <span id="play-label">Play and repeat</span>
+              </button>
+              <p class="turn-status" id="turn-status" aria-live="polite">
+                Listen, then repeat aloud.
+              </p>
+              <div class="repeat-dots" id="repeat-dots" aria-label="Repetition progress"></div>
+            </div>
+
+            <div class="card-actions">
+              <button class="secondary-button" id="reveal-button" type="button">Reveal sentence</button>
+              <button class="secondary-button" id="replay-button" type="button" disabled>Replay once</button>
+            </div>
+          </article>
+
+          <section class="rating-panel hidden" id="rating-panel" aria-label="Rate this sentence">
+            <p>How automatic did that structure feel?</p>
+            <div class="rating-grid">
+              <button class="rating-button again" data-rating="again" type="button">
+                <kbd>1</kbd><strong>Again</strong><span>Repeat today</span>
+              </button>
+              <button class="rating-button hard" data-rating="hard" type="button">
+                <kbd>2</kbd><strong>Hard</strong><span>Review tomorrow</span>
+              </button>
+              <button class="rating-button good" data-rating="good" type="button">
+                <kbd>3</kbd><strong>Good</strong><span>Move forward</span>
+              </button>
+              <button class="rating-button easy" data-rating="easy" type="button">
+                <kbd>4</kbd><strong>Easy</strong><span>Longer interval</span>
+              </button>
+            </div>
+          </section>
+        </section>
+
+        <section class="screen completion-screen hidden" id="completion-screen">
+          <div class="completion-card">
+            <span class="completion-mark" aria-hidden="true">✓</span>
+            <p class="eyebrow">SESSION COMPLETE</p>
+            <h1>Nicely done.</h1>
+            <p id="completion-copy">Your progress has been saved.</p>
+            <div class="session-results" id="session-results"></div>
+            <button class="primary-button" id="finish-button" type="button">Back to dashboard</button>
+          </div>
+        </section>
+      </main>
+
+      <div class="toast hidden" id="toast" role="status" aria-live="polite"></div>
+    </div>
+  </body>
+</html>
