@@ -1,8 +1,6 @@
 .env
-audio/*.json
 audio/*.tmp
 data/sentences.draft.json
-data/progress.json
 build/*.json
 dist/*.json
 __pycache__/

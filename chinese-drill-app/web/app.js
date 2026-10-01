@@ -33,6 +33,7 @@ const elements = {
   turnStatus: document.querySelector("#turn-status"),
   repeatDots: document.querySelector("#repeat-dots"),
   revealButton: document.querySelector("#reveal-button"),
+  pinyinButton: document.querySelector("#pinyin-button"),
   replayButton: document.querySelector("#replay-button"),
   ratingPanel: document.querySelector("#rating-panel"),
   ratingButtons: [...document.querySelectorAll("[data-rating]")],
@@ -211,6 +212,13 @@ function revealAnswer() {
   elements.revealButton.disabled = true;
 }
 
+function showPinyin() {
+  revealAnswer();
+  elements.pinyinText.classList.remove("hidden");
+  elements.pinyinButton.textContent = "Pinyin shown";
+  elements.pinyinButton.disabled = true;
+}
+
 function prepareCurrentCard() {
   stopPlayback();
   state.currentItem = state.queue[state.currentIndex];
@@ -228,8 +236,11 @@ function prepareCurrentCard() {
   elements.pinyinText.textContent = sentence.pinyin;
   elements.englishText.textContent = sentence.english_hint;
   elements.answerBlock.classList.add("concealed");
+  elements.pinyinText.classList.add("hidden");
   elements.revealButton.disabled = false;
   elements.revealButton.textContent = "Reveal sentence";
+  elements.pinyinButton.disabled = false;
+  elements.pinyinButton.textContent = "Show pinyin";
   elements.replayButton.disabled = true;
   elements.ratingPanel.classList.add("hidden");
   elements.playButton.disabled = false;
@@ -244,7 +255,8 @@ function prepareCurrentCard() {
 
 function repetitionPauseMs() {
   const duration = Number.isFinite(state.audio.duration) ? state.audio.duration : 2.5;
-  return Math.max(2200, duration * 1000 + 900);
+  // Longer source audio gets a proportionally longer speaking window.
+  return Math.max(4500, duration * 1350 + 2000);
 }
 
 async function playAudio() {
@@ -275,7 +287,7 @@ function finishRepetitionRound() {
   state.repetitionsPlayed += 1;
   renderRepeatDots();
   elements.playButton.classList.remove("active");
-  elements.turnStatus.textContent = "Your turn—say the whole sentence aloud.";
+  elements.turnStatus.textContent = "Your turn—say the whole sentence aloud. Take your time.";
   const repetitions = state.progress.settings.repetitions;
   state.pauseTimer = window.setTimeout(() => {
     if (!state.sequenceActive) return;
@@ -420,6 +432,10 @@ function handleKeyboard(event) {
     revealAnswer();
     return;
   }
+  if (event.key.toLowerCase() === "p") {
+    showPinyin();
+    return;
+  }
   const ratingByKey = { "1": "again", "2": "hard", "3": "good", "4": "easy" };
   if (ratingByKey[event.key]) rateCurrent(ratingByKey[event.key]);
 }
@@ -431,6 +447,7 @@ function bindEvents() {
   elements.finishButton.addEventListener("click", goHome);
   elements.playButton.addEventListener("click", startSequence);
   elements.revealButton.addEventListener("click", revealAnswer);
+  elements.pinyinButton.addEventListener("click", showPinyin);
   elements.replayButton.addEventListener("click", replayOnce);
   elements.ratingButtons.forEach((button) => {
     button.addEventListener("click", () => rateCurrent(button.dataset.rating));

@@ -91,7 +91,7 @@
             <p class="session-note" id="session-note">Loading your deck…</p>
           </section>
 
-          <p class="shortcut-note">During practice: Space plays · R reveals · 1–4 rates</p>
+          <p class="shortcut-note">During practice: Space plays · R reveals · P shows pinyin · 1–4 rates</p>
         </section>
 
         <section class="screen practice-screen hidden" id="practice-screen">
@@ -118,7 +118,7 @@
 
             <div class="answer-block concealed" id="answer-block">
               <p class="chinese" id="chinese-text" lang="zh-Hans"></p>
-              <p class="pinyin" id="pinyin-text"></p>
+              <p class="pinyin hidden" id="pinyin-text"></p>
               <p class="english-hint" id="english-text"></p>
             </div>
 
@@ -135,6 +135,7 @@
 
             <div class="card-actions">
               <button class="secondary-button" id="reveal-button" type="button">Reveal sentence</button>
+              <button class="secondary-button" id="pinyin-button" type="button">Show pinyin</button>
               <button class="secondary-button" id="replay-button" type="button" disabled>Replay once</button>
             </div>
           </article>

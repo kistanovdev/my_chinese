@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-01T23:48:41+00:00",
+  "settings": {
+    "session_size": 10,
+    "repetitions": 3,
+    "playback_speed": 1
+  },
+  "stats": {
+    "total_reviews": 11,
+    "sessions_completed": 1,
+    "last_session": "2026-10-01T23:48:41.806Z"
+  },
+  "cards": {
+    "sentence-0019e6366f13": {
+      "seen": 1,
+      "box": 1,
+      "streak": 1,
+      "last_rating": "hard",
+      "last_reviewed": "2026-10-01T23:36:14.646Z",
+      "next_due": "2026-10-02T23:36:14.646Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 0,
+        "easy": 0
+      }
+    },
+    "sentence-012efa2e6de0": {
+      "seen": 2,
+      "box": 1,
+      "streak": 1,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-01T23:48:41.797Z",
+      "next_due": "2026-10-04T23:48:41.797Z",
+      "ratings": {
+        "again": 1,
+        "hard": 0,
+        "good": 1,
+        "easy": 0
+      }
+    },
+    "sentence-021a91780400": {
+      "seen": 1,
+      "box": 1,
+      "streak": 1,
+      "last_rating": "hard",
+      "last_reviewed": "2026-10-01T23:39:01.046Z",
+      "next_due": "2026-10-02T23:39:01.046Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 0,
+        "easy": 0
+      }
+    },
+    "sentence-027c4737e2b9": {
+      "seen": 1,
+      "box": 1,
+      "streak": 1,
+      "last_rating": "hard",
+      "last_reviewed": "2026-10-01T23:39:59.746Z",
+      "next_due": "2026-10-02T23:39:59.746Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 0,
+        "easy": 0
+      }
+    },
+    "sentence-049d4fa0e9bb": {
+      "seen": 1,
+      "box": 1,
+      "streak": 1,
+      "last_rating": "hard",
+      "last_reviewed": "2026-10-01T23:43:48.363Z",
+      "next_due": "2026-10-02T23:43:48.363Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 0,
+        "easy": 0
+      }
+    },
+    "sentence-0687491f6e50": {
+      "seen": 1,
+      "box": 1,
+      "streak": 1,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-01T23:44:19.497Z",
+      "next_due": "2026-10-04T23:44:19.497Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 1,
+        "easy": 0
+      }
+    },
+    "sentence-0934a04b2e44": {
+      "seen": 1,
+      "box": 1,
+      "streak": 1,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-01T23:44:34.263Z",
+      "next_due": "2026-10-04T23:44:34.263Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 1,
+        "easy": 0
+      }
+    },
+    "sentence-0c63ec0c44d6": {
+      "seen": 1,
+      "box": 1,
+      "streak": 1,
+      "last_rating": "hard",
+      "last_reviewed": "2026-10-01T23:45:46.831Z",
+      "next_due": "2026-10-02T23:45:46.831Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 0,
+        "easy": 0
+      }
+    },
+    "sentence-0d6620328ab3": {
+      "seen": 1,
+      "box": 1,
+      "streak": 1,
+      "last_rating": "hard",
+      "last_reviewed": "2026-10-01T23:46:57.947Z",
+      "next_due": "2026-10-02T23:46:57.947Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 0,
+        "easy": 0
+      }
+    },
+    "sentence-118341c4436c": {
+      "seen": 1,
+      "box": 1,
+      "streak": 1,
+      "last_rating": "hard",
+      "last_reviewed": "2026-10-01T23:48:22.047Z",
+      "next_due": "2026-10-02T23:48:22.047Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 0,
+        "easy": 0
+      }
+    }
+  }
+}
