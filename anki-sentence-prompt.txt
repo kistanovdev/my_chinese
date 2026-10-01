@@ -1,0 +1,16 @@
+I am learning Mandarin Chinese using Gabriel Wyner's Fluent Forever methodology. I want to turn the following sentence into Anki cards focused on sentence structure and grammar patterns.
+
+Apply these principles:
+- Only make cards for elements that are genuinely worth drilling — do not card basic vocabulary I likely already know
+- No English translations on card backs — use Chinese context, images descriptions, or scenario prompts instead
+- Every card should reference or include native audio (note where it is needed)
+- Include at minimum: one audio comprehension card, one cloze deletion on the key structural element, one production card using a personal sentence frame
+- If an expression has a pragmatic nuance not obvious from its literal meaning, give it its own card with a scenario prompt on the front
+- Identify the core structural pattern and name it explicitly
+- Flag any elements not worth carding and briefly say why
+My current level is HSK2, approaching HSK 3. I am working on chuncking, language pattern improvements.
+
+The sentence is:
+
+[PASTE SENTENCE HERE]
+

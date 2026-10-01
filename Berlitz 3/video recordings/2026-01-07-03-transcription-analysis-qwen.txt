@@ -1,0 +1,198 @@
+  ✦ The user has provided a transcript of their Chinese class and wants me to:
+     1. Find vocabulary and phrases they should learn and focus on
+     2. Highlight any mistakes in structure or sentences
+     3. Make a list for vocabulary, phrases, and sentence structures
+
+    Let me analyze this transcript carefully. This is Lesson 8 from Berlitz Level 3, focusing on maps,
+    directions, locations, and some geography/culture topics.
+
+    Key topics covered:
+     1. Maps and directions (地图, 路, 靠近, 对面, 路口, 旁边, 附近)
+     2. Places (银行, 博物馆, 邮电局, 医院, 国家美术馆, 人民广场)
+     3. Transportation (地铁站, 巴士站, 开车, 坐地铁)
+     4. Distance/time (很远, 很近, 分钟, 小时)
+     5. Geography (东南西北, 中国地理, 南方人vs北方人)
+     6. Personal topics (HSK exam, family, work from home, travel plans)
+
+    Mistakes and areas for improvement I noticed:
+
+     1. "我不说中文三个月/四个月" → Should be "我三个月/四个月没有说中文"
+     2. "我做Duolingo" → Better: "我用Duolingo学中文" or "我在Duolingo上学"
+     3. "我工作家里" → Should be "我在家里工作"
+     4. "两个星期" confusion with "两个星期" vs "两星期" - teacher corrected
+     5. "她七岁" - incomplete sentence structure
+     6. "做餐" appears in earlier transcript - should be "做菜" (from context of other lessons)
+     7. "我的家在西藏路" - acceptable but could be more natural
+     8. "巴士站还是useful" → "巴士站没什么用" or "巴士站不太有用"
+     9. "十千" for 10,000 → Should be "一万"
+     10. "十分" vs "十分钟" - needed correction
+     11. "我起床五点钟" → Better: "我五点钟起床"
+     12. "我每个月去公司" → contextually correct but needed "一次" or similar
+     13. "睡Cupertino" → Should be "在Cupertino睡觉/过夜"
+     14. "下年以后" → Teacher corrected to "去年" (last year)
+     15. "我听说" structure was being worked on
+     16. Confusion about 知道 vs 认识 for knowing people
+
+    Key vocabulary from this lesson:
+     - 地图 (map)
+     - 路 (road)
+     - 靠近 (near)
+     - 对面 (opposite)
+     - 路口 (intersection)
+     - 旁边 (next to)
+     - 附近 (nearby)
+     - 银行 (bank)
+     - 博物馆 (museum)
+     - 邮电局 (post office)
+     - 医院 (hospital)
+     - 国家美术馆 (national art gallery)
+     - 人民广场 (People's Square)
+     - 地铁站 (subway station)
+     - 巴士站 (bus stop)
+     - 超市 (supermarket)
+     - 学校 (school)
+     - 公园 (park)
+     - 大厦 (building)
+     - 总部 (headquarters)
+     - 办公室 (office)
+     - 东南西北 (east, south, west, north)
+     - 东北, 东南, 西南, 西北
+     - 南方人/北方人 (southerner/northerner)
+     - 移民 (immigrant)
+     - 文化 (culture)
+     - 工资 (salary)
+     - 通过 (pass)
+     - 恭喜 (congratulations)
+     - 好消息 (good news)
+     - 幼儿园 (kindergarten)
+     - 两年以后 (in two years)
+
+    Let me organize this into a clear, structured response.
+
+  ✦ Here's my analysis of your transcript:
+
+    ---
+
+    Mistakes & Corrections
+
+
+    ┌──────────────────┬───────────────────────────┬────────────────────────────────────────────────────┐
+    │ What you said    │ Better version            │ Why                                                │
+    ├──────────────────┼───────────────────────────┼────────────────────────────────────────────────────┤
+    │ 我不说中文四个月 │ 我四个月没有说中文        │ Duration of "not doing" something uses 没有 + verb │
+    │ 我做Duolingo     │ 我用Duolingo学中文        │ For studying, 学 is better than 做                 │
+    │ 我工作家里       │ 我在家里工作              │ Location phrase must come before the verb          │
+    │ 巴士站还是useful │ 巴士站没什么用 / 不太有用 │ "Not very useful" → 没什么用                       │
+    │ 十千（美元）     │ 一万美元                  │ Chinese counts by 万 (10,000), not "ten thousand"  │
+    │ 十分（钟）       │ 十分钟                    │ 分 alone doesn't work here, need 分钟              │
+    │ 我起床五点钟     │ 我五点钟起床              │ Time expression comes before the verb              │
+    │ 我睡觉Cupertino  │ 在Cupertino睡觉/过夜      │ Same pattern — location before verb                │
+    │ 下年以后         │ 去年                      │ "Last year" = 去年, not 下年以后                   │
+    │ 做餐             │ 做菜                      │ 做菜 is the natural collocation, not 做餐          │
+    │ 她七岁           │ 她七岁的时候              │ "When she turns seven" needs 的时候                │
+    │ 我知道每个中国人 │ 我不认识每个中国人        │ For knowing people, use 认识, not 知道             │
+    └──────────────────┴───────────────────────────┴────────────────────────────────────────────────────┘
+
+    ---
+
+    Vocabulary to Focus On
+
+    Directions & Location
+     - 地图 — map
+     - 路 — road
+     - 靠近 — near
+     - 对面 — opposite
+     - 旁边 — next to
+     - 附近 — nearby
+     - 路口 — intersection
+     - 十字路口 — crossroads
+     - 实际路口 — cross junction
+     - 行人道 — pedestrian walkway
+     - 红绿灯 — traffic light
+
+    Places
+     - 银行 — bank
+     - 博物馆 — museum
+     - 邮电局 — post office
+     - 医院 — hospital
+     - 国家美术馆 — national art gallery
+     - 人民广场 — People's Square
+     - 地铁站 — subway station
+     - 巴士站 — bus stop
+     - 大厦 — building
+     - 总部 — headquarters
+     - 办公室 — office
+     - 公园 — park
+     - 幼儿园 — kindergarten
+
+    Geography
+     - 东 / 南 / 西 / 北 — east / south / west / north
+     - 东北 / 东南 / 西南 / 西北 — NE / SE / SW / NW
+     - 南方人 / 北方人 — southerner / northerner
+     - 移民 — immigrant
+     - 文化 — culture
+
+    Other useful words
+     - 好消息 — good news
+     - 通过了 — passed
+     - 恭喜 — congratulations
+     - 工资 — salary
+     - 开车 — to drive
+     - 起床 — to get up
+
+    ---
+
+    Key Phrases to Memorize
+
+     - 请问附近有地铁站吗？ — Is there a subway station nearby?
+     - 一直走到前面路口左拐 — Go straight to the intersection and turn left
+     - 经过……就到了 — Pass by… and you'll arrive
+     - 在中国银行的对面 — Opposite the Bank of China
+     - 我家离公司很远 — My home is far from the office
+     - 公园离地铁站很近 — The park is near the subway station
+     - 我四个月没有说中文 — I haven't spoken Chinese for four months
+     - 我想去中国旅游 — I want to travel to China
+     - 我太太两年以后想工作 — My wife wants to work in two years
+     - 不是每个人都喜欢…… — Not everyone likes…
+     - 我听说…… — I heard that…
+     - 别客气 / 不客气 — You're welcome
+
+    ---
+
+    Sentence Structures to Drill
+
+    1. Location: A 在 B 的 + position
+     - 银行在和平饭店对面
+     - 邮电局在餐厅旁边
+     - 学校在我家附近
+
+    2. Distance: A 离 B + 很远 / 很近
+     - 我家离公司很远
+     - 公园离地铁站很近
+
+    3. Time to do something: 从 A 到 B + verb + 要 + time
+     - 从我家到公司开车要两个小时
+     - 坐地铁要四十分钟
+
+    4. Giving directions: 一直走 + 到 + 路口 + 拐 + 经过 + 到
+     - 一直走到前面路口左拐，经过大厦就到了
+
+    5. Duration with 没有: Time + 没有 + verb
+     - 我四个月没有说中文
+     - 他两个星期没有来
+
+    6. Future with 以后: Time + 以后 + sentence
+     - 两年以后她想工作
+     - 三个月以后我去中国
+
+    7. Comparison: 跟 / 和……不一样
+     - 南方人跟北方人不一样
+     - 中国和美国不一样
+
+    ---
+
+    Your communication was strong — you kept the conversation going, asked good questions, and self-corrected
+    often. The biggest gains now come from:
+     1. Locking in word order (time/location before the verb)
+     2. Memorizing the 离 pattern for distance
+     3. Memorizing the directions sequence (一直走 → 路口 → 拐 → 经过 → 到了)

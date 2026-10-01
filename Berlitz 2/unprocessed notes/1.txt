@@ -1,0 +1,12 @@
+how many days in a year
+how many weeks in a year
+how many days in a week
+how many months in a year
+how many weeks in a year
+
+which day of the week is july 22 (ask for every single day)
+
+my birthday is 
+my wife's birhtday is
+my daughter's birhtday is 
+what is your birhtday?
