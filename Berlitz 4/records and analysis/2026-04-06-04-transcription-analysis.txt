@@ -1,0 +1,195 @@
+Let me check the previous analysis files before compiling recommendations.
+
+The transcript is from 2026-04-06. I need analysis files from before that date, so I'll read the two that exist: 2026-04-03 and 2026-03-30.
+
+Good. I now have the two prior analyses. The current transcript is from 2026-04-06. Here is the analysis.
+
+---
+
+This is the April 6 class. The March 30 and April 3 analyses already covered: 把 structure, 先...再..., 提前/按时/推迟, 来得及/来不及, 对...满意, 再也不...了, 因为...所以..., 一定, 越来越, 跳槽, 加班, 辛苦了, 事情 vs 东西, 跟我 as a filler, classifiers for vehicles, 工资, 计划书, 负责, 找到, 区别. I will not repeat those in depth.
+
+
+Mistakes to Address
+
+1. Adding 很 in a 比 comparison
+
+You said: 五月的飞机票比八月的飞机票很贵
+Your teacher corrected this clearly: you cannot add 很 in a 比 comparison. 比 already establishes the comparison. The result adjective stands alone.
+Correct: 五月的飞机票比八月的飞机票贵
+This is a very consistent error and one to stop immediately. There is no 很 after 比 + noun.
+
+2. 比较更 together
+
+You said: 因为机票比较更便宜
+These two words do not combine. You use one or the other.
+Use 比较便宜 to mean "relatively cheaper" or "comparatively cheaper."
+Use 更便宜 to mean "even cheaper" (implying a direct comparison is already in context).
+Do not say 比较更.
+
+3. 我不可以 vs 我不能
+
+Several times you used 我不可以 where 我不能 is more natural.
+不可以 tends to mean "it is not permitted" (a rule is being broken).
+不能 means "I cannot" (ability or circumstance).
+When talking about inability to distinguish characters or find restaurants, 不能 is correct.
+Correct: 我不能区分这些汉字
+
+4. 呆在家里 vs 待在家里
+
+Your teacher used 待在家里 (to stay home). In standard written Mandarin, 待 is the correct character for this meaning. 呆 (the stiff or dazed sense) is sometimes used in informal speech, but for your level, use 待在家里.
+
+5. 一个机票 vs 一张机票
+
+You said 一个机票 twice before being corrected.
+The classifier for flat objects like tickets, paper, photos, and tables is 张, not 个.
+Correct: 一张机票
+This builds on the March 30 classifier note. The key ones to drill are 张 (flat objects) and 辆 (vehicles).
+
+6. Saying 汉字们
+
+You said 汉字们 to mean "these characters."
+们 is a plural suffix used only for people, not for objects or characters.
+Correct ways: 这些汉字, 这几个汉字, 那几个汉字
+
+
+Vocabulary
+
+Only new items from this lesson. Words already covered in prior analyses are excluded.
+
+- 复活节 fù huó jié - Easter (introduced April 3, reinforce here)
+- 漆 qī - to coat, to paint (as in painting a surface, also to lacquer)
+- 涂色 tú sè - to color in, to paint (as in coloring Easter eggs)
+- 给鸡蛋涂色 - to color eggs (the full phrase your teacher gave)
+- 鸡蛋 jī dàn - egg
+- 省份 shěng fèn - province (administrative region)
+- 简称 jiǎn chēng - abbreviation, short name (like a province's one-character code)
+- 粤菜 yuè cài - Cantonese cuisine
+- 粤语 yuè yǔ - Cantonese language
+- 广东菜 guǎng dōng cài - Guangdong cuisine (same as 粤菜)
+- 普通话 pǔ tōng huà - Mandarin (standard Chinese)
+- 湾 wān - bay (as in 海湾)
+- 区分 qū fēn - to differentiate, to distinguish (verb form of 区别)
+- 经验 jīng yàn - experience (years of work experience)
+- 紧 jǐn - tight, pressing (for physical things or time)
+- 松 sōng - loose, relaxed (opposite of 紧, mainly for physical objects)
+- 决定 jué dìng - decision (noun) / to decide (verb)
+- 待在家里 dāi zài jiā lǐ - to stay home
+- 春天 chūn tiān - spring (season)
+- 预算 yù suàn - budget (reinforce from April 3)
+- 百分之 bǎi fēn zhī - percent (reinforce from April 3)
+- 减少 jiǎn shǎo - to reduce, to decrease
+- 加减乘除 jiā jiǎn chéng chú - addition, subtraction, multiplication, division
+- 必须 bì xū - must, have to (stronger than 要)
+- 日期 rì qī - date (on the calendar)
+- 发音 fā yīn - pronunciation
+- 口音 kǒu yīn - accent
+- 幽默 yōu mò - humorous, funny
+- 笑话 xiào huà - a joke
+- 特朗普 tè lǎng pǔ - Trump (Chinese transliteration)
+- 降低 jiàng dī - to lower, to reduce (used for level, price, intensity)
+- 强调 qiáng diào - to emphasize, to stress
+
+
+Phrases
+
+- 给鸡蛋涂色 - to color eggs
+- 这几个汉字 - these few characters (not 汉字们)
+- 时间不多 - time is short, there is not much time (alternative to 时间紧)
+- 时间短 - the time is short (for duration of a project)
+- 这个项目有很多时间 - this project has a lot of time (long timeline)
+- 老陈比较有经验 - Lao Chen has relatively more experience
+- 在苹果公司，我是比较有经验的工程师 - at Apple, I am a relatively experienced engineer
+- 我比较喜欢喝咖啡 - I relatively prefer drinking coffee (prefer X over Y, two options implied)
+- 我决定先待在家里 - I have decided to stay home first
+- 我的决定是八月再去中国旅游 - my decision is to go to China again in August
+- 因为五月的飞机票比八月的飞机票贵 - because May plane tickets are more expensive than August ones
+- 我的旅游预算必须减少 - my travel budget must be reduced
+- 因为特朗普，我必须把旅游预算减少 - because of Trump, I must reduce my travel budget
+- 周末我不需要加班 - on weekends I do not need to work overtime
+- 我希望我的中文发音很好 - I hope my Chinese pronunciation is good
+- 我希望我的中文没有口音 - I hope my Chinese has no accent
+- 我的脑子很疼 - my brain hurts
+
+
+Sentence Structures and Drills
+
+This is the core of the lesson. These patterns are the highest priority to drill out loud.
+
+
+1. 比 comparison - no 很
+
+Pattern: A + 比 + B + adjective (no 很, no 非常)
+
+The mistake you made consistently is adding 很 inside this structure. Remove it.
+
+- 韩国比澳大利亚便宜。
+- 五月的飞机票比八月的飞机票贵。
+- 老陈比我有经验。
+- 北京的春天比夏天好。
+
+Drill: Pick four pairs from your life (cities, prices, seasons, people) and make one 比 sentence for each. Check that you have not put 很 between 比 and the adjective.
+
+
+2. 比较 + adjective (without a stated second item)
+
+Pattern: subject + 比较 + adjective
+Meaning: relatively, comparatively (a second item is implied, not stated)
+
+- 八月的机票比较便宜。
+- 老陈比较有经验。
+- 和那个东西比，这个东西比较贵。
+- 我比较喜欢喝咖啡。
+
+Difference from 比: with 比 you state both items explicitly (A比B贵). With 比较 you imply a comparison without naming both sides every time.
+
+Drill: Take the four 比 sentences you made above and convert each one into a 比较 sentence.
+
+
+3. 决定 as verb and as noun
+
+As a verb: subject + 决定 + verb phrase
+As a noun: 我的决定是 + verb phrase
+
+- 我决定去中国旅游。
+- 我决定先待在家里。
+- 我的决定是八月再去中国旅游，因为机票比较便宜。
+- 他们决定让老陈负责这个项目。
+
+Drill: State one real decision you have made recently using the verb form, then restate it using the noun form. For example: 我决定在家工作。我的决定是在家工作，因为...
+
+
+4. 必须 and 不需要 contrast
+
+Pattern: subject + 必须 + verb phrase
+Opposite: subject + 不需要 + verb phrase
+
+- 人必须要喝水。
+- 开会以前，秘书必须把要用的文件准备好。
+- 我周末不需要加班。
+- 因为特朗普，我的旅游预算必须减少。
+
+Drill: Think of three things in your life that are obligatory and three that are not required. Make one 必须 sentence and one 不需要 sentence for each pair.
+
+
+5. 把 with result complements - specific patterns from this lesson
+
+These three 把 patterns appeared in this class. They build on what was covered in March 30 and April 3.
+
+把...减百分之... - reduce something by a percentage
+把...赶出来 - to rush something out (time pressure is implied)
+把...准备好 - to get something ready, to prepare something properly
+
+Drill sentences:
+
+- 客户要把预算减百分之十。
+- 因为特朗普，我必须把旅游预算减少。
+- 他周末要加班，把计划书赶出来。
+- 开会以前，秘书必须把要用的文件准备好。
+- 请把晚餐准备好。
+
+Generate two sentences of your own using each of the three patterns.
+
+
+One pronunciation note
+
+You correctly identified that 末 in 周末 is fourth tone. Your teacher confirmed this. The word is zhōu mò. The 末 drop does not carry through to neutral tone in this word the way some syllables do. Keep drilling the fourth tone on 末 until it sounds natural.

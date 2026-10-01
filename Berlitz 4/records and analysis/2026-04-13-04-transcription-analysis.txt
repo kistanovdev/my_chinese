@@ -1,0 +1,218 @@
+The transcript is dated 2026-04-13. I need to look at analysis files from PREVIOUS dates (before April 13, 2026). The relevant previous analysis files are:
+- 2026-03-30-04-transcription-analysis.txt
+- 2026-04-03-04-transcription-analysis.txt
+- 2026-04-06-04-transcription-analysis.txt
+
+Let me also check if there's already an analysis for this date (2026-04-13-04-transcription-analysis.txt) to understand what's already been covered.
+
+I also see 2026-04-13-04-transcription-analysis.txt already exists. Let me read the previous analyses and the existing April 13 analysis.
+
+
+Let me read the previous analysis files first to avoid repeating content.
+
+Good. The April 13 analysis file is empty, so I have a clean slate. I have the April 6 analysis and the references to what March 30 and April 3 covered. Now I have everything I need.
+
+---
+
+This is the April 13 class analysis. The previous sessions (March 30, April 3, April 6) already covered: 比 comparisons, 比较, 必须, 减少, 百分之, 越来越, 因为...所以..., 不能 vs 不可以, classifiers, 把 structure, 负责, 工资, 决定, and others. Those are not repeated here.
+
+This session introduced business performance vocabulary, discount and promotion language, and several high-frequency patterns worth drilling.
+
+
+Mistakes to Address
+
+1. 我跟他们长大
+Your teacher immediately corrected this. The missing word is 一起. You cannot say you grew up with people without including 一起.
+Correct: 我和他们一起长大。
+Also note: your teacher prefers 我和 over 我跟 in this kind of sentence. 跟 sounds more like "following along" in some contexts. 和 is cleaner for "together with."
+
+2. 我想觉得
+You combined these two verbs multiple times. You cannot string 想 and 觉得 together like this.
+If you want to express an opinion, say: 我觉得...
+If you want to say "I want to say," say: 我想说...
+Do not mix them. Pick one.
+
+3. 我一点明白
+This should be 我有一点明白 or more naturally 我有点儿明白. The 有 cannot be dropped.
+If you mean you partially understood, say 我有点儿明白.
+If you mean you did not understand, say 我不太明白 or 我不太明白这个意思.
+
+4. 业绩越来越增加
+Your teacher redirected this. 越来越 pairs with adjectives or descriptive states, not directly with action verbs like 增加.
+Correct: 业绩越来越好. If you want to use 增加, say: 销售额每年增加.
+
+5. 今天我学习很多
+This describes a completed action. You need the completion marker 了.
+Correct: 今天我学了很多。
+This is a recurring pattern to watch. When describing something that happened and is finished, add 了.
+
+6. 华北 used when you meant 华东
+At one point you said 三月华北的业绩最好 but the text was about the East China market. The direction words to keep separate are: 华东 (East China), 华南 (South China), 华北 (North China), 西北 (Northwest), 东北 (Northeast).
+
+7. 我的工资从第一四年增加了一点五倍
+The phrase should be 第四年 not 第一四年. Ordinal numbers in Chinese are just 第 plus the number. 第四 not 第一四.
+
+
+Vocabulary
+
+The theme of this class was business performance and promotions. These are the new words. Focus on the ones marked with an asterisk, they are the most reusable.
+
+Business and performance words:
+- 业绩 yèjì - performance, results (sales or work output)
+- 销售 xiāoshòu - sales (the act of selling)
+- 销售额 xiāoshòu é - sales revenue, sales amount
+- 金额 jīn'é - a sum of money, amount
+- 额 é - amount (suffix used in 销售额, 金额, etc.)
+- 增加 zēngjiā - to increase (new here, complement to 减少 from April 6)
+- 倍 bèi - times, multiples (两倍 = double, 一点五倍 = 1.5 times)
+- 成 chéng - a unit of 10% (两成 = 20%, 三成 = 30%)
+- 市场 shìchǎng - market (two meanings: a place to buy goods, or a business market)
+- 收入 shōurù - income, revenue
+- 影响力 yǐngxiǎnglì - influence, the power to influence
+- 通常 tōngcháng - usually, normally (a useful word you picked up at the end)
+- 生活花销 shēnghuó huāxiāo - living expenses, cost of living
+- 食物的价格 shíwù de jiàgé - the price of food
+
+Promotion and shopping words:
+- 促销 cùxiāo - sales promotion
+- 大减价 dà jiǎnjià - big sale, major discount
+- 折扣 zhékòu - discount
+- 打折 dǎzhé - to give a discount, to be on sale
+- 打对折 dǎ duìzhé - 50% off (the price is halved)
+- 打八折 dǎ bāzhé - 20% off (you pay 80%)
+- 赠品 zèngpǐn - a free gift with purchase
+- 买一送一 - buy one get one free
+- 满 mǎn - to reach an amount (满三百 means "once you reach 300")
+- 免费 miǎnfèi - free of charge, no cost
+- 免单 miǎndān - your bill is paid, your meal is on the house
+- 买单 mǎidān - to pay the bill (said in a restaurant in China)
+
+Other notable words from this class:
+- 搞 gǎo - colloquial verb meaning to do, to carry out, to mess around with (搞促销, 搞笑)
+- 搞笑 gǎoxiào - funny, humorous
+- 春节 Chūnjié - Spring Festival
+- 过年 guòniān - to celebrate Chinese New Year
+- 过节 guòjié - to celebrate a festival (any festival)
+- 黑五 hēiwǔ - Black Friday (the short form used in China)
+- 冰箱 bīngxiāng - refrigerator
+- 微波炉 wēibōlú - microwave oven
+- 政治 zhèngzhì - politics
+- 经济 jīngjì - economy
+- 打仗 dǎzhàng - to fight a war, to go to war
+- 反对 fǎnduì - to oppose, against
+- 保守 bǎoshǒu - conservative, not flexible
+- 死板 sǐbǎn - rigid, inflexible (slightly stronger than 保守)
+- 谚语 yànyǔ - proverb, saying
+- 首都 shǒudū - capital city
+- 国内生产总值 guónèi shēngchǎn zǒngzhí - GDP (this is academic vocabulary, not a drilling priority right now, but good to recognize)
+- 堂姐 tángjiě - female cousin on the paternal side, older than you
+- 同父异母 tóng fù yì mǔ - half-sibling (same father, different mother)
+
+
+Phrases
+
+- 我的团队负责华东市场。- My team is responsible for the East China market.
+- 西北市场和东北市场的销售业绩都比华东市场好。 - Both the Northwest and Northeast markets performed better than the East China market.
+- 我的工资从第四年增加了一点五倍。 - My salary increased 1.5 times starting from the fourth year.
+- 苹果公司的销售额每年增加。 - Apple's sales revenue increases every year.
+- 业绩越来越好。 - Performance is getting better and better.
+- 苹果公司的销售很有影响力。 - Apple's sales are very influential.
+- 通常我们的生活花销不增加很多。 - Usually our living expenses do not increase by much.
+- 过年、过节的时候，很多商城都搞促销。 - During Chinese New Year and holidays, many shopping centers run promotions.
+- 大减价的时候，东西最便宜。 - During a big sale, things are cheapest.
+- 买一送一，还有赠品。 - Buy one get one free, and also a gift with purchase.
+- 满三百送五十。 - Spend 300 and get 50 off.
+- 三人行，一人免单。 - Three people go and one person eats free.
+- 因为打仗，俄罗斯的经济越来越不好了。 - Because of the war, Russia's economy is getting worse and worse.
+- 我和他们一起长大的。 - I grew up together with them.
+
+
+Sentence Drills
+
+These are the patterns to drill out loud. They are all from this class and build on each other. The earlier sessions covered 比 comparisons in depth, so this session's drills focus on growth percentages, the 有影响力 structure, and promotion language.
+
+
+1. Expressing growth and decline with 增加了 and 减少了
+
+The three units of measurement are 倍 (multiples), 成 (10% units), and 百分之 (percent). All three appeared in this lesson.
+
+Pattern: X 增加了 + number + 倍/成/百分之Y
+Pattern: X 减少了 + 百分之Y / 成
+
+Drill these out loud:
+
+- 华东市场的销售额比上个月增加了两倍多。
+- 东北市场也增加了两成。
+- 西北市场的业绩减少了百分之十。
+- 我的工资从第四年增加了一点五倍。
+
+Now make two sentences of your own. Use one 倍 sentence and one 成 sentence about real things in your life, for example your exercise time, your work hours, or your coffee consumption.
+
+
+2. 从第X年 / 从上个月 + 增加了
+
+Pattern: 从 + time reference + 增加了 + amount
+
+This pattern places the starting point of a change:
+
+- 销售额从上个月增加了两倍多。
+- 我的工资从第四年增加了一点五倍。
+- 苹果的销售额从去年增加了百分之二十。
+
+Drill: Take something in your life that changed over time and state when it started changing and by how much.
+
+
+3. 很有影响力 as a predicate
+
+Pattern: subject + 很有影响力
+
+This is a compact and high-frequency pattern. Note it is 有影响力 not 很影响力.
+
+- 苹果公司的销售很有影响力。
+- 美国的经济很有影响力。
+- 这个谚语很有影响力。
+
+Practice saying three things that are influential in your field, your city, or your life using this pattern. Say them out loud.
+
+
+4. 搞 + activity (colloquial register)
+
+搞 is extremely common in Chinese conversation. Your teacher used it naturally multiple times. It signals a slightly informal register and often means "to carry out" or "to run" an activity.
+
+- 很多商城都搞促销。
+- 苹果公司搞促销吗？
+- 我们搞了一个新产品。
+- 这个视频很搞笑。
+
+Drill: Name two things your company or team does and express them using 搞. Then try a sentence using 搞笑.
+
+
+5. 满 + amount + 送 + amount (promotion language)
+
+This is a structure unique to Chinese shopping culture and worth drilling because it will appear in real life.
+
+Pattern: 满 + number + 送 + number
+
+- 满三百送五十。
+- 满一千美元送一百美元。
+- 满五百送赠品。
+
+Practice saying one promotion offer you have seen or one you would design. Then practice asking: 有没有满...送...的活动？
+
+
+6. 买 X 送 X and 三人行 structure
+
+These are fixed promotional patterns:
+
+- 买一送一
+- 买二送一
+- 三人行，一人免单
+
+Practice by describing a promotion you have actually seen in the US using one of these patterns. Connect it with a location: 在美国的超市，经常买一送一。
+
+
+One usage note
+
+The words 免费, 免单, and 不要钱 all mean something is free but in different contexts. 免费 is the general word for free of charge and applies to products, services, or events. 免单 is specifically used when someone's restaurant bill is waived. 不要钱 is the most casual spoken version. 买单 is what you say to the server when you want to pay, the equivalent of asking for the check.
+
+Drill: Practice these four in one conversation scenario. You are at a restaurant with two friends. One person pays. You ask 买单吗？ One person's meal is covered. You say 你免单。The meal overall was free because of a promotion. You say 今天免费！

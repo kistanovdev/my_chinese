@@ -1,0 +1,207 @@
+Let me first check the previous analysis files so I do not repeat suggestions.
+
+Now I have full context from previous analyses. Here is the analysis for the April 20 session.
+
+---
+
+The previous sessions covered, and I am not repeating here: 比 comparisons, 比较, 越来越, 因为...所以..., 先...再, 把 structure, 满...送..., 业绩, 销售额, 增加/减少, 搞促销, 大减价, 打折, 买一送一, 倍, 百分之, 成, 决定, 必须, 每个...都..., 除了...还..., 会...的, 成本, 利润, 广告, 宣传, 顾客, 股票, 软件, 服务, 市场, 价格.
+
+---
+
+MISTAKES TO ADDRESS
+
+1. 我做很多软件
+
+You said 我做很多软件 to mean you work on a lot of software. 做 here is wrong in this context. You are not building or manufacturing software from scratch in the way 做 implies. The correct verb is 开发.
+
+Correct: 我们在开发新软件。
+
+Your teacher supplied this correction immediately. The phrase 开发软件 (to develop software) came up several times in this lesson and is the standard term.
+
+2. 我们在工厂是 used to describe your workplace
+
+You said 我们在工厂是 while trying to talk about your work situation. 工厂 means factory, which is for manufacturing physical goods. Software companies are not 工厂. The correct word is 公司.
+
+Correct: 我们在公司在做新软件。
+
+3. 苹果以后是Samsung used to mean "after Apple comes Samsung"
+
+You used 以后 to mean "next" in a ranked list, saying 苹果以后是Samsung. This is not correct. 以后 means "in the future" or "after a point in time." For ranking sequences, use 其次 (secondly, next in order) or simply 然后.
+
+Correct: 苹果公司的市场份额最大，其次是三星，然后是中国的手机公司。
+
+Your teacher gave you exactly this sentence. It is the key drill sentence from this lesson.
+
+4. 他们的广告费预算比我们有一倍，我们多一倍
+
+This sentence came apart midway through. The correct structure for comparing quantities with 多 is:
+
+A 比 B 多 + amount
+
+Correct: 他们的广告费预算比我们多一倍。
+
+Do not insert 有 between 比 and 多. Do not repeat the subject at the end.
+
+5. 我们的分 / 收 used for market share
+
+You started sentences with partial words and circled around. The correct full term is 市场份额, and the verb you need with it is 占.
+
+Correct: 苹果手机市场份额占百分之二十。
+
+The teacher taught 占 explicitly as the verb for expressing market share. This is a high-value correction.
+
+6. 我吃饭了猪肉
+
+You placed 了 between the verb and its object. In Chinese, 了 goes directly after the verb or at the end of the sentence, not between the verb and the object.
+
+Correct: 我吃了猪肉。
+
+This is the corrected form your teacher gave you and you repeated it correctly.
+
+7. 她只二十岁 and 我的女儿很小，她只二十岁
+
+Two problems here. First, 只 requires 有 before ages: 她只有两岁. Second, your daughter is two years old, not twenty. More importantly, your teacher pointed out that for young children, the natural word is 才, not 只有.
+
+Correct: 我的女儿才两岁。
+
+才 emphasizes surprise at how small or young something is. 只有 means simply "only." Use 才 when expressing that something is smaller or younger than expected.
+
+8. 我每个月买三千美元 for mortgage payments
+
+买 means to buy or purchase. You do not buy a mortgage payment every month. The correct verb is 还 (huán, to repay, to return).
+
+Correct: 我每个月还三千美元的按揭贷款。
+
+---
+
+VOCABULARY
+
+These are new words from this session not previously covered.
+
+Business competition terms:
+- 竞争 jìng zhēng - competition
+- 对手 duì shǒu - opponent, rival
+- 竞争对手 jìng zhēng duì shǒu - competitor, rival company
+- 市场份额 shì chǎng fèn é - market share
+- 占 zhàn - to occupy, to account for (used with percentages and market share)
+- 销售额 xiāo shòu é - (already in previous analysis, reinforced again here)
+- 广告费 guǎng gào fèi - advertising expenditure, advertising costs
+- 预算 yù suàn - budget
+- 推出 tuī chū - to launch, to release (a product or software to the market)
+- 宣传 xuān chuán - (already covered in April 19, reinforce here as it came up again)
+- 反应 fǎn yìng - reaction, response (market response, public reception)
+- 反馈 fǎn kuì - feedback (specific, individual feedback)
+- 市场动向 shì chǎng dòng xiàng - market trend, market movement
+- 促销 cù xiāo - (already covered, reinforced here)
+- 开发 kāi fā - to develop (software, products)
+- 设计 shè jì - to design, design
+- 一成 yī chéng - (already in April 13, reinforced: 10%)
+- 两成 liǎng chéng - 20%
+
+Price movement terms:
+- 涨 zhǎng - to rise in price, to increase (of price or stock)
+- 跌 diē - to fall in price, to drop (of price or stock)
+- 涨价 zhǎng jià - to raise prices, prices went up
+- 便宜一成 - cheaper by 10%
+- 只要 zhǐ yào - costs only, priced at only (e.g. 只要一美元)
+- 才 cái - only, just, merely (with young ages or small amounts, implying surprise)
+
+Housing and money terms:
+- 房租 fáng zū - rent (monthly payment for renting)
+- 租房子 zū fáng zi - to rent a place
+- 按揭贷款 àn jiē dài kuǎn - mortgage
+- 还 huán - to repay, to pay back
+
+Technology and work terms:
+- 前端 qián duān - frontend (software)
+- 后端 hòu duān - backend (software)
+- 服务器 fú wù qì - server
+- 软件工程师 ruǎn jiàn gōng chéng shī - software engineer
+- 天气预报 tiān qì yù bào - weather forecast
+- 新闻 xīn wén - news
+- 电子书 diàn zǐ shū - e-book
+
+School vocabulary (came up naturally):
+- 小学 xiǎo xué - primary school
+- 高中 gāo zhōng - high school
+- 一年级 yī nián jí - first grade
+- 六年级 liù nián jí - sixth grade
+- 留级 liú jí - to repeat a grade, to be held back
+- 幼儿园 yòu ér yuán - kindergarten
+- 声调 shēng diào - tone (in language)
+- 量词 liàng cí - measure word, classifier
+
+---
+
+PHRASES
+
+- 苹果公司的市场份额最大，其次是三星，然后是中国的手机公司。
+- 手机市场有很大的竞争，有很多的竞争对手。
+- 在手机市场，我们最大的竞争对手是三星。
+- 苹果手机的市场份额占百分之二十。
+- 他们的广告费预算比我们多一倍。
+- 我们推出新产品以后，市场反应很好。
+- 销售额增加了百分之十五。
+- 最近软件市场的竞争越来越大，软件的价格涨了。
+- 东西涨价了。
+- 苹果电脑的价格还没有跌。
+- 一瓶绿茶只要一美元。
+- 我的女儿才两岁。
+- 我只有一个手机。
+- 我每个月还三千美元的按揭贷款。
+
+---
+
+SENTENCE DRILLS
+
+These are the four highest-priority patterns from this session. They are not repeats of previous drills.
+
+1. Ranking with 市场份额最大，其次是...，然后是...
+
+This is the sentence your teacher gave you as a model and repeated several times. It is the central sentence of this lesson.
+
+Pattern: A 的市场份额最大，其次是 B，然后是 C。
+
+- 在全球手机市场，苹果公司的市场份额最大，其次是三星，然后是中国的手机公司。
+- 在饮料市场，可口可乐的市场份额最大，其次是百事可乐。
+- 在电脑市场，苹果公司的市场份额不是最大，戴尔的市场份额比苹果大。
+
+Drill: Describe the competitive landscape of any market you know using this ranking structure. Say it three times about different industries.
+
+2. 占 + percentage for market share
+
+Pattern: X 的市场份额占百分之 Y。
+
+This verb 占 is the one your teacher specifically introduced in this lesson to replace the vague 分 you were using.
+
+- 可口可乐的市场份额占百分之三十二。
+- 苹果手机的市场份额占百分之二十。
+- 三星的销售额占全球手机市场的百分之十八。
+
+Drill: Say three sentences about different companies using 占百分之. Then try combining with 其次: 苹果占百分之二十，其次是三星，占百分之十八。
+
+3. 价格涨了 and 价格跌了 with amount
+
+Pattern: X 的价格涨了/跌了 + amount or time reference
+
+- 猪肉的价格涨得很快。
+- 这个月比上个月涨了两成。
+- 苹果电脑的价格还没有跌。
+- 电脑的价格一年就跌了三成。
+
+Drill: Say four sentences using 涨 or 跌 about things you have noticed going up or down in price recently. Include at least one 越来越 sentence and one 了 sentence.
+
+4. 虽然...，(但是)我也想...
+
+This pattern appeared in the transcript and your teacher reinforced it. You started it correctly: 虽然我用苹果手机，我想用...
+
+The full correct form uses 但是 or also:
+
+Pattern: 虽然 A，(但是) B
+
+- 虽然我用苹果手机，我也想用小米。
+- 虽然中国手机很好，但是我还是用iPhone。
+- 虽然苹果电脑很贵，但是很多人还是买。
+- 虽然销售额很高，但是利润不高。
+
+Drill: Make four 虽然...但是... sentences about products, technology, or work. Include at least one with 还是.

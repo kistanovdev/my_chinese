@@ -1,0 +1,214 @@
+Let me first check the previous analysis files so I avoid repeating material you have already covered.
+
+Good. The class date is 2026-04-19, so I need to read the four analysis files that are from before that date. Let me read all four at once.
+
+Good. I now have full context from all four prior analyses. Here is the April 19 session analysis.
+
+---
+
+This is the April 19 class. Previous sessions (March 30 through April 13) already covered in depth: 比 comparisons, 比较, 越来越, 一定, 因为...所以..., 先...再, 把 structure, 满意, 工资, 增加/减少, 搞促销, 大减价, 打折, 买一送一, 满...送..., 业绩, 销售额, 倍, 百分之, 决定, 必须, 跳槽, 加班. Those are not repeated here.
+
+This session introduced a dense cluster of business and product vocabulary, including advertising and marketing language, a new financial pair (成本 and 利润), and several sentence structures around 越来越 and 会...的.
+
+
+Mistakes to Address
+
+1. Incorrect word order with location phrases
+
+You said several times: 苹果不工作在俄罗斯 and 他们不工作在俄罗斯.
+The verb should not be sandwiched between subject and location like this. In Chinese the location comes before the verb, not after it.
+Correct: 苹果在俄罗斯没有官方运作 or 他们在俄罗斯不工作.
+The pattern is Subject + 在 + place + verb, not Subject + verb + 在 + place.
+
+2. 每个人知道 used without the right connector
+
+You said: 当时每个人知道iPhone，想有一个iPhone.
+The more natural phrasing connects these two clauses with 都: 当时每个人都知道iPhone，(而且)都想有一个.
+都 is required when 每个 or 所有 is the subject. Without 都, the sentence sounds incomplete in Chinese.
+Correct pattern: 每个...都...
+
+3. 用两个 to mean using two phones
+
+You said: 我可以做两个手机.
+做 here is wrong. You do not make the phones, you use them.
+Correct: 我用两个手机 or 我有两个手机.
+
+4. 省 used for US states
+
+You said: 美国有五十省.
+Your teacher corrected this immediately. China uses 省 (province). The US uses 州.
+Correct: 美国有五十个州.
+
+5. 北京省
+
+You said 北京省. This is doubly wrong. Beijing is not a province; it is a direct-controlled municipality. Your teacher clarified it is 北京城 or more formally 北京市. A more accurate way to say it is 北京是一个直辖市, though that is advanced vocabulary.
+
+6. 每个公司用它的顾客 without a verb complement
+
+You said: 每个公司用它的顾客.
+Your teacher completed this for you: 用它的顾客宣传. The sentence needs a verb to complete the thought. 用 alone without what you are using it for is incomplete.
+
+7. 一百万 is million, not billion
+
+You asked how to say billion and initially tried 千百万. Your teacher clarified:
+- 一百万 = one million (1,000,000)
+- 一千万 = ten million (10,000,000)
+- 一亿 = one hundred million (100,000,000)
+- 十亿 = one billion (1,000,000,000)
+This number system is genuinely different from English. The key unit to memorize is 亿 (100 million). Everything above one hundred million is counted in units of 亿.
+
+8. 它的利润不是最有重要的
+
+You said 最有重要的. This is a contamination of two patterns. You cannot put 有 before 重要.
+Correct: 最重要的 or 非常重要.
+有 is used for words that describe having a quality as a noun, like 有名, 有趣, 有用, 有意思. 重要 is a direct adjective and takes 很/最/非常 directly.
+
+
+Vocabulary
+
+These are new items from this session. Words already covered in prior analyses are excluded.
+
+Geography and place words that came up:
+- 湖 hú - lake
+- 山 shān - mountain
+- 山上 shān shàng - on the mountain, up in the mountains
+- 海拔 hǎi bá - altitude, elevation above sea level
+- 公里 gōng lǐ - kilometer
+- 州 zhōu - state (US state or similar administrative unit)
+- 省 shěng - province (China)
+- 南美 Nán Měi - South America
+
+Advertising and marketing:
+- 广告 guǎng gào - advertisement, ad (noun)
+- 打广告 - to run an ad, to advertise (verb phrase with 打)
+- 做广告 - to make an ad, to advertise (verb phrase with 做)
+- 宣传 xuān chuán - to promote, to publicize (verb; the action of advertising)
+- 营销 yíng xiāo - marketing
+- 推介 tuī jiè - product launch presentation, to pitch or introduce a product
+- 创作者 chuàng zuò zhě - content creator
+- 朋友的介绍 - word of mouth, recommendation from a friend
+- 网上的广告 - online advertisements
+- 马路上的广告 - billboard, roadside advertisement
+- 生态系统 shēng tài xì tǒng - ecosystem (used for Apple's product ecosystem)
+
+Business finance words (core topic this session):
+- 成本 chéng běn - cost, production cost
+- 利润 lì rùn - profit
+- 价格 jià gé - price (as a noun: the price of something)
+- 股票 gǔ piào - stocks, shares
+- 上市 shàng shì - to be listed on a stock market, to go public
+- 指标 zhǐ biāo - metric, indicator, benchmark
+- 官方运作 guān fāng yùn zuò - official operation, officially operating
+- 顾客 gù kè - customer, client
+- 软件 ruǎn jiàn - software
+- 服务 fú wù - services (as a business category)
+- 内存 nèi cún - RAM, memory
+- 显卡 xiǎn kǎ - GPU, graphics card
+- 增加 zēng jiā - to increase (reinforce from April 13)
+
+Other useful words from this session:
+- 功能 gōng néng - function, feature (of a product)
+- 限制 xiàn zhì - restriction, limitation
+- 独占 dú zhàn - monopoly (exclusive control)
+- 垄断 lǒng duàn - monopoly (negative connotation, anti-competitive)
+- 独家 dú jiā - exclusive (not monopolistic, just exclusive)
+- 需要 xū yào - to need, to require (you recalled this yourself during class)
+- 青少年 qīng shào nián - teenager, youth
+- 办公楼 bàn gōng lóu - office building
+- 搬家 bān jiā - to move house
+- 搬到 bān dào - to move to a new location
+
+
+Phrases
+
+- 除了广告，你们怎么宣传新产品？- Besides advertising, how do you promote new products?
+- 你是怎么知道这个新产品的？- How did you find out about this new product?
+- 在电视上做广告 - to run an advertisement on television
+- 朋友的介绍 - a recommendation from a friend, word of mouth
+- 苹果公司不需要做广告 - Apple does not need to advertise
+- 他们在俄罗斯没有官方运作 - they do not have official operations in Russia
+- 每个人都想有一个iPhone - everyone wanted to have an iPhone
+- 苹果的生态系统 - Apple's ecosystem
+- 搬到更便宜的办公楼 - to move to a cheaper office building
+- 会增加成本 - will increase costs
+- 会增加利润 - will increase profits
+- 会减少成本 - will reduce costs
+- 这几个月的销售都不错 - sales these past few months have been pretty good
+- 因为我们做了几次促销，成本就上去了 - because we ran several promotions, costs went up
+- 利润比以前少了 - profits are less than before
+- 苹果的利润每年增加 - Apple's profit increases every year
+- 提高商品价格 - to raise the price of goods
+- 减少办公室员工 - to reduce office staff
+- 这是生意越来越难做了 - this kind of business is getting harder and harder to do
+- 好好宣传一下 - to promote something thoroughly, to make a real effort at promotion
+
+
+Sentence Drills
+
+These five patterns are the priority for this session. The earlier sessions covered 比, 越来越, 把, 先...再, and 满...送, so this session builds on top of those with new vocabulary and new structures.
+
+
+1. 除了...，还... to expand beyond one item
+
+Pattern: 除了 + first item，还 + second item or comment
+Meaning: besides X, there is also Y. It expands rather than excludes.
+
+- 除了广告，我们还可以用朋友的介绍宣传新产品。
+- 除了做广告，我们还搞了一个活动。
+- 除了iPhone，苹果还卖电脑和AirPods。
+
+Drill: Answer the question 除了广告，你们怎么宣传新产品？using at least two 除了...还... sentences.
+
+
+2. 会...的 for confident predictions
+
+Pattern: Subject + 会 + verb phrase + 的
+Meaning: something will definitely happen (confident prediction, not just possibility)
+
+The 的 at the end is part of this pattern and should not be dropped.
+
+- 广告费增加了，成本一定会上去的。
+- 如果我们搬到更便宜的办公楼，利润会增加的。
+- 促销做多了，成本就会上去的。
+
+Drill: Make three predictions about your work or company using 会...的. Try combining with 如果 to add a condition.
+
+
+3. 每个...都... for universals
+
+Pattern: 每个 + noun + 都 + verb/adjective
+Meaning: every single item in a category. The 都 is mandatory.
+
+- 每个公司都用它的顾客宣传产品。
+- 每个人都想有一个iPhone。
+- 每个大公司都有自己的生态系统。
+- 每年都有新产品推介。
+
+Drill: Make four sentences about universal trends in technology or business using this pattern.
+
+
+4. 成本 and 利润 together in context
+
+This is the vocabulary pair that was the second half of the lesson. Practice them in contrast so the difference stays clear.
+
+- 如果成本增加了，利润就减少了。
+- 搬到更便宜的办公楼可以减少成本，增加利润。
+- 做广告会增加成本，但是也可能增加利润。
+- 苹果公司的iPhone成本每年提高一点，但是利润也在增加。
+
+Drill: Pick one real business scenario you know (from Apple or elsewhere) and make two sentences, one describing a change in cost and one describing a change in profit. Connect them with 所以 or 但是.
+
+
+5. 上去了 and 下去了 as directional complements
+
+Your teacher used 成本就上去了 in the audio recording. This is a natural and very common pattern that you have not drilled yet.
+
+Pattern: verb + 上去了 (went up, increased in level or amount)
+Pattern: verb + 下去了 (went down, continued in a downward direction)
+
+- 成本上去了。The cost went up.
+- 价格下去了一点。The price came down a little.
+- 利润减少了，下去了不少。The profit decreased, it went down quite a bit.
+- 做了几次促销以后，成本就上去了。After running several promotions, costs went up.
+
+Drill: Describe one thing at your company that has gone up and one that has gone down recently using this pattern.

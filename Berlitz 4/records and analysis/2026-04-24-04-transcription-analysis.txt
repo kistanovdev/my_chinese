@@ -1,0 +1,209 @@
+Let me first check the previous analysis files so I don't repeat what's already been covered.
+
+Let me read the most recent analysis files before April 24:
+
+Now I have full context from the previous analyses. Here is the analysis for the April 24 session.
+
+---
+
+The previous sessions have already covered in depth: 比 comparisons, 越来越, 每个...都..., 除了...还..., 会...的, 成本, 利润, 广告, 宣传, 顾客, 市场份额, 占, 竞争, 推出, 开发, 增加/减少, 价格, 涨, 跌, 虽然...但是, 工资. Those are excluded below.
+
+---
+
+Mistakes to Address
+
+1. Incorrect verb for reporting
+
+You said 我汇报老板软件开发的情况 without the preposition 向. When you report to someone in Chinese, you must say who you are reporting to using 向.
+
+Correct: 我向老板汇报软件开发的情况.
+
+The pattern is 向 + person + 汇报 + topic. Your teacher pointed this out and gave you the correct version. This structure applies to any action directed at a person: 向老板提出建议, 向太太求婚.
+
+2. 做结婚 instead of 结婚
+
+You said 我想做结婚在八月. 结婚 is a verb on its own and does not need 做.
+
+Correct: 我们想在八月结婚.
+
+结婚 is like 跑步 or 跳舞 - the verb already contains the action. You just say 结婚, not 做结婚.
+
+3. 我想我的太太求婚 without 向
+
+You said 我想我的太太求婚. This is missing the directional marker.
+
+Correct: 我向我的太太求婚了.
+
+The 向 is required whenever you are directing an action at a person: 向她求婚, 向老板汇报, 向客人邀请.
+
+4. 今天去过跳舞课 incorrect use of 过
+
+You said 今天去过跳舞课. The experiential marker 过 records a life experience, not a recent completed event. For something that happened today or recently, use 了.
+
+Correct: 她今天去了舞蹈课.
+
+Also note that 跳舞课 is acceptable but your teacher said 舞蹈课 is the more standard term.
+
+5. 你在什么城市住在
+
+You said 你在什么城市住在. This double-use of 在 is incorrect. The verb and location marker should not both carry 在.
+
+Correct: 你住在什么城市 or 你在哪个城市住.
+
+6. 我们做了明天我去远足
+
+You said 我们准备了明，明，明天我去远足. The 了 after 准备 is wrong here. 准备 is used as a modal-like verb meaning "to plan to" or "to be about to", and in this use it does not take 了.
+
+Correct: 明天我们准备去远足 or 明天我们准备去爬山.
+
+7. 太辣了，不能口味 / 不能吃口味
+
+You used 口味 as a verb. 口味 is a noun meaning flavor. You cannot 不能 a noun directly.
+
+Correct: 因为太辣了，我吃不出来什么口味.
+
+Your teacher gave you this exact sentence. The key structure is the potential complement 吃不出来, which means "unable to discern by eating."
+
+8. 我每个月挣十千美金
+
+You said 十千 for ten thousand. Chinese does not use this construction. Ten thousand is one unit: 一万.
+
+Correct: 我每个月挣一万美金.
+
+This came up in the April 19 analysis in a different context (millions vs. billions), but the 万 unit for 10,000 is worth reinforcing specifically here.
+
+---
+
+Vocabulary
+
+These are new words from this session that have not appeared in previous analyses.
+
+Business and meeting context:
+- 建议 jiàn yì - suggestion, recommendation (noun and verb)
+- 筹备 chóu bèi - to prepare and plan for a large event (plan + prepare combined)
+- 筹划 chóu huà - to plan, to scheme out (similar to 筹备 but broader)
+- 年会 nián huì - annual company meeting or gala
+- 汇报 huì bào - to report to a superior, to brief someone
+- 提出 tí chū - to put forward, to raise (a suggestion or idea)
+- 提高 tí gāo - to improve, to raise (a level or standard)
+- 预算 yù suàn - budget (reinforced from April 20; came up again with 汇报)
+- 确认 què rèn - to confirm
+- 安排 ān pái - to arrange, to schedule (you already know this one)
+- 查 chá - to check, to look something up
+- 让 ràng - to let, to have someone do something (causative)
+
+Events and social context:
+- 嘉宾 jiā bīn - guest of honor, distinguished guest
+- 邀请 yāo qǐng - to invite
+- 请帖 qǐng tiē - invitation card, formal invitation
+- 电子请帖 diàn zǐ qǐng tiē - digital invitation
+- 聚会 jù huì - gathering, get-together, party
+- 酒会 jiǔ huì - cocktail reception, drinks party
+- 舞会 wǔ huì - dance party, ball
+- 晚宴 wǎn yàn - dinner banquet, evening dinner
+- 节目 jié mù - program, performance item, act
+- 婚礼 hūn lǐ - wedding ceremony
+- 结婚 jié hūn - to get married (verb)
+- 求婚 qiú hūn - to propose marriage
+
+Food and flavor:
+- 口味 kǒu wèi - flavor (of food)
+- 味道 wèi dào - taste, flavor (slightly broader than 口味)
+- 辣椒油 là jiāo yóu - chili oil
+- 花椒 huā jiāo - Sichuan peppercorn
+- 纪念品 jì niàn pǐn - souvenir
+- 赠品 zèng pǐn - free gift, promotional giveaway
+
+Other vocabulary:
+- 特区 tè qū - special administrative region
+- 挣 zhèng - to earn (money through work)
+- 至少 zhì shǎo - at least
+- 涨 zhǎng - (reinforced) to go up, increase; 工资又涨了 - salary went up again
+- 是否 shì fǒu - whether or not (more formal than 还是)
+- 说实话 shuō shí huà - to be honest, to tell the truth (fixed phrase)
+- 国际化 guó jì huà - internationalized, cosmopolitan
+- 基督徒 jī dū tú - Christian
+- 看神的旨意 - God willing (fixed phrase)
+
+---
+
+Phrases
+
+- 这几个月销售不太好，你们有什么好建议 - Sales haven't been great these past few months, what suggestions do you have
+- 我们应该增加几个销售助理 - We should add a few sales assistants
+- 我们应该在电视里多做广告 - We should run more advertisements on television
+- 客户都说我们的新产品太贵了，是不是应该便宜一点 - Customers all say our new products are too expensive, shouldn't we lower the price a bit
+- 对美国人来说，苹果手机不贵 - For Americans, the iPhone is not expensive
+- 对其他国家的人来说，很贵 - For people from other countries, it is very expensive
+- 我向老板汇报新项目的预算 - I report the budget of the new project to my boss
+- 我每个月挣一万美金 - I earn ten thousand dollars a month
+- 因为太辣了，我吃不出来什么口味 - Because it is too spicy, I cannot taste any flavor
+- 我邀请家人参加我的生日聚会 - I invited family to my birthday party
+- COVID以前，我向我的太太求婚了 - Before COVID, I proposed to my wife
+- 我们等了两年才能结婚 - We had to wait two years before we could get married
+- 我让秘书查一下 - I had the secretary check on it
+- 我会让你知道的 - I will let you know
+- 下个星期三下午，在河滨饭店，到时候您一定要来哦 - Next Wednesday afternoon at the Riverside Hotel, you must come at that time
+- 现在很少有人发请帖了 - Nowadays very few people send invitation cards
+- 到明年一月的时候，我的工资又涨了 - By next January, my salary will have gone up again
+- 明年我是否去中国旅游，看神的旨意 - Whether I travel to China next year, God willing
+
+---
+
+Sentence Drills
+
+These four are the highest priority. They are not repeats of previous sessions.
+
+1. 向 + person + verb for directed actions
+
+This is the single most important correction from this session. You dropped 向 consistently in three separate contexts. The teacher gave you all three.
+
+Pattern: 向 + person + verb phrase
+
+- 我向老板汇报新项目的情况.
+- 她向老板汇报年会的准备工作.
+- 我向我的太太求婚了.
+- 你应该向客户提出新的建议.
+
+Drill: Make four sentences where you direct an action at someone using 向. Use at least two different verbs: 汇报, 求婚, 提出, 建议.
+
+2. 让 + person + verb for causative (having someone do something)
+
+让 came up several times and you were unsure about it each time.
+
+Pattern: Subject + 让 + person + verb phrase
+
+- 我让秘书查一下.
+- 我让太太做饭.
+- 我会让你知道的.
+- 老板让我们准备年会.
+- 你让我做什么.
+
+Drill: Think of three things you have recently asked or told someone else to do. Say each one using 让. Then make two sentences about things you will let people know using 我会让你知道的.
+
+3. 对...来说 for perspective
+
+This came up twice and you were able to use it correctly the second time after your teacher modeled it.
+
+Pattern: 对 + person/group + 来说 + comment
+
+- 对美国人来说，苹果手机不贵.
+- 对其他国家的人来说，很贵.
+- 对我来说，担担面不辣.
+- 对我太太来说，四川菜有点辣.
+- 对软件工程师来说，这个问题不难.
+
+Drill: Pick five groups of people - Americans, Chinese people, students, parents, engineers - and make one statement about each using 对...来说.
+
+4. Potential complement 吃不出来 / verb + 不 + directional
+
+This structure appeared in the transcript and is a gap in your current grammar.
+
+Pattern: verb + 不 + complement meaning inability to achieve a result
+
+- 因为太辣了，我吃不出来什么口味.
+- 因为太忙了，我想不出来好的建议.
+- 这个字太难了，我看不出来是什么意思.
+- 他说话太快了，我听不出来他说什么.
+
+Drill: Make four sentences using this pattern. Use a different verb each time: 吃, 看, 听, 想. Each one should explain why you cannot achieve the result using 因为...太...了.

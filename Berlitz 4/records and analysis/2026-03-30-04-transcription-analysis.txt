@@ -1,0 +1,206 @@
+Let me first check the previous analysis files to inform my suggestions.
+
+The transcript is from March 30, 2026. I need analysis files from before that date. Looking at the list, there are no analysis files dated before March 30, 2026 with actual content (all earlier ones are zero KB). The earliest non-empty analysis files are from April 3 onward - which are after the transcript date. Let me check those April analysis files since they are the closest prior context available and may reference vocabulary already covered.
+
+Good. The analysis files from April 3 and April 6 are the closest prior context. Those were generated after the March 30 class, so technically they are the next sessions. The March 30 class is the one being analyzed now. There are no analysis files before that date with content. I will use the April 3 and April 6 analyses as context for what has already been covered in prior sessions (since they share overlapping vocabulary like 把, 项目, 进度, etc.), and avoid re-listing things already deeply covered.
+
+Now let me write the analysis.
+
+---
+
+This is the March 30 class. Based on the transcript, your teacher's notes, and the two subsequent analysis files which show overlapping vocabulary that was still being practiced, here is the focused breakdown.
+
+
+Mistakes to Address
+
+1. Wrong connector with 告诉
+
+You said: 我告诉跟你
+Correct: 我告诉你
+告诉 already takes a direct object (the person you are telling). Do not add 跟 between 告诉 and the person. The structure is 我告诉你 + what you are telling them, for example 我告诉你一件事。
+
+2. Incomplete sentence when expressing ability
+
+You said: 没有拼音，我可以读 (acceptable but you struggled to form it naturally)
+Your teacher modeled the cleaner version: 没有拼音我也可以读。
+The word 也 strengthens the sentence to mean "even without pinyin, I can still read." Practice adding 也 in this type of sentence.
+
+3. Using 和 instead of 或者 for "or"
+
+You said: 六百和七百汉字
+Correct: 六百或者七百个汉字
+和 means "and." 或者 means "or." Your teacher corrected this and drilled 或者 with you.
+
+4. Missing quantity word structure
+
+You said: 两个女儿, 两车, 两只车
+The classifier for vehicles is 辆, not 只 and not 个.
+Correct: 两辆车
+只 is for animals and some small objects. 辆 is specifically for wheeled vehicles.
+
+5. Awkward phrasing around 如果 + time-based conditions
+
+You said: 如果我的女儿起床八点，我每天我也起床八点钟
+More natural: 如果我女儿八点起床，我也八点起床。
+The double 我 mid-sentence and the redundant 每天 break the flow. Keep the structure clean.
+
+6. Using 好词 when you meant 好句子
+
+You said: 好词 (good word)
+You meant: 好句子 (good sentence)
+词 is a single word or two-character unit. 句子 is a full sentence. Your teacher corrected this.
+
+7. 我们没有做 vs 我们还没有做
+
+You said both versions. The more precise one in context is 我们还没有做，meaning "we have not yet done" something. 还没有 implies it is expected to happen but has not occurred yet.
+
+
+Vocabulary
+
+These are the key words from this lesson that deserve focused attention. Words already heavily drilled in your April 3 and April 6 sessions (项目, 期限, 进度, 报告, 预算, 加班, 完成, 人手不够) are listed briefly for recognition only.
+
+New or reinforced this lesson:
+
+- 团队 tuán duì - team
+- 团结 tuán jié - unity, solidarity
+- 计划书 jì huà shū - written project plan or proposal
+- 负责 fù zé - to be responsible for
+- 批准 pī zhǔn - to approve
+- 讨论 tǎo lùn - to discuss (two-way exchange, not just evaluation)
+- 评价 píng jià - evaluation, review (one party assessing)
+- 告诉 gào su - to tell someone something (casual, direct speech)
+- 通知 tōng zhī - to notify (more formal or official)
+- 正式 zhèng shì - formal, official
+- 进度 jìn dù - progress (already in prior sessions, reinforce here)
+- 安排 ān pái - to arrange, to schedule
+- 考虑到 kǎo lǜ dào - given that, taking into consideration
+- 事情 shì qing - matter, task, affair (not a physical object)
+- 东西 dōng xi - thing, physical object or stuff
+- 一定 yī dìng - certainly, definitely, will for sure
+- 新款 xīn kuǎn - new model, latest version
+- 出国 chū guó - to go abroad
+- 度假 dù jià - to go on vacation
+- 贬值 biǎn zhí - to lose value, depreciate
+- 通货膨胀 tōng huò péng zhàng - inflation
+- 认为 rèn wéi - to think, to be of the opinion (more formal than 觉得)
+- 区别 qū bié - difference (noun)
+- 工资 gōng zī - salary, wages
+- 量词 liàng cí - measure word / classifier
+- 辆 liàng - classifier for wheeled vehicles
+- 支 zhī - classifier for long thin objects (pen, candle)
+- 只 zhī - classifier for animals (also some small objects, but not cars)
+- 结婚纪念日 jié hūn jì niàn rì - wedding anniversary
+- 戒指 jiè zhi - ring (jewelry)
+- 戴 dài - to wear (accessories: ring, watch, glasses, hat)
+
+For recognition only (drilled in later sessions):
+- 期限, 进度, 报告, 预算, 加班, 完成, 人手不够, 缺人, 百分之, 帮助
+
+
+Phrases
+
+- 好久不见 - long time no see
+- 时间怎么安排 - how to arrange the schedule
+- 谁来负责 - who will be responsible
+- 把项目计划书交给老板 - hand the project plan to the boss
+- 我正式通知你 - I formally notify you
+- 还不错 - not bad, pretty good (modest positive)
+- 考虑到我有工作和家庭 - given that I have work and family
+- 工资加百分之三就像没加一样 - a 3% raise is the same as no raise at all
+- 因为通货膨胀，钱贬值了 - because of inflation, the money has lost value
+- 我们买了一个金的戒指 - we bought a gold ring
+- 我戴银的戒指 - I wear a silver ring
+- 每天我戴我的戒指 - every day I wear my ring
+- 没有区别 - there is no difference
+- 我觉得今年我们不能去中国度假 - I think we cannot go to China on vacation this year
+
+
+Sentence Structures and Drills
+
+This is the highest priority section. Focus on drilling these patterns out loud until they feel automatic.
+
+
+1. 把 sentence structure
+
+Pattern: Subject + 把 + Object + Verb + Result complement
+
+The 把 sentence is the core grammar of this lesson. It emphasizes what happens to the object, and the verb must always be followed by a result (you cannot end on the verb alone).
+
+- 他们把项目完成了。They completed the project.
+- 请把菜单给我。Please give me the menu.
+- 把手机放下。Put the phone down.
+- 把手机打开。Turn on the phone.
+- 把书给我。Give me the book.
+- 小林把计划书交给了老板。Xiao Lin handed the project plan to the boss.
+- 我要把这件事情安排好。I need to arrange this matter properly.
+- 请你把时间安排好。Please arrange the time properly.
+
+Drill: Generate five sentences using this pattern with objects from your own life. For example: 我每天把手机放在桌子上。我要把这个项目完成。
+
+
+(DK: MADE ANKI)
+2. 考虑到 + situation + result
+
+Pattern: 考虑到 + circumstances，Subject + result/assessment
+
+- 考虑到我有工作和家庭，我的中文学习进度还不错。
+- 考虑到人手不够，我们已经做得很好了。
+- 考虑到预算不多，这个计划还可以。
+
+Drill: Use this structure to describe your own situation in three different sentences.
+
+
+3. 因为...所以... with 通货膨胀 or workplace topics
+
+Pattern: 因为 + cause，(所以) + result
+
+- 因为通货膨胀，美国人认为工资加百分之三就像没加一样。
+- 因为人手不够，我们要找一个助理。
+- 因为这个项目很大，小林和同事经常加班。
+
+Note on 认为 vs 觉得: 认为 is used for opinions on objective matters (economic policy, facts, assessments). 觉得 is used for personal feelings or impressions. In a sentence about inflation and wages, 认为 is the right choice.
+
+
+4. 一定 for certainty
+
+Pattern: Subject + 一定 + verb phrase
+
+- 如果你每天学习，你的中文一定越来越好。
+- 她一定会喜欢的。
+- 你的中文一定越来越好。
+
+Note: 一定会...的 is a fixed expression for "will definitely." The 的 at the end is part of the structure and softens the certainty into a confident prediction. Do not drop it.
+
+
+5. 越来越 + adjective - getting more and more
+
+Pattern: Subject + 越来越 + adjective
+
+- 你的中文越来越好。Your Chinese is getting better and better.
+- 工资越来越低。Salaries are getting lower and lower.
+- 生活越来越贵。The cost of living is getting more and more expensive.
+
+Drill: Make three sentences using this structure about things changing in your life or work.
+
+
+6. Classifiers - quick reference for this lesson
+
+You struggled with 辆 vs 只 in the lesson. Here is the set to memorize:
+
+- 辆 - wheeled vehicles: 一辆车，两辆车，三辆自行车
+- 支 - long thin objects: 一支笔，一支蜡烛
+- 只 - animals and some small objects: 一只猫，两只狗，一只手表
+- 张 - flat objects (covered in April 6 session): 一张机票，一张桌子，一张照片
+- 个 - general / people / abstract: 一个人，一个项目，一个计划
+
+The most urgent one to fix is 两辆车, not 两只车 and not 两个车.
+
+
+One mistake to stop making immediately
+
+In this lesson you used 跟 incorrectly several times as a connector where it does not belong. The two usages to keep straight:
+
+- 我跟你说 means I am speaking with you or I want to say to you (informal opening)
+- 我告诉你 means I am telling you something (information follows directly)
+
+Do not say 我告诉跟你. The two verbs do not combine this way.
