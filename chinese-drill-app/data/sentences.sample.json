@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "description": "Pilot entries used to validate the deck schema; not the complete reviewed deck.",
+  "sentences": [
+    {
+      "id": "duration-work-001",
+      "chinese": "我在苹果公司工作了五年了。",
+      "pinyin": "Wǒ zài Píngguǒ Gōngsī gōngzuò le wǔ nián le.",
+      "english_hint": "I have worked at Apple for five years.",
+      "tts_text": "我在苹果公司工作了五年了。",
+      "scenario": "Describe how long you have worked at your company.",
+      "focus": ["duration", "了"],
+      "priority": 5,
+      "default_repetitions": 3,
+      "source": [
+        {
+          "lesson": "2026-09-23",
+          "file": "2026-09-23-04-transcription-analysis.txt",
+          "lines": "9-12"
+        }
+      ],
+      "status": "sample"
+    },
+    {
+      "id": "repeat-action-001",
+      "chinese": "我再读一次。",
+      "pinyin": "Wǒ zài dú yí cì.",
+      "english_hint": "I will read it again.",
+      "tts_text": "我再读一次。",
+      "scenario": "Say that you will read something one more time.",
+      "focus": ["再 + verb + 一次"],
+      "priority": 5,
+      "default_repetitions": 3,
+      "source": [
+        {
+          "lesson": "2026-09-30",
+          "file": "2026-09-30-04-transcription-analysis.txt",
+          "lines": "16-16"
+        }
+      ],
+      "status": "sample"
+    },
+    {
+      "id": "work-to-do-001",
+      "chinese": "我有很多工作要做。",
+      "pinyin": "Wǒ yǒu hěn duō gōngzuò yào zuò.",
+      "english_hint": "I have a lot of work to do.",
+      "tts_text": "我有很多工作要做。",
+      "scenario": "Explain that you have a lot of work waiting for you.",
+      "focus": ["有 + noun + 要 + verb"],
+      "priority": 5,
+      "default_repetitions": 3,
+      "source": [
+        {
+          "lesson": "2026-09-29",
+          "file": "2026-09-29-04-transcription-analysis.txt",
+          "lines": "9-9"
+        }
+      ],
+      "status": "sample"
+    },
+    {
+      "id": "conditional-question-001",
+      "chinese": "如果我不明白，我就问老师。",
+      "pinyin": "Rúguǒ wǒ bù míngbai, wǒ jiù wèn lǎoshī.",
+      "english_hint": "If I do not understand, I ask the teacher.",
+      "tts_text": "如果我不明白，我就问老师。",
+      "scenario": "Explain what you do when you do not understand.",
+      "focus": ["如果……就……", "问 + person"],
+      "priority": 4,
+      "default_repetitions": 3,
+      "source": [
+        {
+          "lesson": "2026-09-23",
+          "file": "2026-09-23-04-transcription-analysis.txt",
+          "lines": "19-22"
+        }
+      ],
+      "status": "sample"
+    },
+    {
+      "id": "travel-experience-001",
+      "chinese": "我还没去过中国。",
+      "pinyin": "Wǒ hái méi qùguo Zhōngguó.",
+      "english_hint": "I have not been to China yet.",
+      "tts_text": "我还没去过中国。",
+      "scenario": "Say that you have not yet visited China.",
+      "focus": ["还没 + verb + 过"],
+      "priority": 4,
+      "default_repetitions": 3,
+      "source": [
+        {
+          "lesson": "2026-07-08",
+          "file": "2026-07-08-04-transcription-analysis.txt",
+          "lines": "19-22"
+        }
+      ],
+      "status": "sample"
+    },
+    {
+      "id": "location-work-001",
+      "chinese": "很多人想在苹果公司工作。",
+      "pinyin": "Hěn duō rén xiǎng zài Píngguǒ Gōngsī gōngzuò.",
+      "english_hint": "Many people want to work at Apple.",
+      "tts_text": "很多人想在苹果公司工作。",
+      "scenario": "Talk about where many people want to work.",
+      "focus": ["在 + place + verb"],
+      "priority": 4,
+      "default_repetitions": 3,
+      "source": [
+        {
+          "lesson": "2026-08-26",
+          "file": "2026-08-26-04-transcription-analysis.txt",
+          "lines": "15-15"
+        }
+      ],
+      "status": "sample"
+    },
+    {
+      "id": "purchase-place-001",
+      "chinese": "这是我在二手店买的。",
+      "pinyin": "Zhè shì wǒ zài èrshǒu diàn mǎi de.",
+      "english_hint": "I bought this at a secondhand shop.",
+      "tts_text": "这是我在二手店买的。",
+      "scenario": "Explain where you bought an object.",
+      "focus": ["是……的", "在 + place + verb"],
+      "priority": 3,
+      "default_repetitions": 3,
+      "source": [
+        {
+          "lesson": "2026-09-30",
+          "file": "2026-09-30-04-transcription-analysis.txt",
+          "lines": "20-20"
+        }
+      ],
+      "status": "sample"
+    },
+    {
+      "id": "plan-travel-001",
+      "chinese": "明年我打算去中国旅游。",
+      "pinyin": "Míngnián wǒ dǎsuàn qù Zhōngguó lǚyóu.",
+      "english_hint": "I plan to travel to China next year.",
+      "tts_text": "明年我打算去中国旅游。",
+      "scenario": "Describe next year's travel plan.",
+      "focus": ["time + subject + 打算", "去 + place + 旅游"],
+      "priority": 4,
+      "default_repetitions": 3,
+      "source": [
+        {
+          "lesson": "2026-07-08",
+          "file": "2026-07-08-04-transcription-analysis.txt",
+          "lines": "40-42"
+        }
+      ],
+      "status": "sample"
+    }
+  ]
+}
+

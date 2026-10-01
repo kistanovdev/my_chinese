@@ -1,0 +1,8 @@
+.env
+audio/*.mp3
+audio/*.json
+data/sentences.draft.json
+data/progress.json
+__pycache__/
+*.pyc
+
