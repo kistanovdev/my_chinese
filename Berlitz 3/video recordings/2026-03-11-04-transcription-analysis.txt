@@ -1,0 +1,95 @@
+Your main opportunity is to make a few reusable sentence patterns automatic. You already used **我在圣彼得堡长大、我喜欢我的工作、我的职位是软件工程师、我不想辞职** correctly. Pauses and restarts are normal in spontaneous speech; they are not all grammar mistakes.
+
+I treat Speaker 1 as you. Without audio, transcription and pronunciation errors cannot always be separated.
+
+**Ten priorities**
+
+1. **听得到 / 听得懂 — hearing versus understanding**  
+   At 02:38, “我听了” → **听得到。** / **我能听到你说话。**  
+   听了 means “listened”; it does not answer an audio check naturally.  
+   **听得到，但是听不懂。** = I can hear it, but I don’t understand it.  
+   Useful classroom phrases: **请再说一遍。请说慢一点。这个词是什么意思？可以打出来吗？**
+
+2. **在 + verb; verb + 后 — current action and sequence**  
+   At 03:45–04:59, your explanation became fragmented. A natural version is:  
+   **我还没吃早饭。我正在喝咖啡。现在我在上中文课，下课后就开始工作。**  
+   在喝咖啡 = drinking now; 下课后 = after class. “我的咖啡” is grammatical, but 咖啡 alone is enough here.
+
+3. **Verb + duration; 每天都… — study routines**  
+   “我一年学习中文” → **我学中文已经一年了。**  
+   Your daily-study explanation could be: **我每天都学一点汉字，也听中文，但是没有太多时间。**  
+   一年 belongs after the activity when expressing its duration. 每天都… is a useful ready-made frame.
+
+4. **听说 + statement; verb + 过 — reports versus experience**  
+   You repeatedly used 听过 when introducing information you had heard. Prefer:  
+   **我听说伦敦经常是阴天。**  
+   **听说** introduces a report; **听过** describes having heard something before.  
+   Other corrections:  
+   “你听过Waymo？” → **你听说过Waymo吗？**  
+   “我用Waymo两次” → **我坐过两次Waymo。**  
+   “还没有坐飞机，商务舱” → **我还没坐过商务舱。**
+
+5. **Comparisons and preference**  
+   “一点便宜” → **便宜一点。**  
+   “喜欢Waymo比Uber” → **比起Uber，很多人更喜欢Waymo。**  
+   Frames: **A比B + adjective**; **比起B，更喜欢A**.  
+   At 08:54, your recorded comparison says speaking is easier than listening. Its grammatical correction is **我觉得说中文比听中文容易。** Your stated learning profile points the other way: **对我来说，听中文比说中文容易。** The transcript cannot settle which you intended.
+
+6. **有点 + adjective; 越来越 + adjective**  
+   “一点累” → **我有点累。**  
+   Your unfinished 越来越 explanation → **工作压力越来越大。**  
+   **有点累** = a little tired; **便宜一点** = a little cheaper. Notice the different placement of “a little.”
+
+7. **觉得 / 想 / 思考; 还是需要**  
+   The long ChatGPT discussion needed a verb distinction:  
+   **我觉得AI很有用。** — I think/believe AI is useful.  
+   **我想买一辆大车。** — I want to buy a large car.  
+   **我们应该自己思考。** — We should think for ourselves.  
+   Your explicitly stated English meaning can be expressed as:  
+   **如果你太依赖ChatGPT，就可能不再自己思考。**  
+   “我们还是要的保安” → **我们还是需要保安。** = We still need security guards.
+
+8. **给 versus 跟; measure words**  
+   “公司跟……我们买……” → **公司给我们买商务舱机票。**  
+   给 marks the recipient; 跟 means “with.”  
+   “一个车跟我，一个车跟我的太太” → **我和我太太各有一辆车。**  
+   Use **一辆车、两辆车**. For loans, natural wording is **车贷、贷款买车**, rather than 买贷款.
+
+9. **Work introductions and salary**  
+   Keep these distinctions practical:  
+   **职业** = occupation; **行业** = industry; **部门** = department; **职位** = position.  
+   **我在苹果公司工作，是研发部的软件工程师。公司属于科技行业。**  
+   For your salary explanation: **我每两周领一次工资。加班也没有额外的加班费。**  
+   “我到一样一样钱” → **我拿到的工资一样。**  
+   The teacher’s “加班两个小时以内没有钱” adds a two-hour cutoff that your explanation does not clearly establish.
+
+10. **如果…就…; percentage increases**  
+    Your job-change example → **如果工资比现在高百分之五十，我就会考虑跳槽。**  
+    This preserves a hypothetical possibility, rather than treating it as a firm decision.  
+    **跳槽** = change employers; **辞职** = resign.  
+    “十千美元” → **一万美元**. Mandarin groups large numbers around 万: **一万、两万、五百万**.
+
+**Transcription and word-confusion notes**
+
+- **青田** almost certainly represents **晴天** in the weather discussion. **我买一个人偷东西** likely represents **我看见一个人偷东西**. Neither is reliable evidence that you chose the written word shown.
+- **经历** may represent **经理** where you discuss your manager. Audio would be needed to judge the pronunciation.
+- **便宜 / 容易** looks like an actual word-selection slip because the teacher corrected it and you accepted the correction.
+- **食品 / 视频** was an explicit confusion: **食品 shípǐn** = food products; **视频 shìpín** = video. Both syllables have different tones.
+- The **东西 / 动词 / 生词** exchange includes mutual misunderstanding. Keep the useful forms: **动词 dòngcí** = verb; **生词 shēngcí** = new vocabulary; **东西 dōngxi** = thing.
+- Written transcription cannot establish your overall tone accuracy. For asking about it, use **我的声调怎么样？**
+
+**Say-aloud drills**
+
+Say each sentence twice, then say it once without looking. These are practice sentences, not additional personal claims.
+
+- **听得到，但是没听懂。请再说一遍。**
+- **这个词是什么意思？可以打出来吗？**
+- **我现在在上中文课，下课后就开始工作。**
+- **我学中文已经一年了，每天都学一点。**
+- **我听说那里经常是阴天。你去过吗？**
+- **我坐过两次Waymo，还没坐过商务舱。**
+- **它比Uber便宜一点。比起Uber，我更喜欢它。**
+- **我有点累，工作压力也越来越大。**
+- **我觉得AI很有用，但是我们还是需要自己思考。**
+- **公司给我们买机票。我每两周领一次工资。**
+- **如果工资比现在高百分之五十，我就会考虑跳槽。**

@@ -1,0 +1,158 @@
+Your main practice target is **retrieving complete sentence patterns while speaking**. You often knew the vocabulary, then needed help with word order or finishing the structure. You also corrected yourself successfully—for example, 一首歌、五百个汉字 and 我把其他同事介绍给你.
+
+These are the ten highest-value targets.
+
+1. **Describe your job: 我是…… / 我是做……的**
+
+   You repeatedly said “我是做软件工程” and once “我不做言语治疗师.”
+
+   Natural versions:
+
+   - **我是软件工程师。** — job title
+   - **我是做软件工程的。** — type of work
+   - **我不是言语治疗师。 / 我不做言语治疗。**
+
+   Keep **是 + job title** separate from **做 + work/activity**. Your original 我是软件工程师 was already correct.
+
+2. **Put the workplace before 工作: 在……工作**
+
+   “她Cupertino中学工作” → **她在库珀蒂诺的一所中学工作。**
+
+   For the future meaning you were trying to express:
+   **孩子长大以后，她会在库珀蒂诺的一所中学工作。**
+
+   Ask: **你在哪家公司工作？**
+   Answer: **我在苹果公司工作。**
+
+   The transcript leaves her current work situation unclear; “家里工作” alone does not establish whether she works remotely or is caring for your child.
+
+3. **Put duration after the verb: 工作四年了**
+
+   “我在苹果公司四年工作” → **我在苹果公司工作四年了。**
+
+   “我住在美国十二年” → **我在美国住了十二年了。**
+
+   These describe a situation continuing up to now. For recent learning:
+   **最近我学了很多中文。**
+
+   Both 学 and 学习 are valid; 学 is often more conversational.
+
+4. **Compare: 比……好 / 没有……好 / 比……差**
+
+   “美国的科技行业比中国科技行业不好” →
+   **我觉得美国的科技行业没有中国的科技行业好。**
+
+   Alternatively:
+   **我觉得美国的科技行业比中国的科技行业差。**
+
+   Pattern:
+
+   - **A比B好一点。** — A is a little better.
+   - **A没有B好。** — A is not as good.
+   - **A比B差一点。** — A is a little worse.
+
+   In “没有中国的科技行业的好,” remove the final 的. These corrections preserve your expressed opinion; they do not verify the economic claim.
+
+5. **Distinguish frequency from ability: 多 vs 好**
+
+   You clarified that you speak English **more often** than Russian:
+
+   **现在我说英语比说俄语多得多。**
+
+   That differs from:
+   **我的英语比俄语好。** — My English is better than my Russian.
+
+   Also, “英文说很好” → **我英语说得很好。**
+   Use **verb + 得 + description** to describe how well someone does something.
+
+6. **Use 如果……就…… for hypothetical choices**
+
+   Your later sentence was good:
+   **如果我不在科技行业工作，我就去金融行业工作。**
+
+   For a hypothetical preference, this is especially clear:
+   **如果我不在科技行业工作，我就想去金融行业工作。**
+
+   The final 了 is unnecessary for this basic hypothetical. Learn the full chunks **在……行业工作**, rather than trying to build everything around 做.
+
+7. **Separate 会、能、可以—and ability from understanding**
+
+   Your claim that “我们不说我可以开车” was too absolute.
+
+   - **我会开车。** — I have learned the skill.
+   - **我今天不能开车。** — circumstances prevent it.
+   - **我可以开车吗？** — permission or whether it is an option.
+
+   These meanings overlap; 能 does not simply mean “right now.”
+
+   For reading:
+
+   - **我认识五百个汉字。** — recognize the characters
+   - **我会读这些字。** — know how to pronounce/read them
+   - **这句话我看得懂。** — understand the written sentence
+   - **这段录音我听不懂。** — cannot understand the recording
+
+8. **Introduce someone: 给你介绍 / 介绍给你**
+
+   You repeatedly mixed 跟 and 给:
+
+   “我跟你介绍一个新同事” → **我给你介绍一个新同事。**
+
+   “我把其他同事介绍跟给你” →
+   **我把其他同事介绍给你。**
+
+   Memorize both complete patterns:
+
+   - **我给你介绍一下，这是小周。**
+   - **我把小周介绍给你。**
+
+   Your final use of the 把 pattern was correct.
+
+9. **认识 people; 知道 information; 听说过 names**
+
+   “我知道一个” in the discussion about someone you personally knew →
+   **我认识一个这样的人。**
+
+   Natural questions:
+
+   - **你认识说话不清楚的人吗？**
+   - **你知道这个词是什么意思吗？**
+   - **你听说过Drake吗？**
+
+   Also: “你是第一中国人” →
+   **你是我认识的第一个信耶稣的中国人。**
+
+   The reusable structure is **我认识的 + 第一个 + ……人**.
+
+10. **Use natural word combinations**
+
+   - “做钱在美国” → **在美国挣钱**
+   - “我们做在美国” → **我们在美国生产这些东西**
+   - **新同事 / 老朋友 / 旧衣服** — useful combinations you practiced
+   - “没有新同事” as a translation of *No New Friends* → **没有新朋友**
+
+   老朋友 usually means a longtime friend, not an elderly friend. The teacher’s “旧 for things, 老 for people” is a useful shortcut, but not an absolute rule.
+
+**Transcript uncertainty and teacher corrections**
+
+- **Likely transcription issues:** 旧里 likely represents 旧历; “不轻” likely represents 不清. Around 49:42, “衣” may represent 宜 from 便宜. Audio would be needed to judge pronunciation.
+- **Recorded dialogue:** the fluent passages at 56:42 and 57:25 are lesson audio labeled Speaker 0. They should not count as your spontaneous speech.
+- **Uncertain passage:** the sudden advanced Mandarin around 01:19 follows your announcement that you would explain in English. It may be translated transcription; I would not use it to assess your speaking level.
+- **Important teacher-side confusion:** **口吃** means stuttering, not a lisp. **口齿不清** means unclear articulation more broadly. Your intended childhood explanation is better expressed as **小时候，我发不清楚“sh”和“s”这两个音。** The transcript does not support saying you had a stutter.
+- **旧历 is a real word** for the traditional calendar; 农历 is the more usual everyday term. Your word was not invented.
+- **Likely genuine slips:** 六十 became 十六 twice, and you initially answered 几点 with a date. Practice **六十 = 60 / 十六 = 16**, and **几点 = time / 几月几号 = date**.
+
+**Say-aloud drills**
+
+Say each answer once while reading, then again without looking.
+
+1. **你是做什么工作的？—我是软件工程师。我是做软件工程的。**
+2. **你在哪家公司工作？—我在苹果公司工作。**
+3. **你在苹果公司工作多久了？—我在苹果公司工作四年了。**
+4. **你们公司是做什么的？—我们公司是做科技产品的，有电脑、手机、平板等等。**
+5. **我的阅读能力比口语好。我说中文没有读中文那么容易。**
+6. **如果我不在科技行业工作，我就想去金融行业工作。**
+7. **我会读这些字，但是这句话我看不懂。请再说一遍。**
+8. **我给你介绍一下，这是小周。我把其他同事介绍给你。**
+9. **我认识五百个汉字。这段录音我大概能听懂百分之六十。六十，不是十六。**
+10. **最近我学了很多中文。我们休息五分钟吧。谢谢你，我得走了。**

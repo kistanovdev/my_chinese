@@ -1,0 +1,123 @@
+Your main speaking bottleneck is building sentences around words you already recognize. The strongest priorities are **using verbs directly, putting time before the verb, and finishing comparisons**. You also corrected yourself successfully: “我最喜欢的肉是牛肉” and “那你应该请客了吧” are natural Mandarin.
+
+I treat Speaker 0 as you. Without audio, pronunciation errors and transcription errors cannot always be separated.
+
+### Ten useful corrections and structures
+
+1. **Use verbs directly: 加班、照顾、散步、休息**  
+   You repeatedly added 做: “我做加班”“我做照顾”“我做散步”“我们做 a break.”
+
+   → **我有时候加班。** — I sometimes work overtime.  
+   → **我照顾女儿。** — I take care of my daughter.  
+   → **我带女儿去散步。** — I take my daughter out for a walk.  
+   → **我们休息五分钟吧。** — Let’s take a five-minute break.
+
+   These words already express actions. **我要加班** is also correct; 要 adds “need to / will.”
+
+2. **Put time before the action**  
+   “我吃在一点”“我吃一点” → **我下午一点吃午饭。**  
+   “每个星期一天，两天……加班” → **我每个星期有一两天要加班。**  
+   “从1月……2月，我做照顾” → **从一月到二月，我在家照顾孩子。**
+
+   Useful frame: **谁 + 时间 + 动作**.  
+   “我吃一点” normally means “I eat a little,” rather than “I eat at one.”
+
+3. **Describe changing conditions with 有时候……有时候……**  
+   “我的工作可以忙，可以轻松” → **我的工作有时候很忙，有时候比较轻松。**
+
+   可以 usually expresses permission or possibility. 有时候 better describes your workload varying.  
+   **简单** means simple; **轻松** means relaxed or undemanding. They are related, but not interchangeable.
+
+4. **Use 大 with 压力; negate the description**  
+   “压力很多” → **压力很大。**  
+   “不，不压力” → **工作压力不大。**  
+   If you mean no stress at all: **没有什么压力。**
+
+   Useful lesson sentence: **因为工作压力太大了，所以他觉得很累。**  
+   “Because the work pressure is too great, he feels tired.”
+
+5. **Complete comparisons: A 比 B + adjective**  
+   “工作比照顾很轻松” → **工作比照顾孩子轻松。**  
+   To emphasize the difference: **工作比照顾孩子轻松得多。**
+
+   Do not put 很 directly before the adjective in this basic 比 pattern.  
+   From the reading: **现在的工资比以前高得多。** — My current salary is much higher than before.
+
+6. **Distinguish 不用、不能、不想**  
+   You needed clarification on “不用经常加班了.”
+
+   - **不用加班。** — Don’t need to work overtime.
+   - **不能加班。** — Cannot work overtime.
+   - **不想加班。** — Don’t want to work overtime.
+
+   **现在不用经常加班了。** means the situation has changed: frequent overtime is no longer necessary.  
+   For “我的女儿不可以睡觉,” if you meant she could not fall asleep, say **她睡不着。** 不可以 sounds like she is not allowed to sleep.
+
+7. **Use 的时候 and count frequency with 次**  
+   “大学时候” → **上大学的时候**  
+   “照顾时候” → **照顾女儿的时候**
+
+   “每个睡觉……一个小时” → **她每次睡一个小时。**  
+   Full pattern: **她每天睡三次，每次睡一个小时。**
+
+   **每天** = every day; **每次** = each time; **三个小时** = three hours; **三次** = three times.
+
+8. **Build job introductions with 是、在、做**  
+   “我，软件工程师” → **我是软件工程师。**  
+   “我工作客服” → **我做过客服。**  
+   Your more specific meaning: **上大学的时候，我做过电话技术支持。**
+
+   Useful frame: **我在 + 公司 + 做 + 职业。**  
+   **我在苹果公司做软件工程师。**
+
+   Keep the categories clear: **职业** = occupation; **行业** = industry. A **科技公司** is a type of company; **科技行业** is an industry.
+
+9. **Place 我/你 inside the description: 我最喜欢的……**  
+   “我的喜欢的肉” → **我喜欢的肉**  
+   “你的最喜欢的肉什么？” → **你最喜欢的肉是什么？**
+
+   You correctly reached: **我最喜欢的肉是牛肉。**
+
+   “我很喜欢吃牛排店” → **我很喜欢去牛排店吃牛排。**  
+   You eat the food; you go to the shop.
+
+10. **Separate experience, events, and learning results**  
+    **我听过别人这样说。** — I have heard people say it that way.  
+    For the particular event you described: **昨天我听到有人说“APP”。**
+
+    **我学了新东西** and **我学到了新东西** are both correct. 学到 emphasizes gaining something from learning; it does **not** guarantee complete mastery.
+
+    Also keep **还不错** as a whole phrase: “pretty good / not bad,” rather than literally “not wrong.” **马马虎虎** means “so-so” here and is less positive.
+
+### What probably came from transcription?
+
+- **“Birthless 一”** likely represents “Berlitz 一,” given the surrounding discussion.
+- **“租楼” → “走路”** and **“三个字” → “三次”** could reflect recognition errors or pronunciation difficulties. The teacher’s responses establish the intended words, but the text cannot establish what you pronounced.
+- **“公司比以前……高得多”** likely involves **工资**, especially because you said 工资 earlier. It could be transcription or a reading slip.
+- Written **他/她** cannot establish a spoken mistake: both are pronounced *tā*.
+- **“吃菜单”** is a more credible learner error because the teacher explicitly corrected it to **吃大餐**, and it recurred.
+- The repeated **做 + 加班/照顾/散步** pattern is strong evidence of an actual grammar habit.
+
+For pronunciation, remember **出差 chūchāi** versus **差不多 chàbuduō**. 出差 means traveling for work, rather than simply leaving home to work.
+
+### Short speaking drills
+
+Say each sentence aloud, then repeat it without looking. These practice sentences use situations discussed in class; they are not all claims about your current circumstances.
+
+1. 我不吃早饭。我下午一点吃午饭。
+2. 我是软件工程师。我在苹果公司工作。
+3. 我的工作有时候很忙，有时候比较轻松。
+4. 我不是每天都加班。我每个星期有一两天要加班。
+5. 工作压力不大。我很喜欢现在的工作。
+6. 工作比照顾孩子轻松。照顾孩子很累，但是很重要。
+7. 照顾女儿的时候，我每天带她去散步三次。
+8. 她每天睡三次，每次睡一个小时。
+9. 以前经常加班，现在不用经常加班了。
+10. 今天我学到了新东西。我觉得这节课还不错。
+
+Keep these classroom requests ready:
+
+- **这个词是什么意思？** — What does this word mean?
+- **请把这个词写在聊天框里。** — Please write this word in the chat.
+- **请用中文解释一下。** — Please explain it in Chinese.
+- **我想说一个完整的句子。** — I want to say a complete sentence.

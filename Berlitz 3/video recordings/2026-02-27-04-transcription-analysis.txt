@@ -1,0 +1,110 @@
+Your main speaking bottleneck is assembling familiar words into sentences: choosing the right verb, putting time and place before the action, and finishing one structure before restarting. Practice these reusable patterns before adding more vocabulary.
+
+I treat Speaker 0 as you, except for the clearly recorded dialogues. Without audio, transcription and pronunciation errors cannot always be separated.
+
+### Ten priorities
+
+1. **做饭 / 做菜 / 做汤 — choose a specific cooking verb**  
+   You repeatedly said “做餐.”
+   - General cooking: **我会做饭。**
+   - A dish: **我会做这道菜。**
+   - Soup: **这个汤不难做。**
+
+   “不是难” → **不难**. Negate an adjective directly with **不**. **会** expresses a learned skill; **可以** usually expresses permission or possibility.
+
+2. **听说过 vs. 吃过 — your distinction was valid**  
+   At 09:00–10:58, you meant you had never heard of fish balls, not necessarily that you had never eaten them. The teacher’s correction to “没吃过” changed your meaning.
+   - **我以前没听说过鱼丸。** — I hadn’t heard of fish balls.
+   - **我以前不知道有鱼丸这种东西。** — I didn’t know fish balls existed.
+
+   “我没听过你可以有鱼丸” sounds translated from English. Use **不知道有……** for something’s existence.
+
+3. **我最喜欢吃…… / 我最喜欢的……是……**  
+   “我最喜欢的吃饭是面条” → **我最喜欢吃面条。**  
+   Alternatively: **我最喜欢的食物是面条。**
+
+   For cuisines, use **菜**: **秘鲁菜、日本菜、中国菜**. “秘鲁餐” is understandable, but **秘鲁菜** is more natural here. Your **意面** was already correct.
+
+4. **Adjectives: 很 / 看起来 / 又……又……**  
+   “它看到好吃,” explicitly intended as “It looks tasty,” → **看起来很好吃。**
+   - **这家餐馆很好。**
+   - **这个菜又清淡又好吃。**
+
+   An adjective predicate normally needs no **是**: “这个饭馆是好” → **这家饭馆很好**. Use **新鲜** for fresh food: **牛肉很新鲜**. **鲜** can also describe a delicious, savory taste.
+
+5. **跟某人一起 + verb — put companionship before the action**  
+   “我们吃过一起” → **我跟他一起吃过素菜。**  
+   “跟我的中国人朋友，我请客” → **我跟中国朋友一起吃饭的时候，我请客。**
+
+   **男朋友** normally means “boyfriend.” If you intended male friends, say **男性朋友** or **几个朋友**; the transcript does not establish which meaning you intended.
+
+6. **不吃 / 不喜欢吃 / 不能吃 / 不太能吃**  
+   These express different things:
+   - **我不吃辣。** — I don’t eat spicy food.
+   - **我不喜欢吃辣。** — I dislike it.
+   - **我不太能吃辣。** — I have a low tolerance.
+
+   Your “不能吃辣” is grammatical, but stronger than “不喜欢吃辣.”  
+   “吃素人” → **吃素的人**; “他是吃素” → **他吃素**.  
+   “每个饭馆有吃素菜” → **每家饭馆都有素菜。** This fixes the grammar without verifying the broad claim.
+
+7. **比 + comparison; 更喜欢 + preference**  
+   “饭馆的环境比美国的很……” → **我觉得日本餐馆的环境比美国餐馆的好。**
+
+   Basic pattern: **A 比 B + adjective**, without **很**.  
+   Your hotel-versus-flight preference: **比起坐商务舱，我更喜欢住五星级酒店。**
+
+8. **去……旅游 / 坐…… / 住…… / 订…… — replace overused 旅游 and 买**  
+   Recurring corrections:
+   - “旅游秘鲁” → **去秘鲁旅游**
+   - “旅游经济舱” → **坐经济舱**
+   - “买五星级酒店” → **订五星级酒店 / 住五星级酒店**
+   - “做很多出差” → **经常出差**
+
+   Put time/place before the action: **去京都旅游的时候，我们住了五星级酒店。**  
+   For a completed stay: **我们在东京住了三个星期。**
+
+9. **Prices and durations need the right verb and unit**  
+   “你买八十美元” → **你付八十美元，就可以吃自助餐。**
+   - **一共花了一千五百美元。**
+   - **每天工作十到十二个小时。** — rather than “十和十二”
+   - **坐火车要三个小时。**
+   - **四十五分钟** versus **四个小时十五分钟**
+
+   The final travel exchange is unclear about transport and duration; it cannot reliably establish which journey took how long.
+
+10. **Keep restaurant and clarification phrases ready**  
+    Your reservation role-play successfully used **我要订一个包房** and **四个人**. Retain these as complete chunks:
+    - **我要订明天晚上七点半的位子，一共四个人。**
+    - **请问您贵姓？**
+    - **我请客。 / 我们AA制吧。**
+    - **我想吃清淡一点的。**
+
+    “我不知道说……” → **我不知道怎么说。**  
+    “不明白，你可以说一点” → **我没听明白，可以再说一遍吗？**  
+    For vocabulary: **这个用中文怎么说？**
+
+### Transcription uncertainty and teacher corrections
+
+- **“天才” → 甜菜**, **“洗中心” → 市中心**, and **“三分数” → 三分熟** are likely transcription errors. The written transcript alone cannot establish whether you mispronounced them.
+- **“下课我吃到了鱼丸”** and the software-related sentence around 15:12 are too unclear to reconstruct confidently.
+- The recorded reservation says **后天晚上七点半，五个人**. Your summary gave seven o’clock; the teacher also missed the half hour. This is a listening-detail issue, not just grammar.
+- The teacher’s steak terminology was inconsistent. The usual mapping is **一分熟＝rare，三分熟＝medium rare，五分熟＝medium，七分熟＝medium well，全熟＝well done**.
+- **京都＝Kyoto；大阪＝Osaka**. The teacher briefly confused them, then corrected herself. The lesson’s broad cultural and dietary claims should not be memorized as facts.
+
+### Say-aloud drills
+
+Say each sentence three times, then repeat it without looking. Change one word on the final repetition.
+
+1. **我会做饭。这个汤不难做。**
+2. **我以前没听说过鱼丸。**
+3. **我最喜欢吃面条。我也喜欢吃乌冬面。**
+4. **这个菜看起来很好吃，味道好极了。**
+5. **我跟朋友一起吃过素菜。**
+6. **我不太能吃辣，想吃清淡一点的。**
+7. **这家餐馆比那家便宜，服务也不错。**
+8. **去京都旅游的时候，我们住了五星级酒店。**
+9. **从东京去京都，坐火车要多长时间？**
+10. **你好，我要订明天晚上七点半的位子，一共四个人。**
+
+Finish with this repair phrase until it comes out automatically: **我没听明白，可以再说一遍吗？**

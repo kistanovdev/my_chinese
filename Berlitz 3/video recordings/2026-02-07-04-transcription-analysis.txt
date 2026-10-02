@@ -1,0 +1,103 @@
+Your biggest speaking gains will come from automating a few sentence patterns. You often knew the words but struggled to assemble them while explaining a complex idea. You also produced useful, correct sentences, including **我在软件部工作、我开发新的软件、我没有助理**.
+
+I treat Speaker 1 as you. Without audio, transcription problems can only be flagged as possibilities.
+
+### Ten priorities
+
+1. **Put time and location before the action.**  
+   You said: “我起床在七点”“今天我工作家里。”  
+   Say: **我七点起床。今天我在家工作。**  
+   Pattern: **主语 + 时间 + 在哪里 + 动作**. Clock times usually do not need 在.  
+   “加州在八点钟” → **加州现在是早上八点。**
+
+2. **不 versus 还没：habit versus “not yet.”**  
+   Your **我不吃早饭** is correct if you mean you generally skip breakfast.  
+   If you mean you have not eaten today: **我还没吃早饭。**  
+   Answer according to your meaning, rather than automatically changing 不 to 没.
+
+3. **Explain responsibilities with 负责.**  
+   Use **我负责开发新软件。** — I’m responsible for developing new software.  
+   Or: **我的职责是开发新软件。** — My responsibility is to develop new software.  
+   **负责 + task** is especially useful for your work conversations. These examples describe tasks, without assigning you an unsupported job title.
+
+4. **“Not only” needs a clear continuation.**  
+   Your long marketing explanation became difficult to follow. Based on your eventual agreement with the teacher, a useful version is:  
+   **市场部不只做广告，也做其他工作。**  
+   More explicit: **做广告只是营销的一部分。** — Advertising is only one part of marketing.  
+   **做营销** is a clear general expression; **做市场** also occurs in workplace speech, so it is not universally wrong.
+
+5. **每次, 每个, and “not every time.”**  
+   “每个次” → **每次 / 每一次**. 次 already counts occurrences.  
+   Compare:
+   - **每个部门** — every department
+   - **每次上课** — every time we have class
+   - **市场部不是每次都做广告。** — The marketing department doesn’t make ads every time.
+
+   **不是每次都……** means “not every time”; **每次都不……** means “never on any occasion.”
+
+6. **越来越 needs a description after it.**  
+   “钱也越来越” is incomplete.  
+   Say: **赚的钱越来越多。这个软件越来越赚钱。**  
+   Pattern: **越来越 + adjective / suitable verb phrase**. It is not itself a verb meaning “grow.”  
+   Your child example could be **孩子越来越大了**, or **孩子长大了** if you want the verb “grow up.”
+
+7. **Your two-了 sentence was valid.**  
+   **我在公司已经工作了三年了。** is grammatical and naturally suggests you still work there. The teacher’s rule “one verb means only one 了” is incorrect.  
+   A shorter version is **我在公司已经工作三年了。**  
+   **我在公司工作了三年。** states a three-year duration; context determines whether you still work there.  
+   Keep the shorter ongoing pattern ready for spontaneous speech: **我已经……三年了。**
+
+8. **Use 跟……不一样, not 比……不一样.**  
+   “美国的等级比中国的等级不一样” →  
+   **美国公司的职级跟中国公司的职级不一样。**  
+   **跟 + comparison + 不一样** expresses difference. **比** normally introduces a degree comparison: **这个部门比那个部门大。**  
+   This corrects your sentence form without verifying the broad claim about companies.
+
+9. **我最喜欢的……, not 我的最喜欢的…….**  
+   “我的最喜欢的部” → **我最喜欢的部门。**  
+   Full sentence: **人事部是我最喜欢的部门。**  
+   Since you identified this as sarcasm, a useful clarification is **我开玩笑的。** — I’m joking.
+
+10. **Use ready-made requests when you get stuck.**  
+   These address several recurring moments in the lesson:
+   - “我想做英文” → **我想用英语解释一下。**
+   - “请用中文，如果我不明白，我说” → **请用中文说。如果我听不懂，我会告诉你。**
+   - Asking for a break → **我们可以休息五分钟吗？**
+   - “我做加薪” → **我想加薪。 / 我想申请加薪。**
+
+### Vocabulary worth keeping active
+
+| Chinese | Meaning |
+|---|---|
+| 部门 / 职位 / 职级 | department / job position / job level |
+| 负责（fùzé） | be responsible for |
+| 开发（kāifā） | develop |
+| 软件 / 硬件 | software / hardware |
+| 营销 / 广告 | marketing / advertising |
+| 员工 / 团队 | employee / team |
+| 工资 / 加薪（jiāxīn） | salary / get or give a raise |
+| 招聘 / 培训 | recruit / train |
+
+**职位** and **职级** are different: a job title or position versus its level. **员工** identifies you as an employee but does not specify your position. Likewise, **副经理** means deputy manager; it is not a general translation of “my manager’s manager.” **我的经理的上司** expresses that relationship clearly. Company titles do not follow one universal hierarchy.
+
+### Transcription uncertainty
+
+- **“软件所以 / 我的所以”** around 23:30 may be mistranscribed, but the intended noun is unclear. The surrounding discussion suggests earnings; **软件收入越来越多** is a possible reconstruction, not a certain correction.
+- **“负责北京市场的时候销售”** at 1:08 likely contains a transcription error or reading slip. You read **负责北京市场的销售** correctly earlier.
+- **“我的最喜欢的人是部”** likely includes a mistaken split of **人事部**. The extra 的 is independently supported by your earlier sentence.
+- The **事件 / 时间 / 软件** exchange is less certain: the teacher explicitly responded to 事件, so it may reflect an actual word confusion. The text alone cannot establish your pronunciation.
+
+### Say-aloud drills
+
+Say each sentence twice, then change one word. These are practice sentences, not additional claims about you.
+
+1. 我七点起床。今天我在家工作。
+2. 我不吃早饭。／我还没吃早饭。
+3. 我在软件部工作，负责开发新软件。
+4. 市场部不只做广告，也做其他工作。
+5. 我不是每次都去公司。
+6. 这个软件赚的钱越来越多。
+7. 我在这家公司已经工作三年了。
+8. 这个部门跟那个部门不一样。
+9. 这是我最喜欢的部门。
+10. 请用中文说。如果我听不懂，我会告诉你。

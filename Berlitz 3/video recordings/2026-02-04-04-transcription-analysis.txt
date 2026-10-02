@@ -1,0 +1,85 @@
+Your main speaking bottleneck is assembling familiar words into sentences: time and place before the verb, choosing the right verb, and finishing comparisons. You successfully used **有时候忙**, **不是每天都忙**, and **如果你找到新工作，你的工资可以涨很多** after prompting. Those are useful models to make automatic.
+
+These ten priorities focus on your speech, treating Speaker 0 as you. Pauses and self-corrections are not counted as separate mistakes.
+
+1. **Put time and place before the action.**  
+   “他们起床在十点钟” → **他们十点钟起床。**  
+   “如果你工作在美国” → **如果你在美国工作……**  
+   “他学习在中国” → **他在中国学习。**  
+   Pattern: **谁＋时间／在什么地方＋做什么**.
+
+2. **Use 上节课／这节课／下节课 for lesson sequence.**  
+   You repeatedly used “下课” or “上课” when explaining the previous lesson.  
+   **上节课我们学了这部分。这节课我想继续学。**  
+   上节课 = last lesson; 下节课 = next lesson. 上课 = attend/have class; 下课 = class ends. Your English explanation makes this a clear vocabulary mix-up.
+
+3. **Describe frequency with 有时候 and 不是……都…….**  
+   “可以忙……不每天” → **我的工作有时候忙，但不是每天都忙。**  
+   可以 usually expresses permission or possibility; it does not mean “sometimes.”  
+   **不是每天都忙** = not busy every day; **每天都不忙** = not busy on any day.
+
+4. **Compare with A 比 B＋adjective.**  
+   “需要照顾比去工作很难” → **照顾两个孩子比上班难。**  
+   “他的工资比我很高，很大” → **他的工资比我的工资高很多。**  
+   Use **高／低** for salary. **高很多／低很多** means much higher/lower; 太低 means “too low.” Compare salary with salary.
+
+5. **Use 虽然……但是…… and 对……不满意.**  
+   Your intended meaning was dissatisfaction with salary, while liking your work. The teacher briefly changed that meaning; you corrected it.  
+   **虽然我对工资有点不满意，但是我不想换工作。**  
+   **有点不满意** = a little dissatisfied; **换工作** = change jobs.  
+   “我不满意我的工资” is understandable; **我对我的工资不满意** is a useful standard pattern.
+
+6. **Distinguish 找 from 找到.**  
+   “我不想去找到新公司” → **我不想找新工作。**  
+   **找** = look for; **找到** = successfully find.  
+   **现在找工作不容易。**  
+   Your later sentence **如果你找到新工作，你的工资可以涨很多** was correct: the condition assumes a successful search.
+
+7. **Use 都 before the verb; distinguish 比较 from 比.**  
+   “我喜欢喝都” → **茶和咖啡我都喜欢喝。**  
+   **我比较喜欢喝茶。** = I prefer tea in this context.  
+   **这份工作比较忙。** = This job is fairly busy.  
+   比较 before an adjective does not always mean an explicit comparison.
+
+8. **Use 用＋tool＋action, and learn verbs as short chunks.**  
+   “我每天做这个APP” → **我每天用这个APP复习汉字。**  
+   “我的妈妈学习我” → **我妈妈教我用筷子。**  
+   Keep these distinctions: **学习** learn; **教** teach; **复习** review; **记住** remember successfully; **记不住** cannot retain.  
+   **复习** does not itself mean “memorize.”
+
+9. **Use 觉得／看起来 for your impression.**  
+   “很多汉字跟我一样” → **我觉得很多汉字很像。**  
+   You meant that the characters resembled one another, rather than resembled you.  
+   **一开始，我觉得“我”和“找”看起来很像。**  
+   **一样** = the same; **很像** = very similar.
+
+10. **Separate 没关系／无所谓 and 有意思／有意义.**  
+   For “It’s okay / no problem”: **没关系。**  
+   For “I don’t mind / either is fine”: **我无所谓。**  
+   “我没关系” is not the usual standalone response for that meaning.  
+   For your naming discussion: **我想要一个有意义的中文名字。**  
+   **有意思** usually means interesting; **有意义** means meaningful. To ask about literal meaning, use **这个字是什么意思？**
+
+Some transcript details should remain uncertain:
+
+- **心想／心香**, the various renderings of Daniel, and other personal names are likely affected by transcription. Their spelling and pronunciation cannot be judged reliably here.
+- **翻一次 → 反义词** could reflect either sound recognition or your pronunciation; the text alone cannot establish which.
+- **经历** in “我喜欢我的经历” may have been **经理**, given the surrounding discussion of colleagues and staying at your job. That is plausible, not certain.
+- **购买力饼干**, inconsistent ancestry percentages, and family labels during screen sharing are too ambiguous to turn into factual corrections.
+- **二十点 → 十点** and **硬件 → 软件** were self-corrections. They are not evidence of recurring grammar errors.
+- **我没有出差** is valid for “I haven’t been on a business trip” in an appropriate context. For your general work routine, **我不出差** is clearer.
+
+Say these aloud, then repeat without looking. They practice statements supported by the lesson and useful classroom requests.
+
+1. 他们十点钟起床。他在中国学习。
+2. 上节课我们学了这部分。这节课我想继续学。
+3. 我的工作有时候忙，但不是每天都忙。
+4. 她在家照顾我们的两个女儿。照顾两个孩子不容易。
+5. 我的工资比同事的工资低。
+6. 虽然我对工资有点不满意，但是我不想换工作。
+7. 找工作不容易。如果找到新工作，工资可能会涨。
+8. 茶和咖啡我都喜欢喝。
+9. 我每天用Anki复习汉字。有些字我还是记不住。
+10. 一开始，我觉得“我”和“找”很像。
+11. 我的工作需要写软件文档。写文档很重要，但有时候很无聊。
+12. 请再说一遍。这个词是什么意思？可以写一下拼音吗？

@@ -1,0 +1,126 @@
+Your main speaking bottleneck is building a complete sentence while searching for words. You already used useful Chinese correctly: **我很喜欢洗碗机、我没有选择、去年十二月、我们感冒了**. Focus on making a few reusable patterns automatic.
+
+I treat Speaker 1 as you. Without audio, transcription errors cannot be confirmed; the distinctions below are based on repetition and context.
+
+### Ten high-value corrections and structures
+
+1. **有 / 没有 — possession and existence**  
+   You repeatedly said **我要一个沙发、我们要……微波炉、我要七个** while apparently describing things you already have. This is a recurring likely speaking error, though individual instances could be mistranscribed.
+   - **我的客厅里有一个白色的沙发。**
+   - **我们有微波炉。**
+   
+   **有** = have; **要** = want/need. Negate 有 with **没有**, never **不有**.
+
+2. **想 / 不想；会 / 能 / 可以 — intention and ability**  
+   **我想不说英文** → **我不想说英文。**  
+   For not knowing how to express something:
+   - **我想用中文说。**
+   - **这个词我不会说。**
+   - **我不知道怎么用中文说。**
+   
+   **不会** = don’t know how; **不能** = cannot because of a restriction or circumstance; **不可以** = not permitted. Your **不能种花** might be correct if there was an actual obstacle; the transcript does not establish one.
+
+3. **听不懂 / 没听到 / 没听清楚 — listening repair**  
+   You twice used **没听过** when you missed information in a recording.
+   - **我没听清楚是什么东西坏了。**
+   - **我听到了，但是听不懂。**
+   - **请再说一遍。**
+   
+   **没听过** means “haven’t heard it before.” **没听到** means you didn’t catch it; **没听清楚** means you didn’t hear it clearly. Your later **听不懂** was correct.
+
+4. **Measure words — learn the noun together with its counter**  
+   Your **四本……树** and **一个狗** needed correction. You then successfully used **四棵树、一只狗、六把椅子**.
+   
+   | Useful combinations | Meaning |
+   |---|---|
+   | 一张桌子、一张地毯 | a table, a rug |
+   | 一把椅子 | a chair |
+   | 一台电视、一台冰箱 | a TV, a refrigerator |
+   | 一棵树、一只狗 | a tree, a dog |
+   
+   **一个沙发** is natural. Prioritize these combinations over memorizing every furniture word.
+
+5. **Adjective + 的 + noun; noun + adjective — describing quality**  
+   Repeated **有很好音响** → **有很好的音响。**  
+   If you meant the television sounds good, a more precise version is:
+   - **我的电视音质很好。** — My TV has good sound quality.
+   - **我不喜欢宜家家具的质量。**
+   
+   Your **白色的沙发** was already correct.
+
+6. **花多少钱 / 比……贵 — prices and comparisons**  
+   **二千美元贵** → **我的电视很贵，花了两千美元。**  
+   Your unfinished comparison can become:
+   - **这张桌子比宜家的桌子贵很多。**
+   - **修一次要两百美元。**
+   
+   Pattern: **A 比 B + adjective + 很多**. **二千** is understandable; **两千** is more natural in ordinary conversation.
+
+7. **只有…… / 还有…… / 或者…… — limiting and adding**  
+   **之一……浴室有浴缸** → **只有一个浴室有浴缸。**  
+   **三个淋浴房。还是……** → **有三个淋浴房，还有一个浴缸。**
+   
+   - **只有** = only.
+   - **还有** = also / additionally.
+   - **或者** gives alternatives in a statement: **我想坐公交车或者地铁。**
+   - **还是** usually presents a choice in a question: **你想坐公交车还是地铁？**
+
+8. **在 / 到 / 从 / 离 — locations, destinations, and distance**  
+   **玩花园** → **在花园里玩。**  
+   **喜欢开车在香港** → **喜欢在香港开车。**  
+   Replace **出市中心……五分** with:
+   - **从我家到市中心，五分钟就到了。**  
+     The transcript does not clearly establish the travel method.
+   - **我家离市中心很近。**
+   - **我从俄罗斯搬到了哈萨克斯坦，又从哈萨克斯坦搬到了美国。**
+   
+   Keep location before the action: **在花园里玩、在香港开车**.
+
+9. **如果……就……；给……打电话 — explaining what you do**  
+   **如果我不可以做……我打话我的岳父** →  
+   **如果我自己不会修，就给我的岳父打电话。**
+   
+   **打话** may reflect either an omitted syllable or transcription error. The reusable structure is **给某人打电话**.
+   - **灯坏了，请你来修一下。**
+   - **如果我头疼，就吃药。**
+   
+   **头疼** is already a symptom predicate: say **我头疼**, without needing 有. These are language examples, not medication advice.
+
+10. **Age, duration, and everyday health/work phrases**  
+    **二年孩子……一样** → **我觉得养狗跟照顾两岁的孩子一样。**  
+    **孩子时候** → **小时候**.
+    
+    **岁** expresses age; **年** expresses duration. Useful lesson phrases:
+    - **我在这里住了三年。** — I have lived here for three years.
+    - **昨天加班，睡得太晚了。** — I worked overtime yesterday and went to bed too late.
+    - **我感冒了，想请两天病假。** — I have a cold and would like two days of sick leave.
+    
+    **加班** = work overtime; **请病假** = take/request sick leave; **休息两天** = rest for two days.
+
+### What not to count as definite mistakes
+
+- **八和个……一样** likely represents **把和个……一样** during your measure-word question. **把 bǎ** and **八 bā** differ in tone; text alone cannot establish what you pronounced.
+- **只一 / 之一** probably reflects an attempt at **只有一个**, but the exact spoken form is uncertain.
+- **嘟嘟嘟嘟、依依、上天** and several interrupted passages are too unclear to correct confidently.
+- You immediately changed **人太贵了** to **太多了** while reading. Treat that as a repaired slip.
+- The teacher’s **再一日、收拾五分钟、绿印的内容** look like transcription problems, possibly **再一次、休息五分钟、录音的内容**. They are not your mistakes.
+- The insurance discussion, dental details, and **他们可以买我的家** do not establish a clear intended meaning. Avoid turning them into personal facts or confident corrections.
+
+Two useful vocabulary distinctions: **空气** means “air,” while **有空** means “have free time”; **花园** means “garden,” while **公园** means “park.”
+
+### Say-aloud drills
+
+Say each sentence twice, then repeat it without looking. These are practice sentences; conditional examples do not assert personal facts.
+
+1. 我的客厅里有一个白色的沙发。
+2. 我想用中文说。这个词我不会说。
+3. 我没听清楚，请再说一遍。
+4. 一张桌子，六把椅子，四棵树，一只狗。
+5. 我的电视音质很好，花了两千美元。
+6. 这张桌子比宜家的桌子贵很多。
+7. 我家有三个浴室，只有一个浴室有浴缸。
+8. 她喜欢在花园里玩。
+9. 我想坐公交车或者地铁。
+10. 我家离市中心很近，五分钟就到了。
+11. 如果我自己不会修，就给我的岳父打电话。
+12. 如果我感冒了，就请两天病假，在家休息。

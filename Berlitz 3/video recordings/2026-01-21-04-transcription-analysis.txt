@@ -1,0 +1,88 @@
+Your biggest opportunity is to make a few familiar patterns automatic. You successfully corrected yourself with **我刚睡醒、我没听见手机闹钟、我上过西班牙文课**. Focus on producing these complete patterns without rebuilding them word by word.
+
+I treat Speaker 0 as you and Speaker 1 as the teacher. Without audio, transcription judgments remain tentative; pauses and unfinished attempts are not automatically grammar mistakes.
+
+1. **Put time and place before the action.**  
+   “我睡觉在一点” → **我一点睡觉。**  
+   “我到了美国在……2014” → **我2014年到了美国。**  
+   “现在我工作……苹果公司” → **现在我在苹果公司工作。**  
+   Pattern: **我＋时间＋在某地＋做什么。**
+
+2. **上节课 / 下节课 / 下课**  
+   You repeatedly used “下课” when apparently referring to the previous lesson. The teacher’s response supports this correction:  
+   **上节课我们学了第十课，这节课我们学第十一课。**  
+   **上节课** = last lesson; **下节课** = next lesson; **下课** = finish class.  
+   Use **上课、学第十一课**, rather than relying on 做.
+
+3. **刚 means “just recently”; 只 means “only.”**  
+   “我只睡醒” → **我刚睡醒。** — I just woke up.  
+   **我只睡了六个小时。** — I only slept six hours.  
+   Your question here revealed a real English-to-Chinese ambiguity, which you then resolved correctly.
+
+4. **会 / 能 / 可以 express different kinds of ability.**  
+   **我会说西班牙语。** — learned skill  
+   **我现在能说话。** — current ability  
+   **我可以问一个问题吗？** — permission  
+   Your switching between 不会、不可以 and 不能 suggests this distinction needs practice. For a blocked nose, **我的鼻子不通气** is more precise than **我不能呼吸**, which means “I can’t breathe.”
+
+5. **没听见 / 听不见 / 听不懂**  
+   “我不听了我的手机” → **我没听见手机闹钟响。**  
+   **没听见** = didn’t hear it on that occasion.  
+   **听不见** = can’t hear it; **听不懂** = can hear it but can’t understand it.  
+   Similarly, **说不了话** means “unable to speak”; 不了 cannot stand alone before 话. Here, 了 in 不了 is pronounced *liǎo*.
+
+6. **Use the right unit—and put age differences after 大 / 小.**  
+   “五个天” → **五天**; **六个小时** is correct.  
+   “三十年” when describing age → **三十岁**.  
+   “我的太太比我一年大” → **我的太太比我大一岁。**  
+   Pattern: **A＋比＋B＋大/小＋几岁。**
+
+7. **Choose a specific verb instead of 做 / 去 / 有.**  
+   “你做了高考？” → **你参加过高考吗？**  
+   “五月三十号我要……HSK三考试” → **五月三十号我要参加HSK三级考试。**  
+   “我去过西班牙文课” → **我上过西班牙语课。**  
+   Useful combinations: **参加考试、上课、读本科、读硕士**.  
+   For education, **我在……读的本科** is clearer than 我有……, which can sound like possession.
+
+8. **Ask for feedback or vocabulary with a complete question.**  
+   “你觉得什么？” → **你觉得……怎么样？**  
+   **你觉得我的中文说得怎么样？**  
+   **你觉得我的发音怎么样？**  
+   **这个词怎么用？能再举一个例子吗？**  
+   **“Engineering”用中文怎么说？**  
+   发音 = pronunciation; 声调 = Mandarin tones; 工程 = engineering; 工程师 = engineer.
+
+9. **很难＋verb; 找到 emphasizes success.**  
+   “我们这一代……难工作” → **我们这一代很难找到工作。**  
+   **找工作** = look for work; **找到工作** = successfully find work.  
+   **很难找到** expresses difficulty more accurately than the absolute **不能找到**.  
+   Also, **老师，这个很难** addresses the teacher; **老师很难** describes the teacher. For “strict,” use **老师很严格**.
+
+10. **上网 is an action; 在网上 gives the location.**  
+    Your confusion between 网上 and 上网 was explicit:  
+    **我们这一代经常上网。**  
+    **我在网上看了很多关于三十岁的笑话。**  
+    Prefer **经常上网** or **花很多时间上网** to the teacher’s awkward 上很多网.
+
+A few passages need caution:
+
+- **“怎么走？”** during the breathing discussion and **“今年”** nearby may be recognition errors or abandoned attempts. Their intended wording is uncertain.
+- The teacher’s **“我爸是一点睡觉的”** may be mistranscribed. It does not establish anything about your father.
+- **听说 → 清华** could reflect either recognition trouble or your word search; the transcript cannot establish a pronunciation error.
+- Your birthday appears as **七月三十号**, then the teacher repeats **九月三十号**. The education dates also conflict. Neither should be silently resolved.
+- Some teacher suggestions changed your meaning: you requested “intermediate,” which is **中级水平**, rather than 初级水平. “Bad manners” is **不礼貌**, rather than 不在意; “useless” is **没用**, rather than 没有.
+
+Say each drill aloud twice, then repeat it from the English cue alone:
+
+| English cue | Mandarin drill |
+|---|---|
+| Sorry I’m late. Give me a moment. | 抱歉，我上课迟到了。请等一下。 |
+| I just woke up; I only slept six hours. | 我刚睡醒，只睡了六个小时。 |
+| I didn’t hear the alarm. | 我没听见手机闹钟响。 |
+| I know Spanish; I can speak now. | 我会说西班牙语。我现在能说话。 |
+| Last lesson was Lesson 10; today is Lesson 11. | 上节课我们学了第十课，这节课我们学第十一课。 |
+| I’m taking the HSK 3 exam on May 30. | 五月三十号我要参加HSK三级考试。 |
+| Before university, I worked for four years. | 读本科以前，我工作了四年。 |
+| How is my pronunciation? Give another example. | 你觉得我的发音怎么样？能再举一个例子吗？ |
+| My wife is one year older than me. | 我的太太比我大一岁。 |
+| Finding work is difficult. We often go online. | 现在很难找到工作。我们这一代经常上网。 |

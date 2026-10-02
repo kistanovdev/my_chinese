@@ -1,0 +1,79 @@
+Your main speaking bottleneck is building sentences while retrieving words. You often produce the structure correctly after prompting—for example, **我在美国十二年了、我去过法国和西班牙、每天我喝两杯咖啡**. Prioritize making those reusable patterns automatic.
+
+These corrections concern Speaker 1. Without audio, pronunciation mistakes and transcription errors cannot always be separated.
+
+1. **你在哪个国家？— asking about location**  
+   You said “你在什么国家里？” and “你在国家哪里？”  
+   → **你在哪个国家？你在哪个城市？**  
+   Use **哪个 + noun** for “which.” **你在哪里？** asks “Where are you?” Country names normally do not need **里**.
+
+2. **……多长时间了？— duration up to now**  
+   “我在美国十二年。” → **我在美国十二年了。**  
+   **你学中文多长时间了？我学中文一年了。**  
+   Final **了** signals that the duration reaches the present. You subsequently used this correctly.
+
+3. **我听说…… / 我觉得……— reporting versus giving an opinion**  
+   “我听瑞国很贵 / 我听了……” → **我听说瑞士很贵。**  
+   “我认为你喜欢这个视频。” → **我觉得你会喜欢这个视频。**  
+   **听说** = have heard that; **觉得** = think/feel; **会** expresses the prediction “will.” Repeated **瑞国** likely reflects difficulty recalling **瑞士**, although transcription may contribute.
+
+4. **还是、和、又……又……、但是— choosing the right connector**  
+   “你住在还是学习？” → **你在瑞士工作还是学习？**  
+   “中文是容易和困难。” → **中文有的地方容易，有的地方难。**  
+   Use **还是** for alternatives in questions, **和** mainly between nouns, and **又……又……** for two qualities/actions: **又工作又学习**. For contrast: **瑞士很漂亮，但是生活很贵。**
+
+5. **来 / 去 + 过— direction and experience**  
+   Your **我想去瑞士** was correct from your location in the US. The teacher in Switzerland can ask **你想来瑞士吗？**  
+   From your location: **你来过美国吗？我去过欧洲。**  
+   **过** marks experience. Negative: **我还没去过瑞士。** Your earlier “你去过美国” could be a spoken question with question intonation; **吗** makes it explicit.
+
+6. **看得懂 / 听得懂 / 听出来— different kinds of understanding**  
+   “我可以看” → **我看得懂汉字。**  
+   “我听……你的口音……” → **我听出来你有北方口音。**  
+   **看得懂** = understand what you read; **听得懂** = understand speech; **听出来** = identify something by listening. **认识汉字** means recognize characters: **我认识四百个汉字。**
+
+7. **对……来说— “for someone”**  
+   Your attempts with “英文很难……给中国人 / 跟中国人” needed this structure:  
+   → **对我来说，说中文很难。**  
+   **跟 / 和某人说话** means speak *with* someone; **对某人来说** introduces their perspective. The teacher’s “每个中国人都想说英文” is an unsupported generalization, not a necessary correction of your idea.
+
+8. **学、练习、参加、通过、问— useful verb combinations**  
+   “做每个课” → **我想学第二册的每一课。**  
+   “做HSK” → **参加HSK二级考试**; passing → **通过HSK二级考试**.  
+   “做很多请问” → **我在中文课上问很多问题。**  
+   **请问** politely introduces a question; it is not the noun “question.” Also use **练习听力 / 练习口语 / 练习手写** rather than “用听 / 用说.”
+
+9. **如果……就…… / 只有 / 只— conditions and limited time**  
+   Your long explanation becomes easier in short sentences:  
+   **如果每天只有一个小时学中文，就先练习听、说、读。**  
+   **如果不练习手写，手写汉字就会很难。**  
+   **只有一个小时** = have only one hour; **只练习听力** = practice only listening. This was a hypothetical discussion; it does not establish your actual daily study time.
+
+10. **下课以后 + request; A和B不一样— practical word order**  
+   Repeated “中文课下” → **下课以后，你可以把笔记发给我吗？**  
+   Your final comparison was already correct:  
+   **你的口音和我的香港老师的口音不一样。**  
+   Repeating **口音** makes clear that you are comparing accents. For your later “关于瑞士我不知道很多,” use **我不太了解瑞士。**
+
+A small vocabulary set worth keeping: **家具** furniture, **家电** household appliances, **厨房** kitchen, **书房** study, **卧室** bedroom, **冰箱** refrigerator, **洗衣机** washing machine, **咖啡机** coffee machine. Use **一台电视 / 一台咖啡机**, **两杯咖啡**. Practise distinguishing **厨房 chúfáng / 书房 shūfáng** and **我是 wǒ shì / 卧室 wòshì**.
+
+Treat these transcript details cautiously:
+
+- **那个 / 哪个、他们 / 它们、他 / 它** cannot reliably establish a spoken mistake; some distinctions are identical in pronunciation.
+- “洪流党,” “看得blank,” and “在Berlin” appear corrupted or uncertain. Do not memorize or reconstruct them confidently.
+- The **我是 / 卧室** passage was a deliberate sound comparison, not evidence that you confused identity with location.
+- The teacher’s **优秀** means “excellent,” not “pass.” Use **通过 / 及格** for passing. The transcript does not establish your precise score or the relevant scoring scale.
+- The teacher’s **因素** may be a transcription of **音素**. Skip this technical vocabulary for now.
+
+For aloud practice, say each pair once while reading, then repeat it without looking:
+
+1. **你在哪个国家？—我在美国。**
+2. **你在美国多长时间了？—我在美国十二年了。**
+3. **我听说瑞士很贵。—我觉得你会喜欢这个视频。**
+4. **你工作还是学习？—我又工作又学习。** *(Pattern practice.)*
+5. **你来过美国吗？—我去过法国和西班牙。**
+6. **我看得懂这个词，但是听不懂这句话。** *(Pattern practice.)*
+7. **对我来说，说中文很难。—我想多练习口语。**
+8. **我想学每一课。—我在课上问很多问题。**
+9. **如果只有一个小时，就先练习听力。** *(Hypothetical.)*
+10. **下课以后，你可以把笔记发给我吗？—你的口音和我的香港老师的口音不一样。**

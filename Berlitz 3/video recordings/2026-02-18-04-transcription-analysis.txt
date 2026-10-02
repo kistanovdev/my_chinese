@@ -1,0 +1,67 @@
+Your main speaking bottleneck in this lesson was assembling familiar words into complete sentences. The highest-value practice is **time/place word order, 不 versus 没, adjective sentences, and asking for clarification**. You also corrected yourself successfully: “我没去过中国,” “我觉得……不方便,” and “我学到很多” were good repairs.
+
+I treat Speaker 0 as you. Without audio, transcription judgments are tentative; pauses and abandoned starts are not automatically grammar mistakes.
+
+### Ten useful corrections and structures
+
+| Priority | Your wording / lesson context | Natural Mandarin and practical rule |
+|---|---|---|
+| 1. **Time and place before the verb** | “我学习每天”; “我们有人工作在……”; “我的妈妈苏联长大” | **我每天学习中文。我们有同事在 San Diego 工作。我的妈妈在苏联长大。** Pattern: subject + time + 在 place + verb. Your “我在俄罗斯长大” already used this correctly. |
+| 2. **Adjectives usually don’t need 是** | “我的小女儿是很小”; “不是容易旅游”; “不是方便” | **我的小女儿还很小。带她去旅游不容易。电话会议不太方便。** Use 很 / 不 / 不太 directly before the adjective. **太小了** = too young/small; **不太方便** = not very convenient. |
+| 3. **没 for events that didn’t happen; 不 for habits or intentions** | “我不……我没去过中国”; “没去开会。也，不去” | **我没去过中国。 他没去开会。** 没（有）negates completed events or experience. **我不看奥运会** describes a habit; **我明年想去中国** expresses a wish. Your final “我没去过中国” was correct. |
+| 4. **对……感兴趣 / 喜欢 + activity** | You needed a reminder of 感兴趣; “我喜欢看运动，我喜欢做……UFC” | If you meant watching: **我喜欢看 UFC 比赛。／我对看比赛感兴趣。** 对 + topic/activity + 感兴趣 = “be interested in.” “做 UFC” doesn’t clearly express watching or practising a sport; your exact intended activity is uncertain. |
+| 5. **听说 versus 听过** | You repeatedly used “我听过” before factual claims | **我听说新疆有很多哈萨克人。** 听说 + statement = “I’ve heard that…” **我听过这个名字。** 听过 + name/sound = “I’ve heard it before.” For familiarity with a person: **我听说过她。** This preserves the distinction between reporting something and confirming it. |
+| 6. **Ask for repetition or explain the problem** | “你可以说一下”; “我不知道急事”; “没有／不可以” when unable to see notes | **你可以再说一遍吗？“急事”是什么意思？我看不到笔记，你可以写在聊天框里吗？** Also distinguish **我听不到** (“I can’t hear you”) from **我听不懂** (“I hear you, but don’t understand”). |
+| 7. **Frequency and duration** | “小女儿睡觉每天两次”; “我去工作……三十分钟” | **我的小女儿每天睡两次觉。堵车的时候，我开车去公司要三十分钟；不堵车的时候，只要十分钟。** 每天 + activity + number + 次 gives frequency. **要 + duration** tells how long something takes. |
+| 8. **Questions and comparisons** | “你什么城市住在？”; “英国比中国很小”; “不每天” | **你住在哪个城市？英国比中国小。我们不是每天都开会。** Keep 哪个城市 in the place slot. Use **A 比 B + adjective**, without 很. **不是每天都……** means “not every day.” |
+| 9. **Rescheduling: 改个时间 / 改到 / 等……再……** | “我跟我的朋友，我们改很多”; “改星期六”; lesson scheduling dialogues | **我和朋友经常改时间。我们改到星期六吧。等我回来再约时间。** 改个时间 = reschedule; 改到 + new time = move it to that time; 等 + event + 再 + action = wait until…, then…. Useful chunks: **你有空吗？恐怕不行。改天再聊吧。** |
+| 10. **Apologies as complete chunks** | You asked whether 好意思 works and whether 抱歉 needs 真 | **不好意思，我来晚了。很抱歉，让你久等了。** 抱歉 alone is meaningful; 真 adds emphasis. 不好意思 is a set expression for a mild apology or embarrassment. 好意思 exists in other contexts, but is not a standalone apology. **久等** = wait a long time; **迟到** = arrive late. |
+
+### What is probably transcription trouble?
+
+- The teacher’s “亚洲有 Hollywood / 家里有 Hollywood” likely represents **加州有 Hollywood**. This is not your mistake.
+- “期待ski” appears to be the transcript’s rendering of a Russian word. Don’t practise it as Chinese.
+- “人工工程师” is suspicious in the software discussion. **软件工程师** fits the context, but the intended wording cannot be recovered confidently.
+- “后年” in the account of an earlier Japan trip is a genuine time-word confusion **if transcribed accurately**. A past trip requires a past time expression, but the transcript doesn’t establish which year you meant. **前年** = the year before last; **后年** = the year after next.
+
+Repeated patterns such as “不是方便,” “工作在……,” and “我学习每天” are stronger evidence of actual speaking errors than isolated garbled words. The teacher’s agreement does not always establish that your wording was natural.
+
+### Say-aloud drills
+
+Say each sentence once while reading, then again from the English cue alone.
+
+1. **我每天学习中文。我在苹果公司工作。**  
+   I study Chinese every day. I work at Apple.
+
+2. **我喜欢看比赛。我对看电影也很感兴趣。**  
+   I like watching competitions. I’m also interested in watching movies.
+
+3. **我没去过中国，但是我想去。**  
+   I haven’t been to China, but I want to go.
+
+4. **我的小女儿还很小，带她去旅游不容易。**  
+   My younger daughter is still very young; travelling with her isn’t easy.
+
+5. **我听说过这个人，但是我不太了解她。**  
+   I’ve heard of this person, but don’t know much about her.
+
+6. **你可以再说一遍吗？这个词是什么意思？**  
+   Could you say it again? What does this word mean?
+
+7. **我听得到，但是听不懂。你可以说慢一点吗？**  
+   I can hear you, but don’t understand. Could you speak a little slower?
+
+8. **我们不是每天都开会。开会的时候，我们用 Webex。**  
+   We don’t have meetings every day. We use Webex for meetings.
+
+9. **堵车的时候要三十分钟，不堵车的时候只要十分钟。**  
+   It takes thirty minutes with traffic, and only ten without it.
+
+10. **星期五你有空吗？不行的话，我们改到星期六吧。**  
+    Are you free Friday? If that doesn’t work, let’s move it to Saturday.
+
+11. **等我回来，我们再约时间。**  
+    Let’s arrange a time after I return.
+
+12. **不好意思，我来晚了，让你久等了。**  
+    Sorry I’m late and kept you waiting.
