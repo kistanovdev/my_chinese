@@ -31,8 +31,8 @@
             <p class="eyebrow">TODAY'S PRACTICE</p>
             <h1>Make the right sentence feel automatic.</h1>
             <p class="hero-description">
-              Listen first. Repeat aloud during the pause. Rate the structure,
-              not your accent.
+              Listen first. Repeat aloud, record your final version, and compare
+              before you rate the structure.
             </p>
           </div>
 
@@ -63,6 +63,8 @@
               <label>
                 <span>Sentences</span>
                 <select id="session-size">
+                  <option value="1">1</option>
+                  <option value="5">5</option>
                   <option value="10">10</option>
                   <option value="15">15</option>
                   <option value="20">20</option>
@@ -90,6 +92,13 @@
                   <option value="varied">Varied speakers</option>
                 </select>
               </label>
+              <label>
+                <span>Recording</span>
+                <select id="record-mode">
+                  <option value="on">Prompt me</option>
+                  <option value="off">Off</option>
+                </select>
+              </label>
             </div>
             <button class="primary-button start-button" id="start-button" type="button" disabled>
               Start practice
@@ -98,7 +107,7 @@
             <p class="session-note" id="session-note">Loading your deck…</p>
           </section>
 
-          <p class="shortcut-note">During practice: Space plays · R reveals · P shows pinyin · 1–4 rates</p>
+          <p class="shortcut-note">During practice: Space plays · R reveals · P toggles pinyin · T toggles translation · 1–4 rates</p>
         </section>
 
         <section class="screen practice-screen hidden" id="practice-screen">
@@ -126,7 +135,7 @@
             <div class="answer-block concealed" id="answer-block">
               <p class="chinese" id="chinese-text" lang="zh-Hans"></p>
               <p class="pinyin hidden" id="pinyin-text"></p>
-              <p class="english-hint" id="english-text"></p>
+              <p class="english-hint hidden" id="english-text"></p>
             </div>
 
             <div class="audio-zone">
@@ -140,9 +149,44 @@
               <div class="repeat-dots" id="repeat-dots" aria-label="Repetition progress"></div>
             </div>
 
+            <section class="recording-panel hidden" id="recording-panel" aria-label="Record your voice">
+              <div class="recording-heading">
+                <div>
+                  <span class="section-label">YOUR VOICE</span>
+                  <h3>Record your version</h3>
+                </div>
+                <span class="recording-timer hidden" id="recording-timer">0:00 / 0:30</span>
+              </div>
+              <p class="recording-copy" id="recording-copy" aria-live="polite">
+                Say the complete sentence, then compare it with the reference.
+              </p>
+              <div class="recording-controls">
+                <button class="record-button" id="record-button" type="button">
+                  <span class="record-dot" aria-hidden="true"></span>
+                  <span id="record-label">Start recording</span>
+                </button>
+                <button class="secondary-button" id="skip-recording" type="button">Skip this time</button>
+              </div>
+
+              <div class="comparison-panel hidden" id="comparison-panel">
+                <p id="recording-save-status">Saved locally. Listen side by side.</p>
+                <div class="comparison-controls">
+                  <button class="secondary-button" id="play-reference" type="button">▶ Reference</button>
+                  <button class="secondary-button" id="play-mine" type="button">▶ My recording</button>
+                  <button class="secondary-button" id="record-another" type="button">Record another</button>
+                </div>
+              </div>
+
+              <details class="recording-history hidden" id="recording-history">
+                <summary>Earlier attempts <span id="recording-history-count"></span></summary>
+                <div class="recording-history-list" id="recording-history-list"></div>
+              </details>
+            </section>
+
             <div class="card-actions">
               <button class="secondary-button" id="reveal-button" type="button">Reveal sentence</button>
               <button class="secondary-button" id="pinyin-button" type="button">Show pinyin</button>
+              <button class="secondary-button" id="translation-button" type="button">Show translation</button>
               <button class="secondary-button" id="replay-button" type="button" disabled>Replay once</button>
             </div>
           </article>

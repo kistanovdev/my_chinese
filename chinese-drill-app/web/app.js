@@ -2,6 +2,7 @@
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 const INTERVALS = [1, 3, 7, 14, 30, 60];
+const MAX_RECORDING_MS = 30 * 1000;
 
 const elements = {
   dashboard: document.querySelector("#dashboard-screen"),
@@ -17,6 +18,7 @@ const elements = {
   repetitions: document.querySelector("#repetitions"),
   playbackSpeed: document.querySelector("#playback-speed"),
   voiceMode: document.querySelector("#voice-mode"),
+  recordMode: document.querySelector("#record-mode"),
   startButton: document.querySelector("#start-button"),
   sessionNote: document.querySelector("#session-note"),
   exitSession: document.querySelector("#exit-session"),
@@ -35,7 +37,22 @@ const elements = {
   repeatDots: document.querySelector("#repeat-dots"),
   revealButton: document.querySelector("#reveal-button"),
   pinyinButton: document.querySelector("#pinyin-button"),
+  translationButton: document.querySelector("#translation-button"),
   replayButton: document.querySelector("#replay-button"),
+  recordingPanel: document.querySelector("#recording-panel"),
+  recordingCopy: document.querySelector("#recording-copy"),
+  recordingTimer: document.querySelector("#recording-timer"),
+  recordButton: document.querySelector("#record-button"),
+  recordLabel: document.querySelector("#record-label"),
+  skipRecording: document.querySelector("#skip-recording"),
+  comparisonPanel: document.querySelector("#comparison-panel"),
+  recordingSaveStatus: document.querySelector("#recording-save-status"),
+  playReference: document.querySelector("#play-reference"),
+  playMine: document.querySelector("#play-mine"),
+  recordAnother: document.querySelector("#record-another"),
+  recordingHistory: document.querySelector("#recording-history"),
+  recordingHistoryCount: document.querySelector("#recording-history-count"),
+  recordingHistoryList: document.querySelector("#recording-history-list"),
   ratingPanel: document.querySelector("#rating-panel"),
   ratingButtons: [...document.querySelectorAll("[data-rating]")],
   completionCopy: document.querySelector("#completion-copy"),
@@ -60,6 +77,20 @@ const state = {
   plannedSessionCount: 0,
   audioOrder: [],
   currentAudio: null,
+  lastReferenceAudio: null,
+  attemptAudio: new Audio(),
+  recordingPhase: false,
+  mediaRecorder: null,
+  mediaStream: null,
+  recordingChunks: [],
+  recordingStartedAt: 0,
+  recordingTimer: null,
+  recordingLimitTimer: null,
+  discardRecording: false,
+  recordings: [],
+  currentAttempt: null,
+  localRecordingUrl: null,
+  recordingSession: null,
 };
 
 async function fetchJson(url, options = {}) {
@@ -140,13 +171,21 @@ function readySentences() {
     const bDue = state.progress.cards[b.id].next_due;
     return aDue.localeCompare(bDue) || b.priority - a.priority;
   });
-  fresh.sort((a, b) => b.priority - a.priority || a.id.localeCompare(b.id));
   future.sort((a, b) => {
     const aDue = state.progress.cards[a.id].next_due;
     const bDue = state.progress.cards[b.id].next_due;
     return aDue.localeCompare(bDue);
   });
   return { due, fresh, future };
+}
+
+function shuffled(items) {
+  const result = [...items];
+  for (let index = result.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [result[index], result[swapIndex]] = [result[swapIndex], result[index]];
+  }
+  return result;
 }
 
 function renderDashboard() {
@@ -161,6 +200,7 @@ function renderDashboard() {
   elements.repetitions.value = String(state.progress.settings.repetitions);
   elements.playbackSpeed.value = String(state.progress.settings.playback_speed);
   elements.voiceMode.value = state.progress.settings.voice_mode || "original";
+  elements.recordMode.value = state.progress.settings.record_after_sequence === false ? "off" : "on";
   elements.startButton.disabled = state.deck.length === 0;
   if (ready > 0) {
     elements.sessionNote.textContent = `${ready} sentence${ready === 1 ? " is" : "s are"} ready. Highest-priority patterns come first.`;
@@ -176,6 +216,7 @@ async function saveSettings() {
   state.progress.settings.repetitions = Number(elements.repetitions.value);
   state.progress.settings.playback_speed = Number(elements.playbackSpeed.value);
   state.progress.settings.voice_mode = elements.voiceMode.value;
+  state.progress.settings.record_after_sequence = elements.recordMode.value === "on";
   await saveProgress();
   renderDashboard();
 }
@@ -183,7 +224,7 @@ async function saveSettings() {
 function buildSessionQueue() {
   const { due, fresh, future } = readySentences();
   const size = state.progress.settings.session_size;
-  let selected = [...due, ...fresh].slice(0, size);
+  let selected = [...due, ...shuffled(fresh)].slice(0, size);
   if (selected.length === 0) selected = future.slice(0, size);
   return selected.map((sentence) => ({ sentence, retried: false }));
 }
@@ -217,15 +258,370 @@ function revealAnswer() {
   elements.revealButton.disabled = true;
 }
 
-function showPinyin() {
+function togglePinyin() {
   revealAnswer();
-  elements.pinyinText.classList.remove("hidden");
-  elements.pinyinButton.textContent = "Pinyin shown";
-  elements.pinyinButton.disabled = true;
+  const willShow = elements.pinyinText.classList.contains("hidden");
+  elements.pinyinText.classList.toggle("hidden", !willShow);
+  elements.pinyinButton.textContent = willShow ? "Hide pinyin" : "Show pinyin";
+  elements.pinyinButton.setAttribute("aria-pressed", String(willShow));
+}
+
+function toggleTranslation() {
+  revealAnswer();
+  const willShow = elements.englishText.classList.contains("hidden");
+  elements.englishText.classList.toggle("hidden", !willShow);
+  elements.translationButton.textContent = willShow ? "Hide translation" : "Show translation";
+  elements.translationButton.setAttribute("aria-pressed", String(willShow));
+}
+
+function clearRecordingTimers() {
+  window.clearInterval(state.recordingTimer);
+  window.clearTimeout(state.recordingLimitTimer);
+  state.recordingTimer = null;
+  state.recordingLimitTimer = null;
+}
+
+function releaseRecordingSession(session) {
+  session?.stream?.getTracks().forEach((track) => track.stop());
+  if (state.mediaStream === session?.stream) state.mediaStream = null;
+  if (state.mediaRecorder === session?.recorder) state.mediaRecorder = null;
+  if (state.recordingSession === session) state.recordingSession = null;
+}
+
+function cancelActiveRecording() {
+  const session = state.recordingSession;
+  if (!session) return;
+  session.discarded = true;
+  clearRecordingTimers();
+  if (session.recorder.state !== "inactive") session.recorder.stop();
+  else releaseRecordingSession(session);
+}
+
+function stopAttemptPlayback() {
+  state.attemptAudio.pause();
+  state.attemptAudio.currentTime = 0;
+}
+
+function resetRecordingState() {
+  cancelActiveRecording();
+  stopAttemptPlayback();
+  if (state.localRecordingUrl) URL.revokeObjectURL(state.localRecordingUrl);
+  state.localRecordingUrl = null;
+  state.recordingPhase = false;
+  state.recordings = [];
+  state.currentAttempt = null;
+  elements.recordingPanel.classList.add("hidden");
+  elements.comparisonPanel.classList.add("hidden");
+  elements.recordingHistory.classList.add("hidden");
+  elements.recordingHistoryList.replaceChildren();
+  elements.recordButton.classList.remove("recording");
+  elements.recordButton.disabled = false;
+  elements.recordLabel.textContent = "Start recording";
+  elements.recordingTimer.classList.add("hidden");
+  elements.skipRecording.disabled = false;
+  elements.skipRecording.classList.remove("hidden");
+}
+
+function recordingSupported() {
+  return Boolean(navigator.mediaDevices?.getUserMedia && window.MediaRecorder);
+}
+
+function selectedRecordingMimeType() {
+  const candidates = [
+    "audio/webm;codecs=opus",
+    "audio/mp4",
+    "audio/ogg;codecs=opus",
+    "audio/webm",
+  ];
+  return candidates.find((type) => MediaRecorder.isTypeSupported?.(type)) || "";
+}
+
+function formatRecordingTime(milliseconds) {
+  const seconds = Math.floor(milliseconds / 1000);
+  return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
+}
+
+function updateRecordingTimer() {
+  const elapsed = Math.min(MAX_RECORDING_MS, Date.now() - state.recordingStartedAt);
+  elements.recordingTimer.textContent = `${formatRecordingTime(elapsed)} / 0:30`;
+}
+
+function setRatingReady(message) {
+  state.ratingReady = true;
+  elements.playButton.disabled = false;
+  elements.playLabel.textContent = "Repeat sequence";
+  elements.replayButton.disabled = false;
+  elements.turnStatus.textContent = message;
+  revealAnswer();
+  elements.ratingPanel.classList.remove("hidden");
+}
+
+function formatAttemptDate(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Saved attempt";
+  return new Intl.DateTimeFormat(undefined, {
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+  }).format(date);
+}
+
+async function playAttempt(attempt) {
+  if (!attempt?.audio_url) return;
+  state.audio.pause();
+  stopAttemptPlayback();
+  state.attemptAudio.src = attempt.audio_url;
+  try {
+    await state.attemptAudio.play();
+    elements.turnStatus.textContent = "Listening to your recording.";
+  } catch (error) {
+    showToast(`Recording could not play: ${error.message}`);
+  }
+}
+
+async function playReferenceComparison() {
+  stopAttemptPlayback();
+  elements.turnStatus.textContent = "Listening to the reference.";
+  try {
+    await playAudio(state.lastReferenceAudio || state.currentAudio);
+  } catch (error) {
+    showToast(`Reference could not play: ${error.message}`);
+  }
+}
+
+function renderRecordingHistory() {
+  elements.recordingHistoryList.replaceChildren();
+  elements.recordingHistoryCount.textContent = `(${state.recordings.length})`;
+  elements.recordingHistory.classList.toggle("hidden", state.recordings.length === 0);
+  for (const attempt of state.recordings) {
+    const row = document.createElement("div");
+    row.className = "recording-history-item";
+
+    const date = document.createElement("span");
+    date.className = "recording-history-date";
+    date.textContent = `${formatAttemptDate(attempt.created_at)} · ${formatRecordingTime(attempt.duration_ms)}`;
+
+    const play = document.createElement("button");
+    play.className = "history-play";
+    play.type = "button";
+    play.textContent = "Play";
+    play.addEventListener("click", () => playAttempt(attempt));
+
+    const remove = document.createElement("button");
+    remove.className = "history-delete";
+    remove.type = "button";
+    remove.textContent = "Delete";
+    remove.addEventListener("click", () => deleteAttempt(attempt));
+
+    row.append(date, play, remove);
+    elements.recordingHistoryList.append(row);
+  }
+}
+
+async function loadRecordingHistory(sentenceId) {
+  try {
+    const result = await fetchJson(`/api/recordings?sentence_id=${encodeURIComponent(sentenceId)}`);
+    if (!state.recordingPhase || state.currentItem?.sentence.id !== sentenceId) return;
+    state.recordings = result.attempts;
+    renderRecordingHistory();
+  } catch (error) {
+    showToast(`Recording history could not load: ${error.message}`);
+  }
+}
+
+async function deleteAttempt(attempt) {
+  if (!window.confirm(`Delete the recording from ${formatAttemptDate(attempt.created_at)}?`)) return;
+  try {
+    await fetchJson(`/api/recordings/${encodeURIComponent(attempt.id)}`, { method: "DELETE" });
+    state.recordings = state.recordings.filter((item) => item.id !== attempt.id);
+    if (state.currentAttempt?.id === attempt.id) {
+      stopAttemptPlayback();
+      state.currentAttempt = null;
+      elements.comparisonPanel.classList.add("hidden");
+    }
+    renderRecordingHistory();
+    showToast("Recording deleted.");
+  } catch (error) {
+    showToast(`Recording could not be deleted: ${error.message}`);
+  }
+}
+
+async function uploadRecording(blob, sentenceId, durationMs) {
+  return fetchJson(`/api/recordings?sentence_id=${encodeURIComponent(sentenceId)}`, {
+    method: "POST",
+    headers: {
+      "Content-Type": blob.type || "audio/webm",
+      "X-Recording-Duration-Ms": String(durationMs),
+    },
+    body: blob,
+  });
+}
+
+async function finishCapturedRecording(session) {
+  clearRecordingTimers();
+  releaseRecordingSession(session);
+  elements.recordButton.classList.remove("recording");
+  elements.recordLabel.textContent = "Start recording";
+  elements.recordingTimer.classList.add("hidden");
+  elements.recordButton.disabled = false;
+  elements.skipRecording.disabled = false;
+  if (session.discarded || state.currentItem?.sentence.id !== session.sentenceId) return;
+
+  const durationMs = Math.min(MAX_RECORDING_MS, Date.now() - session.startedAt);
+  const blob = new Blob(session.chunks, { type: session.recorder.mimeType || "audio/webm" });
+  if (blob.size < 128) {
+    elements.recordingCopy.textContent = "Nothing was captured. Please try recording again.";
+    showToast("The recording was empty.");
+    return;
+  }
+
+  if (state.localRecordingUrl) URL.revokeObjectURL(state.localRecordingUrl);
+  state.localRecordingUrl = URL.createObjectURL(blob);
+  state.currentAttempt = {
+    created_at: new Date().toISOString(),
+    duration_ms: durationMs,
+    audio_url: state.localRecordingUrl,
+  };
+  elements.comparisonPanel.classList.remove("hidden");
+  elements.recordingSaveStatus.textContent = "Saving locally…";
+  elements.recordingCopy.textContent = "Listen to both versions, then rate the sentence.";
+
+  try {
+    const saved = await uploadRecording(blob, session.sentenceId, durationMs);
+    if (!state.recordingPhase || state.currentItem?.sentence.id !== session.sentenceId) return;
+    if (state.localRecordingUrl) URL.revokeObjectURL(state.localRecordingUrl);
+    state.localRecordingUrl = null;
+    state.currentAttempt = saved;
+    state.recordings = [saved, ...state.recordings.filter((item) => item.id !== saved.id)];
+    elements.recordingSaveStatus.textContent = "Saved locally. Listen side by side.";
+    renderRecordingHistory();
+  } catch (error) {
+    if (!state.recordingPhase || state.currentItem?.sentence.id !== session.sentenceId) return;
+    elements.recordingSaveStatus.textContent = "Available for comparison, but not saved.";
+    showToast(`Recording was not saved: ${error.message}`);
+  }
+  elements.skipRecording.classList.add("hidden");
+  setRatingReady("Compare both versions, then rate the sentence.");
+}
+
+async function startRecording() {
+  if (!state.recordingPhase || state.recordingSession) return;
+  if (!recordingSupported()) {
+    elements.recordingCopy.textContent = "This browser does not support microphone recording.";
+    elements.recordButton.disabled = true;
+    return;
+  }
+  stopPlayback();
+  stopAttemptPlayback();
+  state.ratingReady = false;
+  elements.ratingPanel.classList.add("hidden");
+  elements.comparisonPanel.classList.add("hidden");
+  elements.skipRecording.classList.remove("hidden");
+  elements.recordButton.disabled = true;
+  elements.recordLabel.textContent = "Allow microphone…";
+  const sentenceId = state.currentItem.sentence.id;
+
+  let stream;
+  try {
+    stream = await navigator.mediaDevices.getUserMedia({
+      audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true },
+    });
+  } catch (error) {
+    elements.recordButton.disabled = false;
+    elements.recordLabel.textContent = "Try microphone again";
+    elements.recordingCopy.textContent = "Microphone access was not granted. You can retry or skip.";
+    showToast(`Microphone unavailable: ${error.message}`);
+    return;
+  }
+  if (!state.recordingPhase || state.currentItem?.sentence.id !== sentenceId) {
+    stream.getTracks().forEach((track) => track.stop());
+    return;
+  }
+
+  const mimeType = selectedRecordingMimeType();
+  let recorder;
+  try {
+    recorder = new MediaRecorder(stream, {
+      ...(mimeType ? { mimeType } : {}),
+      audioBitsPerSecond: 64000,
+    });
+  } catch (_) {
+    recorder = new MediaRecorder(stream);
+  }
+  const session = {
+    recorder,
+    stream,
+    sentenceId,
+    chunks: [],
+    startedAt: Date.now(),
+    discarded: false,
+  };
+  state.recordingSession = session;
+  state.mediaRecorder = recorder;
+  state.mediaStream = stream;
+  state.recordingStartedAt = session.startedAt;
+  recorder.addEventListener("dataavailable", (event) => {
+    if (event.data.size > 0) session.chunks.push(event.data);
+  });
+  recorder.addEventListener("stop", () => finishCapturedRecording(session));
+  recorder.start();
+  elements.recordButton.disabled = false;
+  elements.recordButton.classList.add("recording");
+  elements.recordLabel.textContent = "Stop recording";
+  elements.recordingTimer.classList.remove("hidden");
+  elements.recordingCopy.textContent = "Recording now—say the whole sentence.";
+  elements.skipRecording.disabled = true;
+  elements.turnStatus.textContent = "Recording your voice…";
+  updateRecordingTimer();
+  state.recordingTimer = window.setInterval(updateRecordingTimer, 250);
+  state.recordingLimitTimer = window.setTimeout(stopRecording, MAX_RECORDING_MS);
+}
+
+function stopRecording() {
+  const session = state.recordingSession;
+  if (!session || session.recorder.state === "inactive") return;
+  elements.recordButton.disabled = true;
+  elements.recordLabel.textContent = "Finishing…";
+  session.recorder.stop();
+}
+
+function handleRecordButton() {
+  if (state.recordingSession?.recorder.state === "recording") stopRecording();
+  else startRecording();
+}
+
+function enterRecordingPhase() {
+  state.sequenceActive = false;
+  state.ratingReady = false;
+  state.recordingPhase = true;
+  elements.playButton.disabled = false;
+  elements.playLabel.textContent = "Repeat sequence";
+  elements.replayButton.disabled = false;
+  elements.recordingPanel.classList.remove("hidden");
+  elements.comparisonPanel.classList.add("hidden");
+  elements.recordButton.disabled = !recordingSupported();
+  elements.recordLabel.textContent = "Start recording";
+  elements.skipRecording.disabled = false;
+  elements.skipRecording.classList.remove("hidden");
+  elements.recordingCopy.textContent = recordingSupported()
+    ? "Say the complete sentence, then compare it with the reference."
+    : "Recording is unavailable in this browser. You can continue without it.";
+  elements.turnStatus.textContent = "Now record your version, or skip this time.";
+  revealAnswer();
+  loadRecordingHistory(state.currentItem.sentence.id);
+}
+
+function skipRecordingPrompt() {
+  cancelActiveRecording();
+  state.recordingPhase = false;
+  elements.recordingPanel.classList.add("hidden");
+  setRatingReady("Recording skipped. Rate how automatic the structure felt.");
 }
 
 function prepareCurrentCard() {
   stopPlayback();
+  resetRecordingState();
   state.currentItem = state.queue[state.currentIndex];
   state.repetitionsPlayed = 0;
   state.ratingReady = false;
@@ -243,6 +639,7 @@ function prepareCurrentCard() {
   }
   state.audioOrder = variants;
   state.currentAudio = variants[0];
+  state.lastReferenceAudio = variants[0];
 
   elements.cardPosition.textContent = `${state.currentIndex + 1} of ${state.queue.length}`;
   elements.progressFill.style.width = `${(state.completedInSession / Math.max(1, state.queue.length)) * 100}%`;
@@ -257,10 +654,14 @@ function prepareCurrentCard() {
   elements.englishText.textContent = sentence.english_hint;
   elements.answerBlock.classList.add("concealed");
   elements.pinyinText.classList.add("hidden");
+  elements.englishText.classList.add("hidden");
   elements.revealButton.disabled = false;
   elements.revealButton.textContent = "Reveal sentence";
   elements.pinyinButton.disabled = false;
   elements.pinyinButton.textContent = "Show pinyin";
+  elements.pinyinButton.setAttribute("aria-pressed", "false");
+  elements.translationButton.textContent = "Show translation";
+  elements.translationButton.setAttribute("aria-pressed", "false");
   elements.replayButton.disabled = true;
   elements.ratingPanel.classList.add("hidden");
   elements.playButton.disabled = false;
@@ -296,6 +697,7 @@ async function playSequenceRound() {
   elements.playButton.disabled = true;
   elements.playLabel.textContent = "Listen";
   const variant = state.audioOrder[state.repetitionsPlayed % state.audioOrder.length];
+  state.lastReferenceAudio = variant;
   elements.turnStatus.textContent = state.progress.settings.voice_mode === "varied"
     ? `Round ${state.repetitionsPlayed + 1}: listen to ${variant.name}.`
     : `Round ${state.repetitionsPlayed + 1}: listen carefully.`;
@@ -317,6 +719,13 @@ function finishRepetitionRound() {
   elements.playButton.classList.remove("active");
   elements.turnStatus.textContent = "Your turn—say the whole sentence aloud. Take your time.";
   const repetitions = state.progress.settings.repetitions;
+  if (
+    state.repetitionsPlayed >= repetitions
+    && state.progress.settings.record_after_sequence !== false
+  ) {
+    enterRecordingPhase();
+    return;
+  }
   state.pauseTimer = window.setTimeout(() => {
     if (!state.sequenceActive) return;
     if (state.repetitionsPlayed < repetitions) {
@@ -324,18 +733,15 @@ function finishRepetitionRound() {
       return;
     }
     state.sequenceActive = false;
-    state.ratingReady = true;
-    elements.playButton.disabled = false;
-    elements.playLabel.textContent = "Repeat sequence";
-    elements.replayButton.disabled = false;
-    elements.turnStatus.textContent = "Rate how automatic the structure felt.";
-    revealAnswer();
-    elements.ratingPanel.classList.remove("hidden");
+    setRatingReady("Rate how automatic the structure felt.");
   }, repetitionPauseMs());
 }
 
 function startSequence() {
-  if (state.sequenceActive) return;
+  if (state.sequenceActive || state.recordingSession) return;
+  stopAttemptPlayback();
+  state.recordingPhase = false;
+  elements.recordingPanel.classList.add("hidden");
   state.repetitionsPlayed = 0;
   state.sequenceActive = true;
   state.ratingReady = false;
@@ -345,7 +751,7 @@ function startSequence() {
 }
 
 async function replayOnce() {
-  if (state.sequenceActive) return;
+  if (state.sequenceActive || state.recordingSession) return;
   elements.replayButton.disabled = true;
   elements.turnStatus.textContent = "Listen once more.";
   try {
@@ -424,6 +830,7 @@ function startSession() {
 
 async function completeSession() {
   stopPlayback();
+  resetRecordingState();
   state.progress.stats.sessions_completed += 1;
   state.progress.stats.last_session = new Date().toISOString();
   await saveProgress();
@@ -441,6 +848,7 @@ async function completeSession() {
 
 function goHome() {
   stopPlayback();
+  resetRecordingState();
   renderDashboard();
   showScreen("dashboard");
 }
@@ -450,6 +858,7 @@ function handleKeyboard(event) {
   if (["INPUT", "SELECT", "TEXTAREA"].includes(document.activeElement.tagName)) return;
   if (event.code === "Space") {
     event.preventDefault();
+    if (state.recordingSession || (state.recordingPhase && !state.ratingReady)) return;
     if (!state.sequenceActive) {
       if (state.ratingReady) replayOnce();
       else startSequence();
@@ -461,7 +870,11 @@ function handleKeyboard(event) {
     return;
   }
   if (event.key.toLowerCase() === "p") {
-    showPinyin();
+    togglePinyin();
+    return;
+  }
+  if (event.key.toLowerCase() === "t") {
+    toggleTranslation();
     return;
   }
   const ratingByKey = { "1": "again", "2": "hard", "3": "good", "4": "easy" };
@@ -475,20 +888,35 @@ function bindEvents() {
   elements.finishButton.addEventListener("click", goHome);
   elements.playButton.addEventListener("click", startSequence);
   elements.revealButton.addEventListener("click", revealAnswer);
-  elements.pinyinButton.addEventListener("click", showPinyin);
+  elements.pinyinButton.addEventListener("click", togglePinyin);
+  elements.translationButton.addEventListener("click", toggleTranslation);
   elements.replayButton.addEventListener("click", replayOnce);
+  elements.recordButton.addEventListener("click", handleRecordButton);
+  elements.skipRecording.addEventListener("click", skipRecordingPrompt);
+  elements.playReference.addEventListener("click", playReferenceComparison);
+  elements.playMine.addEventListener("click", () => playAttempt(state.currentAttempt));
+  elements.recordAnother.addEventListener("click", startRecording);
   elements.ratingButtons.forEach((button) => {
     button.addEventListener("click", () => rateCurrent(button.dataset.rating));
   });
-  for (const select of [elements.sessionSize, elements.repetitions, elements.playbackSpeed, elements.voiceMode]) {
+  for (const select of [elements.sessionSize, elements.repetitions, elements.playbackSpeed, elements.voiceMode, elements.recordMode]) {
     select.addEventListener("change", saveSettings);
   }
   state.audio.addEventListener("ended", () => {
     if (state.sequenceActive) finishRepetitionRound();
+    else if (state.recordingPhase && !state.ratingReady) {
+      elements.replayButton.disabled = false;
+      elements.turnStatus.textContent = "Now record your version, or skip this time.";
+    }
     else if (state.ratingReady) {
       elements.replayButton.disabled = false;
       elements.turnStatus.textContent = "Rate how automatic the structure felt.";
     }
+  });
+  state.attemptAudio.addEventListener("ended", () => {
+    elements.turnStatus.textContent = state.ratingReady
+      ? "Compare both versions, then rate the sentence."
+      : "Now record your version, or skip this time.";
   });
   document.addEventListener("keydown", handleKeyboard);
 }

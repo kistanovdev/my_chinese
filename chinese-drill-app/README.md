@@ -10,7 +10,8 @@ The app's job is deliberately narrow:
 2. Generate and cache native-quality audio, with optional speaker variety.
 3. Run short practice sessions in which each sentence is heard and repeated
    two or three times.
-4. Remember which sentence patterns need more practice.
+4. Record your own version for immediate reference-versus-learner comparison.
+5. Remember which sentence patterns need more practice.
 
 ## Current status
 
@@ -39,6 +40,12 @@ The default speaker setting preserves the original Mr. Chen recordings. Choose
 voice and two Taiwan Mandarin female voices without changing card progress.
 The lesson chip on each card shows both its lesson date and Berlitz level.
 
+With **Recording → Prompt me** enabled, the app asks you to record after the
+last reference repetition. Recordings are saved locally in `data/recordings/`,
+listed by date on that sentence's card, and can be replayed or deleted. They
+never leave the Mac. This personal audio directory is intentionally ignored by
+Git; include it when making personal backups.
+
 ## Proposed MVP
 
 - Local responsive web app, launched with one command.
@@ -47,7 +54,10 @@ The lesson chip on each card shows both its lesson date and Berlitz level.
 - Reveal controls for simplified Chinese, pinyin, and a short English hint.
 - Keyboard controls: space to replay, enter to advance, and number keys to rate.
 - Daily queue biased toward high-priority recurring errors.
+- Unseen cards reshuffled at the start of every session so all three Berlitz
+  levels naturally mix together; scheduled reviews still come first.
 - Cached MP3 audio so normal practice makes no API calls.
+- Optional local microphone recording with side-by-side playback and history.
 - Progress saved atomically to a local JSON file after every rating; no account
   or cloud service required.
 

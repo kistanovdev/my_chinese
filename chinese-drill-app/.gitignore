@@ -1,6 +1,7 @@
 .env
 audio/*.tmp
 data/sentences.draft.json
+data/recordings/
 build/*.json
 dist/*.json
 collections/*/build/*.json
