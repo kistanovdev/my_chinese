@@ -1,0 +1,167 @@
+{
+  "lesson": "2026-04-13",
+  "sentences": [
+    {
+      "chinese": "我和他们一起长大。",
+      "pinyin": "Wǒ hé tāmen yìqǐ zhǎngdà.",
+      "english_hint": "I grew up with them.",
+      "scenario": "Describe relatives you grew up with.",
+      "focus": [
+        "和……一起"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the missing 一起 in the learner's description of growing up with relatives."
+    },
+    {
+      "chinese": "我觉得我的业绩还不错。",
+      "pinyin": "Wǒ juéde wǒ de yèjì hái búcuò.",
+      "english_hint": "I think my performance is pretty good.",
+      "scenario": "Give your opinion of your work performance.",
+      "focus": [
+        "我觉得＋opinion",
+        "还不错"
+      ],
+      "priority": 5,
+      "source_note": "Separates 觉得 from 想; the learner described their work performance positively."
+    },
+    {
+      "chinese": "我想说，我们有很多团队。",
+      "pinyin": "Wǒ xiǎng shuō, wǒmen yǒu hěn duō tuánduì.",
+      "english_hint": "I mean, we have many teams.",
+      "scenario": "Clarify what you mean about your company.",
+      "focus": [
+        "我想说＋statement"
+      ],
+      "priority": 5,
+      "source_note": "Builds on successful 我想说 usage about company teams and contrasts it with 觉得."
+    },
+    {
+      "chinese": "我有点儿明白。",
+      "pinyin": "Wǒ yǒu diǎnr míngbai.",
+      "english_hint": "I understand a little.",
+      "scenario": "Say you partly understand an explanation.",
+      "focus": [
+        "有点儿＋state"
+      ],
+      "priority": 5,
+      "source_note": "Uses the analysis correction for 我一点明白; partial understanding recurred."
+    },
+    {
+      "chinese": "我不太明白这个意思。",
+      "pinyin": "Wǒ bú tài míngbai zhège yìsi.",
+      "english_hint": "I don't quite understand what this means.",
+      "scenario": "Ask for help with an unfamiliar phrase.",
+      "focus": [
+        "不太＋state"
+      ],
+      "priority": 4,
+      "source_note": "The analysis supplies this natural phrase for incomplete understanding."
+    },
+    {
+      "chinese": "今天我学了很多。",
+      "pinyin": "Jīntiān wǒ xué le hěn duō.",
+      "english_hint": "I learned a lot today.",
+      "scenario": "Reflect on your Chinese lesson.",
+      "focus": [
+        "verb＋了",
+        "completed action"
+      ],
+      "priority": 5,
+      "source_note": "Directly corrects 今天我学习很多; the analysis identifies completed-action 了 as recurring."
+    },
+    {
+      "chinese": "我的工资从第四年开始增加。",
+      "pinyin": "Wǒ de gōngzī cóng dì sì nián kāishǐ zēngjiā.",
+      "english_hint": "My salary started increasing in the fourth year.",
+      "scenario": "Explain when your salary began to rise.",
+      "focus": [
+        "第＋number",
+        "从……开始"
+      ],
+      "priority": 5,
+      "source_note": "Uses the corrected 第四年 and the salary context without repeating the uncertain multiplier."
+    },
+    {
+      "chinese": "业绩越来越好。",
+      "pinyin": "Yèjì yuè lái yuè hǎo.",
+      "english_hint": "Performance is getting better and better.",
+      "scenario": "Describe improving results at work.",
+      "focus": [
+        "越来越＋adjective"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction for combining 越来越 with 增加."
+    },
+    {
+      "chinese": "销售额每年增加。",
+      "pinyin": "Xiāoshòu'é měi nián zēngjiā.",
+      "english_hint": "Sales revenue increases every year.",
+      "scenario": "Describe an annual sales trend.",
+      "focus": [
+        "time before verb",
+        "每年＋verb"
+      ],
+      "priority": 4,
+      "source_note": "The analysis pairs this corrected chunk with 业绩越来越好."
+    },
+    {
+      "chinese": "今年生活花销增加了很多。",
+      "pinyin": "Jīnnián shēnghuó huāxiāo zēngjiā le hěn duō.",
+      "english_hint": "Living expenses rose a lot this year.",
+      "scenario": "Discuss your household expenses.",
+      "focus": [
+        "增加了＋amount",
+        "time before verb"
+      ],
+      "priority": 5,
+      "source_note": "The learner described increased living expenses this year; reinforces completed-change 了."
+    },
+    {
+      "chinese": "你们公司经常搞促销吗？",
+      "pinyin": "Nǐmen gōngsī jīngcháng gǎo cùxiāo ma?",
+      "english_hint": "Does your company often run promotions?",
+      "scenario": "Ask a colleague about company promotions.",
+      "focus": [
+        "搞促销",
+        "经常……吗"
+      ],
+      "priority": 3,
+      "source_note": "A useful question practiced during the lesson's promotion discussion."
+    },
+    {
+      "chinese": "这个打八折吗？",
+      "pinyin": "Zhège dǎ bā zhé ma?",
+      "english_hint": "Is this twenty percent off?",
+      "scenario": "Check a product's discount in a shop.",
+      "focus": [
+        "打＋number＋折"
+      ],
+      "priority": 4,
+      "source_note": "The learner recalled 八折 but repeatedly struggled to produce 打折 chunks."
+    },
+    {
+      "chinese": "这个买一送一吗？",
+      "pinyin": "Zhège mǎi yī sòng yī ma?",
+      "english_hint": "Is this buy one, get one free?",
+      "scenario": "Check a supermarket promotion.",
+      "focus": [
+        "买一送一"
+      ],
+      "priority": 3,
+      "source_note": "The analysis highlights this fixed promotion chunk; the learner recognized it from travel."
+    },
+    {
+      "chinese": "满五百送赠品。",
+      "pinyin": "Mǎn wǔ bǎi sòng zèngpǐn.",
+      "english_hint": "Spend five hundred and get a free gift.",
+      "scenario": "Explain a shop's spending-threshold offer.",
+      "focus": [
+        "满＋amount＋送"
+      ],
+      "priority": 4,
+      "source_note": "Uses an analysis drill to address repeated difficulty understanding 满 in promotion language."
+    }
+  ],
+  "generated_at": "2026-10-02T05:19:51+00:00",
+  "generator": "codex-cli"
+}

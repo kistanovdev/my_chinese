@@ -1,0 +1,162 @@
+{
+  "lesson": "2026-04-19",
+  "sentences": [
+    {
+      "chinese": "我在网上看了很多广告。",
+      "pinyin": "Wǒ zài wǎngshàng kàn le hěn duō guǎnggào.",
+      "english_hint": "I saw lots of ads online.",
+      "scenario": "Describe the ads you saw online.",
+      "focus": [
+        "在 + place + verb",
+        "做广告 / 广告"
+      ],
+      "priority": 5,
+      "source_note": "Repairs repeated location-after-verb errors using the learner's online advertising context."
+    },
+    {
+      "chinese": "当时每个人都想买一个。",
+      "pinyin": "Dāngshí měi ge rén dōu xiǎng mǎi yí ge.",
+      "english_hint": "Everyone wanted to buy one then.",
+      "scenario": "Recall how popular the phone was.",
+      "focus": [
+        "每个……都……"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects omitted 都 in the learner's account of wanting a popular phone."
+    },
+    {
+      "chinese": "每个公司都有自己的产品。",
+      "pinyin": "Měi ge gōngsī dōu yǒu zìjǐ de chǎnpǐn.",
+      "english_hint": "Each company has its own products.",
+      "scenario": "Compare the product companies being discussed.",
+      "focus": [
+        "每个……都……"
+      ],
+      "priority": 5,
+      "source_note": "Simplifies the analysis's business universals drill while reinforcing the repeatedly omitted 都."
+    },
+    {
+      "chinese": "除了做广告，还可以搞活动。",
+      "pinyin": "Chúle zuò guǎnggào, hái kěyǐ gǎo huódòng.",
+      "english_hint": "Besides advertising, we can run events.",
+      "scenario": "Suggest another way to promote a product.",
+      "focus": [
+        "除了……还……",
+        "做广告"
+      ],
+      "priority": 4,
+      "source_note": "The analysis prioritizes 除了……还…… and gives advertising plus an event as an example."
+    },
+    {
+      "chinese": "除了手机，苹果还卖电脑。",
+      "pinyin": "Chúle shǒujī, Píngguǒ hái mài diànnǎo.",
+      "english_hint": "Besides phones, Apple also sells computers.",
+      "scenario": "Describe Apple's other products.",
+      "focus": [
+        "除了……还……"
+      ],
+      "priority": 4,
+      "source_note": "Shortens the analysis's Apple product example and avoids English product names for TTS."
+    },
+    {
+      "chinese": "成本一定会增加的。",
+      "pinyin": "Chéngběn yídìng huì zēngjiā de.",
+      "english_hint": "Costs will definitely increase.",
+      "scenario": "Predict what extra advertising will do to costs.",
+      "focus": [
+        "会……的",
+        "成本"
+      ],
+      "priority": 4,
+      "source_note": "The analysis teaches confident predictions with final 的 using increased advertising costs."
+    },
+    {
+      "chinese": "如果搬到更便宜的地方，就会省钱的。",
+      "pinyin": "Rúguǒ bān dào gèng piányi de dìfang, jiù huì shěng qián de.",
+      "english_hint": "Moving somewhere cheaper will save money.",
+      "scenario": "Discuss a possible office move.",
+      "focus": [
+        "如果……就……",
+        "会……的",
+        "搬到"
+      ],
+      "priority": 4,
+      "source_note": "Simplifies the analysis's hypothetical move to a cheaper office without asserting a real move."
+    },
+    {
+      "chinese": "搬到更便宜的地方可以减少成本。",
+      "pinyin": "Bān dào gèng piányi de dìfang kěyǐ jiǎnshǎo chéngběn.",
+      "english_hint": "Moving somewhere cheaper can reduce costs.",
+      "scenario": "Explain the benefit of a cheaper office.",
+      "focus": [
+        "可以 + verb",
+        "减少成本",
+        "搬到"
+      ],
+      "priority": 4,
+      "source_note": "The analysis connects moving to a cheaper office with reducing costs."
+    },
+    {
+      "chinese": "做广告也可能增加利润。",
+      "pinyin": "Zuò guǎnggào yě kěnéng zēngjiā lìrùn.",
+      "english_hint": "Advertising may also increase profits.",
+      "scenario": "Explain a possible benefit of advertising.",
+      "focus": [
+        "可能 + verb",
+        "增加利润"
+      ],
+      "priority": 4,
+      "source_note": "The analysis distinguishes advertising's definite cost from its possible profit benefit."
+    },
+    {
+      "chinese": "做了几次促销，成本就上去了。",
+      "pinyin": "Zuò le jǐ cì cùxiāo, chéngběn jiù shàngqu le.",
+      "english_hint": "After several promotions, costs went up.",
+      "scenario": "Explain rising costs in the lesson's business example.",
+      "focus": [
+        "上去了",
+        "几次",
+        "就"
+      ],
+      "priority": 4,
+      "source_note": "The lesson recording and analysis explicitly model promotions causing costs to go up."
+    },
+    {
+      "chinese": "价格下去了一点。",
+      "pinyin": "Jiàgé xiàqu le yìdiǎn.",
+      "english_hint": "The price came down a little.",
+      "scenario": "Report a small price drop.",
+      "focus": [
+        "下去了",
+        "一点"
+      ],
+      "priority": 4,
+      "source_note": "Directly follows the analysis's downward-complement drill."
+    },
+    {
+      "chinese": "利润不是最重要的。",
+      "pinyin": "Lìrùn bú shì zuì zhòngyào de.",
+      "english_hint": "Profit isn't the most important thing.",
+      "scenario": "Express a business priority in a discussion.",
+      "focus": [
+        "最 + adjective",
+        "不是……的"
+      ],
+      "priority": 5,
+      "source_note": "Repairs 最有重要的 by using the analysis's corrected 最重要的 without making a claim about a country."
+    },
+    {
+      "chinese": "你是怎么知道这个新产品的？",
+      "pinyin": "Nǐ shì zěnme zhīdào zhège xīn chǎnpǐn de?",
+      "english_hint": "How did you hear about this new product?",
+      "scenario": "Ask a friend how they discovered a product.",
+      "focus": [
+        "是怎么……的"
+      ],
+      "priority": 4,
+      "source_note": "The analysis lists this question as a useful phrase from the product advertising lesson."
+    }
+  ],
+  "generated_at": "2026-10-02T05:20:46+00:00",
+  "generator": "codex-cli"
+}

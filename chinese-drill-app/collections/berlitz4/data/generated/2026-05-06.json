@@ -1,0 +1,173 @@
+{
+  "lesson": "2026-05-06",
+  "sentences": [
+    {
+      "chinese": "我在家工作。",
+      "pinyin": "Wǒ zài jiā gōngzuò.",
+      "english_hint": "I work from home.",
+      "scenario": "Tell a colleague where you work.",
+      "focus": [
+        "location before action"
+      ],
+      "priority": 5,
+      "source_note": "Repeated correction of 工作在家 to 在家工作."
+    },
+    {
+      "chinese": "我每个月去公司两次。",
+      "pinyin": "Wǒ měi ge yuè qù gōngsī liǎng cì.",
+      "english_hint": "I go to the office twice a month.",
+      "scenario": "Describe your office visit schedule.",
+      "focus": [
+        "frequency",
+        "verb + number + 次"
+      ],
+      "priority": 4,
+      "source_note": "Analysis confirms the learner's twice-monthly office visits."
+    },
+    {
+      "chinese": "开车去公司要两个小时。",
+      "pinyin": "Kāichē qù gōngsī yào liǎng ge xiǎoshí.",
+      "english_hint": "Driving to the office takes two hours.",
+      "scenario": "Explain how long your commute takes.",
+      "focus": [
+        "travel + 要 + duration"
+      ],
+      "priority": 4,
+      "source_note": "Analysis provides this extension from the learner's commute."
+    },
+    {
+      "chinese": "我开车回家。",
+      "pinyin": "Wǒ kāichē huí jiā.",
+      "english_hint": "I drive home.",
+      "scenario": "Describe your return trip from the office.",
+      "focus": [
+        "开车回家",
+        "回 for returning"
+      ],
+      "priority": 5,
+      "source_note": "Corrected 开车去我的家; learner successfully repeated 开车回家."
+    },
+    {
+      "chinese": "两个我都喜欢。",
+      "pinyin": "Liǎng ge wǒ dōu xǐhuan.",
+      "english_hint": "I like both.",
+      "scenario": "Answer whether you prefer office work or working from home.",
+      "focus": [
+        "都",
+        "topic before subject"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects the learner's attempt to express liking both options."
+    },
+    {
+      "chinese": "我跟同事开会。",
+      "pinyin": "Wǒ gēn tóngshì kāihuì.",
+      "english_hint": "I have meetings with colleagues.",
+      "scenario": "Explain what you do at the office.",
+      "focus": [
+        "跟 + person + action",
+        "开会"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 跟同事有会 to 跟同事开会."
+    },
+    {
+      "chinese": "我可以在家工作。",
+      "pinyin": "Wǒ kěyǐ zài jiā gōngzuò.",
+      "english_hint": "I'm allowed to work from home.",
+      "scenario": "Explain your work arrangement.",
+      "focus": [
+        "可以 for permission",
+        "location before action"
+      ],
+      "priority": 5,
+      "source_note": "Analysis distinguishes intended permission from the restrictive 只能."
+    },
+    {
+      "chinese": "有时候，我想跟别人说话。",
+      "pinyin": "Yǒu shíhou, wǒ xiǎng gēn biérén shuōhuà.",
+      "english_hint": "Sometimes I want to talk to other people.",
+      "scenario": "Explain why working from home can feel lonely.",
+      "focus": [
+        "有时候",
+        "想跟别人说话"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我想说人 and preserves the learner's reason for wanting office contact."
+    },
+    {
+      "chinese": "我没见过这个字。",
+      "pinyin": "Wǒ méi jiàn guo zhè ge zì.",
+      "english_hint": "I've never seen this character.",
+      "scenario": "Tell your Chinese teacher a character is unfamiliar.",
+      "focus": [
+        "没 + verb + 过"
+      ],
+      "priority": 5,
+      "source_note": "Analysis distinguishes unfamiliarity from failing to see a character on one occasion."
+    },
+    {
+      "chinese": "我没看到中国的车。",
+      "pinyin": "Wǒ méi kàndào Zhōngguó de chē.",
+      "english_hint": "I didn't see any Chinese cars.",
+      "scenario": "Describe what you did not see on an earlier trip.",
+      "focus": [
+        "没 for past non-occurrence",
+        "看到"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 不看 to 没看到 in the earlier travel discussion."
+    },
+    {
+      "chinese": "我开车开得有点快。",
+      "pinyin": "Wǒ kāichē kāi de yǒudiǎn kuài.",
+      "english_hint": "I drive a little too fast.",
+      "scenario": "Describe your driving when you are alone.",
+      "focus": [
+        "verb + 得 + description",
+        "有点 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Combines the analysis's 得 structure with the correction 一点快 to 有点快."
+    },
+    {
+      "chinese": "有家人在车上，我就开得慢一点。",
+      "pinyin": "Yǒu jiārén zài chē shàng, wǒ jiù kāi de màn yìdiǎn.",
+      "english_hint": "When family is in the car, I drive a little slower.",
+      "scenario": "Explain how you drive with your family.",
+      "focus": [
+        "condition + 就",
+        "得",
+        "adjective + 一点"
+      ],
+      "priority": 4,
+      "source_note": "Analysis supplies this drill from the learner's contrast between solo and family driving."
+    },
+    {
+      "chinese": "我的车被另一辆车撞了。",
+      "pinyin": "Wǒ de chē bèi lìng yí liàng chē zhuàng le.",
+      "english_hint": "My car was hit by another car.",
+      "scenario": "Explain what happened in your car accident.",
+      "focus": [
+        "被 + agent + action",
+        "辆"
+      ],
+      "priority": 5,
+      "source_note": "Analysis gives this passive version of the learner's account and emphasizes retaining 撞."
+    },
+    {
+      "chinese": "我记不清住了多久。",
+      "pinyin": "Wǒ jì bu qīng zhù le duō jiǔ.",
+      "english_hint": "I don't remember clearly how long I stayed.",
+      "scenario": "Answer a question about your childhood hospital stay.",
+      "focus": [
+        "记不清",
+        "verb + 了 + 多久"
+      ],
+      "priority": 4,
+      "source_note": "Analysis emphasizes preserving uncertainty about the duration of childhood hospitalization."
+    }
+  ],
+  "generated_at": "2026-10-02T05:25:52+00:00",
+  "generator": "codex-cli"
+}

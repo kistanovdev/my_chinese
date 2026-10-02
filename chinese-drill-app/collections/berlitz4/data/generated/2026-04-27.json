@@ -1,0 +1,173 @@
+{
+  "lesson": "2026-04-27",
+  "sentences": [
+    {
+      "chinese": "我不一定上中文课。",
+      "pinyin": "Wǒ bù yídìng shàng Zhōngwén kè.",
+      "english_hint": "I might not take the Chinese class.",
+      "scenario": "Say your Chinese class attendance is uncertain.",
+      "focus": [
+        "不一定 + verb",
+        "上中文课"
+      ],
+      "priority": 5,
+      "source_note": "The learner repeatedly used 不肯定 for uncertainty; the analysis corrects it to 不一定."
+    },
+    {
+      "chinese": "我明年肯定去中国旅游。",
+      "pinyin": "Wǒ míngnián kěndìng qù Zhōngguó lǚyóu.",
+      "english_hint": "I'll definitely travel to China next year.",
+      "scenario": "Practice expressing a firm travel plan.",
+      "focus": [
+        "肯定 + verb"
+      ],
+      "priority": 5,
+      "source_note": "The analysis removes the unnecessary 做 before 去中国旅游."
+    },
+    {
+      "chinese": "小刘可能在出差。",
+      "pinyin": "Xiǎo Liú kěnéng zài chūchāi.",
+      "english_hint": "Xiao Liu may be on a business trip.",
+      "scenario": "Suggest why a colleague is away.",
+      "focus": [
+        "可能",
+        "在出差"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects both the certainty level and the confusion between 出来 and 出差."
+    },
+    {
+      "chinese": "周末他不可能在公司。",
+      "pinyin": "Zhōumò tā bù kěnéng zài gōngsī.",
+      "english_hint": "He can't be at the office on the weekend.",
+      "scenario": "Rule out the office when it is closed for the weekend.",
+      "focus": [
+        "不可能 + 在 + place"
+      ],
+      "priority": 4,
+      "source_note": "The analysis models this certainty contrast with a company that is closed on weekends."
+    },
+    {
+      "chinese": "从星期一到星期五，我在家工作。",
+      "pinyin": "Cóng xīngqīyī dào xīngqīwǔ, wǒ zài jiā gōngzuò.",
+      "english_hint": "I work from home Monday through Friday.",
+      "scenario": "Describe your weekday work routine.",
+      "focus": [
+        "从……到……",
+        "在 + place + verb"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects 去 to 到 between time points; the learner reports working from home."
+    },
+    {
+      "chinese": "从我家到洛杉矶，大概六个小时。",
+      "pinyin": "Cóng wǒ jiā dào Luòshānjī, dàgài liù ge xiǎoshí.",
+      "english_hint": "It's about six hours from my home to Los Angeles.",
+      "scenario": "Describe the length of your drive to Los Angeles.",
+      "focus": [
+        "从……到……",
+        "大概 + duration"
+      ],
+      "priority": 5,
+      "source_note": "The analysis models this route; the learner clarifies that the drive takes six hours."
+    },
+    {
+      "chinese": "今天我开车从洛杉矶回来了。",
+      "pinyin": "Jīntiān wǒ kāichē cóng Luòshānjī huílai le.",
+      "english_hint": "Today I drove back from Los Angeles.",
+      "scenario": "Tell someone you returned from Los Angeles.",
+      "focus": [
+        "从 + place + 回来",
+        "开车"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects 来了 to 回来了 for the learner's return journey."
+    },
+    {
+      "chinese": "昨天我在洛杉矶听了演唱会。",
+      "pinyin": "Zuótiān wǒ zài Luòshānjī tīng le yǎnchànghuì.",
+      "english_hint": "Yesterday I attended a concert in Los Angeles.",
+      "scenario": "Explain why you went to Los Angeles.",
+      "focus": [
+        "在 + place + verb",
+        "听演唱会"
+      ],
+      "priority": 3,
+      "source_note": "The analysis supplies this corrected account; the learner struggles to recall 演唱会 during review."
+    },
+    {
+      "chinese": "我们肯定需要给车充电两次。",
+      "pinyin": "Wǒmen kěndìng xūyào gěi chē chōngdiàn liǎng cì.",
+      "english_hint": "We'll definitely need to charge the car twice.",
+      "scenario": "Discuss charging stops for your road trip.",
+      "focus": [
+        "肯定需要",
+        "给 + object + verb",
+        "verb + 两次"
+      ],
+      "priority": 5,
+      "source_note": "Shortened from the analysis's correction, preserving 需要 and 给 before the charging action."
+    },
+    {
+      "chinese": "我们不得不给车充电两次。",
+      "pinyin": "Wǒmen bù dé bù gěi chē chōngdiàn liǎng cì.",
+      "english_hint": "We have to charge the car twice.",
+      "scenario": "Explain that two charging stops are unavoidable.",
+      "focus": [
+        "不得不 + verb",
+        "给 + object + verb"
+      ],
+      "priority": 5,
+      "source_note": "The analysis models 不得不 for the learner's intended meaning of unavoidable charging stops."
+    },
+    {
+      "chinese": "我还没有在中国旅游过。",
+      "pinyin": "Wǒ hái méiyǒu zài Zhōngguó lǚyóu guo.",
+      "english_hint": "I haven't traveled in China yet.",
+      "scenario": "Describe your travel experience before planning a China trip.",
+      "focus": [
+        "还没有……过",
+        "在 + place + 旅游"
+      ],
+      "priority": 5,
+      "source_note": "The learner repeatedly omits 在; the analysis gives this corrected location and experience structure."
+    },
+    {
+      "chinese": "我还没有中过奖。",
+      "pinyin": "Wǒ hái méiyǒu zhòng guo jiǎng.",
+      "english_hint": "I haven't won a prize yet.",
+      "scenario": "Talk about your experience with company prize draws.",
+      "focus": [
+        "还没有……过",
+        "中过奖"
+      ],
+      "priority": 4,
+      "source_note": "The analysis models 中过奖 after the learner says they have never won."
+    },
+    {
+      "chinese": "对我来说，地理很有意思。",
+      "pinyin": "Duì wǒ lái shuō, dìlǐ hěn yǒu yìsi.",
+      "english_hint": "I find geography very interesting.",
+      "scenario": "Explain your interest in geography.",
+      "focus": [
+        "对我来说",
+        "很有意思"
+      ],
+      "priority": 4,
+      "source_note": "The analysis corrects the perspective phrase; the learner says they now enjoy geography."
+    },
+    {
+      "chinese": "我们有四个问题。",
+      "pinyin": "Wǒmen yǒu sì ge wèntí.",
+      "english_hint": "We have four questions.",
+      "scenario": "Introduce the questions you need to discuss.",
+      "focus": [
+        "number + 个 + noun"
+      ],
+      "priority": 4,
+      "source_note": "The analysis explicitly corrects the missing 个 in 我们有四问题."
+    }
+  ],
+  "generated_at": "2026-10-02T05:23:43+00:00",
+  "generator": "codex-cli"
+}

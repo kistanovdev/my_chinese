@@ -1,0 +1,170 @@
+{
+  "lesson": "2026-04-24",
+  "sentences": [
+    {
+      "chinese": "我向老板汇报工作。",
+      "pinyin": "Wǒ xiàng lǎobǎn huìbào gōngzuò.",
+      "english_hint": "I report to my boss about work.",
+      "scenario": "Describe giving your boss a work update.",
+      "focus": [
+        "向 + person + 汇报"
+      ],
+      "priority": 5,
+      "source_note": "Repeated omission of 向 when reporting to the boss; shortened from the corrected work example."
+    },
+    {
+      "chinese": "我向我的太太求婚了。",
+      "pinyin": "Wǒ xiàng wǒ de tàitai qiúhūn le.",
+      "english_hint": "I proposed to my wife.",
+      "scenario": "Recall how your marriage began.",
+      "focus": [
+        "向 + person + 求婚",
+        "completed action + 了"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of the missing 向 in the learner's proposal story."
+    },
+    {
+      "chinese": "我让秘书查一下。",
+      "pinyin": "Wǒ ràng mìshū chá yíxià.",
+      "english_hint": "I'll have the secretary check.",
+      "scenario": "In a meeting role-play, ask a secretary to check something.",
+      "focus": [
+        "让 + person + verb",
+        "verb + 一下"
+      ],
+      "priority": 5,
+      "source_note": "Lesson dialogue chunk; the learner repeatedly struggled with the meaning and use of 让."
+    },
+    {
+      "chinese": "我会让你知道的。",
+      "pinyin": "Wǒ huì ràng nǐ zhīdào de.",
+      "english_hint": "I'll let you know.",
+      "scenario": "Promise an update when plans become clear.",
+      "focus": [
+        "让 + person + 知道"
+      ],
+      "priority": 5,
+      "source_note": "Explicit correction when the learner tried to produce 'I'll let you know.'"
+    },
+    {
+      "chinese": "对我来说，担担面不辣。",
+      "pinyin": "Duì wǒ lái shuō, dàndànmiàn bú là.",
+      "english_hint": "For me, dandan noodles aren't spicy.",
+      "scenario": "Explain your own tolerance for spicy noodles.",
+      "focus": [
+        "对 + person + 来说"
+      ],
+      "priority": 5,
+      "source_note": "Successful usage after repeated attempts to express perspective with 跟我."
+    },
+    {
+      "chinese": "对我太太来说，四川菜有点辣。",
+      "pinyin": "Duì wǒ tàitai lái shuō, Sìchuān cài yǒudiǎn là.",
+      "english_hint": "Sichuan food is a little spicy for my wife.",
+      "scenario": "Explain your wife's food preference.",
+      "focus": [
+        "对 + person + 来说",
+        "有点 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Analysis models this correction from the discussion of the wife's response to Sichuan food."
+    },
+    {
+      "chinese": "我吃不出来什么口味。",
+      "pinyin": "Wǒ chī bù chūlái shénme kǒuwèi.",
+      "english_hint": "I can't make out the flavor.",
+      "scenario": "Explain why very spicy food is hard to enjoy.",
+      "focus": [
+        "吃不出来",
+        "口味 as a noun"
+      ],
+      "priority": 5,
+      "source_note": "Teacher's corrected chunk for repeated attempts to use 口味 as a verb."
+    },
+    {
+      "chinese": "我想不出来好的建议。",
+      "pinyin": "Wǒ xiǎng bù chūlái hǎo de jiànyì.",
+      "english_hint": "I can't think of a good suggestion.",
+      "scenario": "Respond when asked for ideas in a meeting.",
+      "focus": [
+        "想不出来"
+      ],
+      "priority": 4,
+      "source_note": "Shortened from the analysis drill transferring the potential complement to meeting suggestions."
+    },
+    {
+      "chinese": "我们想在八月结婚。",
+      "pinyin": "Wǒmen xiǎng zài bā yuè jiéhūn.",
+      "english_hint": "We want to get married in August.",
+      "scenario": "Re-create the conversation about your original wedding plan.",
+      "focus": [
+        "结婚 as a verb",
+        "在 + time + verb"
+      ],
+      "priority": 5,
+      "source_note": "Exact analysis correction of 做结婚 and misplaced 在八月; refers to the original plan."
+    },
+    {
+      "chinese": "她今天去了舞蹈课。",
+      "pinyin": "Tā jīntiān qù le wǔdǎokè.",
+      "english_hint": "She went to dance class today.",
+      "scenario": "Tell someone about your daughter's day.",
+      "focus": [
+        "recent completed action + 了",
+        "time before verb"
+      ],
+      "priority": 5,
+      "source_note": "Analysis correction replacing experiential 过 with 了 for today's dance class."
+    },
+    {
+      "chinese": "你住在什么城市？",
+      "pinyin": "Nǐ zhù zài shénme chéngshì?",
+      "english_hint": "What city do you live in?",
+      "scenario": "Ask a new acquaintance where they live.",
+      "focus": [
+        "住在 + location"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the duplicated 在 in the city question; location word order also recurred later."
+    },
+    {
+      "chinese": "明天我们准备去爬山。",
+      "pinyin": "Míngtiān wǒmen zhǔnbèi qù páshān.",
+      "english_hint": "We're planning to go hiking tomorrow.",
+      "scenario": "Explain tomorrow's outdoor plan.",
+      "focus": [
+        "准备 + verb",
+        "time before subject"
+      ],
+      "priority": 5,
+      "source_note": "Analysis correction removing 了 from 准备 when it means planning a future action."
+    },
+    {
+      "chinese": "我邀请家人参加生日聚会。",
+      "pinyin": "Wǒ yāoqǐng jiārén cānjiā shēngrì jùhuì.",
+      "english_hint": "I invite my family to the birthday party.",
+      "scenario": "Practice describing birthday invitations.",
+      "focus": [
+        "邀请 + person + verb",
+        "参加 + event"
+      ],
+      "priority": 4,
+      "source_note": "Shortened from the modeled invitation sentence, which the learner later produced successfully."
+    },
+    {
+      "chinese": "你有什么建议？",
+      "pinyin": "Nǐ yǒu shénme jiànyì?",
+      "english_hint": "What do you suggest?",
+      "scenario": "Ask for advice about studying Chinese.",
+      "focus": [
+        "有什么 + noun",
+        "建议 as a noun"
+      ],
+      "priority": 3,
+      "source_note": "Successful lesson usage while learning how to ask for suggestions; also connected to exam preparation."
+    }
+  ],
+  "generated_at": "2026-10-02T05:22:41+00:00",
+  "generator": "codex-cli"
+}

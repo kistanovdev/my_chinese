@@ -1,0 +1,170 @@
+{
+  "lesson": "2026-05-11",
+  "sentences": [
+    {
+      "chinese": "今天天气很好。",
+      "pinyin": "Jīntiān tiānqì hěn hǎo.",
+      "english_hint": "The weather is nice today.",
+      "scenario": "Describe the weather during a call.",
+      "focus": [
+        "adjective predicate"
+      ],
+      "priority": 4,
+      "source_note": "Corrects 天气是晴天 with a direct weather description."
+    },
+    {
+      "chinese": "我不知道你能不能看到。",
+      "pinyin": "Wǒ bù zhīdào nǐ néng bu néng kàndào.",
+      "english_hint": "I don't know if you can see it.",
+      "scenario": "Check visibility while showing something on camera.",
+      "focus": [
+        "embedded A-not-A question",
+        "能看到"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我不知道你可以看; visibility caused repeated difficulty."
+    },
+    {
+      "chinese": "这个词用中文怎么说？",
+      "pinyin": "Zhège cí yòng Zhōngwén zěnme shuō?",
+      "english_hint": "How do you say this word in Chinese?",
+      "scenario": "Ask for a word during Chinese class.",
+      "focus": [
+        "用中文怎么说"
+      ],
+      "priority": 5,
+      "source_note": "Complete language-help question for repeated word-finding difficulties."
+    },
+    {
+      "chinese": "我觉得你会喜欢这个视频。",
+      "pinyin": "Wǒ juéde nǐ huì xǐhuan zhège shìpín.",
+      "english_hint": "I think you'll like this video.",
+      "scenario": "Recommend a video to someone.",
+      "focus": [
+        "我觉得",
+        "会 + expected reaction"
+      ],
+      "priority": 5,
+      "source_note": "Repeated recommendations omitted 会 when predicting the listener's reaction."
+    },
+    {
+      "chinese": "我希望你明天就好起来。",
+      "pinyin": "Wǒ xīwàng nǐ míngtiān jiù hǎo qǐlái.",
+      "english_hint": "I hope you feel better tomorrow.",
+      "scenario": "Send a short wish to someone feeling unwell.",
+      "focus": [
+        "希望",
+        "好起来"
+      ],
+      "priority": 4,
+      "source_note": "Corrects 我想明天你很好 by using 希望 for a wish."
+    },
+    {
+      "chinese": "我小时候经常做饭。",
+      "pinyin": "Wǒ xiǎoshíhou jīngcháng zuòfàn.",
+      "english_hint": "I often cooked as a child.",
+      "scenario": "Talk about your childhood cooking.",
+      "focus": [
+        "小时候",
+        "经常 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我小的时候做饭很多 and recurring difficulty expressing childhood."
+    },
+    {
+      "chinese": "我昨晚睡得不好。",
+      "pinyin": "Wǒ zuówǎn shuì de bù hǎo.",
+      "english_hint": "I didn't sleep well last night.",
+      "scenario": "Explain why you feel tired today.",
+      "focus": [
+        "verb + 得 + description"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 我不睡觉很好 to describe sleep quality."
+    },
+    {
+      "chinese": "第二天我们走了很多路。",
+      "pinyin": "Dì èr tiān wǒmen zǒu le hěn duō lù.",
+      "english_hint": "We walked a lot on the second day.",
+      "scenario": "Describe the second day of your trip with your grandmother.",
+      "focus": [
+        "走了很多路",
+        "past action + 了"
+      ],
+      "priority": 4,
+      "source_note": "Corrects 第二天我们走很多 in the New York travel story."
+    },
+    {
+      "chinese": "她没有骨折。",
+      "pinyin": "Tā méiyǒu gǔzhé.",
+      "english_hint": "She didn't break a bone.",
+      "scenario": "Clarify what happened after your grandmother fell.",
+      "focus": [
+        "没有 + past event"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 她不……骨折了; the travel story explicitly says she had no fracture."
+    },
+    {
+      "chinese": "他被石头绊倒了。",
+      "pinyin": "Tā bèi shítou bàndǎo le.",
+      "english_hint": "He tripped over a stone.",
+      "scenario": "Describe a fall in a lesson picture.",
+      "focus": [
+        "被 + cause + action + result"
+      ],
+      "priority": 4,
+      "source_note": "Successful reading retained to reinforce 被 and the result 绊倒."
+    },
+    {
+      "chinese": "我帮你把东西拿上去吧。",
+      "pinyin": "Wǒ bāng nǐ bǎ dōngxi ná shàngqu ba.",
+      "english_hint": "Let me carry your things upstairs.",
+      "scenario": "Offer help carrying things upstairs.",
+      "focus": [
+        "把 + object + verb",
+        "directional complement",
+        "吧 + offer"
+      ],
+      "priority": 4,
+      "source_note": "Useful lesson sentence; the learner struggled to describe the offer of help."
+    },
+    {
+      "chinese": "今天比昨天好一点。",
+      "pinyin": "Jīntiān bǐ zuótiān hǎo yìdiǎn.",
+      "english_hint": "Today is a little better than yesterday.",
+      "scenario": "Give a brief update on how you feel.",
+      "focus": [
+        "比 + adjective",
+        "一点"
+      ],
+      "priority": 4,
+      "source_note": "Successful comparison from the reading, reinforced by later comparison difficulties."
+    },
+    {
+      "chinese": "我越来越明白了。",
+      "pinyin": "Wǒ yuè lái yuè míngbai le.",
+      "english_hint": "I'm understanding more and more.",
+      "scenario": "Describe your growing understanding in Chinese class.",
+      "focus": [
+        "越来越 + verb"
+      ],
+      "priority": 4,
+      "source_note": "Corrects 越来越好明白 to the natural structure 越来越明白了."
+    },
+    {
+      "chinese": "要做完练习，才能休息。",
+      "pinyin": "Yào zuòwán liànxí, cái néng xiūxi.",
+      "english_hint": "You can rest only after finishing the exercises.",
+      "scenario": "Explain when a study break is allowed.",
+      "focus": [
+        "要……才能……",
+        "做完"
+      ],
+      "priority": 4,
+      "source_note": "Analysis supplies this study example for 才能, which the learner explicitly did not understand."
+    }
+  ],
+  "generated_at": "2026-10-02T05:26:53+00:00",
+  "generator": "codex-cli"
+}

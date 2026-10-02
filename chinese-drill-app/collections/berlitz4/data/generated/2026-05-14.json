@@ -1,0 +1,175 @@
+{
+  "lesson": "2026-05-14",
+  "sentences": [
+    {
+      "chinese": "我每天在家工作。",
+      "pinyin": "Wǒ měitiān zài jiā gōngzuò.",
+      "english_hint": "I work from home every day.",
+      "scenario": "Describe your usual work routine.",
+      "focus": [
+        "subject + time + place + verb"
+      ],
+      "priority": 5,
+      "source_note": "Successful usage in the lesson; reinforces time and place before the action."
+    },
+    {
+      "chinese": "我每天喝一次咖啡。",
+      "pinyin": "Wǒ měitiān hē yí cì kāfēi.",
+      "english_hint": "I drink coffee once a day.",
+      "scenario": "Explain how often you drink coffee.",
+      "focus": [
+        "time before verb",
+        "frequency: 一次"
+      ],
+      "priority": 5,
+      "source_note": "Corrects recurring daily-routine word order and preserves the stated frequency without assuming cup quantity."
+    },
+    {
+      "chinese": "今天下午四点我要开会。",
+      "pinyin": "Jīntiān xiàwǔ sì diǎn wǒ yào kāihuì.",
+      "english_hint": "I have a meeting at four this afternoon.",
+      "scenario": "Tell your teacher when your meeting is.",
+      "focus": [
+        "time before action",
+        "下午 + clock time",
+        "开会"
+      ],
+      "priority": 5,
+      "source_note": "The analysis resolves the meeting time as four in the afternoon and corrects the verb phrase to 开会."
+    },
+    {
+      "chinese": "今天我不能上中文课。",
+      "pinyin": "Jīntiān wǒ bù néng shàng Zhōngwén kè.",
+      "english_hint": "I can't attend Chinese class today.",
+      "scenario": "Explain today's scheduling conflict.",
+      "focus": [
+        "不能 + verb",
+        "上中文课"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 不能有中文课 to 不能上中文课 for attending a class."
+    },
+    {
+      "chinese": "现在是九点十五分。",
+      "pinyin": "Xiànzài shì jiǔ diǎn shíwǔ fēn.",
+      "english_hint": "It's nine fifteen now.",
+      "scenario": "State the time shown on your clock.",
+      "focus": [
+        "clock time: 点 + 分"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the confusion between 九点十五分 and 十五分钟."
+    },
+    {
+      "chinese": "我们休息五分钟吧。",
+      "pinyin": "Wǒmen xiūxi wǔ fēnzhōng ba.",
+      "english_hint": "Let's take a five-minute break.",
+      "scenario": "Suggest a short break during class.",
+      "focus": [
+        "verb + duration",
+        "suggestion: 吧"
+      ],
+      "priority": 5,
+      "source_note": "Uses the corrected break phrase and reinforces 分钟 for duration."
+    },
+    {
+      "chinese": "我还没做这个练习。",
+      "pinyin": "Wǒ hái méi zuò zhège liànxí.",
+      "english_hint": "I haven't done this exercise yet.",
+      "scenario": "Answer your teacher about unfinished homework.",
+      "focus": [
+        "还没 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 我不做 when the intended meaning was an exercise not yet completed."
+    },
+    {
+      "chinese": "我在美国住了十二年了。",
+      "pinyin": "Wǒ zài Měiguó zhù le shí'èr nián le.",
+      "english_hint": "I've lived in the US for twelve years.",
+      "scenario": "Explain how long you have lived in the US.",
+      "focus": [
+        "place before verb",
+        "verb + duration",
+        "continuing duration: 了"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects the learner's duration placement to 在美国住了十二年了."
+    },
+    {
+      "chinese": "我们在一起九年了。",
+      "pinyin": "Wǒmen zài yìqǐ jiǔ nián le.",
+      "english_hint": "We've been together for nine years.",
+      "scenario": "Describe how long you and your wife have been together.",
+      "focus": [
+        "在一起 + duration + 了"
+      ],
+      "priority": 5,
+      "source_note": "The learner clarified 在一起九年; this does not assume nine years of marriage."
+    },
+    {
+      "chinese": "我的听力比口语好。",
+      "pinyin": "Wǒ de tīnglì bǐ kǒuyǔ hǎo.",
+      "english_hint": "My listening is better than my speaking.",
+      "scenario": "Describe your Chinese learning strengths.",
+      "focus": [
+        "A 比 B + adjective"
+      ],
+      "priority": 5,
+      "source_note": "The analysis supplies this comparison for the learner's stronger understanding than spontaneous speaking."
+    },
+    {
+      "chinese": "每句话里都有一个生词。",
+      "pinyin": "Měi jù huà lǐ dōu yǒu yí ge shēngcí.",
+      "english_hint": "Every sentence has an unfamiliar word.",
+      "scenario": "Explain why the book is hard to read.",
+      "focus": [
+        "每 + noun + 都",
+        "location + 有",
+        "一个生词"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 每句我有一生词 in the book discussion."
+    },
+    {
+      "chinese": "我忘了这个词怎么说。",
+      "pinyin": "Wǒ wàng le zhège cí zěnme shuō.",
+      "english_hint": "I've forgotten how to say this word.",
+      "scenario": "Keep speaking when a word slips your mind.",
+      "focus": [
+        "忘了",
+        "embedded question: 怎么说"
+      ],
+      "priority": 5,
+      "source_note": "The analysis recommends this rescue phrase; word-retrieval pauses recur throughout the lesson."
+    },
+    {
+      "chinese": "你听说过这本书吗？",
+      "pinyin": "Nǐ tīngshuō guo zhè běn shū ma?",
+      "english_hint": "Have you heard of this book?",
+      "scenario": "Ask whether someone knows the book you're reading.",
+      "focus": [
+        "听说过",
+        "book measure word: 本",
+        "experience question"
+      ],
+      "priority": 4,
+      "source_note": "Corrects 你听过这个书 to 听说过这本书."
+    },
+    {
+      "chinese": "你觉得这台咖啡机贵吗？",
+      "pinyin": "Nǐ juéde zhè tái kāfēijī guì ma?",
+      "english_hint": "Do you think this coffee machine is expensive?",
+      "scenario": "Ask for an opinion about a coffee machine's cost.",
+      "focus": [
+        "你觉得……吗",
+        "东西贵",
+        "machine measure word: 台"
+      ],
+      "priority": 4,
+      "source_note": "The analysis corrects the price question to use 贵 for the coffee machine rather than 高."
+    }
+  ],
+  "generated_at": "2026-10-02T05:28:00+00:00",
+  "generator": "codex-cli"
+}

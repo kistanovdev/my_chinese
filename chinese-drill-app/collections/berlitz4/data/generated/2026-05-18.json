@@ -1,0 +1,173 @@
+{
+  "lesson": "2026-05-18",
+  "sentences": [
+    {
+      "chinese": "我每个月去一次银行。",
+      "pinyin": "Wǒ měi ge yuè qù yí cì yínháng.",
+      "english_hint": "I go to the bank once a month.",
+      "scenario": "Describe how often you visit your bank.",
+      "focus": [
+        "每＋time＋verb＋一次"
+      ],
+      "priority": 5,
+      "source_note": "Corrects recurring frequency word order; monthly bank visits were confirmed."
+    },
+    {
+      "chinese": "你多久去一次银行？",
+      "pinyin": "Nǐ duōjiǔ qù yí cì yínháng?",
+      "english_hint": "How often do you go to the bank?",
+      "scenario": "Ask someone about their bank visits.",
+      "focus": [
+        "多久＋verb＋一次"
+      ],
+      "priority": 5,
+      "source_note": "Analysis pairs this question with the recurring monthly-frequency correction."
+    },
+    {
+      "chinese": "我把现金存到银行账户里。",
+      "pinyin": "Wǒ bǎ xiànjīn cún dào yínháng zhànghù lǐ.",
+      "english_hint": "I deposit cash into my bank account.",
+      "scenario": "Explain where you put cash.",
+      "focus": [
+        "存钱",
+        "把＋object＋verb＋到"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 发现金 and 送美元 for the apparent cash-deposit intent."
+    },
+    {
+      "chinese": "把钱转到银行账户里。",
+      "pinyin": "Bǎ qián zhuǎn dào yínháng zhànghù lǐ.",
+      "english_hint": "Transfer the money into the bank account.",
+      "scenario": "Explain where a money transfer should go.",
+      "focus": [
+        "转到＋destination",
+        "把字句"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 把钱转账银行 to a destination phrase with 转到."
+    },
+    {
+      "chinese": "我在网上付账单。",
+      "pinyin": "Wǒ zài wǎngshàng fù zhàngdān.",
+      "english_hint": "I pay bills online.",
+      "scenario": "Explain how you pay household bills.",
+      "focus": [
+        "在＋location＋verb",
+        "付账单"
+      ],
+      "priority": 4,
+      "source_note": "Learner described paying bills online; analysis supplies this natural wording."
+    },
+    {
+      "chinese": "如果午饭吃得饱，我就不饿。",
+      "pinyin": "Rúguǒ wǔfàn chī de bǎo, wǒ jiù bú è.",
+      "english_hint": "If I eat enough at lunch, I’m not hungry.",
+      "scenario": "Explain why you may not feel hungry after lunch.",
+      "focus": [
+        "如果……就……",
+        "吃得饱",
+        "不＋state"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 没有饿 and the learner's lunch explanation."
+    },
+    {
+      "chinese": "以前换钱不用身份证。",
+      "pinyin": "Yǐqián huàn qián bú yòng shēnfènzhèng.",
+      "english_hint": "Previously, exchanging money didn’t require an ID.",
+      "scenario": "Recall the earlier ID requirement in your exchange story.",
+      "focus": [
+        "以前＋past situation",
+        "不用"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 以后 for past events in the learner's currency-exchange story."
+    },
+    {
+      "chinese": "我在俄罗斯长大。",
+      "pinyin": "Wǒ zài Éluósī zhǎngdà.",
+      "english_hint": "I grew up in Russia.",
+      "scenario": "Tell someone where you grew up.",
+      "focus": [
+        "在＋place＋verb",
+        "长大"
+      ],
+      "priority": 3,
+      "source_note": "Analysis corrects 我在俄罗斯长的; the learner explicitly described growing up there."
+    },
+    {
+      "chinese": "我记得小时候在医院要等很久。",
+      "pinyin": "Wǒ jìde xiǎoshíhou zài yīyuàn yào děng hěn jiǔ.",
+      "english_hint": "I remember long hospital waits as a child.",
+      "scenario": "Introduce your childhood memory of hospital queues.",
+      "focus": [
+        "我记得……",
+        "小时候",
+        "verb＋很久"
+      ],
+      "priority": 5,
+      "source_note": "Learner confused 认为 with remembering; analysis gives this corrected memory."
+    },
+    {
+      "chinese": "我不喜欢排队。",
+      "pinyin": "Wǒ bù xǐhuan páiduì.",
+      "english_hint": "I don’t like queuing.",
+      "scenario": "Explain your preference when discussing long lines.",
+      "focus": [
+        "喜欢＋verb",
+        "排队 as a verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 做排队; learner clearly dislikes queuing."
+    },
+    {
+      "chinese": "排队要等多久？",
+      "pinyin": "Páiduì yào děng duōjiǔ?",
+      "english_hint": "How long is the wait in line?",
+      "scenario": "Ask about a queue before joining it.",
+      "focus": [
+        "verb＋多久",
+        "要等"
+      ],
+      "priority": 4,
+      "source_note": "Analysis supplies this duration question after the learner's queue discussion."
+    },
+    {
+      "chinese": "我家附近有一家银行。",
+      "pinyin": "Wǒ jiā fùjìn yǒu yì jiā yínháng.",
+      "english_hint": "There’s a bank near my home.",
+      "scenario": "Describe banking options near your home.",
+      "focus": [
+        "place＋有＋noun",
+        "一家银行"
+      ],
+      "priority": 5,
+      "source_note": "Simplifies the analysis correction for the learner's nearby bank without an English brand name."
+    },
+    {
+      "chinese": "我想把欧元换成人民币。",
+      "pinyin": "Wǒ xiǎng bǎ ōuyuán huàn chéng rénmínbì.",
+      "english_hint": "I’d like to exchange euros for renminbi.",
+      "scenario": "Practise the lesson's currency-exchange role-play.",
+      "focus": [
+        "把＋object＋换成"
+      ],
+      "priority": 4,
+      "source_note": "Analysis supplies this corrected sentence from the currency dialogue; it is a role-play request."
+    },
+    {
+      "chinese": "我没去过中国。",
+      "pinyin": "Wǒ méi qù guo Zhōngguó.",
+      "english_hint": "I’ve never been to China.",
+      "scenario": "Describe your travel experience when discussing China.",
+      "focus": [
+        "没＋verb＋过"
+      ],
+      "priority": 4,
+      "source_note": "Analysis identifies this as successful usage; learner confirmed no previous visit to China."
+    }
+  ],
+  "generated_at": "2026-10-02T05:29:08+00:00",
+  "generator": "codex-cli"
+}

@@ -1,0 +1,169 @@
+{
+  "lesson": "2026-05-27",
+  "sentences": [
+    {
+      "chinese": "回家以后，我就开始工作。",
+      "pinyin": "Huí jiā yǐhòu, wǒ jiù kāishǐ gōngzuò.",
+      "english_hint": "I started working after getting home.",
+      "scenario": "Describe what you did after shopping.",
+      "focus": [
+        "以后……就……",
+        "action sequence"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects the unclear return-home phrase to 回家以后."
+    },
+    {
+      "chinese": "我们在公寓里住了四年。",
+      "pinyin": "Wǒmen zài gōngyù lǐ zhù le sì nián.",
+      "english_hint": "We lived in an apartment for four years.",
+      "scenario": "Explain your previous living situation.",
+      "focus": [
+        "在＋place＋verb",
+        "住了＋duration"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated location and duration ordering problems in the housing discussion."
+    },
+    {
+      "chinese": "今天早上我们去了超市。",
+      "pinyin": "Jīntiān zǎoshang wǒmen qù le chāoshì.",
+      "english_hint": "We went to the supermarket this morning.",
+      "scenario": "Tell someone about this morning's shopping.",
+      "focus": [
+        "了 for a specific event"
+      ],
+      "priority": 5,
+      "source_note": "The analysis replaces 去过 with 去了 for that morning's event."
+    },
+    {
+      "chinese": "我去过日本。",
+      "pinyin": "Wǒ qù guo Rìběn.",
+      "english_hint": "I've been to Japan.",
+      "scenario": "Mention your travel experience.",
+      "focus": [
+        "过 for experience"
+      ],
+      "priority": 4,
+      "source_note": "The analysis uses this sentence to contrast experience with a specific trip."
+    },
+    {
+      "chinese": "我没做作业，因为没有时间。",
+      "pinyin": "Wǒ méi zuò zuòyè, yīnwèi méiyǒu shíjiān.",
+      "english_hint": "I didn't do the homework because I had no time.",
+      "scenario": "Explain why your homework is unfinished.",
+      "focus": [
+        "没＋verb",
+        "因为＋reason"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我不做这个 when the learner meant an unfinished past action."
+    },
+    {
+      "chinese": "我现在不常吃俄罗斯菜。",
+      "pinyin": "Wǒ xiànzài bù cháng chī Éluósī cài.",
+      "english_hint": "I don't often eat Russian food now.",
+      "scenario": "Describe your current eating habits.",
+      "focus": [
+        "不常＋verb",
+        "frequency versus quantity"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects 不吃很多 to 不常吃 for intended frequency."
+    },
+    {
+      "chinese": "我们每个月做一次罗宋汤。",
+      "pinyin": "Wǒmen měi ge yuè zuò yí cì luósòngtāng.",
+      "english_hint": "We make borscht once a month.",
+      "scenario": "Describe your family's cooking routine.",
+      "focus": [
+        "每个月",
+        "verb＋一次"
+      ],
+      "priority": 3,
+      "source_note": "Builds on the learner's successful 每个月做一次 pattern and borscht context."
+    },
+    {
+      "chinese": "我会做罗宋汤。",
+      "pinyin": "Wǒ huì zuò luósòngtāng.",
+      "english_hint": "I know how to make borscht.",
+      "scenario": "Tell someone what you know how to cook.",
+      "focus": [
+        "会 for learned skills"
+      ],
+      "priority": 4,
+      "source_note": "The analysis replaces 可以 with 会 to express cooking knowledge."
+    },
+    {
+      "chinese": "我能吃辣的菜。",
+      "pinyin": "Wǒ néng chī là de cài.",
+      "english_hint": "I can handle spicy food.",
+      "scenario": "Explain your spice tolerance when ordering.",
+      "focus": [
+        "能 for tolerance"
+      ],
+      "priority": 4,
+      "source_note": "The analysis confirms 能吃辣的菜 for the learner's tolerance."
+    },
+    {
+      "chinese": "我想买小一点的房子。",
+      "pinyin": "Wǒ xiǎng mǎi xiǎo yìdiǎn de fángzi.",
+      "english_hint": "I'd like to buy a slightly smaller house.",
+      "scenario": "Explain your preferred house size.",
+      "focus": [
+        "adjective＋一点＋的＋noun"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 一点小 to 小一点 in the learner's housing preference."
+    },
+    {
+      "chinese": "我每个月都交费。",
+      "pinyin": "Wǒ měi ge yuè dōu jiāo fèi.",
+      "english_hint": "I pay fees every month.",
+      "scenario": "Explain your recurring community payments.",
+      "focus": [
+        "交费",
+        "每个月都＋verb"
+      ],
+      "priority": 5,
+      "source_note": "Targets repeated 买物业 and 每月买 errors using the analysis's 交费 chunk."
+    },
+    {
+      "chinese": "我跟邻居说过两三次中文。",
+      "pinyin": "Wǒ gēn línjū shuō guo liǎng sān cì Zhōngwén.",
+      "english_hint": "I've spoken Chinese with my neighbor a few times.",
+      "scenario": "Describe practicing Chinese with your neighbor.",
+      "focus": [
+        "跟＋person＋说",
+        "过",
+        "两三次"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects recurring word order around who the learner speaks to."
+    },
+    {
+      "chinese": "这个用中文怎么说？",
+      "pinyin": "Zhège yòng Zhōngwén zěnme shuō?",
+      "english_hint": "How do you say this in Chinese?",
+      "scenario": "Ask for a word when you get stuck.",
+      "focus": [
+        "用中文怎么说"
+      ],
+      "priority": 5,
+      "source_note": "The analysis recommends this rescue phrase for repeated word-search difficulties."
+    },
+    {
+      "chinese": "只要有朋友和家人就好。",
+      "pinyin": "Zhǐyào yǒu péngyou hé jiārén jiù hǎo.",
+      "english_hint": "As long as I have friends and family, I'm happy.",
+      "scenario": "Explain what matters most when choosing where to live.",
+      "focus": [
+        "只要……就……"
+      ],
+      "priority": 4,
+      "source_note": "Shortens the analysis's corrected family-and-friends point into its core conditional pattern."
+    }
+  ],
+  "generated_at": "2026-10-02T05:32:33+00:00",
+  "generator": "codex-cli"
+}

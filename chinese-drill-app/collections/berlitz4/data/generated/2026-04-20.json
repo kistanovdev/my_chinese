@@ -1,0 +1,174 @@
+{
+  "lesson": "2026-04-20",
+  "sentences": [
+    {
+      "chinese": "我们在开发新软件。",
+      "pinyin": "Wǒmen zài kāifā xīn ruǎnjiàn.",
+      "english_hint": "We're developing new software.",
+      "scenario": "Tell someone what your team is working on.",
+      "focus": [
+        "在 + ongoing action",
+        "开发软件"
+      ],
+      "priority": 5,
+      "source_note": "开发新软件 was corrected immediately and reinforced several times."
+    },
+    {
+      "chinese": "我在公司工作。",
+      "pinyin": "Wǒ zài gōngsī gōngzuò.",
+      "english_hint": "I work at a company.",
+      "scenario": "Describe your workplace.",
+      "focus": [
+        "在 + place + verb",
+        "公司"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects 工厂 to 公司 for the learner's workplace."
+    },
+    {
+      "chinese": "其次是三星，然后是小米。",
+      "pinyin": "Qícì shì Sānxīng, ránhòu shì Xiǎomǐ.",
+      "english_hint": "Next is Samsung, then Xiaomi.",
+      "scenario": "Continue the phone-company ranking practiced in class.",
+      "focus": [
+        "其次是",
+        "然后是",
+        "ranking order"
+      ],
+      "priority": 5,
+      "source_note": "Replaces 以后 for ranking; the learner named Samsung and Xiaomi in this order."
+    },
+    {
+      "chinese": "市场份额占百分之二十。",
+      "pinyin": "Shìchǎng fèné zhàn bǎifēn zhī èrshí.",
+      "english_hint": "The market share is twenty percent.",
+      "scenario": "State the example market share used in class.",
+      "focus": [
+        "市场份额",
+        "占 + percentage"
+      ],
+      "priority": 5,
+      "source_note": "Repeated difficulty producing 市场份额; 占百分之二十 was explicitly taught as a practice example."
+    },
+    {
+      "chinese": "他们的预算比我们多一倍。",
+      "pinyin": "Tāmen de yùsuàn bǐ wǒmen duō yí bèi.",
+      "english_hint": "Their budget is twice ours.",
+      "scenario": "Compare two budgets in a meeting exercise.",
+      "focus": [
+        "A 比 B 多 + amount"
+      ],
+      "priority": 5,
+      "source_note": "Shortens the corrected advertising-budget sentence while retaining the failed 比……多一倍 structure."
+    },
+    {
+      "chinese": "最大的竞争对手是谁？",
+      "pinyin": "Zuì dà de jìngzhēng duìshǒu shì shéi?",
+      "english_hint": "Who is the biggest competitor?",
+      "scenario": "Ask about a product's main competitor.",
+      "focus": [
+        "最大的 + noun",
+        "竞争对手",
+        "谁 question"
+      ],
+      "priority": 5,
+      "source_note": "The learner repeatedly used 竞争 where the analysis supplies 竞争对手."
+    },
+    {
+      "chinese": "我吃了猪肉。",
+      "pinyin": "Wǒ chī le zhūròu.",
+      "english_hint": "I ate pork.",
+      "scenario": "Tell someone what you ate.",
+      "focus": [
+        "verb + 了 + object"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of 我吃饭了猪肉; repeated correctly later in the lesson."
+    },
+    {
+      "chinese": "我的女儿才两岁。",
+      "pinyin": "Wǒ de nǚ'ér cái liǎng suì.",
+      "english_hint": "My daughter is only two.",
+      "scenario": "Explain how young your daughter is.",
+      "focus": [
+        "才 + age",
+        "两岁"
+      ],
+      "priority": 5,
+      "source_note": "The analysis confirms age two and gives 才两岁 as the natural correction."
+    },
+    {
+      "chinese": "我每个月还贷款。",
+      "pinyin": "Wǒ měi ge yuè huán dàikuǎn.",
+      "english_hint": "I repay my loan every month.",
+      "scenario": "Describe your regular mortgage payments.",
+      "focus": [
+        "每个月 + verb",
+        "还贷款"
+      ],
+      "priority": 5,
+      "source_note": "Uses the corrected repayment verb 还 and shortens the mortgage sentence for fluent production."
+    },
+    {
+      "chinese": "我只有一个手机。",
+      "pinyin": "Wǒ zhǐyǒu yí ge shǒujī.",
+      "english_hint": "I only have one phone.",
+      "scenario": "Answer how many phones you have.",
+      "focus": [
+        "只有 + quantity"
+      ],
+      "priority": 4,
+      "source_note": "Successful personal usage, reinforced to distinguish 只有 from 才 and 只要."
+    },
+    {
+      "chinese": "一瓶绿茶只要一美元。",
+      "pinyin": "Yì píng lǜchá zhǐ yào yì měiyuán.",
+      "english_hint": "A bottle of green tea costs just one dollar.",
+      "scenario": "Mention the cheap green tea discussed in class.",
+      "focus": [
+        "只要 + price",
+        "一瓶 + drink"
+      ],
+      "priority": 5,
+      "source_note": "Explicit price correction; the learner later reverted to 只有一美元 during review."
+    },
+    {
+      "chinese": "软件的价格涨了。",
+      "pinyin": "Ruǎnjiàn de jiàgé zhǎng le.",
+      "english_hint": "Software prices have gone up.",
+      "scenario": "Describe the software price change discussed in class.",
+      "focus": [
+        "价格 + 涨了",
+        "change-of-state 了"
+      ],
+      "priority": 5,
+      "source_note": "The analysis supplies this wording; the teacher repeatedly prompted the missing 了."
+    },
+    {
+      "chinese": "苹果电脑的价格还没有跌。",
+      "pinyin": "Píngguǒ diànnǎo de jiàgé hái méiyǒu diē.",
+      "english_hint": "Apple computer prices haven't fallen yet.",
+      "scenario": "Repeat your lesson observation about computer prices.",
+      "focus": [
+        "还没有 + verb",
+        "价格 + 跌"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's difficulty making 价格 the subject of 跌; reinforced during review."
+    },
+    {
+      "chinese": "虽然我用苹果手机，但是也想用小米。",
+      "pinyin": "Suīrán wǒ yòng Píngguǒ shǒujī, dànshì yě xiǎng yòng Xiǎomǐ.",
+      "english_hint": "Although I use an Apple phone, I also want to try Xiaomi.",
+      "scenario": "Explain your interest in trying another phone brand.",
+      "focus": [
+        "虽然……但是……",
+        "也想 + verb"
+      ],
+      "priority": 4,
+      "source_note": "Completes the learner's attempted contrast using the corrected pattern and stated interest in Xiaomi."
+    }
+  ],
+  "generated_at": "2026-10-02T05:21:43+00:00",
+  "generator": "codex-cli"
+}

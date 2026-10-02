@@ -1,0 +1,173 @@
+{
+  "lesson": "2026-05-01",
+  "sentences": [
+    {
+      "chinese": "你参加过婚礼吗？",
+      "pinyin": "Nǐ cānjiā guo hūnlǐ ma?",
+      "english_hint": "Have you attended a wedding?",
+      "scenario": "Ask someone about attending weddings.",
+      "focus": [
+        "参加婚礼",
+        "过: experience"
+      ],
+      "priority": 5,
+      "source_note": "Repeatedly corrected 离婚 to 婚礼 when the learner meant attending a wedding."
+    },
+    {
+      "chinese": "我结婚的时候租过礼服。",
+      "pinyin": "Wǒ jiéhūn de shíhou zū guo lǐfú.",
+      "english_hint": "I rented formal wear when I got married.",
+      "scenario": "Explain what you wore for your own wedding.",
+      "focus": [
+        "结婚的时候",
+        "过: experience"
+      ],
+      "priority": 5,
+      "source_note": "The learner described renting wedding attire and corrected 离婚 to 结婚."
+    },
+    {
+      "chinese": "参加婚礼的时候要穿礼服。",
+      "pinyin": "Cānjiā hūnlǐ de shíhou yào chuān lǐfú.",
+      "english_hint": "Wear formal attire when attending a wedding.",
+      "scenario": "Explain the dress requirement for a wedding.",
+      "focus": [
+        "参加婚礼",
+        "的时候",
+        "要 + verb"
+      ],
+      "priority": 5,
+      "source_note": "The analysis models this wedding-event chunk to address recurring confusion."
+    },
+    {
+      "chinese": "我可以买一件礼服。",
+      "pinyin": "Wǒ kěyǐ mǎi yí jiàn lǐfú.",
+      "english_hint": "I can buy a formal outfit.",
+      "scenario": "Say that buying formal attire is an option.",
+      "focus": [
+        "一件 + clothing",
+        "可以 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's 买一张礼服 to the clothing measure word 件."
+    },
+    {
+      "chinese": "这是一套礼服。",
+      "pinyin": "Zhè shì yí tào lǐfú.",
+      "english_hint": "This is a full formal outfit.",
+      "scenario": "Show a matching formal outfit.",
+      "focus": [
+        "一套 + matched outfit"
+      ],
+      "priority": 4,
+      "source_note": "The analysis distinguishes 件 for a piece of clothing from 套 for a matched set."
+    },
+    {
+      "chinese": "参加婚礼以前，你应该提前准备好。",
+      "pinyin": "Cānjiā hūnlǐ yǐqián, nǐ yīnggāi tíqián zhǔnbèi hǎo.",
+      "english_hint": "You should get ready before attending a wedding.",
+      "scenario": "Remind someone to prepare before a wedding.",
+      "focus": [
+        "event + 以前",
+        "应该",
+        "提前"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill targeting repeated swaps of 以前 and 以后 in wedding planning."
+    },
+    {
+      "chinese": "我没穿过这个颜色的礼服。",
+      "pinyin": "Wǒ méi chuān guo zhège yánsè de lǐfú.",
+      "english_hint": "I've never worn formal attire in this color.",
+      "scenario": "Describe your experience with an unfamiliar outfit color.",
+      "focus": [
+        "没 + verb + 过",
+        "这个颜色的 + noun"
+      ],
+      "priority": 4,
+      "source_note": "Corrected chunk from the learner's description of attire worn for a friend's wedding."
+    },
+    {
+      "chinese": "下班以后，我带女儿去公园玩。",
+      "pinyin": "Xiàbān yǐhòu, wǒ dài nǚ'ér qù gōngyuán wán.",
+      "english_hint": "After work, I take my daughter to the park.",
+      "scenario": "Practice describing a possible outing after work.",
+      "focus": [
+        "event + 以后",
+        "带 + person + 去 + place"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill combining 以后 with the learner's supported daughter-and-park context; timing is practice."
+    },
+    {
+      "chinese": "我的电脑总是需要插线。",
+      "pinyin": "Wǒ de diànnǎo zǒngshì xūyào chā xiàn.",
+      "english_hint": "My computer always needs to be plugged in.",
+      "scenario": "Explain your computer's power requirement.",
+      "focus": [
+        "总是需要 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Teacher correction for the intended habitual necessity behind 总是充电了."
+    },
+    {
+      "chinese": "这台显示器是公司免费给我的。",
+      "pinyin": "Zhè tái xiǎnshìqì shì gōngsī miǎnfèi gěi wǒ de.",
+      "english_hint": "The company gave me this monitor for free.",
+      "scenario": "Explain how you received your work monitor.",
+      "focus": [
+        "是……给我的",
+        "免费"
+      ],
+      "priority": 5,
+      "source_note": "Analysis model correcting 零钱 to 免费 for the company-provided monitor."
+    },
+    {
+      "chinese": "没有礼服，怎么办？",
+      "pinyin": "Méiyǒu lǐfú, zěnme bàn?",
+      "english_hint": "What should I do without formal attire?",
+      "scenario": "Ask for help choosing attire for an event.",
+      "focus": [
+        "situation + 怎么办"
+      ],
+      "priority": 4,
+      "source_note": "Analysis drill clarifying 怎么办 as asking what to do."
+    },
+    {
+      "chinese": "那就去租一件吧。",
+      "pinyin": "Nà jiù qù zū yí jiàn ba.",
+      "english_hint": "Then go rent one.",
+      "scenario": "Suggest a solution when someone has no formal attire.",
+      "focus": [
+        "那就……吧",
+        "一件"
+      ],
+      "priority": 4,
+      "source_note": "Modeled solution paired with the lesson's 怎么办 drill."
+    },
+    {
+      "chinese": "我经常带女儿去公园玩。",
+      "pinyin": "Wǒ jīngcháng dài nǚ'ér qù gōngyuán wán.",
+      "english_hint": "I often take my daughter to the park.",
+      "scenario": "Describe a regular activity with your daughter.",
+      "focus": [
+        "带 + person + 去 + place + activity"
+      ],
+      "priority": 4,
+      "source_note": "Corrected personal sentence, successfully repeated during the lesson review."
+    },
+    {
+      "chinese": "这首歌好听极了。",
+      "pinyin": "Zhè shǒu gē hǎotīng jí le.",
+      "english_hint": "This song sounds wonderful.",
+      "scenario": "React to a Chinese song you enjoy.",
+      "focus": [
+        "adjective + 极了",
+        "首 + song"
+      ],
+      "priority": 4,
+      "source_note": "The learner discussed a favorite song; the teacher repeatedly modeled 好听极了."
+    }
+  ],
+  "generated_at": "2026-10-02T05:24:44+00:00",
+  "generator": "codex-cli"
+}

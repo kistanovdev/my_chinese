@@ -1,0 +1,177 @@
+{
+  "lesson": "2026-05-25",
+  "sentences": [
+    {
+      "chinese": "周末我们去爬山了。",
+      "pinyin": "Zhōumò wǒmen qù páshān le.",
+      "english_hint": "We went hiking this weekend.",
+      "scenario": "Tell someone what your family did this weekend.",
+      "focus": [
+        "specific past event + 了",
+        "去 + activity"
+      ],
+      "priority": 5,
+      "source_note": "Repeated 去过 for the specific weekend outing; analysis corrects it to 去爬山了."
+    },
+    {
+      "chinese": "我以前走过二十英里。",
+      "pinyin": "Wǒ yǐqián zǒu guo èrshí yīnglǐ.",
+      "english_hint": "I've walked twenty miles before.",
+      "scenario": "Describe your previous hiking experience.",
+      "focus": [
+        "past experience + 过",
+        "走 + distance",
+        "以前"
+      ],
+      "priority": 5,
+      "source_note": "Analysis distinguishes experience from a specific event and corrects the twenty-mile hiking description."
+    },
+    {
+      "chinese": "大女儿只走了一小段路。",
+      "pinyin": "Dà nǚ'ér zhǐ zǒu le yì xiǎo duàn lù.",
+      "english_hint": "My older daughter only walked a short distance.",
+      "scenario": "Explain how far your older daughter walked.",
+      "focus": [
+        "只 + verb",
+        "走了一小段路"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 大女儿去一点 to 大女儿只走了一小段路."
+    },
+    {
+      "chinese": "我帮太太打扫家里。",
+      "pinyin": "Wǒ bāng tàitai dǎsǎo jiālǐ.",
+      "english_hint": "I help my wife clean the house.",
+      "scenario": "Describe how you help at home.",
+      "focus": [
+        "帮 + person + action",
+        "打扫家里"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 帮忙我的太太 and 洗我们的家 using the analysis's model."
+    },
+    {
+      "chinese": "我在网上付账单。",
+      "pinyin": "Wǒ zài wǎngshàng fù zhàngdān.",
+      "english_hint": "I pay bills online.",
+      "scenario": "Explain how you pay your bills.",
+      "focus": [
+        "在 + place + verb",
+        "付账单"
+      ],
+      "priority": 5,
+      "source_note": "Repeated 买 for payments; learner successfully repeated this correction near the end."
+    },
+    {
+      "chinese": "我每个月还房贷。",
+      "pinyin": "Wǒ měi ge yuè huán fángdài.",
+      "english_hint": "I make mortgage payments every month.",
+      "scenario": "Describe a regular household expense.",
+      "focus": [
+        "每个月 + action",
+        "还房贷"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 每月买房子 to 每个月还房贷; 还 is pronounced huán."
+    },
+    {
+      "chinese": "我用工资的百分之二交水电费。",
+      "pinyin": "Wǒ yòng gōngzī de bǎifēnzhī èr jiāo shuǐdiànfèi.",
+      "english_hint": "I use two percent of my salary to pay utilities.",
+      "scenario": "Explain the utilities share of your budget.",
+      "focus": [
+        "用 + money + action",
+        "工资的百分之……",
+        "交水电费"
+      ],
+      "priority": 5,
+      "source_note": "Analysis supplies this correction for unclear percentages and 买水电费."
+    },
+    {
+      "chinese": "下次我想去中国。",
+      "pinyin": "Xià cì wǒ xiǎng qù Zhōngguó.",
+      "english_hint": "Next time, I want to go to China.",
+      "scenario": "Say where you want your next trip to be.",
+      "focus": [
+        "下次",
+        "想 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Repeated confusion between 上次 and 下次; analysis includes this China travel plan."
+    },
+    {
+      "chinese": "如果护照办好了，我们就去中国旅游。",
+      "pinyin": "Rúguǒ hùzhào bàn hǎo le, wǒmen jiù qù Zhōngguó lǚyóu.",
+      "english_hint": "If the passport is ready, we'll travel to China.",
+      "scenario": "Explain what your China trip depends on.",
+      "focus": [
+        "如果……就……",
+        "办好 + 了",
+        "去 + place + 旅游"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 做护照 to 办护照 and supplies this conditional travel sentence."
+    },
+    {
+      "chinese": "我想从北京坐高铁去上海。",
+      "pinyin": "Wǒ xiǎng cóng Běijīng zuò gāotiě qù Shànghǎi.",
+      "english_hint": "I want to take the high-speed train from Beijing to Shanghai.",
+      "scenario": "Describe your planned route within China.",
+      "focus": [
+        "从……坐……去……",
+        "坐高铁"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 我想去高铁 and makes the learner's Beijing-to-Shanghai route reusable."
+    },
+    {
+      "chinese": "去北京比去上海便宜。",
+      "pinyin": "Qù Běijīng bǐ qù Shànghǎi piányi.",
+      "english_hint": "Going to Beijing is cheaper than going to Shanghai.",
+      "scenario": "Compare the flight options you discussed.",
+      "focus": [
+        "A 比 B + adjective"
+      ],
+      "priority": 4,
+      "source_note": "Analysis models this comparison; learner discussed a lower flight quote for Beijing."
+    },
+    {
+      "chinese": "生活费越来越高了。",
+      "pinyin": "Shēnghuófèi yuè lái yuè gāo le.",
+      "english_hint": "Living costs are getting higher.",
+      "scenario": "Comment on rising household costs.",
+      "focus": [
+        "越来越 + adjective",
+        "change + 了"
+      ],
+      "priority": 4,
+      "source_note": "Analysis retains this useful change pattern from the living-cost discussion."
+    },
+    {
+      "chinese": "网上银行很方便。",
+      "pinyin": "Wǎngshàng yínháng hěn fāngbiàn.",
+      "english_hint": "Online banking is convenient.",
+      "scenario": "Explain a benefit of online banking.",
+      "focus": [
+        "很 + adjective",
+        "方便"
+      ],
+      "priority": 4,
+      "source_note": "Analysis corrects 有方便 to 很方便 and separates convenience from security."
+    },
+    {
+      "chinese": "这本书我看不懂。",
+      "pinyin": "Zhè běn shū wǒ kàn bu dǒng.",
+      "english_hint": "I can't understand this book.",
+      "scenario": "Explain your difficulty reading a Chinese book.",
+      "focus": [
+        "看不懂",
+        "topic + comment"
+      ],
+      "priority": 4,
+      "source_note": "Analysis replaces 不能读 with 看不懂 to express a comprehension difficulty."
+    }
+  ],
+  "generated_at": "2026-10-02T05:31:29+00:00",
+  "generator": "codex-cli"
+}

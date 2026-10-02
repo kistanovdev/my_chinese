@@ -1,0 +1,170 @@
+{
+  "lesson": "2026-06-08",
+  "sentences": [
+    {
+      "chinese": "我住在郊区。",
+      "pinyin": "Wǒ zhù zài jiāoqū.",
+      "english_hint": "I live in the suburbs.",
+      "scenario": "Tell someone where you live.",
+      "focus": [
+        "住在 + place"
+      ],
+      "priority": 5,
+      "source_note": "Repeated unfinished residence phrases; analysis corrects them to 住在 + place."
+    },
+    {
+      "chinese": "我今天在家工作。",
+      "pinyin": "Wǒ jīntiān zài jiā gōngzuò.",
+      "english_hint": "I'm working from home today.",
+      "scenario": "Tell a colleague your work location today.",
+      "focus": [
+        "subject + time + 在 + place + action"
+      ],
+      "priority": 5,
+      "source_note": "Builds on successful 我在家工作 and the analysis's word-order drill."
+    },
+    {
+      "chinese": "我的大女儿三岁。",
+      "pinyin": "Wǒ de dà nǚ'ér sān suì.",
+      "english_hint": "My older daughter is three.",
+      "scenario": "Answer a question about your older daughter's age.",
+      "focus": [
+        "age + 岁"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the repeated use of 年 and 有 when describing the daughters' ages."
+    },
+    {
+      "chinese": "小女儿还不会说话。",
+      "pinyin": "Xiǎo nǚ'ér hái bú huì shuōhuà.",
+      "english_hint": "My younger daughter can't talk yet.",
+      "scenario": "Describe your younger daughter's speaking ability.",
+      "focus": [
+        "还不会 + skill"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects alternating 不说、还没说、不能说 to 还不会说话."
+    },
+    {
+      "chinese": "我小时候想养一只狗。",
+      "pinyin": "Wǒ xiǎoshíhou xiǎng yǎng yì zhī gǒu.",
+      "english_hint": "I wanted a dog when I was little.",
+      "scenario": "Recall the pet you wanted as a child.",
+      "focus": [
+        "想 + verb",
+        "一只狗"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我小的时候想一只狗 by adding the verb 养."
+    },
+    {
+      "chinese": "我觉得美国的郊区比市中心好。",
+      "pinyin": "Wǒ juéde Měiguó de jiāoqū bǐ shìzhōngxīn hǎo.",
+      "english_hint": "I think American suburbs are better than downtown.",
+      "scenario": "Explain your preference when discussing places to live.",
+      "focus": [
+        "我觉得",
+        "A 比 B + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Analysis supplies a complete predicate for the learner's suburb comparison."
+    },
+    {
+      "chinese": "西方音乐跟中国音乐很不一样。",
+      "pinyin": "Xīfāng yīnyuè gēn Zhōngguó yīnyuè hěn bù yíyàng.",
+      "english_hint": "Western and Chinese music are very different.",
+      "scenario": "Describe the difference between music you listen to.",
+      "focus": [
+        "A 跟 B 不一样"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the use of 比 with 不一样 in the music discussion."
+    },
+    {
+      "chinese": "房租有点贵。",
+      "pinyin": "Fángzū yǒudiǎn guì.",
+      "english_hint": "The rent is a bit expensive.",
+      "scenario": "React to the price of a rental.",
+      "focus": [
+        "有点 + adjective"
+      ],
+      "priority": 4,
+      "source_note": "Analysis contrasts 有点 + adjective with adjective + 一点."
+    },
+    {
+      "chinese": "能不能便宜一点？",
+      "pinyin": "Néng bu néng piányi yìdiǎn?",
+      "english_hint": "Could it be a little cheaper?",
+      "scenario": "Ask for a lower price.",
+      "focus": [
+        "能不能",
+        "adjective + 一点"
+      ],
+      "priority": 4,
+      "source_note": "Analysis identifies this as the useful bargaining chunk for 一点."
+    },
+    {
+      "chinese": "我住的地方没有地铁。",
+      "pinyin": "Wǒ zhù de dìfang méiyǒu dìtiě.",
+      "english_hint": "There's no subway where I live.",
+      "scenario": "Explain local transportation to a visitor.",
+      "focus": [
+        "place + 没有",
+        "我住的地方"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我没有地铁 by making the location the subject."
+    },
+    {
+      "chinese": "如果你有车，出门就很方便。",
+      "pinyin": "Rúguǒ nǐ yǒu chē, chūmén jiù hěn fāngbiàn.",
+      "english_hint": "If you have a car, getting around is easy.",
+      "scenario": "Explain how a car helps in the suburbs.",
+      "focus": [
+        "如果……就……",
+        "很方便"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 有很好的交通 to a complete conditional about convenience."
+    },
+    {
+      "chinese": "我去过日本和韩国。",
+      "pinyin": "Wǒ qù guo Rìběn hé Hánguó.",
+      "english_hint": "I've been to Japan and South Korea.",
+      "scenario": "Tell someone which countries you've visited.",
+      "focus": [
+        "verb + 过",
+        "和 joining nouns"
+      ],
+      "priority": 4,
+      "source_note": "Analysis replaces the unfinished 也……和韩国 with a coordinated country list."
+    },
+    {
+      "chinese": "这套房子是什么时候装修的？",
+      "pinyin": "Zhè tào fángzi shì shénme shíhou zhuāngxiū de?",
+      "english_hint": "When was this house renovated?",
+      "scenario": "Ask about a house during a viewing.",
+      "focus": [
+        "是……的",
+        "什么时候",
+        "这套房子"
+      ],
+      "priority": 4,
+      "source_note": "Analysis supplies this question to practice a past detail after the renovation-question error."
+    },
+    {
+      "chinese": "我得先走了，我要开会。",
+      "pinyin": "Wǒ děi xiān zǒu le, wǒ yào kāihuì.",
+      "english_hint": "I need to leave; I have a meeting.",
+      "scenario": "End your Chinese lesson to attend a meeting.",
+      "focus": [
+        "得 + verb",
+        "要开会"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the final 我一定出去，我有一个开会 to practical necessity and the verb 开会."
+    }
+  ],
+  "generated_at": "2026-10-02T05:34:46+00:00",
+  "generator": "codex-cli"
+}

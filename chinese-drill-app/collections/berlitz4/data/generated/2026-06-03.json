@@ -1,0 +1,173 @@
+{
+  "lesson": "2026-06-03",
+  "sentences": [
+    {
+      "chinese": "我不想每天吃土豆。",
+      "pinyin": "Wǒ bù xiǎng měitiān chī tǔdòu.",
+      "english_hint": "I don't want to eat potatoes every day.",
+      "scenario": "Explain your food preference at dinner.",
+      "focus": [
+        "frequency before verb",
+        "不想 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Repeated frequency word-order errors; analysis distinguishes preference from inability."
+    },
+    {
+      "chinese": "搬家公司有点贵。",
+      "pinyin": "Bānjiā gōngsī yǒudiǎn guì.",
+      "english_hint": "The moving company is a little expensive.",
+      "scenario": "Comment on a moving quote.",
+      "focus": [
+        "有点 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 一点贵 in the learner's discussion of moving costs."
+    },
+    {
+      "chinese": "我搬过很多次家。",
+      "pinyin": "Wǒ bān guo hěn duō cì jiā.",
+      "english_hint": "I've moved many times.",
+      "scenario": "Describe your moving experience.",
+      "focus": [
+        "experience with 过",
+        "verb + 次 + object"
+      ],
+      "priority": 5,
+      "source_note": "Repeated difficulty placing the number of moves after the verb."
+    },
+    {
+      "chinese": "我请过两次搬家公司。",
+      "pinyin": "Wǒ qǐng guo liǎng cì bānjiā gōngsī.",
+      "english_hint": "I've hired movers twice.",
+      "scenario": "Explain how often you've used movers.",
+      "focus": [
+        "请 + service provider",
+        "experience with 过",
+        "verb + 次"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects the learner's account of using moving companies twice."
+    },
+    {
+      "chinese": "我住在这里。",
+      "pinyin": "Wǒ zhù zài zhèlǐ.",
+      "english_hint": "I live here.",
+      "scenario": "Tell someone where you live.",
+      "focus": [
+        "住在 + place"
+      ],
+      "priority": 5,
+      "source_note": "Location word order repeatedly caused difficulty in the housing discussion."
+    },
+    {
+      "chinese": "你想在这里住多久？",
+      "pinyin": "Nǐ xiǎng zài zhèlǐ zhù duō jiǔ?",
+      "english_hint": "How long do you want to live here?",
+      "scenario": "Ask about someone's housing plans.",
+      "focus": [
+        "在 + place + 住",
+        "住 + duration"
+      ],
+      "priority": 5,
+      "source_note": "Practices the location-duration distinction without inventing a definite length of stay."
+    },
+    {
+      "chinese": "你一定要住在这里吗？",
+      "pinyin": "Nǐ yídìng yào zhù zài zhèlǐ ma?",
+      "english_hint": "Do you have to live here?",
+      "scenario": "Ask whether living here is necessary.",
+      "focus": [
+        "一定要 + verb",
+        "住在 + place"
+      ],
+      "priority": 5,
+      "source_note": "Learner repeatedly questioned 一定 versus 一定要; analysis supplies the distinction."
+    },
+    {
+      "chinese": "猫不用每天出去。",
+      "pinyin": "Māo bú yòng měitiān chūqù.",
+      "english_hint": "Cats don't need to go out every day.",
+      "scenario": "Discuss daily pet care.",
+      "focus": [
+        "不用 + verb",
+        "frequency before verb"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects the cat example to express lack of necessity with 不用."
+    },
+    {
+      "chinese": "中文语法比俄语语法容易。",
+      "pinyin": "Zhōngwén yǔfǎ bǐ Éyǔ yǔfǎ róngyì.",
+      "english_hint": "Chinese grammar is easier than Russian grammar.",
+      "scenario": "Share your view of learning languages.",
+      "focus": [
+        "A 比 B + adjective"
+      ],
+      "priority": 4,
+      "source_note": "Corrects the learner's comparison by removing 很 after 比."
+    },
+    {
+      "chinese": "我太太和我阿姨帮我打包。",
+      "pinyin": "Wǒ tàitai hé wǒ āyí bāng wǒ dǎbāo.",
+      "english_hint": "My wife and aunt help me pack.",
+      "scenario": "Say who helps you pack for a move.",
+      "focus": [
+        "nouns joined with 和",
+        "帮 + person + verb"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 也 between the two family members; both helped with packing."
+    },
+    {
+      "chinese": "搬家以前，我们把东西打包好。",
+      "pinyin": "Bānjiā yǐqián, wǒmen bǎ dōngxi dǎbāo hǎo.",
+      "english_hint": "Before moving, we finish packing our things.",
+      "scenario": "Describe what to finish before moving day.",
+      "focus": [
+        "把 + object + verb + result",
+        "以前"
+      ],
+      "priority": 5,
+      "source_note": "Repeated incomplete 把 constructions lacked an object; analysis supplies 打包好."
+    },
+    {
+      "chinese": "我们花了四个星期打包。",
+      "pinyin": "Wǒmen huā le sì ge xīngqī dǎbāo.",
+      "english_hint": "We spent four weeks packing.",
+      "scenario": "Tell someone how long packing took.",
+      "focus": [
+        "花了 + time + action"
+      ],
+      "priority": 5,
+      "source_note": "Learner reported four weeks of packing; analysis corrects the time-spent structure."
+    },
+    {
+      "chinese": "对我来说，这两个字看起来很像。",
+      "pinyin": "Duì wǒ lái shuō, zhè liǎng ge zì kàn qǐlái hěn xiàng.",
+      "english_hint": "These two characters look very similar to me.",
+      "scenario": "Explain why you confuse two characters.",
+      "focus": [
+        "对我来说",
+        "看起来 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Analysis combines recurring 对我的来说 and 看一样 problems into a useful study chunk."
+    },
+    {
+      "chinese": "你可以再说一次吗？",
+      "pinyin": "Nǐ kěyǐ zài shuō yí cì ma?",
+      "english_hint": "Could you say that again?",
+      "scenario": "Ask for repetition during Chinese class.",
+      "focus": [
+        "再 + verb",
+        "verb + 一次",
+        "request with 吗"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 说再一次; learner successfully repeated this request."
+    }
+  ],
+  "generated_at": "2026-10-02T05:33:29+00:00",
+  "generator": "codex-cli"
+}

@@ -1,0 +1,177 @@
+{
+  "lesson": "2026-05-21",
+  "sentences": [
+    {
+      "chinese": "我能听到你说话。",
+      "pinyin": "Wǒ néng tīngdào nǐ shuōhuà.",
+      "english_hint": "I can hear you speaking.",
+      "scenario": "Confirm the audio works during an online lesson.",
+      "focus": [
+        "能＋verb",
+        "听到"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我听你; the learner repaired the hearing verb during the opening audio check."
+    },
+    {
+      "chinese": "我每个月要交税。",
+      "pinyin": "Wǒ měi ge yuè yào jiāo shuì.",
+      "english_hint": "I have to pay tax every month.",
+      "scenario": "Explain a regular monthly payment.",
+      "focus": [
+        "time before verb",
+        "要 for necessity",
+        "交税"
+      ],
+      "priority": 5,
+      "source_note": "Replaces repeated 一定 and vague 发钱 when explaining tax payments."
+    },
+    {
+      "chinese": "我每个月都要还贷款。",
+      "pinyin": "Wǒ měi ge yuè dōu yào huán dàikuǎn.",
+      "english_hint": "I have to repay my loan every month.",
+      "scenario": "Explain your monthly loan obligation.",
+      "focus": [
+        "每……都……",
+        "要 for necessity",
+        "还贷款"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated payment descriptions; 还贷款 identifies the purpose and uses huán."
+    },
+    {
+      "chinese": "我每个月存一点钱。",
+      "pinyin": "Wǒ měi ge yuè cún yìdiǎn qián.",
+      "english_hint": "I save a little money every month.",
+      "scenario": "Describe your saving habit.",
+      "focus": [
+        "verb＋一点＋noun",
+        "存钱"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of 我一点存钱."
+    },
+    {
+      "chinese": "我把钱转到银行账户里。",
+      "pinyin": "Wǒ bǎ qián zhuǎn dào yínháng zhànghù lǐ.",
+      "english_hint": "I transfer the money into a bank account.",
+      "scenario": "Explain where you transfer money.",
+      "focus": [
+        "把＋object＋verb",
+        "转到＋destination"
+      ],
+      "priority": 5,
+      "source_note": "Analysis supplies this correction for repeated vague 发钱 and incomplete account descriptions."
+    },
+    {
+      "chinese": "我用工资的百分之十五还贷款。",
+      "pinyin": "Wǒ yòng gōngzī de bǎifēnzhī shíwǔ huán dàikuǎn.",
+      "english_hint": "I use fifteen percent of my salary to repay my loan.",
+      "scenario": "Explain how much of your salary goes toward your loan.",
+      "focus": [
+        "用＋amount＋verb",
+        "工资的百分之……"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我的还贷款是百分之十五分 and makes the percentage base explicit."
+    },
+    {
+      "chinese": "五分之一是百分之二十。",
+      "pinyin": "Wǔ fēn zhī yī shì bǎifēnzhī èrshí.",
+      "english_hint": "One fifth is twenty percent.",
+      "scenario": "Express the same budget share as a fraction and a percentage.",
+      "focus": [
+        "denominator first",
+        "百分之……"
+      ],
+      "priority": 5,
+      "source_note": "Reinforces the learner's successful repair from 一分之五 to 五分之一."
+    },
+    {
+      "chinese": "你的生活费是工资的几分之几？",
+      "pinyin": "Nǐ de shēnghuófèi shì gōngzī de jǐ fēn zhī jǐ?",
+      "english_hint": "What fraction of your salary goes to living expenses?",
+      "scenario": "Ask someone about their monthly budget.",
+      "focus": [
+        "几分之几",
+        "explicit proportion base"
+      ],
+      "priority": 5,
+      "source_note": "Analysis supplies this question after repeated difficulty assembling proportion questions."
+    },
+    {
+      "chinese": "我太太喜欢省钱。",
+      "pinyin": "Wǒ tàitai xǐhuan shěng qián.",
+      "english_hint": "My wife likes to save on spending.",
+      "scenario": "Describe your wife's approach to shopping.",
+      "focus": [
+        "喜欢＋verb phrase",
+        "省钱 versus 存钱"
+      ],
+      "priority": 5,
+      "source_note": "Shortens the corrected family contrast 我喜欢花钱，我太太喜欢省钱."
+    },
+    {
+      "chinese": "我们打算去日本餐馆吃饭。",
+      "pinyin": "Wǒmen dǎsuàn qù Rìběn cānguǎn chī fàn.",
+      "english_hint": "We plan to eat at a Japanese restaurant.",
+      "scenario": "Tell someone about a planned restaurant visit.",
+      "focus": [
+        "打算＋verb",
+        "去＋place＋activity"
+      ],
+      "priority": 4,
+      "source_note": "Practices the analysis's future-plan correction while omitting the uncertain week."
+    },
+    {
+      "chinese": "我去过有名的餐馆。",
+      "pinyin": "Wǒ qùguo yǒumíng de cānguǎn.",
+      "english_hint": "I've been to well-known restaurants.",
+      "scenario": "Describe a restaurant experience from your travels.",
+      "focus": [
+        "去过",
+        "有名的＋noun"
+      ],
+      "priority": 5,
+      "source_note": "Uses the analysis's correction of 去过在 and the learner's successful repair from 名牌 to 有名."
+    },
+    {
+      "chinese": "我有两辆车。",
+      "pinyin": "Wǒ yǒu liǎng liàng chē.",
+      "english_hint": "I have two cars.",
+      "scenario": "Mention your cars when discussing household expenses.",
+      "focus": [
+        "两＋measure word",
+        "辆"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the confirmed 两个车 error in the learner's account of car expenses."
+    },
+    {
+      "chinese": "我的手表有点贵。",
+      "pinyin": "Wǒ de shǒubiǎo yǒudiǎn guì.",
+      "english_hint": "My watch is a bit expensive.",
+      "scenario": "Comment on the price of your watch.",
+      "focus": [
+        "有点＋adjective"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of 我的手表一点贵."
+    },
+    {
+      "chinese": "能便宜一点吗？",
+      "pinyin": "Néng piányi yìdiǎn ma?",
+      "english_hint": "Could you make it a little cheaper?",
+      "scenario": "Ask a seller for a lower price.",
+      "focus": [
+        "adjective＋一点",
+        "能……吗",
+        "便宜 for price"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated attempts to ask for a lower price using 少一点."
+    }
+  ],
+  "generated_at": "2026-10-02T05:30:15+00:00",
+  "generator": "codex-cli"
+}
