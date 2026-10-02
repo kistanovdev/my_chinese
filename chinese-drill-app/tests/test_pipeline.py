@@ -74,8 +74,8 @@ class PipelineTests(unittest.TestCase):
             result = build_bundle(deck, {"items": {}}, Path(temp_name), True)
         self.assertEqual(result["missing_audio_count"], 1)
         self.assertIsNone(result["sentences"][0]["audio"])
+        self.assertEqual(result["sentences"][0]["audio_variants"], [])
 
 
 if __name__ == "__main__":
     unittest.main()
-

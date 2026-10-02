@@ -24,6 +24,7 @@ class AppTests(unittest.TestCase):
         value = validate_progress(default_progress(), {"sentence-one"})
         self.assertEqual(value["version"], 1)
         self.assertEqual(value["cards"], {})
+        self.assertEqual(value["settings"]["voice_mode"], "original")
         self.assertIsNotNone(value["updated_at"])
 
     def test_progress_rejects_unknown_sentence(self) -> None:
@@ -40,6 +41,12 @@ class AppTests(unittest.TestCase):
         }
         with self.assertRaisesRegex(ValueError, "unknown sentence ID"):
             validate_progress(value, {"sentence-one"})
+
+    def test_existing_progress_gets_original_voice_mode(self) -> None:
+        value = default_progress()
+        del value["settings"]["voice_mode"]
+        validated = validate_progress(value, {"sentence-one"})
+        self.assertEqual(validated["settings"]["voice_mode"], "original")
 
     def test_range_parser_supports_standard_and_suffix_ranges(self) -> None:
         self.assertEqual(parse_range_header("bytes=10-19", 100), (10, 19))

@@ -16,6 +16,7 @@ const elements = {
   sessionSize: document.querySelector("#session-size"),
   repetitions: document.querySelector("#repetitions"),
   playbackSpeed: document.querySelector("#playback-speed"),
+  voiceMode: document.querySelector("#voice-mode"),
   startButton: document.querySelector("#start-button"),
   sessionNote: document.querySelector("#session-note"),
   exitSession: document.querySelector("#exit-session"),
@@ -57,6 +58,8 @@ const state = {
   sessionRatings: { again: 0, hard: 0, good: 0, easy: 0 },
   completedInSession: 0,
   plannedSessionCount: 0,
+  audioOrder: [],
+  currentAudio: null,
 };
 
 async function fetchJson(url, options = {}) {
@@ -157,6 +160,7 @@ function renderDashboard() {
   elements.sessionSize.value = String(state.progress.settings.session_size);
   elements.repetitions.value = String(state.progress.settings.repetitions);
   elements.playbackSpeed.value = String(state.progress.settings.playback_speed);
+  elements.voiceMode.value = state.progress.settings.voice_mode || "original";
   elements.startButton.disabled = state.deck.length === 0;
   if (ready > 0) {
     elements.sessionNote.textContent = `${ready} sentence${ready === 1 ? " is" : "s are"} ready. Highest-priority patterns come first.`;
@@ -171,6 +175,7 @@ async function saveSettings() {
   state.progress.settings.session_size = Number(elements.sessionSize.value);
   state.progress.settings.repetitions = Number(elements.repetitions.value);
   state.progress.settings.playback_speed = Number(elements.playbackSpeed.value);
+  state.progress.settings.voice_mode = elements.voiceMode.value;
   await saveProgress();
   renderDashboard();
 }
@@ -225,6 +230,19 @@ function prepareCurrentCard() {
   state.repetitionsPlayed = 0;
   state.ratingReady = false;
   const sentence = state.currentItem.sentence;
+  const variants = Array.isArray(sentence.audio_variants) && sentence.audio_variants.length
+    ? [...sentence.audio_variants]
+    : [{ key: "original", name: "Original voice", audio: sentence.audio, primary: true }];
+  if (state.progress.settings.voice_mode === "varied") {
+    for (let index = variants.length - 1; index > 0; index -= 1) {
+      const swapIndex = Math.floor(Math.random() * (index + 1));
+      [variants[index], variants[swapIndex]] = [variants[swapIndex], variants[index]];
+    }
+  } else {
+    variants.splice(0, variants.length, variants.find((variant) => variant.primary) || variants[0]);
+  }
+  state.audioOrder = variants;
+  state.currentAudio = variants[0];
 
   elements.cardPosition.textContent = `${state.currentIndex + 1} of ${state.queue.length}`;
   elements.progressFill.style.width = `${(state.completedInSession / Math.max(1, state.queue.length)) * 100}%`;
@@ -248,7 +266,7 @@ function prepareCurrentCard() {
   elements.turnStatus.textContent = "Listen, then repeat aloud.";
   renderRepeatDots();
 
-  state.audio.src = sentence.audio;
+  state.audio.src = state.currentAudio.audio;
   state.audio.playbackRate = state.progress.settings.playback_speed;
   state.audio.load();
 }
@@ -259,7 +277,12 @@ function repetitionPauseMs() {
   return Math.max(4500, duration * 1350 + 2000);
 }
 
-async function playAudio() {
+async function playAudio(variant = state.currentAudio) {
+  if (variant && state.audio.getAttribute("src") !== variant.audio) {
+    state.audio.src = variant.audio;
+    state.audio.load();
+  }
+  state.currentAudio = variant;
   state.audio.currentTime = 0;
   state.audio.playbackRate = state.progress.settings.playback_speed;
   await state.audio.play();
@@ -270,9 +293,12 @@ async function playSequenceRound() {
   elements.playButton.classList.add("active");
   elements.playButton.disabled = true;
   elements.playLabel.textContent = "Listen";
-  elements.turnStatus.textContent = `Round ${state.repetitionsPlayed + 1}: listen carefully.`;
+  const variant = state.audioOrder[state.repetitionsPlayed % state.audioOrder.length];
+  elements.turnStatus.textContent = state.progress.settings.voice_mode === "varied"
+    ? `Round ${state.repetitionsPlayed + 1}: listen to ${variant.name}.`
+    : `Round ${state.repetitionsPlayed + 1}: listen carefully.`;
   try {
-    await playAudio();
+    await playAudio(variant);
   } catch (error) {
     stopPlayback();
     elements.playButton.disabled = false;
@@ -452,7 +478,7 @@ function bindEvents() {
   elements.ratingButtons.forEach((button) => {
     button.addEventListener("click", () => rateCurrent(button.dataset.rating));
   });
-  for (const select of [elements.sessionSize, elements.repetitions, elements.playbackSpeed]) {
+  for (const select of [elements.sessionSize, elements.repetitions, elements.playbackSpeed, elements.voiceMode]) {
     select.addEventListener("change", saveSettings);
   }
   state.audio.addEventListener("ended", () => {

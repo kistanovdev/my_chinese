@@ -75,6 +75,7 @@ def default_progress() -> dict[str, Any]:
             "session_size": 15,
             "repetitions": 3,
             "playback_speed": 1.0,
+            "voice_mode": "original",
         },
         "stats": {
             "total_reviews": 0,
@@ -111,6 +112,18 @@ def validate_deck(value: Any) -> dict[str, Any]:
         audio_path = AUDIO_DIRECTORY / filename
         if not audio_path.is_file() or audio_path.stat().st_size < 100:
             missing_audio.append(sentence_id)
+        variants = sentence.get("audio_variants", [])
+        if variants is not None and not isinstance(variants, list):
+            raise ValueError(f"Deck sentence {sentence_id} has invalid audio variants")
+        for variant in variants or []:
+            if not isinstance(variant, dict):
+                raise ValueError(f"Deck sentence {sentence_id} has an invalid audio variant")
+            variant_url = variant.get("audio")
+            if not isinstance(variant_url, str) or not variant_url.startswith("/audio/"):
+                raise ValueError(f"Deck sentence {sentence_id} has an invalid variant path")
+            variant_path = AUDIO_DIRECTORY / Path(variant_url).name
+            if not variant_path.is_file() or variant_path.stat().st_size < 100:
+                raise ValueError(f"Deck sentence {sentence_id} references missing variant audio")
 
     if missing_audio:
         raise ValueError(
@@ -152,12 +165,15 @@ def validate_progress(value: Any, deck_ids: set[str]) -> dict[str, Any]:
     session_size = settings.get("session_size")
     repetitions = settings.get("repetitions")
     playback_speed = settings.get("playback_speed")
+    voice_mode = settings.setdefault("voice_mode", "original")
     if not isinstance(session_size, int) or not 5 <= session_size <= 50:
         raise ValueError("session_size must be between 5 and 50")
     if repetitions not in (2, 3):
         raise ValueError("repetitions must be 2 or 3")
     if not isinstance(playback_speed, (int, float)) or not 0.75 <= playback_speed <= 1.25:
         raise ValueError("playback_speed must be between 0.75 and 1.25")
+    if voice_mode not in {"original", "varied"}:
+        raise ValueError("voice_mode must be original or varied")
 
     for field in ("total_reviews", "sessions_completed"):
         if not _is_nonnegative_integer(stats.get(field)):
@@ -419,4 +435,3 @@ if __name__ == "__main__":
     except (FileNotFoundError, RuntimeError, ValueError) as error:
         print(f"Error: {error}", file=os.sys.stderr)
         raise SystemExit(1)
-

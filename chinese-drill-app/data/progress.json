@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updated_at": "2026-10-01T23:48:41+00:00",
+  "updated_at": "2026-10-01T23:53:06+00:00",
   "settings": {
     "session_size": 10,
     "repetitions": 3,
     "playback_speed": 1
   },
   "stats": {
-    "total_reviews": 11,
+    "total_reviews": 12,
     "sessions_completed": 1,
     "last_session": "2026-10-01T23:48:41.806Z"
   },
@@ -149,6 +149,20 @@
         "again": 0,
         "hard": 1,
         "good": 0,
+        "easy": 0
+      }
+    },
+    "sentence-12fd9739927a": {
+      "seen": 1,
+      "box": 1,
+      "streak": 1,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-01T23:53:06.594Z",
+      "next_due": "2026-10-04T23:53:06.594Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 1,
         "easy": 0
       }
     }

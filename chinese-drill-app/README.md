@@ -7,7 +7,7 @@ The app's job is deliberately narrow:
 
 1. Turn recurring mistakes and useful personal topics into short, natural
    Mandarin sentences.
-2. Generate and cache one native-quality audio file per sentence.
+2. Generate and cache native-quality audio, with optional speaker variety.
 3. Run short practice sessions in which each sentence is heard and repeated
    two or three times.
 4. Remember which sentence patterns need more practice.
@@ -33,6 +33,10 @@ it. On macOS, you can also double-click `Launch Chinese Drills.command`.
 Progress is saved to `data/progress.json` immediately after every rating. The
 server binds only to localhost and the app makes no network calls during normal
 practice.
+
+The default speaker setting preserves the original Mr. Chen recordings. Choose
+**Varied speakers** in Session Setup to rotate through one Beijing Mandarin male
+voice and two Taiwan Mandarin female voices without changing card progress.
 
 ## Proposed MVP
 
@@ -103,6 +107,10 @@ python3 scripts/compile_deck.py
 python3 scripts/synthesize_audio.py
 
 # Stage 4: combine sentences and audio into app-ready JSON.
+python3 scripts/build_app_data.py
+
+# Optional: generate the two additional configured speakers, then rebuild.
+python3 scripts/synthesize_voice_variants.py
 python3 scripts/build_app_data.py
 
 # Or run every stage in sequence.
