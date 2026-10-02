@@ -1,0 +1,175 @@
+{
+  "lesson": "2026-02-27",
+  "sentences": [
+    {
+      "chinese": "我会做饭。",
+      "pinyin": "Wǒ huì zuòfàn.",
+      "english_hint": "I know how to cook.",
+      "scenario": "Describe your cooking skills.",
+      "focus": [
+        "会 + learned skill",
+        "做饭"
+      ],
+      "priority": 5,
+      "source_note": "Repeated 做餐 corrected to 做饭; 会 expresses a learned skill."
+    },
+    {
+      "chinese": "这个汤不难做。",
+      "pinyin": "Zhège tāng bù nán zuò.",
+      "english_hint": "This soup is easy to make.",
+      "scenario": "Explain how easy your soup is to make.",
+      "focus": [
+        "不 + adjective",
+        "specific cooking verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 不是难 and unfinished phrasing about making soup."
+    },
+    {
+      "chinese": "我以前没听说过鱼丸。",
+      "pinyin": "Wǒ yǐqián méi tīngshuō guo yúwán.",
+      "english_hint": "I hadn't heard of fish balls before.",
+      "scenario": "Explain that a food was unfamiliar to you.",
+      "focus": [
+        "以前",
+        "没听说过"
+      ],
+      "priority": 5,
+      "source_note": "Preserves the learner's repeated clarification: unfamiliarity, rather than never having eaten them."
+    },
+    {
+      "chinese": "我最喜欢吃面条。",
+      "pinyin": "Wǒ zuì xǐhuan chī miàntiáo.",
+      "english_hint": "I like eating noodles best.",
+      "scenario": "Tell a friend your favorite food.",
+      "focus": [
+        "最喜欢 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我最喜欢的吃饭是面条."
+    },
+    {
+      "chinese": "这个菜看起来很好吃。",
+      "pinyin": "Zhège cài kàn qǐlái hěn hǎochī.",
+      "english_hint": "This dish looks delicious.",
+      "scenario": "React to a photo of a dish.",
+      "focus": [
+        "看起来 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 看到好吃; the learner explicitly intended 'looks tasty.'"
+    },
+    {
+      "chinese": "我跟他一起吃过素菜。",
+      "pinyin": "Wǒ gēn tā yìqǐ chī guo sùcài.",
+      "english_hint": "I've eaten vegetarian dishes with him.",
+      "scenario": "Recall eating with your vegetarian friend.",
+      "focus": [
+        "跟某人一起 + verb",
+        "experience 过"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我们吃过一起 in the account of eating with a vegetarian friend."
+    },
+    {
+      "chinese": "我想吃清淡一点的。",
+      "pinyin": "Wǒ xiǎng chī qīngdàn yìdiǎn de.",
+      "english_hint": "I'd like something lighter.",
+      "scenario": "Request lighter food at a restaurant.",
+      "focus": [
+        "一点",
+        "的 replacing a noun"
+      ],
+      "priority": 4,
+      "source_note": "The analysis identifies this restaurant request as a useful complete chunk."
+    },
+    {
+      "chinese": "这家餐馆比那家便宜。",
+      "pinyin": "Zhè jiā cānguǎn bǐ nà jiā piányi.",
+      "english_hint": "This restaurant is cheaper than that one.",
+      "scenario": "Compare two restaurants before choosing.",
+      "focus": [
+        "A 比 B + adjective",
+        "家 for restaurants"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill targets the learner's comparison structure and removes 很 after 比."
+    },
+    {
+      "chinese": "你应该去秘鲁旅游。",
+      "pinyin": "Nǐ yīnggāi qù Bìlǔ lǚyóu.",
+      "english_hint": "You should visit Peru.",
+      "scenario": "Recommend Peru to a friend.",
+      "focus": [
+        "去 + place + 旅游",
+        "应该"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 旅游秘鲁 while preserving the learner's recommendation."
+    },
+    {
+      "chinese": "我们在京都住了五星级酒店。",
+      "pinyin": "Wǒmen zài Jīngdū zhù le wǔ xīng jí jiǔdiàn.",
+      "english_hint": "We stayed at a five-star hotel in Kyoto.",
+      "scenario": "Describe your hotel stay in Kyoto.",
+      "focus": [
+        "place before action",
+        "住酒店",
+        "completed action 了"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 买五星级酒店 and word order in the learner's Kyoto account."
+    },
+    {
+      "chinese": "我们在东京住了三个星期。",
+      "pinyin": "Wǒmen zài Dōngjīng zhù le sān ge xīngqī.",
+      "english_hint": "We stayed in Tokyo for three weeks.",
+      "scenario": "Say how long you stayed in Tokyo.",
+      "focus": [
+        "place before action",
+        "verb + 了 + duration"
+      ],
+      "priority": 5,
+      "source_note": "The analysis supplies this correction for the learner's completed Tokyo stay."
+    },
+    {
+      "chinese": "一共花了一千五百美元。",
+      "pinyin": "Yígòng huā le yì qiān wǔ bǎi měiyuán.",
+      "english_hint": "It cost fifteen hundred dollars in total.",
+      "scenario": "State the total cost of your Kyoto hotel stay.",
+      "focus": [
+        "花 + money",
+        "一共"
+      ],
+      "priority": 5,
+      "source_note": "The learner gave this hotel cost; the analysis supplies 花 for spending money."
+    },
+    {
+      "chinese": "我要订一个包房。",
+      "pinyin": "Wǒ yào dìng yí ge bāofáng.",
+      "english_hint": "I'd like to book a private room.",
+      "scenario": "Call a restaurant to book a private dining room.",
+      "focus": [
+        "要订",
+        "reservation chunk"
+      ],
+      "priority": 3,
+      "source_note": "Successful reservation role-play phrase; the learner also expressed a preference for private rooms."
+    },
+    {
+      "chinese": "我没听明白，可以再说一遍吗？",
+      "pinyin": "Wǒ méi tīng míngbai, kěyǐ zài shuō yí biàn ma?",
+      "english_hint": "I didn't catch that. Could you say it again?",
+      "scenario": "Ask for repetition during a Chinese conversation.",
+      "focus": [
+        "听明白",
+        "再 + verb",
+        "一遍"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 不明白，你可以说一点; repeated requests for clarification make this a core repair phrase."
+    }
+  ],
+  "generated_at": "2026-10-02T05:00:38+00:00",
+  "generator": "codex-cli"
+}

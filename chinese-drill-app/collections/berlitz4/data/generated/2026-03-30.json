@@ -1,0 +1,172 @@
+{
+  "lesson": "2026-03-30",
+  "sentences": [
+    {
+      "chinese": "我告诉你一件事。",
+      "pinyin": "Wǒ gàosu nǐ yí jiàn shì.",
+      "english_hint": "Let me tell you something.",
+      "scenario": "Share some news with someone.",
+      "focus": [
+        "告诉 + person",
+        "一件事"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the repeated extra 跟 before the person after 告诉."
+    },
+    {
+      "chinese": "我告诉老板这星期做了什么。",
+      "pinyin": "Wǒ gàosu lǎobǎn zhè xīngqī zuò le shénme.",
+      "english_hint": "I tell my boss what I did this week.",
+      "scenario": "Explain what you share at a work meeting.",
+      "focus": [
+        "告诉 + person + content"
+      ],
+      "priority": 5,
+      "source_note": "Applies the 告诉 correction to the learner's weekly work updates."
+    },
+    {
+      "chinese": "请把手机放下。",
+      "pinyin": "Qǐng bǎ shǒujī fàngxià.",
+      "english_hint": "Please put your phone down.",
+      "scenario": "Ask someone to put their phone down.",
+      "focus": [
+        "把 + object + verb + complement"
+      ],
+      "priority": 5,
+      "source_note": "The analysis identifies 把 as core grammar; 放下 was repeatedly modeled."
+    },
+    {
+      "chinese": "请把时间安排好。",
+      "pinyin": "Qǐng bǎ shíjiān ānpái hǎo.",
+      "english_hint": "Please arrange the schedule properly.",
+      "scenario": "Ask a colleague to organize the schedule.",
+      "focus": [
+        "把 structure",
+        "verb + 好"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill combining 把 with 安排好; scheduling meetings was a useful learner topic."
+    },
+    {
+      "chinese": "我把计划书交给老板。",
+      "pinyin": "Wǒ bǎ jìhuàshū jiāogěi lǎobǎn.",
+      "english_hint": "I hand the written plan to my boss.",
+      "scenario": "Explain where your written work plan goes.",
+      "focus": [
+        "把 structure",
+        "交给 + person"
+      ],
+      "priority": 5,
+      "source_note": "Adapts the corrected plan-handover pattern to the learner's confirmed work context."
+    },
+    {
+      "chinese": "我家有两辆车。",
+      "pinyin": "Wǒ jiā yǒu liǎng liàng chē.",
+      "english_hint": "My family has two cars.",
+      "scenario": "Describe your family's transport.",
+      "focus": [
+        "两 + classifier",
+        "辆"
+      ],
+      "priority": 5,
+      "source_note": "Corrects recurring vehicle-classifier errors; the learner described having two cars."
+    },
+    {
+      "chinese": "没有拼音，我也可以读。",
+      "pinyin": "Méiyǒu pīnyīn, wǒ yě kěyǐ dú.",
+      "english_hint": "I can read even without pinyin.",
+      "scenario": "Describe your reading ability in Chinese class.",
+      "focus": [
+        "没有……也……",
+        "可以 + verb"
+      ],
+      "priority": 4,
+      "source_note": "Uses the analysis's corrected sentence with 也 for reading without pinyin."
+    },
+    {
+      "chinese": "我能读六百或者七百个汉字。",
+      "pinyin": "Wǒ néng dú liùbǎi huòzhě qībǎi ge Hànzì.",
+      "english_hint": "I can read six or seven hundred Chinese characters.",
+      "scenario": "Estimate how many characters you can read.",
+      "focus": [
+        "或者",
+        "number + 个 + noun"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 和 to 或者 and restores 个 in the learner's character-count estimate."
+    },
+    {
+      "chinese": "如果我女儿八点起床，我也八点起床。",
+      "pinyin": "Rúguǒ wǒ nǚ'ér bā diǎn qǐchuáng, wǒ yě bā diǎn qǐchuáng.",
+      "english_hint": "If my daughter gets up at eight, I do too.",
+      "scenario": "Explain how your daughter's wake-up time affects yours.",
+      "focus": [
+        "如果……",
+        "time before verb",
+        "也"
+      ],
+      "priority": 5,
+      "source_note": "Uses the analysis's correction of the learner's conditional sentence and time placement."
+    },
+    {
+      "chinese": "我们还没有学第八课。",
+      "pinyin": "Wǒmen hái méiyǒu xué dì bā kè.",
+      "english_hint": "We haven't studied lesson eight yet.",
+      "scenario": "Tell your teacher which lesson is still pending.",
+      "focus": [
+        "还没有 + verb",
+        "第 + number"
+      ],
+      "priority": 4,
+      "source_note": "The learner repeatedly said lesson eight had not yet been covered; the analysis emphasizes 还没有."
+    },
+    {
+      "chinese": "这是一个好句子。",
+      "pinyin": "Zhè shì yí ge hǎo jùzi.",
+      "english_hint": "This is a good sentence.",
+      "scenario": "Point out a sentence you want to practice.",
+      "focus": [
+        "句子 versus 词",
+        "一个 + noun"
+      ],
+      "priority": 3,
+      "source_note": "Corrects 好词 to 好句子 when referring to a complete sentence."
+    },
+    {
+      "chinese": "她一定会喜欢的。",
+      "pinyin": "Tā yídìng huì xǐhuan de.",
+      "english_hint": "She'll definitely like it.",
+      "scenario": "Express confidence about a gift for your wife.",
+      "focus": [
+        "一定会……的"
+      ],
+      "priority": 4,
+      "source_note": "Repeated gift-dialogue pattern highlighted in the analysis; gift buying connects to the learner's family context."
+    },
+    {
+      "chinese": "我的中文越来越好。",
+      "pinyin": "Wǒ de Zhōngwén yuèláiyuè hǎo.",
+      "english_hint": "My Chinese is getting better and better.",
+      "scenario": "Describe your progress after regular practice.",
+      "focus": [
+        "越来越 + adjective"
+      ],
+      "priority": 4,
+      "source_note": "The analysis highlights 越来越好; the learner described improving Chinese and practiced this chunk."
+    },
+    {
+      "chinese": "我每天戴戒指。",
+      "pinyin": "Wǒ měitiān dài jièzhi.",
+      "english_hint": "I wear a ring every day.",
+      "scenario": "Describe an everyday habit involving your wedding ring.",
+      "focus": [
+        "time before verb",
+        "戴 + accessory"
+      ],
+      "priority": 3,
+      "source_note": "The learner described wearing a ring daily and needed 戴 as the correct verb."
+    }
+  ],
+  "generated_at": "2026-10-02T05:17:05+00:00",
+  "generator": "codex-cli"
+}

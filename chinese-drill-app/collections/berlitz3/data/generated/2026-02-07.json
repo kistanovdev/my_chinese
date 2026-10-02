@@ -1,0 +1,166 @@
+{
+  "lesson": "2026-02-07",
+  "sentences": [
+    {
+      "chinese": "我七点起床。",
+      "pinyin": "Wǒ qī diǎn qǐchuáng.",
+      "english_hint": "I get up at seven.",
+      "scenario": "Tell someone when you get up.",
+      "focus": [
+        "time before action"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我起床在七点; clock time goes before the action."
+    },
+    {
+      "chinese": "今天我在家工作。",
+      "pinyin": "Jīntiān wǒ zài jiā gōngzuò.",
+      "english_hint": "I'm working from home today.",
+      "scenario": "Explain today's work location.",
+      "focus": [
+        "time + location + action"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 今天我工作家里; supported by the learner's work context."
+    },
+    {
+      "chinese": "我不吃早饭。",
+      "pinyin": "Wǒ bù chī zǎofàn.",
+      "english_hint": "I don't eat breakfast.",
+      "scenario": "Explain your usual breakfast habit.",
+      "focus": [
+        "不 for habits"
+      ],
+      "priority": 4,
+      "source_note": "Analysis confirms this is correct when describing a habit."
+    },
+    {
+      "chinese": "我还没吃早饭。",
+      "pinyin": "Wǒ hái méi chī zǎofàn.",
+      "english_hint": "I haven't had breakfast yet.",
+      "scenario": "Say breakfast is still pending today.",
+      "focus": [
+        "还没 + action"
+      ],
+      "priority": 4,
+      "source_note": "Analysis contrasts not yet with habitual 不; this is a meaning-based practice variation."
+    },
+    {
+      "chinese": "我负责开发新软件。",
+      "pinyin": "Wǒ fùzé kāifā xīn ruǎnjiàn.",
+      "english_hint": "I'm responsible for developing new software.",
+      "scenario": "Explain your work responsibilities.",
+      "focus": [
+        "负责 + task"
+      ],
+      "priority": 5,
+      "source_note": "Analysis recommends this responsibility chunk; the learner successfully described developing software."
+    },
+    {
+      "chinese": "市场部不只做广告，也做其他工作。",
+      "pinyin": "Shìchǎngbù bù zhǐ zuò guǎnggào, yě zuò qítā gōngzuò.",
+      "english_hint": "Marketing does more than advertising.",
+      "scenario": "Explain that marketing has other responsibilities.",
+      "focus": [
+        "不只……也……"
+      ],
+      "priority": 5,
+      "source_note": "Analysis supplies this clear continuation for the learner's repeated marketing explanation."
+    },
+    {
+      "chinese": "市场部不是每次都做广告。",
+      "pinyin": "Shìchǎngbù bú shì měi cì dōu zuò guǎnggào.",
+      "english_hint": "Marketing doesn't make ads every time.",
+      "scenario": "Clarify that an activity doesn't happen every time.",
+      "focus": [
+        "不是每次都……",
+        "每次"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 每个次 and clarifies the scope of negation in the marketing discussion."
+    },
+    {
+      "chinese": "这个软件赚的钱越来越多。",
+      "pinyin": "Zhège ruǎnjiàn zhuàn de qián yuè lái yuè duō.",
+      "english_hint": "This software earns more and more money.",
+      "scenario": "Practice describing a product's growing earnings.",
+      "focus": [
+        "越来越 + adjective",
+        "赚的钱"
+      ],
+      "priority": 5,
+      "source_note": "Analysis gives this drill to complete the recurring incomplete 越来越 phrase; no specific product claim is implied."
+    },
+    {
+      "chinese": "我在公司已经工作三年了。",
+      "pinyin": "Wǒ zài gōngsī yǐjīng gōngzuò sān nián le.",
+      "english_hint": "I've worked at the company for three years now.",
+      "scenario": "Role-play describing three years at a company.",
+      "focus": [
+        "已经 + action + duration + 了"
+      ],
+      "priority": 4,
+      "source_note": "Analysis validates this ongoing-duration pattern; three years comes from the reading exercise, not a personal fact."
+    },
+    {
+      "chinese": "这个部门跟那个部门不一样。",
+      "pinyin": "Zhège bùmén gēn nàge bùmén bù yíyàng.",
+      "english_hint": "This department is different from that one.",
+      "scenario": "Compare two departments at work.",
+      "focus": [
+        "跟……不一样"
+      ],
+      "priority": 5,
+      "source_note": "Analysis uses this neutral drill to correct 比……不一样 without asserting a broad company comparison."
+    },
+    {
+      "chinese": "这是我最喜欢的部门。",
+      "pinyin": "Zhè shì wǒ zuì xǐhuan de bùmén.",
+      "english_hint": "This is my favorite department.",
+      "scenario": "Practice naming a favorite department.",
+      "focus": [
+        "我最喜欢的 + noun"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the repeated extra 的 in 我的最喜欢的; avoids treating the sarcastic HR comment as a real preference."
+    },
+    {
+      "chinese": "我想用英语解释一下。",
+      "pinyin": "Wǒ xiǎng yòng Yīngyǔ jiěshì yíxià.",
+      "english_hint": "I'd like to explain in English.",
+      "scenario": "Ask to switch languages when you get stuck.",
+      "focus": [
+        "用 + language + action",
+        "一下"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 我想做英文 into a useful request for recurring speaking difficulties."
+    },
+    {
+      "chinese": "如果我听不懂，我会告诉你。",
+      "pinyin": "Rúguǒ wǒ tīng bu dǒng, wǒ huì gàosu nǐ.",
+      "english_hint": "If I don't understand, I'll tell you.",
+      "scenario": "Reassure your conversation partner while practicing Chinese.",
+      "focus": [
+        "如果……会……",
+        "听不懂"
+      ],
+      "priority": 4,
+      "source_note": "Analysis supplies this correction for the learner's request to continue speaking Chinese."
+    },
+    {
+      "chinese": "我们可以休息五分钟吗？",
+      "pinyin": "Wǒmen kěyǐ xiūxi wǔ fēnzhōng ma?",
+      "english_hint": "Can we take a five-minute break?",
+      "scenario": "Request a short break during class or a meeting.",
+      "focus": [
+        "可以……吗",
+        "action + duration"
+      ],
+      "priority": 3,
+      "source_note": "Analysis provides this ready-made request after the learner struggled to ask for a five-minute break."
+    }
+  ],
+  "generated_at": "2026-10-02T04:56:59+00:00",
+  "generator": "codex-cli"
+}

@@ -1,0 +1,169 @@
+{
+  "lesson": "2026-02-20",
+  "sentences": [
+    {
+      "chinese": "我不是每天都开会。",
+      "pinyin": "Wǒ bú shì měitiān dōu kāihuì.",
+      "english_hint": "I don't have meetings every day.",
+      "scenario": "Explain how often you have meetings.",
+      "focus": [
+        "不是每天都"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the confused negation around 03:13."
+    },
+    {
+      "chinese": "我们可以在公司吃饭。",
+      "pinyin": "Wǒmen kěyǐ zài gōngsī chīfàn.",
+      "english_hint": "We can eat at the office.",
+      "scenario": "Tell a colleague where you can eat.",
+      "focus": [
+        "place before action",
+        "可以"
+      ],
+      "priority": 5,
+      "source_note": "Corrects placing 在公司 after 吃饭 around 29:43."
+    },
+    {
+      "chinese": "我上班一般不迟到。",
+      "pinyin": "Wǒ shàngbān yìbān bù chídào.",
+      "english_hint": "I'm generally not late for work.",
+      "scenario": "Practice describing a usual work habit.",
+      "focus": [
+        "一般不",
+        "habit negation"
+      ],
+      "priority": 5,
+      "source_note": "Analysis supplies this habit contrast; it does not establish attendance history."
+    },
+    {
+      "chinese": "我今天没迟到。",
+      "pinyin": "Wǒ jīntiān méi chídào.",
+      "english_hint": "I wasn't late today.",
+      "scenario": "Practice reporting a day when you arrived on time.",
+      "focus": [
+        "没 + action",
+        "time before action"
+      ],
+      "priority": 5,
+      "source_note": "Analysis contrasts a completed event with habitual 不."
+    },
+    {
+      "chinese": "我上班从来没迟到过。",
+      "pinyin": "Wǒ shàngbān cónglái méi chídào guo.",
+      "english_hint": "I've never been late for work.",
+      "scenario": "Practice saying you have no experience of being late.",
+      "focus": [
+        "从来没……过",
+        "experience negation"
+      ],
+      "priority": 5,
+      "source_note": "Analysis supplies this experience contrast as practice, not a personal fact."
+    },
+    {
+      "chinese": "更改是什么意思？",
+      "pinyin": "Gēnggǎi shì shénme yìsi?",
+      "english_hint": "What does “change” mean?",
+      "scenario": "Ask about an unfamiliar word in Chinese class.",
+      "focus": [
+        "是什么意思"
+      ],
+      "priority": 5,
+      "source_note": "Repairs the incomplete word question 我不知道更改 around 06:09."
+    },
+    {
+      "chinese": "可以把会议改到星期一吗？",
+      "pinyin": "Kěyǐ bǎ huìyì gǎi dào xīngqīyī ma?",
+      "english_hint": "Can we move the meeting to Monday?",
+      "scenario": "Ask to reschedule a meeting.",
+      "focus": [
+        "把……改到……"
+      ],
+      "priority": 4,
+      "source_note": "Analysis gives this reusable scheduling question using 改时间."
+    },
+    {
+      "chinese": "如果我去不了，就改时间吧。",
+      "pinyin": "Rúguǒ wǒ qù bù liǎo, jiù gǎi shíjiān ba.",
+      "english_hint": "If I can't go, let's change the time.",
+      "scenario": "Suggest a new time if you cannot attend.",
+      "focus": [
+        "如果……就……",
+        "去不了"
+      ],
+      "priority": 4,
+      "source_note": "Practices inability and conditions from priority five without asserting what colleagues would do."
+    },
+    {
+      "chinese": "九点半出门来得及。",
+      "pinyin": "Jiǔ diǎn bàn chūmén láidejí.",
+      "english_hint": "Leaving at nine thirty gives us enough time.",
+      "scenario": "Use the lesson's travel scenario to discuss departure time.",
+      "focus": [
+        "time + action",
+        "来得及"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 九点半是来得及 around 16:35; this is scenario practice."
+    },
+    {
+      "chinese": "我们一边吃饭一边聊。",
+      "pinyin": "Wǒmen yìbiān chīfàn yìbiān liáo.",
+      "english_hint": "We chat while we eat.",
+      "scenario": "Suggest chatting over lunch with a colleague.",
+      "focus": [
+        "一边……一边……"
+      ],
+      "priority": 4,
+      "source_note": "Keeps the simultaneous-action pattern understood after explanation."
+    },
+    {
+      "chinese": "这里的东西都很贵。",
+      "pinyin": "Zhèlǐ de dōngxi dōu hěn guì.",
+      "english_hint": "Everything here is expensive.",
+      "scenario": "Comment on prices while looking at a menu.",
+      "focus": [
+        "都 + adjective",
+        "adjective predicate"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 每个东西是贵 around 30:27 and 01:04:44."
+    },
+    {
+      "chinese": "我最喜欢吃这种面。",
+      "pinyin": "Wǒ zuì xǐhuan chī zhè zhǒng miàn.",
+      "english_hint": "This is my favorite kind of noodles.",
+      "scenario": "Point out your favorite noodles on a menu.",
+      "focus": [
+        "最喜欢吃"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 是我最喜欢的吃饭 around 26:16."
+    },
+    {
+      "chinese": "我想再吃一次火锅。",
+      "pinyin": "Wǒ xiǎng zài chī yí cì huǒguō.",
+      "english_hint": "I want to have hot pot again.",
+      "scenario": "Tell your family what you want to try again.",
+      "focus": [
+        "再 + action + 一次"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 再次火锅 around 01:09 and preserves the learner's stated wish."
+    },
+    {
+      "chinese": "小时候，我们经常一起玩。",
+      "pinyin": "Xiǎoshíhou, wǒmen jīngcháng yìqǐ wán.",
+      "english_hint": "We often played together as children.",
+      "scenario": "Recall childhood with your sister.",
+      "focus": [
+        "小时候",
+        "一起 + action"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 孩子的时候 and 玩一起 in the discussion of the learner's sister around 44:00."
+    }
+  ],
+  "generated_at": "2026-10-02T04:58:47+00:00",
+  "generator": "codex-cli"
+}

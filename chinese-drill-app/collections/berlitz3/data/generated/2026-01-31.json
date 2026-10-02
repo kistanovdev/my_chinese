@@ -1,0 +1,178 @@
+{
+  "lesson": "2026-01-31",
+  "sentences": [
+    {
+      "chinese": "我每个星期有一两天要加班。",
+      "pinyin": "Wǒ měi ge xīngqī yǒu yì liǎng tiān yào jiābān.",
+      "english_hint": "I need to work overtime one or two days a week.",
+      "scenario": "Tell a colleague how often you work overtime.",
+      "focus": [
+        "time before verb",
+        "一两 + measure word",
+        "use 加班 directly"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 做加班 and difficulty placing weekly frequency before the action."
+    },
+    {
+      "chinese": "我在家照顾女儿。",
+      "pinyin": "Wǒ zài jiā zhàogù nǚ'ér.",
+      "english_hint": "I take care of my daughter at home.",
+      "scenario": "Explain what you do at home.",
+      "focus": [
+        "use 照顾 directly",
+        "place before verb"
+      ],
+      "priority": 5,
+      "source_note": "Home childcare context supports practice correcting repeated 做照顾."
+    },
+    {
+      "chinese": "我带女儿去散步。",
+      "pinyin": "Wǒ dài nǚ'ér qù sànbù.",
+      "english_hint": "I take my daughter out for a walk.",
+      "scenario": "Describe an outing with your daughter.",
+      "focus": [
+        "带 + person + 去",
+        "use 散步 directly"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 做散步 and clarifies taking the daughter along."
+    },
+    {
+      "chinese": "我们休息五分钟吧。",
+      "pinyin": "Wǒmen xiūxi wǔ fēnzhōng ba.",
+      "english_hint": "Let's take a five-minute break.",
+      "scenario": "Suggest a short break during a lesson or meeting.",
+      "focus": [
+        "use 休息 directly",
+        "verb + duration",
+        "suggestion with 吧"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's 做 a break request."
+    },
+    {
+      "chinese": "我下午一点吃午饭。",
+      "pinyin": "Wǒ xiàwǔ yì diǎn chī wǔfàn.",
+      "english_hint": "I eat lunch at one in the afternoon.",
+      "scenario": "Tell someone your usual lunchtime.",
+      "focus": [
+        "time before verb",
+        "clock time"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 我吃在一点 and distinguishes clock time from eating a little."
+    },
+    {
+      "chinese": "工作有时候很忙，有时候比较轻松。",
+      "pinyin": "Gōngzuò yǒu shíhou hěn máng, yǒu shíhou bǐjiào qīngsōng.",
+      "english_hint": "Work is sometimes busy and sometimes fairly relaxed.",
+      "scenario": "Describe how your workload varies.",
+      "focus": [
+        "有时候……有时候……",
+        "比较 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Shortens the analysis correction for repeated 可以忙、可以轻松."
+    },
+    {
+      "chinese": "工作压力不大。",
+      "pinyin": "Gōngzuò yālì bú dà.",
+      "english_hint": "Work isn't very stressful.",
+      "scenario": "Answer a question about stress at work.",
+      "focus": [
+        "压力 + 大",
+        "不 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 压力很多 and 不压力 using the analysis's natural description."
+    },
+    {
+      "chinese": "工作比照顾孩子轻松。",
+      "pinyin": "Gōngzuò bǐ zhàogù háizi qīngsōng.",
+      "english_hint": "Working is easier than taking care of children.",
+      "scenario": "Compare working with caring for children.",
+      "focus": [
+        "A 比 B + adjective",
+        "complete comparison"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the recurring incomplete childcare comparison and removes 很 after 比."
+    },
+    {
+      "chinese": "现在不用经常加班了。",
+      "pinyin": "Xiànzài bú yòng jīngcháng jiābān le.",
+      "english_hint": "Now there's no need to work overtime so often.",
+      "scenario": "Role-play describing an improved work schedule.",
+      "focus": [
+        "不用 + verb",
+        "change of situation with 了"
+      ],
+      "priority": 4,
+      "source_note": "The learner needed repeated clarification of 不用 in the reading; this is role-play, not a personal claim."
+    },
+    {
+      "chinese": "她每次睡一个小时。",
+      "pinyin": "Tā měi cì shuì yí ge xiǎoshí.",
+      "english_hint": "She sleeps for an hour each time.",
+      "scenario": "Describe how long your daughter's naps last.",
+      "focus": [
+        "每次",
+        "verb + duration"
+      ],
+      "priority": 4,
+      "source_note": "Analysis corrects 每个睡觉 and separates nap frequency from duration."
+    },
+    {
+      "chinese": "我是软件工程师。",
+      "pinyin": "Wǒ shì ruǎnjiàn gōngchéngshī.",
+      "english_hint": "I'm a software engineer.",
+      "scenario": "Introduce your occupation to someone new.",
+      "focus": [
+        "是 + occupation"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated job introductions missing 是; the occupation is personally supported."
+    },
+    {
+      "chinese": "上大学的时候，我做过客服。",
+      "pinyin": "Shàng dàxué de shíhou, wǒ zuò guo kèfú.",
+      "english_hint": "I worked in customer support while at university.",
+      "scenario": "Tell a colleague about a past student job.",
+      "focus": [
+        "的时候",
+        "做过 + job",
+        "time before verb"
+      ],
+      "priority": 4,
+      "source_note": "Combines analysis corrections 上大学的时候 and 我做过客服 from the learner's past support work."
+    },
+    {
+      "chinese": "我最喜欢的肉是牛肉。",
+      "pinyin": "Wǒ zuì xǐhuan de ròu shì niúròu.",
+      "english_hint": "My favorite meat is beef.",
+      "scenario": "Tell a friend your food preference.",
+      "focus": [
+        "我最喜欢的 + noun",
+        "是 + noun"
+      ],
+      "priority": 4,
+      "source_note": "Reinforces successful self-correction after difficulty placing 我 inside the description."
+    },
+    {
+      "chinese": "周末我们去吃大餐吧。",
+      "pinyin": "Zhōumò wǒmen qù chī dàcān ba.",
+      "english_hint": "Let's go out for a big meal this weekend.",
+      "scenario": "Suggest a celebratory weekend meal with friends.",
+      "focus": [
+        "吃大餐",
+        "time before verb",
+        "suggestion with 吧"
+      ],
+      "priority": 5,
+      "source_note": "Analysis identifies recurring 吃菜单 as a clear error and establishes 吃大餐 as the correction."
+    }
+  ],
+  "generated_at": "2026-10-02T04:54:49+00:00",
+  "generator": "codex-cli"
+}

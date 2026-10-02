@@ -120,6 +120,11 @@ python3 scripts/run_pipeline.py
 python3 scripts/run_pipeline.py \
   --collection collections/berlitz4 \
   --speaker-variants
+
+# The same workflow is available for Berlitz 3.
+python3 scripts/run_pipeline.py \
+  --collection collections/berlitz3 \
+  --speaker-variants
 ```
 
 Generation is checkpointed by lesson. Rerunning Stage 1 skips completed dates

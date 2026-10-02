@@ -1,0 +1,174 @@
+{
+  "lesson": "2026-01-21",
+  "sentences": [
+    {
+      "chinese": "现在我在苹果公司工作。",
+      "pinyin": "Xiànzài wǒ zài Píngguǒ gōngsī gōngzuò.",
+      "english_hint": "I work at Apple now.",
+      "scenario": "Tell someone where you work now.",
+      "focus": [
+        "time before action",
+        "在＋place＋verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's work sentence by placing 在苹果公司 before 工作."
+    },
+    {
+      "chinese": "上节课我们学了第十课。",
+      "pinyin": "Shàng jié kè wǒmen xué le dì shí kè.",
+      "english_hint": "Last class, we studied Lesson Ten.",
+      "scenario": "Remind your tutor what you studied last class.",
+      "focus": [
+        "上节课",
+        "学＋lesson"
+      ],
+      "priority": 5,
+      "source_note": "The learner repeatedly used 下课 for the previous lesson; the analysis confirms 上节课 and 第十课."
+    },
+    {
+      "chinese": "我刚睡醒。",
+      "pinyin": "Wǒ gāng shuìxǐng.",
+      "english_hint": "I just woke up.",
+      "scenario": "Explain why you still sound sleepy.",
+      "focus": [
+        "刚＋verb"
+      ],
+      "priority": 5,
+      "source_note": "Successful self-correction after confusing 刚 with 只."
+    },
+    {
+      "chinese": "我只睡了六个小时。",
+      "pinyin": "Wǒ zhǐ shuì le liù ge xiǎoshí.",
+      "english_hint": "I only slept six hours.",
+      "scenario": "Explain how little sleep you got.",
+      "focus": [
+        "只＋verb",
+        "了＋duration",
+        "个小时"
+      ],
+      "priority": 5,
+      "source_note": "The learner reported six hours of sleep; the analysis contrasts 只 with 刚."
+    },
+    {
+      "chinese": "我没听见手机闹钟响。",
+      "pinyin": "Wǒ méi tīngjiàn shǒujī nàozhōng xiǎng.",
+      "english_hint": "I didn't hear my phone alarm go off.",
+      "scenario": "Explain why you overslept.",
+      "focus": [
+        "没＋verb",
+        "听见"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated attempts with 不听了我的手机; the learner then successfully used 没听见."
+    },
+    {
+      "chinese": "我会说西班牙语。",
+      "pinyin": "Wǒ huì shuō Xībānyáyǔ.",
+      "english_hint": "I can speak Spanish.",
+      "scenario": "Tell someone which language you know.",
+      "focus": [
+        "会＋learned skill"
+      ],
+      "priority": 5,
+      "source_note": "Supported by the learner's successful Spanish ability statement; reinforces 会 versus 能 and 可以."
+    },
+    {
+      "chinese": "我现在能说话。",
+      "pinyin": "Wǒ xiànzài néng shuōhuà.",
+      "english_hint": "I can speak now.",
+      "scenario": "Tell your tutor you are able to talk now.",
+      "focus": [
+        "能＋current ability",
+        "time before action"
+      ],
+      "priority": 5,
+      "source_note": "The learner successfully said 我能说话 after repeatedly switching among ability words."
+    },
+    {
+      "chinese": "我可以问一个问题吗？",
+      "pinyin": "Wǒ kěyǐ wèn yí ge wèntí ma?",
+      "english_hint": "May I ask a question?",
+      "scenario": "Ask permission to interrupt your lesson.",
+      "focus": [
+        "可以＋permission",
+        "吗 question"
+      ],
+      "priority": 5,
+      "source_note": "The analysis supplies this permission pattern to address recurring confusion among 会, 能, and 可以."
+    },
+    {
+      "chinese": "我上过西班牙语课。",
+      "pinyin": "Wǒ shàng guo Xībānyáyǔ kè.",
+      "english_hint": "I've taken Spanish classes.",
+      "scenario": "Describe your past language study.",
+      "focus": [
+        "上课",
+        "过＋experience"
+      ],
+      "priority": 5,
+      "source_note": "The learner repeatedly used 去过 for classes, then self-corrected to 上过."
+    },
+    {
+      "chinese": "我的太太比我大一岁。",
+      "pinyin": "Wǒ de tàitai bǐ wǒ dà yí suì.",
+      "english_hint": "My wife is one year older than me.",
+      "scenario": "Describe the age difference between you and your wife.",
+      "focus": [
+        "比＋大＋age difference",
+        "岁"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 比我一年大 attempts; the one-year difference is supported."
+    },
+    {
+      "chinese": "你觉得我的发音怎么样？",
+      "pinyin": "Nǐ juéde wǒ de fāyīn zěnmeyàng?",
+      "english_hint": "What do you think of my pronunciation?",
+      "scenario": "Ask your tutor for pronunciation feedback.",
+      "focus": [
+        "你觉得……怎么样"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the incomplete 你觉得什么 question using the learner's request for pronunciation feedback."
+    },
+    {
+      "chinese": "能再举一个例子吗？",
+      "pinyin": "Néng zài jǔ yí ge lìzi ma?",
+      "english_hint": "Could you give another example?",
+      "scenario": "Ask your tutor for another example of a word.",
+      "focus": [
+        "能……吗",
+        "再＋verb",
+        "举例子"
+      ],
+      "priority": 4,
+      "source_note": "The learner requested another context for 级; the analysis supplies this complete question."
+    },
+    {
+      "chinese": "现在很难找到工作。",
+      "pinyin": "Xiànzài hěn nán zhǎodào gōngzuò.",
+      "english_hint": "It's hard to find a job now.",
+      "scenario": "Discuss the difficulty of finding work.",
+      "focus": [
+        "很难＋verb",
+        "找到"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 难工作 and 不能找到 attempts while preserving the intended difficulty."
+    },
+    {
+      "chinese": "我们这一代经常上网。",
+      "pinyin": "Wǒmen zhè yí dài jīngcháng shàngwǎng.",
+      "english_hint": "Our generation often goes online.",
+      "scenario": "Describe your generation's internet habits.",
+      "focus": [
+        "经常＋verb",
+        "上网"
+      ],
+      "priority": 5,
+      "source_note": "Addresses explicit confusion between 网上 and 上网 using the learner's discussion of internet habits."
+    }
+  ],
+  "generated_at": "2026-10-02T04:51:47+00:00",
+  "generator": "codex-cli"
+}

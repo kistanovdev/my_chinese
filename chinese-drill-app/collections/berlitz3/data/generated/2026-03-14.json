@@ -1,0 +1,173 @@
+{
+  "lesson": "2026-03-14",
+  "sentences": [
+    {
+      "chinese": "我在苹果公司工作八年了。",
+      "pinyin": "Wǒ zài Píngguǒ gōngsī gōngzuò bā nián le.",
+      "english_hint": "I've worked at Apple for eight years.",
+      "scenario": "Tell someone how long you have worked at Apple.",
+      "focus": [
+        "在 + place + verb",
+        "duration + 了"
+      ],
+      "priority": 5,
+      "source_note": "Combines the repeated location-order correction with the learner's stated eight years at Apple."
+    },
+    {
+      "chinese": "我们在家工作。",
+      "pinyin": "Wǒmen zài jiā gōngzuò.",
+      "english_hint": "We work from home.",
+      "scenario": "Explain where your team works.",
+      "focus": [
+        "在 + place + verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 从家工作 and post-verb location placement in the work-from-home discussion."
+    },
+    {
+      "chinese": "我每天六七点起床。",
+      "pinyin": "Wǒ měitiān liù qī diǎn qǐchuáng.",
+      "english_hint": "I get up around six or seven every day.",
+      "scenario": "Describe your morning routine.",
+      "focus": [
+        "time before action",
+        "approximate time"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects the learner's clock time placed after 起床."
+    },
+    {
+      "chinese": "我五年前毕业了。",
+      "pinyin": "Wǒ wǔ nián qián bìyè le.",
+      "english_hint": "I graduated five years ago.",
+      "scenario": "Say when you graduated.",
+      "focus": [
+        "time + 前",
+        "completed event"
+      ],
+      "priority": 5,
+      "source_note": "The analysis supplies this correction for 我五年毕业."
+    },
+    {
+      "chinese": "我毕业五年了。",
+      "pinyin": "Wǒ bìyè wǔ nián le.",
+      "english_hint": "It's been five years since I graduated.",
+      "scenario": "Say how long it has been since graduation.",
+      "focus": [
+        "elapsed time + 了"
+      ],
+      "priority": 5,
+      "source_note": "The learner later used this correctly; it reinforces the contrast with 五年前."
+    },
+    {
+      "chinese": "我上大学的时候做过两份工作。",
+      "pinyin": "Wǒ shàng dàxué de shíhou zuò guo liǎng fèn gōngzuò.",
+      "english_hint": "I had two jobs while at university.",
+      "scenario": "Describe your university work experience.",
+      "focus": [
+        "past experience + 过",
+        "份 for jobs",
+        "的时候"
+      ],
+      "priority": 4,
+      "source_note": "Corrects 做了两个工作 using the learner's university job history."
+    },
+    {
+      "chinese": "我听不到你的声音。",
+      "pinyin": "Wǒ tīng bu dào nǐ de shēngyīn.",
+      "english_hint": "I can't hear your voice.",
+      "scenario": "Tell someone their audio is missing during a call.",
+      "focus": [
+        "听不到",
+        "result complement"
+      ],
+      "priority": 5,
+      "source_note": "Connection problems repeatedly prompted 不可以听 or 不能听; the analysis distinguishes missing audio."
+    },
+    {
+      "chinese": "我听不清楚，请再说一遍。",
+      "pinyin": "Wǒ tīng bu qīngchu, qǐng zài shuō yí biàn.",
+      "english_hint": "I can't hear clearly. Please say it again.",
+      "scenario": "Ask for a repeat when call audio is unclear.",
+      "focus": [
+        "听不清楚",
+        "再 + verb",
+        "一遍"
+      ],
+      "priority": 5,
+      "source_note": "The analysis recommends this repair phrase for recurring listening and connection difficulties."
+    },
+    {
+      "chinese": "我没听懂这句话。",
+      "pinyin": "Wǒ méi tīng dǒng zhè jù huà.",
+      "english_hint": "I didn't understand this sentence.",
+      "scenario": "Explain that you heard a Chinese sentence but did not understand it.",
+      "focus": [
+        "没 + result complement",
+        "听懂"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the recurring use of 听过 when the intended meaning concerns understanding."
+    },
+    {
+      "chinese": "我要把简历发给公司。",
+      "pinyin": "Wǒ yào bǎ jiǎnlì fā gěi gōngsī.",
+      "english_hint": "I need to send my résumé to the company.",
+      "scenario": "Describe your next step when applying for a job.",
+      "focus": [
+        "把 + object + verb",
+        "发给 + recipient"
+      ],
+      "priority": 4,
+      "source_note": "The analysis identifies 把简历发给公司 as a useful job-search chunk."
+    },
+    {
+      "chinese": "他给你打电话。",
+      "pinyin": "Tā gěi nǐ dǎ diànhuà.",
+      "english_hint": "He calls you.",
+      "scenario": "Explain how a recruiter contacts someone.",
+      "focus": [
+        "给 + recipient + 打电话"
+      ],
+      "priority": 5,
+      "source_note": "Directly corrects 他打电话跟你 from the recruiter discussion."
+    },
+    {
+      "chinese": "我觉得面试比实际工作更难。",
+      "pinyin": "Wǒ juéde miànshì bǐ shíjì gōngzuò gèng nán.",
+      "english_hint": "I think interviews are harder than the actual work.",
+      "scenario": "Share your opinion about job interviews.",
+      "focus": [
+        "我觉得 + opinion",
+        "比 + comparison + 更"
+      ],
+      "priority": 4,
+      "source_note": "The analysis refines the learner's comparison between interviews and doing the job."
+    },
+    {
+      "chinese": "虽然我们意见不同，但是可以一起工作。",
+      "pinyin": "Suīrán wǒmen yìjiàn bù tóng, dànshì kěyǐ yìqǐ gōngzuò.",
+      "english_hint": "Although we disagree, we can work together.",
+      "scenario": "Practice describing cooperation in an interview.",
+      "focus": [
+        "虽然……但是……",
+        "一起 + verb"
+      ],
+      "priority": 5,
+      "source_note": "The analysis offers this tactful practice version of the learner's cooperation example; it is not a personal claim."
+    },
+    {
+      "chinese": "我学得很快。",
+      "pinyin": "Wǒ xué de hěn kuài.",
+      "english_hint": "I learn quickly.",
+      "scenario": "Describe a strength during an interview.",
+      "focus": [
+        "verb + 得 + description"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's repeated 我学习很快 with the natural manner complement."
+    }
+  ],
+  "generated_at": "2026-10-02T05:04:40+00:00",
+  "generator": "codex-cli"
+}

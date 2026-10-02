@@ -1,0 +1,179 @@
+{
+  "lesson": "2026-02-04",
+  "sentences": [
+    {
+      "chinese": "他们十点钟起床。",
+      "pinyin": "Tāmen shí diǎn zhōng qǐchuáng.",
+      "english_hint": "They get up at ten.",
+      "scenario": "Describe your friends' morning schedule.",
+      "focus": [
+        "subject + time + verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated placement of the waking time after 起床."
+    },
+    {
+      "chinese": "她在家照顾我们的两个女儿。",
+      "pinyin": "Tā zài jiā zhàogù wǒmen de liǎng ge nǚ'ér.",
+      "english_hint": "She takes care of our two daughters at home.",
+      "scenario": "Explain what your wife does at home.",
+      "focus": [
+        "在 + place + verb",
+        "照顾 + person"
+      ],
+      "priority": 5,
+      "source_note": "Uses the analysis's supported family context and corrected place-before-action structure."
+    },
+    {
+      "chinese": "上节课我们学了这部分。",
+      "pinyin": "Shàng jié kè wǒmen xué le zhè bùfen.",
+      "english_hint": "We learned this part last lesson.",
+      "scenario": "Tell your teacher what you covered previously.",
+      "focus": [
+        "上节课",
+        "time before action"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated confusion between 上节课 and 上课 or 下课."
+    },
+    {
+      "chinese": "这节课我想继续学。",
+      "pinyin": "Zhè jié kè wǒ xiǎng jìxù xué.",
+      "english_hint": "I want to keep learning this lesson.",
+      "scenario": "Ask to continue the material in today's class.",
+      "focus": [
+        "这节课",
+        "想 + verb",
+        "继续 + verb"
+      ],
+      "priority": 5,
+      "source_note": "The analysis supplies this model for the learner's wish to continue."
+    },
+    {
+      "chinese": "我的工作有时候忙。",
+      "pinyin": "Wǒ de gōngzuò yǒu shíhou máng.",
+      "english_hint": "My work is sometimes busy.",
+      "scenario": "Describe how busy your job is.",
+      "focus": [
+        "有时候 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Successful prompted usage replaces 可以忙 for 'sometimes busy.'"
+    },
+    {
+      "chinese": "我不是每天都忙。",
+      "pinyin": "Wǒ bú shì měi tiān dōu máng.",
+      "english_hint": "I'm not busy every day.",
+      "scenario": "Clarify that your busy days are occasional.",
+      "focus": [
+        "不是……都……",
+        "negation scope"
+      ],
+      "priority": 5,
+      "source_note": "Practices the successfully prompted 不是每天都忙 pattern."
+    },
+    {
+      "chinese": "照顾两个孩子比上班难。",
+      "pinyin": "Zhàogù liǎng ge háizi bǐ shàngbān nán.",
+      "english_hint": "Caring for two children is harder than going to work.",
+      "scenario": "Compare childcare with your job.",
+      "focus": [
+        "A 比 B + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the incomplete childcare comparison using the analysis's model."
+    },
+    {
+      "chinese": "我的工资比同事的工资低。",
+      "pinyin": "Wǒ de gōngzī bǐ tóngshì de gōngzī dī.",
+      "english_hint": "My salary is lower than my colleague's.",
+      "scenario": "Compare your pay with a colleague's.",
+      "focus": [
+        "A 比 B + adjective",
+        "compare like with like",
+        "工资高／低"
+      ],
+      "priority": 5,
+      "source_note": "Repeated salary comparisons need a complete 比 structure and salary-to-salary comparison."
+    },
+    {
+      "chinese": "虽然我对工资有点不满意，但是我不想换工作。",
+      "pinyin": "Suīrán wǒ duì gōngzī yǒudiǎn bù mǎnyì, dànshì wǒ bù xiǎng huàn gōngzuò.",
+      "english_hint": "Although I'm a little unhappy with my pay, I don't want to change jobs.",
+      "scenario": "Explain why you are staying despite your pay concerns.",
+      "focus": [
+        "虽然……但是……",
+        "对……不满意",
+        "换工作"
+      ],
+      "priority": 5,
+      "source_note": "Preserves the learner's clarified dissatisfaction with salary and wish to stay; uses the corrected analysis model."
+    },
+    {
+      "chinese": "现在找工作不容易。",
+      "pinyin": "Xiànzài zhǎo gōngzuò bù róngyì.",
+      "english_hint": "Looking for a job isn't easy now.",
+      "scenario": "Explain why you are reluctant to start a job search.",
+      "focus": [
+        "找 versus 找到",
+        "time before action",
+        "不容易"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects job-search wording to 找 and confirms the difficulty of searching."
+    },
+    {
+      "chinese": "如果找到新工作，工资可能会涨。",
+      "pinyin": "Rúguǒ zhǎodào xīn gōngzuò, gōngzī kěnéng huì zhǎng.",
+      "english_hint": "If you find a new job, your pay may go up.",
+      "scenario": "Discuss a possible benefit of finding another job.",
+      "focus": [
+        "如果 + condition",
+        "找到 result complement",
+        "可能会 + verb"
+      ],
+      "priority": 4,
+      "source_note": "The analysis supplies this concise version of the learner's successful conditional about a new job and higher pay."
+    },
+    {
+      "chinese": "茶和咖啡我都喜欢喝。",
+      "pinyin": "Chá hé kāfēi wǒ dōu xǐhuan hē.",
+      "english_hint": "I like drinking both tea and coffee.",
+      "scenario": "Answer when someone asks whether you like tea or coffee.",
+      "focus": [
+        "都 before verb",
+        "topic + comment",
+        "喜欢喝"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我喜欢喝都 and preserves the learner's preference for both drinks."
+    },
+    {
+      "chinese": "我每天用这个软件复习汉字。",
+      "pinyin": "Wǒ měi tiān yòng zhè ge ruǎnjiàn fùxí Hànzì.",
+      "english_hint": "I review Chinese characters with this software every day.",
+      "scenario": "Show someone your daily character-review tool.",
+      "focus": [
+        "用 + tool + action",
+        "每天 before verb",
+        "复习汉字"
+      ],
+      "priority": 5,
+      "source_note": "Adapts the corrected 用这个APP复习汉字 model with TTS-friendly 软件; daily app review is supported."
+    },
+    {
+      "chinese": "我觉得很多汉字很像。",
+      "pinyin": "Wǒ juéde hěn duō Hànzì hěn xiàng.",
+      "english_hint": "I think many Chinese characters look similar.",
+      "scenario": "Explain why distinguishing characters is difficult.",
+      "focus": [
+        "觉得 + clause",
+        "很像"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 跟我一样 to the intended impression that characters resemble one another."
+    }
+  ],
+  "generated_at": "2026-10-02T04:55:59+00:00",
+  "generator": "codex-cli"
+}

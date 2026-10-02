@@ -1,0 +1,169 @@
+{
+  "lesson": "2026-02-18",
+  "sentences": [
+    {
+      "chinese": "我每天学习中文。",
+      "pinyin": "Wǒ měitiān xuéxí Zhōngwén.",
+      "english_hint": "I study Chinese every day.",
+      "scenario": "Describe your daily study routine.",
+      "focus": [
+        "subject + time + verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 我学习每天 by placing 每天 before the verb."
+    },
+    {
+      "chinese": "我在苹果公司工作。",
+      "pinyin": "Wǒ zài Píngguǒ gōngsī gōngzuò.",
+      "english_hint": "I work at Apple.",
+      "scenario": "Tell someone where you work.",
+      "focus": [
+        "在 + place + verb"
+      ],
+      "priority": 5,
+      "source_note": "Apple employment is explicit; practises the correction to repeated 工作在 word order."
+    },
+    {
+      "chinese": "我的小女儿还很小。",
+      "pinyin": "Wǒ de xiǎo nǚ'ér hái hěn xiǎo.",
+      "english_hint": "My younger daughter is still very young.",
+      "scenario": "Explain your younger daughter's age.",
+      "focus": [
+        "adjective predicate",
+        "还很 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我的小女儿是很小 by removing 是."
+    },
+    {
+      "chinese": "带她去旅游不容易。",
+      "pinyin": "Dài tā qù lǚyóu bù róngyì.",
+      "english_hint": "Travelling with her isn't easy.",
+      "scenario": "Explain why family travel is difficult.",
+      "focus": [
+        "不 + adjective",
+        "带 + person + 去"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 不是容易旅游 to a complete sentence about travelling with the younger daughter."
+    },
+    {
+      "chinese": "电话会议不太方便。",
+      "pinyin": "Diànhuà huìyì bú tài fāngbiàn.",
+      "english_hint": "Phone meetings aren't very convenient.",
+      "scenario": "Give your opinion about phone meetings.",
+      "focus": [
+        "不太 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 不是方便; learner successfully repaired this to 不方便."
+    },
+    {
+      "chinese": "我没去过中国。",
+      "pinyin": "Wǒ méi qùguo Zhōngguó.",
+      "english_hint": "I haven't been to China.",
+      "scenario": "Answer a question about visiting China.",
+      "focus": [
+        "没 + verb + 过"
+      ],
+      "priority": 5,
+      "source_note": "Reinforces the learner's successful correction from 不 to 没 for experience."
+    },
+    {
+      "chinese": "我们不是每天都开会。",
+      "pinyin": "Wǒmen bú shì měitiān dōu kāihuì.",
+      "english_hint": "We don't have meetings every day.",
+      "scenario": "Describe how often your team meets.",
+      "focus": [
+        "不是每天都 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 不每天 in the discussion of the learner's meeting schedule."
+    },
+    {
+      "chinese": "他没去开会。",
+      "pinyin": "Tā méi qù kāihuì.",
+      "english_hint": "He didn't attend the meeting.",
+      "scenario": "Report a colleague's missed meeting.",
+      "focus": [
+        "没 + completed event"
+      ],
+      "priority": 5,
+      "source_note": "Lesson dialogue prompted repeated switching between 没去 and 不去; analysis specifies 没 for the missed event."
+    },
+    {
+      "chinese": "你可以再说一遍吗？",
+      "pinyin": "Nǐ kěyǐ zài shuō yí biàn ma?",
+      "english_hint": "Could you say it again?",
+      "scenario": "Ask for repetition during a lesson or meeting.",
+      "focus": [
+        "再 + verb",
+        "一遍",
+        "可以……吗"
+      ],
+      "priority": 5,
+      "source_note": "Replaces repeated incomplete requests such as 你可以说一下 with the analysis's complete clarification chunk."
+    },
+    {
+      "chinese": "这个词是什么意思？",
+      "pinyin": "Zhège cí shì shénme yìsi?",
+      "english_hint": "What does this word mean?",
+      "scenario": "Ask about an unfamiliar Chinese word.",
+      "focus": [
+        "……是什么意思"
+      ],
+      "priority": 5,
+      "source_note": "Analysis recommends asking for meaning when the learner did not understand 急事."
+    },
+    {
+      "chinese": "我听得到，但是听不懂。",
+      "pinyin": "Wǒ tīngdedào, dànshì tīngbudǒng.",
+      "english_hint": "I can hear you, but I don't understand.",
+      "scenario": "Explain that comprehension is the problem.",
+      "focus": [
+        "听得到 versus 听不懂",
+        "但是"
+      ],
+      "priority": 5,
+      "source_note": "Analysis distinguishes hearing from understanding after microphone trouble and clarification requests."
+    },
+    {
+      "chinese": "我的小女儿每天睡两次觉。",
+      "pinyin": "Wǒ de xiǎo nǚ'ér měitiān shuì liǎng cì jiào.",
+      "english_hint": "My younger daughter sleeps twice a day.",
+      "scenario": "Describe your younger daughter's sleep routine.",
+      "focus": [
+        "每天 + verb",
+        "verb + number + 次 + object"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 小女儿睡觉每天两次 using the analysis's frequency structure."
+    },
+    {
+      "chinese": "我们改到星期六吧。",
+      "pinyin": "Wǒmen gǎi dào xīngqīliù ba.",
+      "english_hint": "Let's move it to Saturday.",
+      "scenario": "Reschedule plans with a friend.",
+      "focus": [
+        "改到 + new time",
+        "吧"
+      ],
+      "priority": 4,
+      "source_note": "Corrects 改星期六; learner described frequently rescheduling plans with friends."
+    },
+    {
+      "chinese": "不好意思，我来晚了。",
+      "pinyin": "Bù hǎoyìsi, wǒ lái wǎn le.",
+      "english_hint": "Sorry I'm late.",
+      "scenario": "Apologize when arriving late.",
+      "focus": [
+        "不好意思",
+        "来晚了"
+      ],
+      "priority": 4,
+      "source_note": "Analysis gives this complete apology after the learner asked whether 好意思 could stand alone."
+    }
+  ],
+  "generated_at": "2026-10-02T04:57:52+00:00",
+  "generator": "codex-cli"
+}

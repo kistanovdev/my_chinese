@@ -1,0 +1,170 @@
+{
+  "lesson": "2026-01-23",
+  "sentences": [
+    {
+      "chinese": "我的客厅里有一个白色的沙发。",
+      "pinyin": "Wǒ de kètīng lǐ yǒu yí ge báisè de shāfā.",
+      "english_hint": "There's a white sofa in my living room.",
+      "scenario": "Describe your living room.",
+      "focus": [
+        "有 for possession",
+        "adjective + 的 + noun"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated likely use of 要 for possession; 白色的沙发 was successful."
+    },
+    {
+      "chinese": "我们有微波炉。",
+      "pinyin": "Wǒmen yǒu wēibōlú.",
+      "english_hint": "We have a microwave.",
+      "scenario": "Say which appliance you have.",
+      "focus": [
+        "有 for possession"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 我们要……微波炉 when describing an existing appliance."
+    },
+    {
+      "chinese": "我不想说英文。",
+      "pinyin": "Wǒ bù xiǎng shuō Yīngwén.",
+      "english_hint": "I don't want to speak English.",
+      "scenario": "Keep your Chinese practice in Chinese.",
+      "focus": [
+        "不想 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我想不说英文 and repeated difficulty expressing this intention."
+    },
+    {
+      "chinese": "这个词我不会说。",
+      "pinyin": "Zhè ge cí wǒ bú huì shuō.",
+      "english_hint": "I don't know how to say this word.",
+      "scenario": "Explain why you are stuck speaking.",
+      "focus": [
+        "不会 for lack of skill"
+      ],
+      "priority": 5,
+      "source_note": "Analysis distinguishes 不会 from 不能 and 不可以 during word-searching."
+    },
+    {
+      "chinese": "我没听清楚，请再说一遍。",
+      "pinyin": "Wǒ méi tīng qīngchu, qǐng zài shuō yí biàn.",
+      "english_hint": "I didn't hear clearly. Please say it again.",
+      "scenario": "Ask someone to repeat missed information.",
+      "focus": [
+        "没听清楚",
+        "再 + verb + 一遍"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 没听过 when information in a recording was missed."
+    },
+    {
+      "chinese": "我听到了，但是听不懂。",
+      "pinyin": "Wǒ tīng dào le, dànshì tīng bu dǒng.",
+      "english_hint": "I heard it, but I don't understand.",
+      "scenario": "Explain a listening difficulty in class.",
+      "focus": [
+        "听到 vs. 听不懂"
+      ],
+      "priority": 5,
+      "source_note": "Analysis supplies this contrast; later 听不懂 was used correctly."
+    },
+    {
+      "chinese": "花园里有四棵树。",
+      "pinyin": "Huāyuán lǐ yǒu sì kē shù.",
+      "english_hint": "There are four trees in the garden.",
+      "scenario": "Describe your garden.",
+      "focus": [
+        "location + 有",
+        "棵 + 树"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 四本……树; learner subsequently used 四棵树 successfully."
+    },
+    {
+      "chinese": "我的电视音质很好。",
+      "pinyin": "Wǒ de diànshì yīnzhì hěn hǎo.",
+      "english_hint": "My TV has very good sound quality.",
+      "scenario": "Explain what you like about your TV.",
+      "focus": [
+        "noun + adjective predicate"
+      ],
+      "priority": 5,
+      "source_note": "Analysis offers this precise correction for repeated 有很好音响."
+    },
+    {
+      "chinese": "我的电视花了两千美元。",
+      "pinyin": "Wǒ de diànshì huā le liǎng qiān měiyuán.",
+      "english_hint": "My TV cost two thousand dollars.",
+      "scenario": "Tell someone how much your TV cost.",
+      "focus": [
+        "花了 + amount",
+        "两千"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated price fragments such as 二千美元贵."
+    },
+    {
+      "chinese": "这张桌子比宜家的桌子贵很多。",
+      "pinyin": "Zhè zhāng zhuōzi bǐ Yíjiā de zhuōzi guì hěn duō.",
+      "english_hint": "This table is much more expensive than IKEA's.",
+      "scenario": "Compare furniture prices.",
+      "focus": [
+        "A 比 B + adjective + 很多",
+        "张 + 桌子"
+      ],
+      "priority": 4,
+      "source_note": "Completes the learner's unfinished comparison with an IKEA table."
+    },
+    {
+      "chinese": "只有一个浴室有浴缸。",
+      "pinyin": "Zhǐ yǒu yí ge yùshì yǒu yùgāng.",
+      "english_hint": "Only one bathroom has a bathtub.",
+      "scenario": "Explain which bathroom has a tub.",
+      "focus": [
+        "只有",
+        "有 for existence"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects repeated attempts at expressing 只有一个."
+    },
+    {
+      "chinese": "我想坐公交车或者地铁。",
+      "pinyin": "Wǒ xiǎng zuò gōngjiāochē huòzhě dìtiě.",
+      "english_hint": "I'd like to take a bus or the subway.",
+      "scenario": "Describe your preferred transport.",
+      "focus": [
+        "或者 in statements",
+        "想 + verb"
+      ],
+      "priority": 4,
+      "source_note": "Corrects 还是 in a statement about the learner's transport preferences."
+    },
+    {
+      "chinese": "我家离市中心很近。",
+      "pinyin": "Wǒ jiā lí shì zhōngxīn hěn jìn.",
+      "english_hint": "My home is close to the city center.",
+      "scenario": "Explain where your home is.",
+      "focus": [
+        "A 离 B + distance"
+      ],
+      "priority": 4,
+      "source_note": "Analysis corrects fragmented distance descriptions without assuming travel method."
+    },
+    {
+      "chinese": "如果我不会修，就给岳父打电话。",
+      "pinyin": "Rúguǒ wǒ bú huì xiū, jiù gěi yuèfù dǎ diànhuà.",
+      "english_hint": "If I can't fix it, I'll call my father-in-law.",
+      "scenario": "Explain what you do when a repair is too difficult.",
+      "focus": [
+        "如果……就……",
+        "给某人打电话",
+        "不会 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Shortens the analysis correction for the learner's repair plan; 打话 recurred."
+    }
+  ],
+  "generated_at": "2026-10-02T04:52:41+00:00",
+  "generator": "codex-cli"
+}

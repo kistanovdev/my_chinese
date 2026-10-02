@@ -1,0 +1,169 @@
+{
+  "lesson": "2026-03-11",
+  "sentences": [
+    {
+      "chinese": "听得到，但是听不懂。",
+      "pinyin": "Tīng de dào, dànshì tīng bu dǒng.",
+      "english_hint": "I can hear it, but I can't understand it.",
+      "scenario": "Explain why you need help during an online Chinese lesson.",
+      "focus": [
+        "听得到 versus 听得懂",
+        "potential complements"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the audio-check response at 02:38; difficulty understanding recurs during the lesson."
+    },
+    {
+      "chinese": "我正在喝咖啡。",
+      "pinyin": "Wǒ zhèngzài hē kāfēi.",
+      "english_hint": "I'm drinking coffee.",
+      "scenario": "Tell someone what you are doing before work.",
+      "focus": [
+        "正在 + verb"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects the fragmented explanation about drinking coffee at 03:45."
+    },
+    {
+      "chinese": "下课后就开始工作。",
+      "pinyin": "Xiàkè hòu jiù kāishǐ gōngzuò.",
+      "english_hint": "I'll start work right after class.",
+      "scenario": "Explain your morning schedule at the office.",
+      "focus": [
+        "verb + 后",
+        "就 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's explanation that work begins after Chinese class."
+    },
+    {
+      "chinese": "我学中文已经一年了。",
+      "pinyin": "Wǒ xué Zhōngwén yǐjīng yì nián le.",
+      "english_hint": "I've been studying Chinese for a year.",
+      "scenario": "Answer how long you have studied Chinese.",
+      "focus": [
+        "verb + duration",
+        "已经……了"
+      ],
+      "priority": 5,
+      "source_note": "Corrects duration placement; the learner mentions a year of study more than once."
+    },
+    {
+      "chinese": "我每天都学一点汉字。",
+      "pinyin": "Wǒ měitiān dōu xué yìdiǎn Hànzì.",
+      "english_hint": "I study a few Chinese characters every day.",
+      "scenario": "Describe your small daily study habit.",
+      "focus": [
+        "每天都",
+        "一点 + noun"
+      ],
+      "priority": 5,
+      "source_note": "The analysis supplies this daily-routine frame for the fragmented explanation at 08:19."
+    },
+    {
+      "chinese": "我听说伦敦经常是阴天。",
+      "pinyin": "Wǒ tīngshuō Lúndūn jīngcháng shì yīntiān.",
+      "english_hint": "I've heard London is often cloudy.",
+      "scenario": "Mention something you have heard about London's weather.",
+      "focus": [
+        "听说 + statement"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects the London-weather sentence; 听过 repeatedly replaces 听说 in reported information."
+    },
+    {
+      "chinese": "我还没坐过商务舱。",
+      "pinyin": "Wǒ hái méi zuò guo shāngwùcāng.",
+      "english_hint": "I haven't flown business class yet.",
+      "scenario": "Discuss your flight experience.",
+      "focus": [
+        "还没 + verb + 过"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's statement about not having experienced business class at 10:56."
+    },
+    {
+      "chinese": "它便宜一点。",
+      "pinyin": "Tā piányi yìdiǎn.",
+      "english_hint": "It's a little cheaper.",
+      "scenario": "Compare the price of a ride with another option.",
+      "focus": [
+        "adjective + 一点"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 一点便宜 to 便宜一点 in the ride-service comparison."
+    },
+    {
+      "chinese": "我有点累。",
+      "pinyin": "Wǒ yǒudiǎn lèi.",
+      "english_hint": "I'm a little tired.",
+      "scenario": "Describe how you feel after working.",
+      "focus": [
+        "有点 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 一点累 at 01:20:40 and contrasts with adjective + 一点."
+    },
+    {
+      "chinese": "工作压力越来越大。",
+      "pinyin": "Gōngzuò yālì yuèláiyuè dà.",
+      "english_hint": "Work pressure is increasing.",
+      "scenario": "Explain how the demands of your job are changing.",
+      "focus": [
+        "越来越 + adjective"
+      ],
+      "priority": 4,
+      "source_note": "The analysis completes the learner's unfinished 越来越 explanation about work pressure."
+    },
+    {
+      "chinese": "我们应该自己思考。",
+      "pinyin": "Wǒmen yīnggāi zìjǐ sīkǎo.",
+      "english_hint": "We should think for ourselves.",
+      "scenario": "Express your view when discussing automated tools at work.",
+      "focus": [
+        "应该 + verb",
+        "思考 versus 觉得"
+      ],
+      "priority": 5,
+      "source_note": "The prolonged discussion establishes that the learner means independent thinking, rather than expressing an opinion with 觉得."
+    },
+    {
+      "chinese": "公司给我们买机票。",
+      "pinyin": "Gōngsī gěi wǒmen mǎi jīpiào.",
+      "english_hint": "The company buys flight tickets for us.",
+      "scenario": "Explain who pays for work travel.",
+      "focus": [
+        "给 + recipient + verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 跟 to 给 in the learner's explanation about company-paid tickets."
+    },
+    {
+      "chinese": "我想买一辆大车。",
+      "pinyin": "Wǒ xiǎng mǎi yí liàng dà chē.",
+      "english_hint": "I want to buy a large car.",
+      "scenario": "Describe the kind of car you want for your family.",
+      "focus": [
+        "想 + verb",
+        "一辆车"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects this stated wish; incorrect car measure words recur in the transcript."
+    },
+    {
+      "chinese": "我每两周领一次工资。",
+      "pinyin": "Wǒ měi liǎng zhōu lǐng yí cì gōngzī.",
+      "english_hint": "I get paid every two weeks.",
+      "scenario": "Explain your pay schedule.",
+      "focus": [
+        "每 + interval",
+        "verb + 一次",
+        "领工资"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects the fragmented explanation of receiving salary every two weeks."
+    }
+  ],
+  "generated_at": "2026-10-02T05:03:31+00:00",
+  "generator": "codex-cli"
+}

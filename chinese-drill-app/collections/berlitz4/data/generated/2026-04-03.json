@@ -1,0 +1,167 @@
+{
+  "lesson": "2026-04-03",
+  "sentences": [
+    {
+      "chinese": "我先刷牙，再睡觉。",
+      "pinyin": "Wǒ xiān shuāyá, zài shuìjiào.",
+      "english_hint": "I brush my teeth first, then go to bed.",
+      "scenario": "Describe your bedtime routine.",
+      "focus": [
+        "先……再……"
+      ],
+      "priority": 5,
+      "source_note": "The learner struggled to form sequences, then successfully used this bedtime example."
+    },
+    {
+      "chinese": "先洗手，再吃饭。",
+      "pinyin": "Xiān xǐshǒu, zài chīfàn.",
+      "english_hint": "Wash your hands first, then eat.",
+      "scenario": "Tell your child what to do before eating.",
+      "focus": [
+        "先……再……"
+      ],
+      "priority": 5,
+      "source_note": "The analysis identifies this as the complete structure to replace incomplete attempts."
+    },
+    {
+      "chinese": "我的大女儿两岁零七个月。",
+      "pinyin": "Wǒ de dà nǚ'ér liǎng suì líng qī ge yuè.",
+      "english_hint": "My older daughter is two years and seven months old.",
+      "scenario": "Tell someone your older daughter's age at the time of this lesson.",
+      "focus": [
+        "两＋age",
+        "岁零……个月"
+      ],
+      "priority": 5,
+      "source_note": "The learner repeatedly used 二岁; the analysis supplies this corrected age statement."
+    },
+    {
+      "chinese": "这是第一件事情。",
+      "pinyin": "Zhè shì dì yī jiàn shìqing.",
+      "english_hint": "This is the first task.",
+      "scenario": "Identify the first task in a work plan.",
+      "focus": [
+        "第＋number＋classifier",
+        "事情 vs 东西"
+      ],
+      "priority": 5,
+      "source_note": "Repeated 第一东西 attempts were corrected to 第一件事情 in the analysis."
+    },
+    {
+      "chinese": "我觉得周末加班不好。",
+      "pinyin": "Wǒ juéde zhōumò jiābān bù hǎo.",
+      "english_hint": "I think working overtime on weekends is bad.",
+      "scenario": "Give your opinion about weekend overtime.",
+      "focus": [
+        "time before verb",
+        "我觉得……"
+      ],
+      "priority": 5,
+      "source_note": "Repeated 工作在周末不好 was corrected to 周末加班不好."
+    },
+    {
+      "chinese": "我对我的中文学习很满意。",
+      "pinyin": "Wǒ duì wǒ de Zhōngwén xuéxí hěn mǎnyì.",
+      "english_hint": "I'm very satisfied with my Chinese learning.",
+      "scenario": "Tell someone how you feel about studying Chinese.",
+      "focus": [
+        "对……很满意"
+      ],
+      "priority": 5,
+      "source_note": "This is the analysis's direct correction of 学习中文是满意."
+    },
+    {
+      "chinese": "你对现在的工作满意吗？",
+      "pinyin": "Nǐ duì xiànzài de gōngzuò mǎnyì ma?",
+      "english_hint": "Are you satisfied with your current job?",
+      "scenario": "Ask a friend how they feel about their job.",
+      "focus": [
+        "对……满意吗"
+      ],
+      "priority": 5,
+      "source_note": "The learner repeatedly struggled with 对……满意 while discussing jobs and salaries."
+    },
+    {
+      "chinese": "我们可以提前一个星期完成。",
+      "pinyin": "Wǒmen kěyǐ tíqián yí ge xīngqī wánchéng.",
+      "english_hint": "We can finish a week early.",
+      "scenario": "Practice giving an early completion estimate at work.",
+      "focus": [
+        "提前＋duration＋verb"
+      ],
+      "priority": 4,
+      "source_note": "The lesson's project dialogue introduced 提前一个星期完成."
+    },
+    {
+      "chinese": "这个项目能按时完成吗？",
+      "pinyin": "Zhège xiàngmù néng ànshí wánchéng ma?",
+      "english_hint": "Can this project be finished on time?",
+      "scenario": "Ask about a project's deadline.",
+      "focus": [
+        "按时完成",
+        "能……吗"
+      ],
+      "priority": 4,
+      "source_note": "The analysis prioritizes 按时 in contrast with 提前 and 推迟."
+    },
+    {
+      "chinese": "项目可能要推迟一个星期。",
+      "pinyin": "Xiàngmù kěnéng yào tuīchí yí ge xīngqī.",
+      "english_hint": "The project may be delayed by a week.",
+      "scenario": "Practice warning a colleague about a possible delay.",
+      "focus": [
+        "可能要……",
+        "推迟＋duration"
+      ],
+      "priority": 4,
+      "source_note": "The project exercises practiced possible delays and reinforced 推迟了一个星期."
+    },
+    {
+      "chinese": "拖了几天才完成。",
+      "pinyin": "Tuō le jǐ tiān cái wánchéng.",
+      "english_hint": "It was only finished after a few days' delay.",
+      "scenario": "Explain when a delayed task finally got done.",
+      "focus": [
+        "……才……",
+        "拖了＋duration"
+      ],
+      "priority": 4,
+      "source_note": "The analysis uses 拖了几天才完成 to teach 才 for a delayed result."
+    },
+    {
+      "chinese": "现在去机场来得及吗？",
+      "pinyin": "Xiànzài qù jīchǎng lái de jí ma?",
+      "english_hint": "Can we make it if we head to the airport now?",
+      "scenario": "Ask your driver whether there is still enough time.",
+      "focus": [
+        "来得及吗"
+      ],
+      "priority": 5,
+      "source_note": "The learner repeatedly struggled with 来得及 and used an airport journey to understand it."
+    },
+    {
+      "chinese": "今天来不及和你吃饭了。",
+      "pinyin": "Jīntiān lái bu jí hé nǐ chīfàn le.",
+      "english_hint": "I don't have time to eat with you today.",
+      "scenario": "Cancel a meal because you are short of time.",
+      "focus": [
+        "来不及＋verb phrase"
+      ],
+      "priority": 5,
+      "source_note": "The analysis gives this meal example to reinforce 来不及 as insufficient time."
+    },
+    {
+      "chinese": "我再也不去那个饭馆了。",
+      "pinyin": "Wǒ zài yě bú qù nàge fànguǎn le.",
+      "english_hint": "I'm never going to that restaurant again.",
+      "scenario": "React to the disappointing restaurant you discussed.",
+      "focus": [
+        "再也不……了"
+      ],
+      "priority": 4,
+      "source_note": "The learner described a disappointing restaurant in France; the analysis teaches 再也不……了."
+    }
+  ],
+  "generated_at": "2026-10-02T05:18:06+00:00",
+  "generator": "codex-cli"
+}

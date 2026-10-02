@@ -1,0 +1,176 @@
+{
+  "lesson": "2026-02-25",
+  "sentences": [
+    {
+      "chinese": "我喜欢做菜。",
+      "pinyin": "Wǒ xǐhuan zuò cài.",
+      "english_hint": "I like cooking.",
+      "scenario": "Tell a friend what you enjoy doing at home.",
+      "focus": [
+        "喜欢 + verb",
+        "做菜"
+      ],
+      "priority": 5,
+      "source_note": "Repeated correction of 做餐 to 做菜; learner explicitly enjoys cooking."
+    },
+    {
+      "chinese": "我会做拉面。",
+      "pinyin": "Wǒ huì zuò lāmiàn.",
+      "english_hint": "I can make hand-pulled noodles.",
+      "scenario": "Explain which food you know how to make.",
+      "focus": [
+        "会 + verb",
+        "cooking ability"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 我可以做拉面 to 我会做拉面 for learned ability."
+    },
+    {
+      "chinese": "在家做中国菜很难。",
+      "pinyin": "Zài jiā zuò Zhōngguó cài hěn nán.",
+      "english_hint": "Cooking Chinese food at home is hard.",
+      "scenario": "Explain a challenge with cooking at home.",
+      "focus": [
+        "location before verb",
+        "verb phrase + adjective",
+        "做菜"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of the learner's disordered sentence about cooking Chinese food at home."
+    },
+    {
+      "chinese": "我只吃过一次火锅。",
+      "pinyin": "Wǒ zhǐ chī guo yí cì huǒguō.",
+      "english_hint": "I've only had hotpot once.",
+      "scenario": "Describe your experience when someone asks about hotpot.",
+      "focus": [
+        "verb + 过",
+        "只",
+        "frequency after verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我吃火锅一次; learner reported one hotpot experience."
+    },
+    {
+      "chinese": "我想再吃一次火锅。",
+      "pinyin": "Wǒ xiǎng zài chī yí cì huǒguō.",
+      "english_hint": "I'd like to have hotpot again.",
+      "scenario": "Say what you want to try again on a trip.",
+      "focus": [
+        "想 + verb",
+        "再 + verb + 一次"
+      ],
+      "priority": 4,
+      "source_note": "Analysis supplies this chunk for the learner's intention to try hotpot again."
+    },
+    {
+      "chinese": "我想去中国旅游。",
+      "pinyin": "Wǒ xiǎng qù Zhōngguó lǚyóu.",
+      "english_hint": "I want to travel to China.",
+      "scenario": "Tell a friend about a travel goal.",
+      "focus": [
+        "去 + destination + 旅游",
+        "想 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Repeated travel word-order problem; analysis recommends 去中国旅游."
+    },
+    {
+      "chinese": "你旅游的时候喜欢去哪里？",
+      "pinyin": "Nǐ lǚyóu de shíhou xǐhuan qù nǎlǐ?",
+      "english_hint": "Where do you like to go when you travel?",
+      "scenario": "Ask a friend about their travel preferences.",
+      "focus": [
+        "verb + 的时候",
+        "哪里 question"
+      ],
+      "priority": 4,
+      "source_note": "Direct correction of 旅游时候你喜欢去哪里."
+    },
+    {
+      "chinese": "我没去过中国。",
+      "pinyin": "Wǒ méi qù guo Zhōngguó.",
+      "english_hint": "I've never been to China.",
+      "scenario": "Answer a question about previous trips to China.",
+      "focus": [
+        "没 + verb + 过"
+      ],
+      "priority": 4,
+      "source_note": "Successful learner usage and an explicit review chunk in the analysis."
+    },
+    {
+      "chinese": "不是每个人都喜欢四川菜。",
+      "pinyin": "Bú shì měi ge rén dōu xǐhuan Sìchuān cài.",
+      "english_hint": "Not everyone likes Sichuan food.",
+      "scenario": "Discuss different food preferences in a group.",
+      "focus": [
+        "不是每个人都",
+        "菜 for cuisine"
+      ],
+      "priority": 5,
+      "source_note": "Core correction of 不是每人喜欢四川餐."
+    },
+    {
+      "chinese": "这个餐厅的环境不错。",
+      "pinyin": "Zhè ge cāntīng de huánjìng bú cuò.",
+      "english_hint": "This restaurant has a nice atmosphere.",
+      "scenario": "Describe a restaurant you are considering.",
+      "focus": [
+        "的",
+        "adjective predicate without 是",
+        "环境不错"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 环境是不错; restaurant descriptions were a core lesson theme."
+    },
+    {
+      "chinese": "服务也很好。",
+      "pinyin": "Fúwù yě hěn hǎo.",
+      "english_hint": "The service is good too.",
+      "scenario": "Add another positive point about a restaurant.",
+      "focus": [
+        "也 before predicate",
+        "很 + adjective"
+      ],
+      "priority": 4,
+      "source_note": "Successful learner usage and part of the analysis's restaurant-description template."
+    },
+    {
+      "chinese": "就是价钱有点贵。",
+      "pinyin": "Jiùshì jiàqian yǒudiǎn guì.",
+      "english_hint": "It's just a little expensive.",
+      "scenario": "Mention the drawback after praising a restaurant.",
+      "focus": [
+        "就是 + drawback",
+        "有点 + negative adjective"
+      ],
+      "priority": 5,
+      "source_note": "Core restaurant-review chunk; learner repeatedly described good restaurants with high prices."
+    },
+    {
+      "chinese": "味道很正宗。",
+      "pinyin": "Wèidao hěn zhèngzōng.",
+      "english_hint": "The flavor is authentic.",
+      "scenario": "Describe food that tastes like it does in its home country.",
+      "focus": [
+        "很 + adjective",
+        "味道很正宗"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects 味道很正 to 味道很正宗."
+    },
+    {
+      "chinese": "这个比那个便宜。",
+      "pinyin": "Zhè ge bǐ nà ge piányi.",
+      "english_hint": "This one is cheaper than that one.",
+      "scenario": "Compare two food or drink options before ordering.",
+      "focus": [
+        "A 比 B + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Analysis identifies comparison as a structural difficulty and supplies this corrected example."
+    }
+  ],
+  "generated_at": "2026-10-02T04:59:36+00:00",
+  "generator": "codex-cli"
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "voices": [
+    {
+      "key": "beijing-male",
+      "name": "Mr. Chen",
+      "voice_id": "cwzmKSYMCC9Aym1ymCnt",
+      "gender": "male",
+      "accent": "Beijing Mandarin",
+      "primary": true
+    },
+    {
+      "key": "taiwan-female-warm",
+      "name": "Chen",
+      "voice_id": "4NQthjVhIGGVfL3Si000",
+      "gender": "female",
+      "accent": "Taiwan Mandarin",
+      "primary": false
+    },
+    {
+      "key": "taiwan-female-bright",
+      "name": "Anna Su",
+      "voice_id": "9lHjugDhwqoxA5MhX0az",
+      "gender": "female",
+      "accent": "Taiwan Mandarin",
+      "primary": false
+    }
+  ]
+}

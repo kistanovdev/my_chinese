@@ -1,0 +1,173 @@
+{
+  "lesson": "2026-04-06",
+  "sentences": [
+    {
+      "chinese": "五月的机票比八月的机票贵。",
+      "pinyin": "Wǔ yuè de jīpiào bǐ bā yuè de jīpiào guì.",
+      "english_hint": "May flights cost more than August flights.",
+      "scenario": "Explain why you are postponing your China trip.",
+      "focus": [
+        "A比B+adjective"
+      ],
+      "priority": 5,
+      "source_note": "Repeatedly added 很 to 比 comparisons; corrected using May and August ticket prices."
+    },
+    {
+      "chinese": "这个手机比那个手机贵。",
+      "pinyin": "Zhège shǒujī bǐ nàge shǒujī guì.",
+      "english_hint": "This phone costs more than that one.",
+      "scenario": "Compare two phones while shopping.",
+      "focus": [
+        "A比B+adjective"
+      ],
+      "priority": 5,
+      "source_note": "Phone prices were used to clarify 比 versus 比较; reinforces comparison without 很."
+    },
+    {
+      "chinese": "八月的机票比较便宜。",
+      "pinyin": "Bā yuè de jīpiào bǐjiào piányi.",
+      "english_hint": "August flights are relatively cheap.",
+      "scenario": "Explain the advantage of traveling in August.",
+      "focus": [
+        "比较+adjective"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 比较更便宜 by using 比较 alone."
+    },
+    {
+      "chinese": "八月的机票更便宜。",
+      "pinyin": "Bā yuè de jīpiào gèng piányi.",
+      "english_hint": "August flights are cheaper.",
+      "scenario": "After discussing May prices, mention August prices.",
+      "focus": [
+        "更+adjective"
+      ],
+      "priority": 4,
+      "source_note": "Analysis distinguishes 更便宜 from 比较便宜 and prohibits combining 比较更."
+    },
+    {
+      "chinese": "我不能区分这些汉字。",
+      "pinyin": "Wǒ bù néng qūfēn zhèxiē Hànzì.",
+      "english_hint": "I can't distinguish these characters.",
+      "scenario": "Tell your teacher which reading task is difficult.",
+      "focus": [
+        "不能+verb",
+        "这些+ noun",
+        "区分"
+      ],
+      "priority": 5,
+      "source_note": "Corrects recurring 不可以 for inability and 汉字们 for object plurals."
+    },
+    {
+      "chinese": "这几个汉字很难。",
+      "pinyin": "Zhè jǐ ge Hànzì hěn nán.",
+      "english_hint": "These few characters are difficult.",
+      "scenario": "Point out a small group of difficult characters.",
+      "focus": [
+        "这几个+ noun"
+      ],
+      "priority": 4,
+      "source_note": "Teacher supplied 这几个汉字 as a replacement for 汉字们."
+    },
+    {
+      "chinese": "一张机票要一千二百美元。",
+      "pinyin": "Yì zhāng jīpiào yào yì qiān èr bǎi měiyuán.",
+      "english_hint": "One ticket costs twelve hundred dollars.",
+      "scenario": "Tell your family the May ticket price discussed in class.",
+      "focus": [
+        "一张+ticket",
+        "price with 要"
+      ],
+      "priority": 5,
+      "source_note": "Repeated 一个机票 was corrected to 一张机票; learner clarified the price as twelve hundred dollars."
+    },
+    {
+      "chinese": "我决定先待在家里。",
+      "pinyin": "Wǒ juédìng xiān dāi zài jiālǐ.",
+      "english_hint": "I've decided to stay home for now.",
+      "scenario": "Explain your immediate travel decision.",
+      "focus": [
+        "决定+verb phrase",
+        "先",
+        "待在+place"
+      ],
+      "priority": 5,
+      "source_note": "Learner repeatedly struggled to produce the corrected chunk 决定先待在家里."
+    },
+    {
+      "chinese": "我的决定是八月再去中国旅游。",
+      "pinyin": "Wǒ de juédìng shì bā yuè zài qù Zhōngguó lǚyóu.",
+      "english_hint": "My decision is to wait until August to visit China.",
+      "scenario": "State when you have decided to travel.",
+      "focus": [
+        "我的决定是",
+        "time before verb",
+        "再+verb"
+      ],
+      "priority": 4,
+      "source_note": "Explicit noun-form correction; learner confused 再 with 在 while restating the August plan."
+    },
+    {
+      "chinese": "我比较喜欢喝咖啡。",
+      "pinyin": "Wǒ bǐjiào xǐhuan hē kāfēi.",
+      "english_hint": "I prefer drinking coffee.",
+      "scenario": "Answer when someone offers coffee or tea.",
+      "focus": [
+        "比较喜欢+verb"
+      ],
+      "priority": 4,
+      "source_note": "Learner's coffee preference was corrected from 比较有咖啡 to 比较喜欢喝咖啡."
+    },
+    {
+      "chinese": "开会以前必须把文件准备好。",
+      "pinyin": "Kāihuì yǐqián bìxū bǎ wénjiàn zhǔnbèi hǎo.",
+      "english_hint": "The documents must be ready before the meeting.",
+      "scenario": "State what must be done before a work meeting.",
+      "focus": [
+        "开会以前",
+        "必须",
+        "把+object+准备好"
+      ],
+      "priority": 5,
+      "source_note": "Core lesson drill combined 必须 with 把文件准备好; learner repeatedly needed help producing it."
+    },
+    {
+      "chinese": "客户要把预算减百分之十。",
+      "pinyin": "Kèhù yào bǎ yùsuàn jiǎn bǎi fēn zhī shí.",
+      "english_hint": "The client wants to cut the budget by ten percent.",
+      "scenario": "Relay the client's request in the lesson's work exercise.",
+      "focus": [
+        "把+object+减百分之"
+      ],
+      "priority": 4,
+      "source_note": "Successfully practiced the lesson's specific 把预算减百分之十 pattern."
+    },
+    {
+      "chinese": "我的旅游预算必须减少。",
+      "pinyin": "Wǒ de lǚyóu yùsuàn bìxū jiǎnshǎo.",
+      "english_hint": "My travel budget has to decrease.",
+      "scenario": "Explain a constraint on your travel plans.",
+      "focus": [
+        "必须+verb",
+        "旅游预算"
+      ],
+      "priority": 5,
+      "source_note": "Personal travel-budget context; learner repeatedly misplaced 把 while producing 必须减少."
+    },
+    {
+      "chinese": "我周末不需要加班。",
+      "pinyin": "Wǒ zhōumò bù xūyào jiābān.",
+      "english_hint": "I don't need to work overtime on weekends.",
+      "scenario": "Explain your weekend availability.",
+      "focus": [
+        "不需要+verb",
+        "time before verb",
+        "周末 fourth tone"
+      ],
+      "priority": 4,
+      "source_note": "Learner confirmed no weekend overtime; corrected 不需 to 不需要 and practiced fourth-tone 末."
+    }
+  ],
+  "generated_at": "2026-10-02T05:18:57+00:00",
+  "generator": "codex-cli"
+}

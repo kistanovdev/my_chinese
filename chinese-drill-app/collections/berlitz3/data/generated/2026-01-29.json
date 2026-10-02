@@ -1,0 +1,168 @@
+{
+  "lesson": "2026-01-29",
+  "sentences": [
+    {
+      "chinese": "我是软件工程师。",
+      "pinyin": "Wǒ shì ruǎnjiàn gōngchéngshī.",
+      "english_hint": "I'm a software engineer.",
+      "scenario": "Tell a new colleague your job title.",
+      "focus": [
+        "是 + job title"
+      ],
+      "priority": 5,
+      "source_note": "Correct job title used successfully; contrasts with repeated confusion between 是 and 做."
+    },
+    {
+      "chinese": "我是做软件工程的。",
+      "pinyin": "Wǒ shì zuò ruǎnjiàn gōngchéng de.",
+      "english_hint": "I work in software engineering.",
+      "scenario": "Explain what kind of work you do.",
+      "focus": [
+        "是做……的"
+      ],
+      "priority": 5,
+      "source_note": "Repeatedly omitted the final 的 when describing software engineering work."
+    },
+    {
+      "chinese": "我在苹果公司工作。",
+      "pinyin": "Wǒ zài Píngguǒ gōngsī gōngzuò.",
+      "english_hint": "I work at Apple.",
+      "scenario": "Say which company you work for.",
+      "focus": [
+        "在 + workplace + 工作"
+      ],
+      "priority": 5,
+      "source_note": "Successful personal answer reinforces the workplace-before-verb correction."
+    },
+    {
+      "chinese": "我在苹果公司工作四年了。",
+      "pinyin": "Wǒ zài Píngguǒ gōngsī gōngzuò sì nián le.",
+      "english_hint": "I've worked at Apple for four years.",
+      "scenario": "Answer how long you've worked at Apple.",
+      "focus": [
+        "verb + duration + 了"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 四年工作 word order; four years was stated in the lesson."
+    },
+    {
+      "chinese": "我在美国住了十二年了。",
+      "pinyin": "Wǒ zài Měiguó zhù le shí'èr nián le.",
+      "english_hint": "I've lived in the US for twelve years.",
+      "scenario": "Explain how long you've lived in the US.",
+      "focus": [
+        "在 + place + verb",
+        "verb + 了 + duration + 了"
+      ],
+      "priority": 5,
+      "source_note": "Analysis corrects the learner's residence-duration sentence and preserves twelve years."
+    },
+    {
+      "chinese": "我的阅读能力比口语好。",
+      "pinyin": "Wǒ de yuèdú nénglì bǐ kǒuyǔ hǎo.",
+      "english_hint": "My reading is better than my speaking.",
+      "scenario": "Explain your strengths when studying Chinese.",
+      "focus": [
+        "A比B好"
+      ],
+      "priority": 5,
+      "source_note": "Analysis supplies this comparison drill for the learner's stronger reading and recurring comparison difficulty."
+    },
+    {
+      "chinese": "现在我说英语比说俄语多得多。",
+      "pinyin": "Xiànzài wǒ shuō Yīngyǔ bǐ shuō Éyǔ duō de duō.",
+      "english_hint": "Now I speak English much more often than Russian.",
+      "scenario": "Describe which language you use more often.",
+      "focus": [
+        "比……多得多",
+        "frequency versus ability"
+      ],
+      "priority": 5,
+      "source_note": "Preserves the learner's explicit clarification about frequency rather than language ability."
+    },
+    {
+      "chinese": "我英语说得很好。",
+      "pinyin": "Wǒ Yīngyǔ shuō de hěn hǎo.",
+      "english_hint": "I speak English very well.",
+      "scenario": "Describe your English speaking ability.",
+      "focus": [
+        "verb + 得 + description"
+      ],
+      "priority": 4,
+      "source_note": "Analysis corrects 英文说很好 by supplying the subject and 得 complement."
+    },
+    {
+      "chinese": "我给你介绍一个新同事。",
+      "pinyin": "Wǒ gěi nǐ jièshào yí ge xīn tóngshì.",
+      "english_hint": "Let me introduce a new colleague to you.",
+      "scenario": "Introduce a new colleague at work.",
+      "focus": [
+        "给 + person + 介绍",
+        "一个新同事"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated use of 跟 instead of 给 in introductions."
+    },
+    {
+      "chinese": "我把其他同事介绍给你。",
+      "pinyin": "Wǒ bǎ qítā tóngshì jièshào gěi nǐ.",
+      "english_hint": "I'll introduce the other colleagues to you.",
+      "scenario": "Help someone meet the rest of the team.",
+      "focus": [
+        "把……介绍给……"
+      ],
+      "priority": 5,
+      "source_note": "Corrects mixed 跟给 wording; the learner later produced this complete pattern successfully."
+    },
+    {
+      "chinese": "我认识五百个汉字。",
+      "pinyin": "Wǒ rènshi wǔbǎi ge Hànzì.",
+      "english_hint": "I recognize five hundred Chinese characters.",
+      "scenario": "Describe how many Chinese characters you recognize.",
+      "focus": [
+        "认识 + characters",
+        "number + 个 + 汉字"
+      ],
+      "priority": 4,
+      "source_note": "Analysis distinguishes character recognition from reading ability; learner self-corrected 五百个汉字."
+    },
+    {
+      "chinese": "这句话我看得懂。",
+      "pinyin": "Zhè jù huà wǒ kàn de dǒng.",
+      "english_hint": "I can understand this written sentence.",
+      "scenario": "Confirm that you understand a sentence on the screen.",
+      "focus": [
+        "看得懂",
+        "topic before subject"
+      ],
+      "priority": 4,
+      "source_note": "Analysis supplies this pattern to separate written understanding from knowing how to read characters aloud."
+    },
+    {
+      "chinese": "这段录音我大概能听懂百分之六十。",
+      "pinyin": "Zhè duàn lùyīn wǒ dàgài néng tīngdǒng bǎifēnzhī liùshí.",
+      "english_hint": "I can understand about sixty percent of this recording.",
+      "scenario": "Report how much of the lesson recording you understood.",
+      "focus": [
+        "能听懂",
+        "百分之六十"
+      ],
+      "priority": 5,
+      "source_note": "Analysis drill preserves the reported listening estimate; 六十 became 十六 twice."
+    },
+    {
+      "chinese": "最近我学了很多中文。",
+      "pinyin": "Zuìjìn wǒ xué le hěn duō Zhōngwén.",
+      "english_hint": "I've learned a lot of Chinese recently.",
+      "scenario": "Tell your teacher about your recent progress.",
+      "focus": [
+        "最近 + subject + verb",
+        "学了很多……"
+      ],
+      "priority": 4,
+      "source_note": "Corrected recent-learning sentence was later retrieved successfully during review."
+    }
+  ],
+  "generated_at": "2026-10-02T04:53:40+00:00",
+  "generator": "codex-cli"
+}

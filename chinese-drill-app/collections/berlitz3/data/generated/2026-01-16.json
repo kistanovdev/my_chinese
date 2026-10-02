@@ -1,0 +1,169 @@
+{
+  "lesson": "2026-01-16",
+  "sentences": [
+    {
+      "chinese": "我会说西班牙语。",
+      "pinyin": "Wǒ huì shuō Xībānyáyǔ.",
+      "english_hint": "I can speak Spanish.",
+      "scenario": "Tell someone which language you speak.",
+      "focus": [
+        "会 + skill"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 可以说 when describing Spanish-speaking ability."
+    },
+    {
+      "chinese": "这里可以下棋吗？",
+      "pinyin": "Zhèlǐ kěyǐ xià qí ma?",
+      "english_hint": "Can we play chess here?",
+      "scenario": "Ask whether playing chess is allowed here.",
+      "focus": [
+        "可以 + permission",
+        "下棋"
+      ],
+      "priority": 5,
+      "source_note": "Analysis contrasts permission with 会 for skills; chess is a daily hobby."
+    },
+    {
+      "chinese": "太贵了，我买不起。",
+      "pinyin": "Tài guì le, wǒ mǎi bu qǐ.",
+      "english_hint": "It's too expensive. I can't afford it.",
+      "scenario": "Explain why an expensive purchase is out of reach.",
+      "focus": [
+        "买不起",
+        "太 + adjective + 了"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 不可以买 and 不会买 when cost prevents buying."
+    },
+    {
+      "chinese": "这个舞不难。",
+      "pinyin": "Zhège wǔ bù nán.",
+      "english_hint": "This dance isn't difficult.",
+      "scenario": "Reassure a friend about learning a dance.",
+      "focus": [
+        "不 + adjective"
+      ],
+      "priority": 5,
+      "source_note": "Dance discussion included the recurring error 不是难."
+    },
+    {
+      "chinese": "这块手表比那块便宜。",
+      "pinyin": "Zhè kuài shǒubiǎo bǐ nà kuài piányi.",
+      "english_hint": "This watch is cheaper than that one.",
+      "scenario": "Compare two watches while shopping.",
+      "focus": [
+        "A 比 B + adjective",
+        "块 + 手表"
+      ],
+      "priority": 5,
+      "source_note": "Repeated watch comparison 比 Rolex 不贵 is corrected with 比……便宜."
+    },
+    {
+      "chinese": "我每天都在网上下棋。",
+      "pinyin": "Wǒ měitiān dōu zài wǎngshàng xià qí.",
+      "english_hint": "I play chess online every day.",
+      "scenario": "Describe your daily chess habit.",
+      "focus": [
+        "time + 都 + 在 + place + verb",
+        "下棋"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 做下棋 and organizes the learner's daily online chess routine."
+    },
+    {
+      "chinese": "我喜欢跟朋友一起爬山。",
+      "pinyin": "Wǒ xǐhuan gēn péngyou yìqǐ pá shān.",
+      "english_hint": "I like hiking with friends.",
+      "scenario": "Explain when you enjoy hiking.",
+      "focus": [
+        "跟 + person + 一起 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects placing 跟朋友 after 爬山."
+    },
+    {
+      "chinese": "除了下棋，我还喜欢学中文。",
+      "pinyin": "Chúle xià qí, wǒ hái xǐhuan xué Zhōngwén.",
+      "english_hint": "Besides chess, I also like studying Chinese.",
+      "scenario": "Name another hobby after mentioning chess.",
+      "focus": [
+        "除了……还……"
+      ],
+      "priority": 4,
+      "source_note": "Main lesson pattern combines the learner's established chess and Chinese-study interests."
+    },
+    {
+      "chinese": "除了电脑，房间里还有书。",
+      "pinyin": "Chúle diànnǎo, fángjiān lǐ hái yǒu shū.",
+      "english_hint": "Besides a computer, the room also has books.",
+      "scenario": "Describe what else is in your study.",
+      "focus": [
+        "除了……还有……",
+        "place + 有"
+      ],
+      "priority": 4,
+      "source_note": "Turns the learner's correct 除了 question and answer about books into a full statement."
+    },
+    {
+      "chinese": "我在这里住了一年了。",
+      "pinyin": "Wǒ zài zhèlǐ zhù le yì nián le.",
+      "english_hint": "I've lived here for a year.",
+      "scenario": "Say how long you have lived in your current home.",
+      "focus": [
+        "在 + place + 住",
+        "duration + 了"
+      ],
+      "priority": 4,
+      "source_note": "Learner reported one year in the current home; analysis supplies the ongoing-duration structure."
+    },
+    {
+      "chinese": "我去过拉斯维加斯。",
+      "pinyin": "Wǒ qù guo Lāsīwéijiāsī.",
+      "english_hint": "I've been to Las Vegas.",
+      "scenario": "Mention a city you have visited.",
+      "focus": [
+        "verb + 过"
+      ],
+      "priority": 3,
+      "source_note": "Reinforces the learner's successful spontaneous 去过 usage."
+    },
+    {
+      "chinese": "这个网站是免费的。",
+      "pinyin": "Zhège wǎngzhàn shì miǎnfèi de.",
+      "english_hint": "This website is free.",
+      "scenario": "Explain that a chess website costs nothing.",
+      "focus": [
+        "是……的",
+        "免费"
+      ],
+      "priority": 4,
+      "source_note": "Corrects 没有钱 when the intended meaning was that the chess website is free."
+    },
+    {
+      "chinese": "我没听懂，请再说一遍。",
+      "pinyin": "Wǒ méi tīng dǒng, qǐng zài shuō yí biàn.",
+      "english_hint": "I didn't understand. Please say it again.",
+      "scenario": "Keep a conversation going after missing the meaning.",
+      "focus": [
+        "没 + verb + result complement",
+        "再 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Analysis replaces 不听 after a failed listening attempt with 没听懂 and a repeat request."
+    },
+    {
+      "chinese": "这个词用中文怎么说？",
+      "pinyin": "Zhège cí yòng Zhōngwén zěnme shuō?",
+      "english_hint": "How do you say this word in Chinese?",
+      "scenario": "Ask for a missing Chinese word during conversation.",
+      "focus": [
+        "用 + language + 怎么说"
+      ],
+      "priority": 4,
+      "source_note": "Repeated vocabulary gaps prompted requests for Chinese words throughout the lesson."
+    }
+  ],
+  "generated_at": "2026-10-02T04:50:51+00:00",
+  "generator": "codex-cli"
+}

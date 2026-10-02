@@ -1,0 +1,171 @@
+{
+  "lesson": "2026-01-14",
+  "sentences": [
+    {
+      "chinese": "你在哪个国家？",
+      "pinyin": "Nǐ zài nǎ ge guójiā?",
+      "english_hint": "Which country are you in?",
+      "scenario": "Ask where an online conversation partner is.",
+      "focus": [
+        "在哪个＋地点"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated difficulty ordering the country-location question."
+    },
+    {
+      "chinese": "我在美国十二年了。",
+      "pinyin": "Wǒ zài Měiguó shí'èr nián le.",
+      "english_hint": "I've been in the US for twelve years.",
+      "scenario": "Tell someone how long you have lived in the US.",
+      "focus": [
+        "duration＋了"
+      ],
+      "priority": 5,
+      "source_note": "Corrected duration statement; subsequently produced successfully."
+    },
+    {
+      "chinese": "你学中文多长时间了？",
+      "pinyin": "Nǐ xué Zhōngwén duō cháng shíjiān le?",
+      "english_hint": "How long have you been studying Chinese?",
+      "scenario": "Ask another learner about their study history.",
+      "focus": [
+        "多长时间了"
+      ],
+      "priority": 5,
+      "source_note": "Reuses the duration question practiced for residence and Chinese study."
+    },
+    {
+      "chinese": "我听说瑞士很贵。",
+      "pinyin": "Wǒ tīngshuō Ruìshì hěn guì.",
+      "english_hint": "I've heard Switzerland is expensive.",
+      "scenario": "Discuss what you have heard about a travel destination.",
+      "focus": [
+        "听说＋statement"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated use of 听 or 听了 for reporting information."
+    },
+    {
+      "chinese": "我觉得你会喜欢这个视频。",
+      "pinyin": "Wǒ juéde nǐ huì xǐhuan zhè ge shìpín.",
+      "english_hint": "I think you'll like this video.",
+      "scenario": "Recommend a video to your Chinese teacher.",
+      "focus": [
+        "觉得＋statement",
+        "会 for prediction"
+      ],
+      "priority": 4,
+      "source_note": "Analysis corrects the learner's prediction about a shared video."
+    },
+    {
+      "chinese": "你工作还是学习？",
+      "pinyin": "Nǐ gōngzuò háishi xuéxí?",
+      "english_hint": "Do you work or study?",
+      "scenario": "Ask a new acquaintance what they do.",
+      "focus": [
+        "还是 in alternative questions"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the attempted alternative question; later repeated successfully."
+    },
+    {
+      "chinese": "我去过法国和西班牙。",
+      "pinyin": "Wǒ qù guo Fǎguó hé Xībānyá.",
+      "english_hint": "I've been to France and Spain.",
+      "scenario": "Tell someone which European countries you have visited.",
+      "focus": [
+        "去过＋place",
+        "和 between nouns"
+      ],
+      "priority": 4,
+      "source_note": "Successful learner statement about personal travel experience."
+    },
+    {
+      "chinese": "你来过美国吗？",
+      "pinyin": "Nǐ lái guo Měiguó ma?",
+      "english_hint": "Have you been to the US?",
+      "scenario": "From the US, ask an overseas friend about past visits.",
+      "focus": [
+        "来过＋place＋吗",
+        "来 versus 去"
+      ],
+      "priority": 5,
+      "source_note": "Analysis clarifies direction from the learner's US location and adds explicit 吗."
+    },
+    {
+      "chinese": "我看得懂汉字。",
+      "pinyin": "Wǒ kàn de dǒng Hànzì.",
+      "english_hint": "I can understand Chinese characters.",
+      "scenario": "Explain that you can read characters during class.",
+      "focus": [
+        "看得懂"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我可以看; the learner practiced the corrected chunk repeatedly."
+    },
+    {
+      "chinese": "对我来说，说中文很难。",
+      "pinyin": "Duì wǒ lái shuō, shuō Zhōngwén hěn nán.",
+      "english_hint": "Speaking Chinese is hard for me.",
+      "scenario": "Explain your speaking difficulty to a teacher.",
+      "focus": [
+        "对……来说",
+        "verb phrase as subject"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated attempts to express someone's perspective with 给 or 跟."
+    },
+    {
+      "chinese": "我想学第二册的每一课。",
+      "pinyin": "Wǒ xiǎng xué dì èr cè de měi yí kè.",
+      "english_hint": "I want to study every lesson in book two.",
+      "scenario": "Tell your teacher which textbook lessons you want to cover.",
+      "focus": [
+        "学＋课",
+        "每一＋classifier"
+      ],
+      "priority": 4,
+      "source_note": "Corrects 做每个课 and preserves the learner's stated textbook goal."
+    },
+    {
+      "chinese": "我在课上问很多问题。",
+      "pinyin": "Wǒ zài kè shang wèn hěn duō wèntí.",
+      "english_hint": "I ask lots of questions in class.",
+      "scenario": "Describe how you participate in Chinese lessons.",
+      "focus": [
+        "在课上",
+        "问问题"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 做很多请问; 请问 is not the noun for question."
+    },
+    {
+      "chinese": "如果只有一个小时，就先练习听力。",
+      "pinyin": "Rúguǒ zhǐ yǒu yí ge xiǎoshí, jiù xiān liànxí tīnglì.",
+      "english_hint": "If there's only an hour, practice listening first.",
+      "scenario": "Suggest a study priority for a hypothetical busy day.",
+      "focus": [
+        "如果……就……",
+        "只有",
+        "练习听力"
+      ],
+      "priority": 5,
+      "source_note": "Analysis condenses the hypothetical limited-time discussion and corrects 用听."
+    },
+    {
+      "chinese": "下课以后，你可以把笔记发给我吗？",
+      "pinyin": "Xià kè yǐhòu, nǐ kěyǐ bǎ bǐjì fā gěi wǒ ma?",
+      "english_hint": "Could you send me the notes after class?",
+      "scenario": "Ask your teacher to send the lesson notes.",
+      "focus": [
+        "下课以后",
+        "把＋object＋发给",
+        "可以……吗"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated 中文课下 and supplies the practical request authorized by the analysis."
+    }
+  ],
+  "generated_at": "2026-10-02T04:49:51+00:00",
+  "generator": "codex-cli"
+}

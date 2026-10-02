@@ -1,0 +1,173 @@
+{
+  "lesson": "2026-03-06",
+  "sentences": [
+    {
+      "chinese": "我要订一个房间。",
+      "pinyin": "Wǒ yào dìng yí ge fángjiān.",
+      "english_hint": "I want to book a room.",
+      "scenario": "Tell a hotel you want to make a booking.",
+      "focus": [
+        "订 + 房间",
+        "specific transaction verbs"
+      ],
+      "priority": 5,
+      "source_note": "Repeated 买酒店 errors; the analysis recommends 订酒店 or 订房间."
+    },
+    {
+      "chinese": "我跟女儿一起去旅游。",
+      "pinyin": "Wǒ gēn nǚ'ér yìqǐ qù lǚyóu.",
+      "english_hint": "I travel with my daughter.",
+      "scenario": "Say who you travel with.",
+      "focus": [
+        "跟 + person + 一起 + activity"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated placement of 跟我的女儿 after 旅游."
+    },
+    {
+      "chinese": "比起坐飞机，我更喜欢坐高铁。",
+      "pinyin": "Bǐqǐ zuò fēijī, wǒ gèng xǐhuan zuò gāotiě.",
+      "english_hint": "I prefer high-speed trains to flying.",
+      "scenario": "Compare your preferred ways to travel.",
+      "focus": [
+        "比起……更喜欢……"
+      ],
+      "priority": 5,
+      "source_note": "The learner's comparison of high-speed trains and flying was unfinished; this is the analysis correction."
+    },
+    {
+      "chinese": "我想从北京坐高铁到上海。",
+      "pinyin": "Wǒ xiǎng cóng Běijīng zuò gāotiě dào Shànghǎi.",
+      "english_hint": "I want to take a high-speed train from Beijing to Shanghai.",
+      "scenario": "Describe the train route you want to take.",
+      "focus": [
+        "从……到……",
+        "transport word order"
+      ],
+      "priority": 5,
+      "source_note": "The learner expressed this travel wish; the analysis supplies smoother route word order."
+    },
+    {
+      "chinese": "以前机场很小。",
+      "pinyin": "Yǐqián jīchǎng hěn xiǎo.",
+      "english_hint": "The airport used to be small.",
+      "scenario": "Describe the old airport before it changed.",
+      "focus": [
+        "以前 + past situation"
+      ],
+      "priority": 5,
+      "source_note": "The learner repeatedly used 以后 when describing the old airport."
+    },
+    {
+      "chinese": "第一天先去酒店休息。",
+      "pinyin": "Dì yī tiān xiān qù jiǔdiàn xiūxi.",
+      "english_hint": "On the first day, go to the hotel to rest first.",
+      "scenario": "Explain the first step in your travel routine.",
+      "focus": [
+        "第一天",
+        "先 + activity",
+        "休息"
+      ],
+      "priority": 5,
+      "source_note": "The learner described resting at the hotel after arrival and struggled to retrieve 休息."
+    },
+    {
+      "chinese": "第二天再出去玩。",
+      "pinyin": "Dì èr tiān zài chūqù wán.",
+      "english_hint": "Go out for fun the next day.",
+      "scenario": "Explain what happens the day after arrival.",
+      "focus": [
+        "第二天",
+        "再 + next activity"
+      ],
+      "priority": 5,
+      "source_note": "The analysis corrects 明天 to 第二天 for the next day in an itinerary."
+    },
+    {
+      "chinese": "我们住三天。",
+      "pinyin": "Wǒmen zhù sān tiān.",
+      "english_hint": "We're staying for three days.",
+      "scenario": "Tell a hotel how long your stay will be.",
+      "focus": [
+        "number + 天",
+        "verb + duration"
+      ],
+      "priority": 5,
+      "source_note": "The learner repeatedly said 两个天 and 三个天; the analysis gives this short practice sentence."
+    },
+    {
+      "chinese": "五个人一共三千美元。",
+      "pinyin": "Wǔ ge rén yígòng sān qiān měiyuán.",
+      "english_hint": "It's three thousand dollars for all five people.",
+      "scenario": "Clarify the total ticket price for your family.",
+      "focus": [
+        "一共 + total",
+        "total versus per person"
+      ],
+      "priority": 5,
+      "source_note": "The learner clarified that three thousand dollars was the total for five people."
+    },
+    {
+      "chinese": "对我来说，太贵了。",
+      "pinyin": "Duì wǒ lái shuō, tài guì le.",
+      "english_hint": "It's too expensive for me.",
+      "scenario": "Explain why a travel cost does not suit your budget.",
+      "focus": [
+        "对我来说",
+        "太……了"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated use of 跟我 to mean 'for me,' including the credit-card discussion."
+    },
+    {
+      "chinese": "这要看航空公司。",
+      "pinyin": "Zhè yào kàn hángkōng gōngsī.",
+      "english_hint": "That depends on the airline.",
+      "scenario": "Answer a question about baggage allowance.",
+      "focus": [
+        "要看……"
+      ],
+      "priority": 5,
+      "source_note": "The analysis replaces the misleading 是否 transcription with 看 for 'depends.'"
+    },
+    {
+      "chinese": "我不会用中文说。",
+      "pinyin": "Wǒ bú huì yòng Zhōngwén shuō.",
+      "english_hint": "I can't say it in Chinese.",
+      "scenario": "Ask for help expressing an idea during your lesson.",
+      "focus": [
+        "不会 + skill",
+        "用 + language + 说"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我不可以说……以中文的; difficulty expressing words recurred throughout the lesson."
+    },
+    {
+      "chinese": "我没在美国以外的地方开过车。",
+      "pinyin": "Wǒ méi zài Měiguó yǐwài de dìfang kāi guo chē.",
+      "english_hint": "I've never driven outside the United States.",
+      "scenario": "Explain your driving experience when planning a trip.",
+      "focus": [
+        "没……过",
+        "在 + location + verb",
+        "以外"
+      ],
+      "priority": 5,
+      "source_note": "The learner explicitly said they had not driven outside the United States; this is the analysis correction."
+    },
+    {
+      "chinese": "票已经卖完了。",
+      "pinyin": "Piào yǐjīng mài wán le.",
+      "english_hint": "The tickets are already sold out.",
+      "scenario": "Explain why you cannot book the tickets.",
+      "focus": [
+        "已经……了",
+        "verb + 完"
+      ],
+      "priority": 4,
+      "source_note": "The lesson taught 卖完了 for unavailable tickets; the analysis highlights 完 as completion."
+    }
+  ],
+  "generated_at": "2026-10-02T05:02:28+00:00",
+  "generator": "codex-cli"
+}

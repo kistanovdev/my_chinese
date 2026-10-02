@@ -1,0 +1,171 @@
+{
+  "lesson": "2026-03-04",
+  "sentences": [
+    {
+      "chinese": "我坐经济舱。",
+      "pinyin": "Wǒ zuò jīngjìcāng.",
+      "english_hint": "I fly economy.",
+      "scenario": "Say which cabin you fly in.",
+      "focus": [
+        "坐＋cabin class"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's incomplete sentence about flying economy."
+    },
+    {
+      "chinese": "我还没坐过商务舱。",
+      "pinyin": "Wǒ hái méi zuò guo shāngwùcāng.",
+      "english_hint": "I haven't flown business class yet.",
+      "scenario": "Discuss your flying experience.",
+      "focus": [
+        "还没＋verb＋过",
+        "坐＋cabin class"
+      ],
+      "priority": 5,
+      "source_note": "The analysis replaces 去 with 坐 and adds the experience marker 过."
+    },
+    {
+      "chinese": "我们订了一家酒店。",
+      "pinyin": "Wǒmen dìng le yì jiā jiǔdiàn.",
+      "english_hint": "We booked a hotel.",
+      "scenario": "Tell someone your hotel booking is made.",
+      "focus": [
+        "订酒店",
+        "一家＋酒店"
+      ],
+      "priority": 5,
+      "source_note": "Repeated 买酒店 is corrected to 订酒店 in the Japan travel story."
+    },
+    {
+      "chinese": "我住过五星级酒店。",
+      "pinyin": "Wǒ zhù guo wǔxīngjí jiǔdiàn.",
+      "english_hint": "I've stayed in a five-star hotel.",
+      "scenario": "Describe a past hotel experience.",
+      "focus": [
+        "住酒店",
+        "verb＋过"
+      ],
+      "priority": 5,
+      "source_note": "The analysis distinguishes staying in a hotel from booking or buying it."
+    },
+    {
+      "chinese": "他们早上打扫房间。",
+      "pinyin": "Tāmen zǎoshang dǎsǎo fángjiān.",
+      "english_hint": "They clean the room in the morning.",
+      "scenario": "Describe a hotel cleaning schedule.",
+      "focus": [
+        "subject＋time＋verb"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of placing 在早上 after 打扫; used as schedule practice."
+    },
+    {
+      "chinese": "你想几点睡觉？",
+      "pinyin": "Nǐ xiǎng jǐ diǎn shuìjiào?",
+      "english_hint": "What time do you want to go to bed?",
+      "scenario": "Ask a family member about bedtime.",
+      "focus": [
+        "几点＋verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's 睡觉几点 word order."
+    },
+    {
+      "chinese": "我们可以休息五分钟吗？",
+      "pinyin": "Wǒmen kěyǐ xiūxi wǔ fēnzhōng ma?",
+      "english_hint": "Can we take a five-minute break?",
+      "scenario": "Ask for a short break during Chinese study.",
+      "focus": [
+        "verb＋duration",
+        "可以……吗"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's actual request using 做休息."
+    },
+    {
+      "chinese": "酒店已经订好了。",
+      "pinyin": "Jiǔdiàn yǐjīng dìng hǎo le.",
+      "english_hint": "The hotel is already booked.",
+      "scenario": "Confirm that travel arrangements are ready.",
+      "focus": [
+        "verb＋好",
+        "已经……了"
+      ],
+      "priority": 4,
+      "source_note": "The reading and analysis use 订好 for a successfully completed booking."
+    },
+    {
+      "chinese": "经济舱的票卖完了。",
+      "pinyin": "Jīngjìcāng de piào mài wán le.",
+      "english_hint": "Economy tickets are sold out.",
+      "scenario": "Explain why an economy ticket is unavailable.",
+      "focus": [
+        "verb＋完"
+      ],
+      "priority": 4,
+      "source_note": "The analysis clarifies 卖完 and the learner's confusion between 完 and 玩."
+    },
+    {
+      "chinese": "从北京到上海坐高铁要多长时间？",
+      "pinyin": "Cóng Běijīng dào Shànghǎi zuò gāotiě yào duō cháng shíjiān?",
+      "english_hint": "How long is the high-speed train ride from Beijing to Shanghai?",
+      "scenario": "Ask about the route you want to take in China.",
+      "focus": [
+        "从……到……",
+        "transport＋要＋duration"
+      ],
+      "priority": 4,
+      "source_note": "Uses the learner's planned Beijing–Shanghai route and the analysis's travel-time question."
+    },
+    {
+      "chinese": "我有一件行李。",
+      "pinyin": "Wǒ yǒu yí jiàn xíngli.",
+      "english_hint": "I have one piece of luggage.",
+      "scenario": "Tell check-in staff how much luggage you have.",
+      "focus": [
+        "一件＋行李"
+      ],
+      "priority": 5,
+      "source_note": "Corrects the learner's use of 个 for a piece of luggage; practice quantity."
+    },
+    {
+      "chinese": "托运要另外付钱吗？",
+      "pinyin": "Tuōyùn yào lìngwài fù qián ma?",
+      "english_hint": "Does checking baggage cost extra?",
+      "scenario": "Check baggage fees before booking a flight.",
+      "focus": [
+        "付钱",
+        "要另外＋verb"
+      ],
+      "priority": 5,
+      "source_note": "Addresses repeated 买托运 and the learner's discussion of extra baggage fees."
+    },
+    {
+      "chinese": "我想坐靠窗的座位，可以吗？",
+      "pinyin": "Wǒ xiǎng zuò kào chuāng de zuòwèi, kěyǐ ma?",
+      "english_hint": "Could I have a window seat?",
+      "scenario": "Request a window seat at check-in.",
+      "focus": [
+        "坐＋座位",
+        "靠窗",
+        "request＋可以吗"
+      ],
+      "priority": 5,
+      "source_note": "Practises the analysis's request after the learner confused window and aisle."
+    },
+    {
+      "chinese": "我不知道这个用中文怎么说。",
+      "pinyin": "Wǒ bù zhīdào zhège yòng Zhōngwén zěnme shuō.",
+      "english_hint": "I don't know how to say this in Chinese.",
+      "scenario": "Keep speaking when you cannot recall a word.",
+      "focus": [
+        "用中文怎么说",
+        "不知道＋embedded question"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of 我不知道说这个中文; missing words repeatedly interrupted production."
+    }
+  ],
+  "generated_at": "2026-10-02T05:01:29+00:00",
+  "generator": "codex-cli"
+}

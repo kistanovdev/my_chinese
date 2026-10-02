@@ -1,0 +1,168 @@
+{
+  "lesson": "2026-01-07",
+  "sentences": [
+    {
+      "chinese": "我家离公司很远。",
+      "pinyin": "Wǒ jiā lí gōngsī hěn yuǎn.",
+      "english_hint": "My home is far from work.",
+      "scenario": "Explain why your commute is long.",
+      "focus": [
+        "A离B很远"
+      ],
+      "priority": 5,
+      "source_note": "Repeated hesitation with 离; learner described a two-hour drive to work."
+    },
+    {
+      "chinese": "公园离我家很近。",
+      "pinyin": "Gōngyuán lí wǒ jiā hěn jìn.",
+      "english_hint": "The park is near my home.",
+      "scenario": "Describe the park near your home.",
+      "focus": [
+        "A离B很近"
+      ],
+      "priority": 5,
+      "source_note": "Learner described a nearby park; reinforces the core 离 pattern."
+    },
+    {
+      "chinese": "请问附近有地铁站吗？",
+      "pinyin": "Qǐngwèn fùjìn yǒu dìtiězhàn ma?",
+      "english_hint": "Is there a subway station nearby?",
+      "scenario": "Ask a passerby about nearby transit.",
+      "focus": [
+        "请问",
+        "附近有……吗"
+      ],
+      "priority": 5,
+      "source_note": "Core lesson question; learner understood it but needs automatic production."
+    },
+    {
+      "chinese": "一直走到前面路口左拐。",
+      "pinyin": "Yìzhí zǒu dào qiánmiàn lùkǒu zuǒ guǎi.",
+      "english_hint": "Go straight and turn left at the intersection ahead.",
+      "scenario": "Give directions to the next intersection.",
+      "focus": [
+        "一直走到……",
+        "路口左拐"
+      ],
+      "priority": 5,
+      "source_note": "Analysis explicitly recommends this route chunk; learner struggled with the sequence."
+    },
+    {
+      "chinese": "右拐就到了。",
+      "pinyin": "Yòu guǎi jiù dào le.",
+      "english_hint": "Turn right and you're there.",
+      "scenario": "Give the final step of a route.",
+      "focus": [
+        "右拐",
+        "就到了"
+      ],
+      "priority": 5,
+      "source_note": "Repeated route pattern; learner successfully repeated 右拐就到了."
+    },
+    {
+      "chinese": "经过公园就到了。",
+      "pinyin": "Jīngguò gōngyuán jiù dào le.",
+      "english_hint": "Go past the park and you're there.",
+      "scenario": "Use a park as a landmark when giving directions.",
+      "focus": [
+        "经过……就到了"
+      ],
+      "priority": 5,
+      "source_note": "Analysis targets 经过……就到了; park was used to explain the route."
+    },
+    {
+      "chinese": "博物馆在和平饭店对面。",
+      "pinyin": "Bówùguǎn zài Hépíng Fàndiàn duìmiàn.",
+      "english_hint": "The museum is opposite the Peace Hotel.",
+      "scenario": "Locate the museum on the lesson map.",
+      "focus": [
+        "在……对面"
+      ],
+      "priority": 4,
+      "source_note": "Analysis supplies this complete location sentence; learner produced the location with hesitation."
+    },
+    {
+      "chinese": "我在家里工作。",
+      "pinyin": "Wǒ zài jiālǐ gōngzuò.",
+      "english_hint": "I work from home.",
+      "scenario": "Tell someone where you work.",
+      "focus": [
+        "在＋地点＋动词"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of 我工作家里; learner currently works from home."
+    },
+    {
+      "chinese": "开车去公司要两个小时。",
+      "pinyin": "Kāichē qù gōngsī yào liǎng ge xiǎoshí.",
+      "english_hint": "Driving to work takes two hours.",
+      "scenario": "Explain how long your drive to work takes.",
+      "focus": [
+        "交通方式＋要＋时长",
+        "两个小时"
+      ],
+      "priority": 5,
+      "source_note": "Learner repeatedly struggled with 两个小时 and described this commute duration."
+    },
+    {
+      "chinese": "我每个月去一次公司。",
+      "pinyin": "Wǒ měi ge yuè qù yí cì gōngsī.",
+      "english_hint": "I go to the office once a month.",
+      "scenario": "Describe your office visit schedule.",
+      "focus": [
+        "每个月",
+        "动词＋一次＋地点"
+      ],
+      "priority": 4,
+      "source_note": "Analysis explicitly recommends this sentence for the learner's monthly office visits."
+    },
+    {
+      "chinese": "我四个月没有说中文。",
+      "pinyin": "Wǒ sì ge yuè méiyǒu shuō Zhōngwén.",
+      "english_hint": "I haven't spoken Chinese for four months.",
+      "scenario": "Explain your speaking gap when resuming lessons.",
+      "focus": [
+        "时长＋没有＋动词"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of 我不说中文四个月."
+    },
+    {
+      "chinese": "我用软件学中文。",
+      "pinyin": "Wǒ yòng ruǎnjiàn xué Zhōngwén.",
+      "english_hint": "I use software to study Chinese.",
+      "scenario": "Describe how you study between lessons.",
+      "focus": [
+        "用……学中文",
+        "学 rather than 做"
+      ],
+      "priority": 5,
+      "source_note": "Generalizes the corrected 用Duolingo和Anki学中文 pattern without English brand names."
+    },
+    {
+      "chinese": "我想去中国旅游。",
+      "pinyin": "Wǒ xiǎng qù Zhōngguó lǚyóu.",
+      "english_hint": "I want to travel to China.",
+      "scenario": "Tell someone about your travel goal.",
+      "focus": [
+        "想去＋地点＋活动"
+      ],
+      "priority": 5,
+      "source_note": "Direct correction of 我想旅游中国; learner repeatedly discussed visiting China."
+    },
+    {
+      "chinese": "我太太两年以后想工作。",
+      "pinyin": "Wǒ tàitai liǎng nián yǐhòu xiǎng gōngzuò.",
+      "english_hint": "My wife wants to work in two years.",
+      "scenario": "Describe your wife's future work plans.",
+      "focus": [
+        "时间＋以后",
+        "想＋动词"
+      ],
+      "priority": 4,
+      "source_note": "Analysis supplies this corrected sentence; learner hesitated over work and 两年以后."
+    }
+  ],
+  "generated_at": "2026-10-02T04:47:41+00:00",
+  "generator": "codex-cli"
+}

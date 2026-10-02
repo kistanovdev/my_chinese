@@ -1,0 +1,171 @@
+{
+  "lesson": "2026-01-09",
+  "sentences": [
+    {
+      "chinese": "我有两个护照。",
+      "pinyin": "Wǒ yǒu liǎng ge hùzhào.",
+      "english_hint": "I have two passports.",
+      "scenario": "Explain how many passports you have.",
+      "focus": [
+        "有 for possession",
+        "两 + measure word"
+      ],
+      "priority": 5,
+      "source_note": "Corrects repeated use of 要 for having two passports."
+    },
+    {
+      "chinese": "我有两个女儿。",
+      "pinyin": "Wǒ yǒu liǎng ge nǚ'ér.",
+      "english_hint": "I have two daughters.",
+      "scenario": "Introduce your family.",
+      "focus": [
+        "有 for possession"
+      ],
+      "priority": 5,
+      "source_note": "Applies the repeated 有 versus 要 correction to the learner's family."
+    },
+    {
+      "chinese": "我会打羽毛球。",
+      "pinyin": "Wǒ huì dǎ yǔmáoqiú.",
+      "english_hint": "I can play badminton.",
+      "scenario": "Tell someone which sport you can play.",
+      "focus": [
+        "会 for learned skills",
+        "打 + sport"
+      ],
+      "priority": 5,
+      "source_note": "Analysis recommends 会 instead of 可以 when describing this learned skill."
+    },
+    {
+      "chinese": "我去过秘鲁。",
+      "pinyin": "Wǒ qù guo Bìlǔ.",
+      "english_hint": "I've been to Peru.",
+      "scenario": "Mention a country you have visited.",
+      "focus": [
+        "去过 for experience"
+      ],
+      "priority": 4,
+      "source_note": "Reinforces the learner's successful use of 去过 with a confirmed travel experience."
+    },
+    {
+      "chinese": "我已经十二年没滑雪了。",
+      "pinyin": "Wǒ yǐjīng shí'èr nián méi huáxuě le.",
+      "english_hint": "I haven't skied for twelve years.",
+      "scenario": "Explain how long it has been since you last skied.",
+      "focus": [
+        "已经 + duration + 没 + verb + 了"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 不会滑雪 when the intended meaning was a long gap in skiing."
+    },
+    {
+      "chinese": "去这个国家需要签证吗？",
+      "pinyin": "Qù zhè ge guójiā xūyào qiānzhèng ma?",
+      "english_hint": "Do I need a visa for this country?",
+      "scenario": "Ask about visa requirements while planning a trip.",
+      "focus": [
+        "需要 + noun",
+        "吗 question"
+      ],
+      "priority": 5,
+      "source_note": "Addresses confusion between having a visa and needing one without asserting any visa rule."
+    },
+    {
+      "chinese": "能帮我办新护照吗？",
+      "pinyin": "Néng bāng wǒ bàn xīn hùzhào ma?",
+      "english_hint": "Can you help me get a new passport?",
+      "scenario": "Ask for help replacing a lost passport.",
+      "focus": [
+        "帮我办 + document",
+        "能 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Shortens the corrected embassy question and practises 帮我办 instead of 要."
+    },
+    {
+      "chinese": "我想每个星期都去练泰拳。",
+      "pinyin": "Wǒ xiǎng měi ge xīngqī dōu qù liàn tàiquán.",
+      "english_hint": "I want to practise Muay Thai every week.",
+      "scenario": "Describe your preferred exercise schedule.",
+      "focus": [
+        "frequency before action",
+        "每……都……",
+        "练泰拳"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我想去每个星期 using the learner's stated Muay Thai goal."
+    },
+    {
+      "chinese": "我没时间运动。",
+      "pinyin": "Wǒ méi shíjiān yùndòng.",
+      "english_hint": "I don't have time to exercise.",
+      "scenario": "Explain why you cannot fit in exercise.",
+      "focus": [
+        "没时间 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Replaces 不可以去运动 with the intended lack of time due to work and family."
+    },
+    {
+      "chinese": "如果法国队有比赛，我就去看。",
+      "pinyin": "Rúguǒ Fǎguó duì yǒu bǐsài, wǒ jiù qù kàn.",
+      "english_hint": "If France has a match, I'll go watch.",
+      "scenario": "Explain which football match you would attend.",
+      "focus": [
+        "如果……就……",
+        "去看比赛"
+      ],
+      "priority": 4,
+      "source_note": "Uses the corrected conditional idea and makes the learner's spectator role clear."
+    },
+    {
+      "chinese": "我一边工作，一边走路。",
+      "pinyin": "Wǒ yìbiān gōngzuò, yìbiān zǒulù.",
+      "english_hint": "I walk while I work.",
+      "scenario": "Explain how you use your treadmill while working.",
+      "focus": [
+        "一边……一边……",
+        "走路"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 工作和散步 to simultaneous actions; analysis supplies this shortened drill."
+    },
+    {
+      "chinese": "我想和女儿一起滑雪。",
+      "pinyin": "Wǒ xiǎng hé nǚ'ér yìqǐ huáxuě.",
+      "english_hint": "I want to ski with my daughter.",
+      "scenario": "Describe a family activity you hope to do.",
+      "focus": [
+        "和 + person + 一起 + verb"
+      ],
+      "priority": 5,
+      "source_note": "Corrects confusion between 一起 and 也 using the learner's family skiing plan."
+    },
+    {
+      "chinese": "我想让女儿学弹钢琴。",
+      "pinyin": "Wǒ xiǎng ràng nǚ'ér xué tán gāngqín.",
+      "english_hint": "I want my daughter to learn piano.",
+      "scenario": "Explain what you would like your daughter to learn.",
+      "focus": [
+        "想让 + person + action",
+        "弹钢琴"
+      ],
+      "priority": 5,
+      "source_note": "Corrects 我想我的女儿弹钢琴 by adding 让 and expressing the learning goal."
+    },
+    {
+      "chinese": "我身高一百八十厘米。",
+      "pinyin": "Wǒ shēngāo yì bǎi bā shí límǐ.",
+      "english_hint": "I'm one hundred and eighty centimetres tall.",
+      "scenario": "Tell someone your height.",
+      "focus": [
+        "身高 + measurement",
+        "no 是 before 高"
+      ],
+      "priority": 5,
+      "source_note": "Uses the analysis correction for 我是高 and the learner's stated height."
+    }
+  ],
+  "generated_at": "2026-10-02T04:48:49+00:00",
+  "generator": "codex-cli"
+}
