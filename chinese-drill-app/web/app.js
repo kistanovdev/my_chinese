@@ -593,7 +593,6 @@ function handleRecordButton() {
 
 function enterRecordingPhase() {
   state.sequenceActive = false;
-  state.ratingReady = false;
   state.recordingPhase = true;
   elements.playButton.disabled = false;
   elements.playLabel.textContent = "Repeat sequence";
@@ -605,10 +604,9 @@ function enterRecordingPhase() {
   elements.skipRecording.disabled = false;
   elements.skipRecording.classList.remove("hidden");
   elements.recordingCopy.textContent = recordingSupported()
-    ? "Say the complete sentence, then compare it with the reference."
-    : "Recording is unavailable in this browser. You can continue without it.";
-  elements.turnStatus.textContent = "Now record your version, or skip this time.";
-  revealAnswer();
+    ? "Record if you want a comparison, or rate now to continue without recording."
+    : "Recording is unavailable in this browser. Rate now to continue.";
+  setRatingReady("Recording is optional—record your version or press 1–4 to rate now.");
   loadRecordingHistory(state.currentItem.sentence.id);
 }
 

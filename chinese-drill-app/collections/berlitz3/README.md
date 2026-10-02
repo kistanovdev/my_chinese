@@ -1,10 +1,21 @@
 # Berlitz 3 collection
 
-This collection is isolated from the Berlitz 4 and Berlitz 5 decks. It uses
-the shared pipeline and app code while keeping generated content, audio, final
-deck, and progress under this directory.
+This directory is the isolated build workspace for 18 Berlitz 3 lessons dated
+2026-01-07 through 2026-03-14. Its current final deck contains 244 drills and
+732 reference MP3s: three speakers for every card.
 
-Generate or resume everything with all three speakers:
+```text
+data/sources.json       Source location, suffixes, and lesson inventory
+data/voices.json        Three ElevenLabs speaker definitions
+data/generated/         Checkpointed Codex output per lesson
+build/                  Compiled deck and audio manifests (generated)
+audio/                  Cached reference MP3s
+dist/deck.json          Level-only app bundle (generated)
+data/progress.json      Progress only when the isolated launcher is used
+data/recordings/        Personal audio only when isolated mode records
+```
+
+Generate or resume the collection:
 
 ```bash
 python3 scripts/run_pipeline.py \
@@ -12,7 +23,19 @@ python3 scripts/run_pipeline.py \
   --speaker-variants
 ```
 
-Launch this collection:
+Then refresh the normal unified app deck:
+
+```bash
+python3 scripts/merge_levels.py
+python3 app.py --check
+```
+
+The unified app prefixes Berlitz 3 sentence IDs with `berlitz3-`, adds
+`level: 3`, and maps audio URLs to `/audio/berlitz3/<filename>`. The MP3s stay
+in this collection and are not copied into the main audio directory.
+
+The optional legacy Level 3 launcher remains useful for inspecting only this
+collection:
 
 ```bash
 python3 app.py \
@@ -20,3 +43,6 @@ python3 app.py \
   --audio-directory collections/berlitz3/audio \
   --progress collections/berlitz3/data/progress.json
 ```
+
+That isolated progress is separate from the unified app's
+`data/progress.json`.

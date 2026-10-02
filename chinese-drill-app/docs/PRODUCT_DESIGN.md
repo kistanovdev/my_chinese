@@ -1,138 +1,165 @@
 # Product design
 
-## Product goal
+This document describes the implemented product as of October 2026.
+
+## Goal
 
 Make correct Mandarin sentence structure automatic by repeatedly hearing and
-saying short sentences drawn from the learner's own life and recurring lesson
-errors.
+saying short sentences drawn from the learner's own life and recurring Berlitz
+lesson errors. The unit of practice is a complete, reusable sentence—not an
+isolated vocabulary item.
 
-This is not a general flashcard program and not another vocabulary list. The
-unit of learning is a complete, reusable sentence pattern.
+The app is designed for a learner who has passed HSK 2 and is moving toward
+HSK 3. Vocabulary and passive comprehension are stronger than spontaneous
+sentence production, so the experience emphasizes retrieval, word order,
+rhythm, and repeated speaking.
 
-## Learner profile reflected in the design
+## Content
 
-- HSK 2 passed; working toward HSK 3.
-- Passive understanding and vocabulary are ahead of spontaneous production.
-- The largest recurring issue is assembling complete sentences quickly.
-- High-value targets include time/place order, durations, aspect markers,
-  complements, prepositional phrases, and common verb-object chunks.
-- Personal topics such as work, family, travel, meetings, products, and Chinese
-  study are more memorable than generic textbook examples.
+The runtime deck contains 696 drills:
 
-## Core session
+- Berlitz 3: 244
+- Berlitz 4: 250
+- Berlitz 5: 202
 
-Each session contains about 10 to 20 sentences and should take 5 to 10 minutes.
+High-value patterns include time/place order, durations, aspect markers,
+complements, prepositional phrases, comparisons, conditionals, and common
+verb-object chunks. Personal topics—work, family, travel, meetings, products,
+money, housing, and Chinese study—are preferred over generic textbook prose.
 
-1. The app shows a simple scenario cue and plays the Mandarin sentence.
-2. The learner repeats it aloud.
-3. The app waits, then plays the same sentence again.
-4. After two or three rounds, the learner can reveal Chinese, pinyin, or an
-   English hint.
-5. The learner rates the sentence: Again, Hard, Good, or Easy.
-6. The app advances automatically.
+## Session setup
 
-The default should be listening first. Text is a support, not the main event.
+The dashboard offers:
 
-## Practice modes
+- Session size: 1, 5, 10, 15, 20, or 30 cards; default 10
+- Repetitions: 2 or 3; default 3
+- Playback speed: natural or 0.85x
+- Speakers: original or varied
+- Recording: prompt after the final play or disabled
 
-### Repeat
+Settings are part of `data/progress.json` and save immediately when changed.
 
-Hear and repeat each sentence three times. This is the default and the MVP.
+## Card flow
 
-### Recall
+1. The card shows an English scenario cue, focus tags, lesson date, and
+   Berlitz level. The Mandarin answer is concealed.
+2. The learner starts the reference sequence.
+3. The app plays the sentence and provides a long speaking pause after each
+   non-final round. Two or three rounds are used according to the session
+   setting.
+4. After the final round, simplified Chinese is revealed. Pinyin and English
+   translation remain hidden.
+5. When recording prompts are enabled, an optional microphone panel appears.
+   Rating is already available; the learner can press `1`–`4` immediately.
+6. If the learner records, rating is paused only during capture and save. The
+   app then offers reference-versus-recording playback and restores rating.
+7. The selected rating is saved, and the app advances automatically.
 
-Show a short scenario or English intent first. The learner says the Mandarin,
-then reveals and hears the reference sentence.
+The recording panel deliberately does not create a required extra step. The
+learner may record, press **Skip this time**, click a rating, or press a rating
+number as soon as the final reference finishes.
 
-### Contrast
+## Text disclosure
 
-Pair a recurring wrong pattern with two or three correct examples. The wrong
-sentence is shown visually for explanation but is never synthesized.
+Text supports listening rather than replacing it:
 
-Shadowing, microphone recording, and automatic pronunciation scoring are
-possible later features. They are intentionally excluded from the first
-version because they would complicate a habit that should feel nearly
-frictionless.
+- Simplified Chinese begins concealed and is revealed after playback or with
+  **Reveal sentence** / `R`.
+- Pinyin begins hidden and independently toggles with **Show/Hide pinyin** or
+  `P`.
+- English translation begins hidden and independently toggles with
+  **Show/Hide translation** or `T`.
+- Showing or hiding pinyin never changes translation visibility, and vice
+  versa.
 
-## Card display
+## Speaker behavior
 
-Default state:
+Every card has three cached voices:
 
-- Topic or scenario cue
-- Large play/pause control
-- Repetition progress, such as `1 / 3`
-- Reveal buttons
+- Mr. Chen: male, Beijing Mandarin, primary
+- Chen: female, Taiwan Mandarin
+- Anna Su: female, Taiwan Mandarin
 
-Revealed state:
+Original mode uses the primary voice for every repetition. Varied mode shuffles
+the available speakers for each card and rotates across them during the
+sequence. Changing voice mode never changes the card's scheduling identity.
 
-- Simplified Chinese in large type
-- Optional pinyin
-- Optional short English meaning
-- One concise grammar note, only when useful
-- Source lesson date
+## Recording and comparison
+
+Recording is implemented with the browser `MediaRecorder` API. It is always a
+learner choice and never begins automatically.
+
+The first attempt triggers browser microphone permission. While recording, the
+interface shows an elapsed timer and stops automatically at 30 seconds. After
+capture:
+
+- The attempt is saved locally.
+- **Reference** plays the most recently heard reference voice.
+- **My recording** plays the captured attempt.
+- **Record another** creates an additional historical attempt rather than
+  replacing the previous one.
+- Earlier attempts are listed newest first with their date, duration, Play,
+  and Delete controls.
+
+There is no automatic pronunciation score. Side-by-side listening is more
+honest about tones, rhythm, and pronunciation than a transcription-only score.
+
+## Queue construction
+
+The app divides the deck into due, unseen, and future cards whenever the
+dashboard or a session queue is built.
+
+- Due cards are ordered by due timestamp, then by content priority.
+- Unseen cards are Fisher–Yates shuffled at the start of every session. This
+  removes the old Level 3-first bias caused by ID ordering and naturally mixes
+  all course levels.
+- A session takes due cards first and fills remaining slots from the shuffled
+  unseen pool.
+- If no due or unseen card is available, the app selects the earliest future
+  cards for optional early practice.
 
 ## Scheduling
 
-The MVP uses a small Leitner-style schedule rather than a complex algorithm:
+The scheduler uses six boxes with intervals of 1, 3, 7, 14, 30, and 60 days.
 
-- Again: later in the same session and tomorrow
-- Hard: tomorrow
-- Good: in three days
-- Easy: in seven days
+- Again: reset to box 0, schedule tomorrow, and append one retry to the current
+  session
+- Hard: keep at least box 1 and schedule tomorrow
+- Good: advance one box and use that box's interval
+- Easy: advance two boxes and use that box's interval
 
-New sentences are capped per day. High-priority sentences and patterns that
-occurred in multiple lessons enter the queue first.
+Each card records seen count, box, streak, last rating, last review time, next
+due time, and cumulative counts for all four ratings. Session-level totals and
+the last completed session are also saved.
 
-## Audio design
+## Local-first principles
 
-Audio is generated ahead of time and stored under `audio/`. The browser never
-receives the ElevenLabs API key.
+- The server binds only to localhost by default.
+- Reference audio is generated ahead of time; daily practice has no cloud
+  dependency.
+- The ElevenLabs API key is never sent to the browser.
+- Progress and recording metadata use atomic JSON writes.
+- Personal microphone files remain under `data/recordings/` and are ignored by
+  Git.
+- Recording failure never prevents rating or completing a card.
 
-Initial quality-first configuration:
+## Implemented acceptance criteria
 
-- Model: `eleven_v4`
-- Voice: a native Mainland Mandarin voice selected by listening test
-- Output: `mp3_44100_128`
-- Language hint: Chinese where supported by the endpoint
-- Playback speed: normal by default, with optional 0.85x in the browser
+- All 51 source lessons across Berlitz 3, 4, and 5 are represented.
+- The unified deck has 696 unique IDs and no missing reference audio.
+- Each card has three playable reference voices.
+- Sessions work offline after the localhost server starts.
+- One-card sessions support quick testing; ten cards remain the default.
+- Unseen cards mix all three levels on every new session.
+- Chinese, pinyin, and translation have independent disclosure behavior.
+- Recording is optional and historical attempts survive restarts.
+- Progress survives browser and server restarts.
 
-Before full generation, the same 8 to 10 representative sentences should be
-rendered with several native Mandarin voices. The sample must include `了`,
-`过`, third-tone sequences, numbers, names, and a question. Choose the voice
-for clear standard pronunciation and stable pacing, not dramatic expression.
+## Possible future improvements
 
-Each audio filename is derived from a hash of the sentence, voice, model, and
-settings. Changed content gets a new file; unchanged content reuses the cache.
-
-## Technical shape
-
-The first version is intentionally small:
-
-- Python scripts for extraction, validation, and ElevenLabs generation
-- Static HTML/CSS/JavaScript practice interface
-- A local JSON progress file saved atomically after every rating
-- Local Python standard-library HTTP server and automatic browser launch
-- JSON as the reviewed deck format
-
-This avoids a database, web framework, and frontend build system while leaving
-a clean path to a small PyInstaller binary later. The first launcher can simply
-be `python3 app.py`; it will start localhost, open the browser, and save progress
-through a tiny local JSON endpoint.
-
-## MVP acceptance criteria
-
-- All 15 Berlitz 5 lesson pairs are represented in the reviewed deck.
-- Every audio sentence is grammatical, natural, short, and traceable to a
-  source lesson.
-- No known incorrect learner sentence is synthesized.
-- The app can complete a 10-sentence session without network access.
-- Every sentence can be repeated two or three times without touching the
-  mouse.
-- Progress survives closing and reopening the browser.
-
-## Decisions deferred until implementation
-
-- Final Mandarin voice
-- Two versus three repetitions as the global default (three is proposed)
-- Whether pinyin is available immediately or only after the first attempt
-- Whether progress should eventually sync across devices
+- A dashboard-wide recording-history browser
+- Export/import for progress and recordings
+- Optional waveform display
+- Optional transcription as feedback, clearly separated from pronunciation
+  assessment
+- Packaging the standard-library server as a signed macOS application

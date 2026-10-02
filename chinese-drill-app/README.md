@@ -1,175 +1,187 @@
 # Chinese Drill App
 
-A small, local-first speaking drill app built from the learner's Berlitz 3,
-4, and 5 lesson transcripts and evaluations.
+A local-first Mandarin speaking app built from the learner's Berlitz 3, 4,
+and 5 transcripts and lesson evaluations. It uses only Python's standard
+library in the backend and plain HTML, CSS, and JavaScript in the browser.
 
-The app's job is deliberately narrow:
+## Current deck
 
-1. Turn recurring mistakes and useful personal topics into short, natural
-   Mandarin sentences.
-2. Generate and cache native-quality audio, with optional speaker variety.
-3. Run short practice sessions in which each sentence is heard and repeated
-   two or three times.
-4. Record your own version for immediate reference-versus-learner comparison.
-5. Remember which sentence patterns need more practice.
+The default app combines all three course levels:
 
-## Current status
+| Level | Drills | Reference audio |
+| --- | ---: | ---: |
+| Berlitz 3 | 244 | 732 MP3s |
+| Berlitz 4 | 250 | 750 MP3s |
+| Berlitz 5 | 202 | 606 MP3s |
+| **Total** | **696** | **2,088 MP3s** |
 
-The Python content pipeline and local practice app are implemented. The default
-app combines all three course levels into one deck containing 696 drills. Each
-card has three cached ElevenLabs recordings.
+Each drill has three ElevenLabs voices: Mr. Chen in Beijing Mandarin, Chen in
+Taiwan Mandarin, and Anna Su in Taiwan Mandarin. The lesson chip shows both the
+source date and level, for example `Lesson 2026-04-20 · Berlitz 4`.
 
-## Launch the app
+## Launch
 
-From Terminal:
+On macOS, double-click `Launch Chinese Drills.command`, or run:
 
 ```bash
 cd /Users/kistanov/github/my_chinese/chinese-drill-app
 python3 app.py
 ```
 
-The app opens at `http://127.0.0.1:8765`. Press `Ctrl-C` in Terminal to stop
-it. On macOS, you can also double-click `Launch Chinese Drills.command`.
+The server binds to `127.0.0.1:8765` and opens the browser automatically.
+Press `Ctrl-C` in the Terminal window to stop it. Practice itself makes no
+external network requests because all reference audio is already cached.
 
-Progress is saved to `data/progress.json` immediately after every rating. The
-server binds only to localhost and the app makes no network calls during normal
-practice.
+## Practice flow
 
-The default speaker setting preserves the original Mr. Chen recordings. Choose
-**Varied speakers** in Session Setup to rotate through one Beijing Mandarin male
-voice and two Taiwan Mandarin female voices without changing card progress.
-The lesson chip on each card shows both its lesson date and Berlitz level.
+1. Choose 1, 5, 10, 15, 20, or 30 cards. The default is 10.
+2. Choose two or three repetitions, playback speed, speaker behavior, and
+   whether to show a recording prompt.
+3. Start the audio sequence. A generous pause follows each non-final play.
+4. After the final play, the Chinese sentence is revealed. Pinyin and English
+   remain hidden until requested.
+5. Optionally record your version and compare it with the reference.
+6. Rate the card with Again, Hard, Good, or Easy.
 
-With **Recording → Prompt me** enabled, the app asks you to record after the
-last reference repetition. Recordings are saved locally in `data/recordings/`,
-listed by date on that sentence's card, and can be replayed or deleted. They
-never leave the Mac. This personal audio directory is intentionally ignored by
-Git; include it when making personal backups.
+Recording never blocks progress. As soon as the recording prompt appears, the
+rating buttons and keys `1`–`4` are active. Starting a recording temporarily
+disables rating while audio is being captured and saved, then enables it again.
+The **Skip this time** button only closes the recording panel; it is not
+required to continue.
 
-## Proposed MVP
+Controls during practice:
 
-- Local responsive web app, launched with one command.
-- Audio-first cards with Chinese hidden initially.
-- Two or three repetitions per sentence, configurable per session.
-- Reveal controls for simplified Chinese, pinyin, and a short English hint.
-- Keyboard controls: space to replay, enter to advance, and number keys to rate.
-- Daily queue biased toward high-priority recurring errors.
-- Unseen cards reshuffled at the start of every session so all three Berlitz
-  levels naturally mix together; scheduled reviews still come first.
-- Cached MP3 audio so normal practice makes no API calls.
-- Optional local microphone recording with side-by-side playback and history.
-- Progress saved atomically to a local JSON file after every rating; no account
-  or cloud service required.
+- `Space`: play the sequence, or replay the reference when rating is ready
+- `R`: reveal simplified Chinese
+- `P`: show or hide pinyin
+- `T`: show or hide the English translation
+- `1`–`4`: Again, Hard, Good, or Easy
+
+## Queue and scheduling
+
+Due reviews come first, ordered by due date and then priority. Unseen cards are
+reshuffled with Fisher–Yates every time a session starts, so Berlitz 3, 4, and
+5 naturally mix instead of appearing in level order. When nothing is due or
+new, the earliest future cards can be practised ahead of schedule.
+
+The scheduler is a small Leitner-style system:
+
+- Again: retry once later in the same session and schedule for tomorrow
+- Hard: schedule for tomorrow
+- Good: advance one box
+- Easy: advance two boxes
+- Box intervals: 1, 3, 7, 14, 30, and 60 days
+
+Progress is written atomically after every rating.
+
+## Recording and privacy
+
+The browser uses `MediaRecorder` and asks for microphone permission on the
+first attempt. Recordings are capped at 30 seconds in the interface. The local
+server accepts WebM, MP4, Ogg, or WAV audio, validates the sentence ID, format,
+duration, and size, and stores each attempt immediately.
+
+```text
+data/recordings/
+  index.json
+  recording-YYYYMMDDTHHMMSSZ-<random>.<format>
+```
+
+History is stored per sentence and displayed newest first. Every attempt can
+be replayed or deleted. Nothing is uploaded to ElevenLabs or another service.
+`data/recordings/` is ignored by Git because it contains personal audio; copy
+that folder when making a personal backup.
+
+## Local data
+
+| Data | Location | Git behavior |
+| --- | --- | --- |
+| Spaced-repetition progress and settings | `data/progress.json` | visible to Git |
+| Personal recordings and recording index | `data/recordings/` | ignored |
+| Unified runtime deck | `dist/deck.json` | generated and ignored |
+| Level 5 intermediate build files | `build/` | generated and ignored |
+| Level 3/4 collection builds | `collections/*/{build,dist}/` | generated and ignored |
+| Cached reference MP3s | `audio/`, `collections/*/audio/` | source MP3s retained; temporary files ignored |
+
+The app uses atomic temporary-file replacement for both progress and the
+recording index, so an interrupted write does not replace a good JSON file with
+a partial one.
 
 ## Project layout
 
 ```text
 chinese-drill-app/
-  app.py                   # Local server and progress persistence
-  Launch Chinese Drills.command
-  README.md
-  .env.example
-  data/
-    sources.json
-    sentences.sample.json
-    generated/             # Checkpointed Codex output, one file per lesson
+  app.py                         # Local HTTP server, validation, progress, recordings
+  Launch Chinese Drills.command  # macOS launcher for the unified app
+  data/                          # Level 5 config, progress, generated batches
+  audio/                         # Level 5 reference audio
+  build/                         # Level 5 intermediate artifacts
+  dist/deck.json                 # Unified runtime deck after merge
+  collections/
+    berlitz3/                    # Level 3 config, generated data, build, audio, deck
+    berlitz4/                    # Level 4 config, generated data, build, audio, deck
+  scripts/                       # Extraction, compilation, TTS, build, and merge stages
+  prompts/                       # Codex sentence-generation prompt
+  schemas/                       # Structured-output JSON schema
+  web/                           # Framework-free browser interface
+  tests/                         # Python regression tests
   docs/
-    PRODUCT_DESIGN.md
-    CONTENT_PIPELINE.md
-  prompts/
-    generate_sentences.txt
-  schemas/
-    codex_sentence_batch.schema.json
-  audio/                 # Generated files; ignored by git
-  build/                 # Compiled deck and audio manifest
-  dist/                  # Final JSON consumed by the future app
-  scripts/               # Pipeline tools
-  tests/
-  web/                   # Framework-free practice interface
+    PRODUCT_DESIGN.md            # Learning and interaction design
+    CONTENT_PIPELINE.md          # Transcript-to-audio pipeline
+    ARCHITECTURE.md              # Runtime implementation details
 ```
 
-## Inputs
+## Content pipeline
 
-The initial source set is the 15 transcript/evaluation pairs in:
-
-```text
-../Berlitz5/records_and_analysis/
-```
-
-Evaluations are the primary source for corrected Mandarin. Transcripts provide
-personal context and evidence that an error recurs. Raw learner errors must
-never be sent directly to text-to-speech.
-
-## Pipeline commands
-
-Run commands from this project directory.
+Run pipeline commands from the project directory. `.env` supplies the private
+ElevenLabs key and voice configuration; it must not be committed.
 
 ```bash
-# Inspect all stages without making network calls.
+# Preview the Level 5 stages without running them.
 python3 scripts/run_pipeline.py --dry-run
 
-# Stage 1: ask Codex to process all 15 transcript/evaluation pairs.
-python3 scripts/generate_sentences.py
+# Build or resume Level 3, including all configured speakers.
+python3 scripts/run_pipeline.py \
+  --collection collections/berlitz3 \
+  --speaker-variants
 
-# Stage 2: validate and deduplicate the lesson results.
-python3 scripts/compile_deck.py
-
-# Stage 3: generate only missing or changed ElevenLabs audio.
-python3 scripts/synthesize_audio.py
-
-# Stage 4: combine sentences and audio into app-ready JSON.
-python3 scripts/build_app_data.py
-
-# Optional: generate the two additional configured speakers, then rebuild.
-python3 scripts/synthesize_voice_variants.py
-python3 scripts/build_app_data.py
-
-# Or run every stage in sequence.
-python3 scripts/run_pipeline.py
-
-# Rebuild the single combined Level 3 + 4 + 5 app after changing any deck.
-python3 scripts/merge_levels.py
-
-# Run an isolated Berlitz 4 collection with all three speakers.
+# Build or resume Level 4, including all configured speakers.
 python3 scripts/run_pipeline.py \
   --collection collections/berlitz4 \
   --speaker-variants
 
-# The same workflow is available for Berlitz 3.
-python3 scripts/run_pipeline.py \
-  --collection collections/berlitz3 \
-  --speaker-variants
+# Build or resume Level 5.
+python3 scripts/run_pipeline.py --speaker-variants
+
+# Recreate the single Level 3 + 4 + 5 runtime deck.
+python3 scripts/merge_levels.py
 ```
 
-Generation is checkpointed by lesson. Rerunning Stage 1 skips completed dates
-unless `--force` is supplied. Audio is cached by sentence text, voice, model,
-language, and output format.
+Useful pipeline controls include `--skip-codex`, `--skip-audio`,
+`--force-sentences`, `--force-audio`, `--lesson YYYY-MM-DD`, and
+`--audio-limit N`. Generation is checkpointed, and audio is content-addressed,
+so successful work is reused on the next run.
 
-To test a voice without generating the entire deck:
+See [CONTENT_PIPELINE.md](docs/CONTENT_PIPELINE.md) for the full data flow and
+rebuild rules.
 
-```bash
-python3 scripts/synthesize_audio.py --limit 8
-```
-
-Copy `.env.example` to `.env`, add the ElevenLabs key and a Mandarin-native
-voice ID, then keep `.env` private. Codex uses the existing Codex CLI login.
-On macOS the audio stage uses verified system `curl` by default so HTTPS honors
-the certificates trusted by Keychain; certificate verification is never
-disabled.
-
-## Requirements
-
-- Python 3.10 or newer; the pipeline itself has no Python package dependencies.
-- Codex CLI installed and logged in for sentence generation.
-- ElevenLabs API key and voice ID for audio synthesis.
-
-Run local tests with:
+## Validation and tests
 
 ```bash
+# Validate the unified deck and every referenced audio file.
+python3 app.py --check
+
+# Run the Python regression suite.
 python3 -m unittest discover -s tests -v
+
+# Check browser JavaScript syntax.
+node --check web/app.js
 ```
 
-See [PRODUCT_DESIGN.md](docs/PRODUCT_DESIGN.md) for the experience and
-[CONTENT_PIPELINE.md](docs/CONTENT_PIPELINE.md) for extraction and quality
-rules. The future practice server will also be Python standard library code,
-so launching it will not require Flask, FastAPI, Node, or a frontend build.
+The pipeline and app require Python 3.10 or newer. Codex CLI authentication and
+an ElevenLabs API key are only required when generating new content or audio,
+not for daily practice.
+
+For implementation details, see [ARCHITECTURE.md](docs/ARCHITECTURE.md). For
+the learning and interaction decisions, see
+[PRODUCT_DESIGN.md](docs/PRODUCT_DESIGN.md).
