@@ -13,8 +13,9 @@ Examples:
 Put the API key in ``.env`` at the project root:
     ELEVENLABS_API_KEY=your_api_key
 
-The script requires the third-party ``requests`` package when making API
-calls. A dry run does not require it.
+On macOS the script uses verified system ``curl`` by default, so it does not
+require third-party Python packages and honors certificates trusted by
+Keychain.
 """
 
 from __future__ import annotations
@@ -22,7 +23,10 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import shutil
+import subprocess
 import sys
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -123,6 +127,20 @@ def parse_args() -> argparse.Namespace:
         "--save-json",
         action="store_true",
         help="Also save the complete API response beside each transcript",
+    )
+    parser.add_argument(
+        "--compress-audio",
+        action="store_true",
+        help=(
+            "Extract temporary mono speech audio with ffmpeg before upload; "
+            "the source video is never modified"
+        ),
+    )
+    parser.add_argument(
+        "--transport",
+        choices=("auto", "curl", "requests"),
+        default="auto",
+        help="HTTPS transport (default: verified system curl on macOS)",
     )
     parser.add_argument(
         "--timeout",
@@ -243,8 +261,8 @@ def format_transcript(response_data: dict[str, Any]) -> str:
     return "\n\n".join(blocks) + "\n"
 
 
-def transcribe_video(
-    video: Path,
+def transcribe_with_requests(
+    media: Path,
     *,
     api_key: str,
     model: str,
@@ -273,12 +291,13 @@ def transcribe_video(
     if num_speakers > 0:
         fields["num_speakers"] = str(num_speakers)
 
-    with video.open("rb") as video_file:
+    mime_type = "audio/mpeg" if media.suffix.lower() == ".mp3" else "video/mp4"
+    with media.open("rb") as media_file:
         response = requests.post(
             API_URL,
             headers={"xi-api-key": api_key},
             data=fields,
-            files={"file": (video.name, video_file, "video/mp4")},
+            files={"file": (media.name, media_file, mime_type)},
             timeout=(30, timeout),
         )
 
@@ -291,6 +310,139 @@ def transcribe_video(
     if not isinstance(result, dict):
         raise RuntimeError("ElevenLabs returned an unexpected response shape")
     return result
+
+
+def transcribe_with_curl(
+    media: Path,
+    *,
+    api_key: str,
+    model: str,
+    language: str,
+    num_speakers: int,
+    diarize: bool,
+    tag_audio_events: bool,
+    timeout: float,
+) -> dict[str, Any]:
+    curl = shutil.which("curl")
+    if curl is None:
+        raise RuntimeError("System curl is not installed")
+    mime_type = "audio/mpeg" if media.suffix.lower() == ".mp3" else "video/mp4"
+
+    with tempfile.TemporaryDirectory(prefix="berlitz-scribe-request-") as temp_name:
+        temp_directory = Path(temp_name)
+        headers_path = temp_directory / "headers.txt"
+        response_path = temp_directory / "response.json"
+        headers_path.write_text(
+            f"xi-api-key: {api_key}\nAccept: application/json\n",
+            encoding="utf-8",
+        )
+        headers_path.chmod(0o600)
+        command = [
+            curl,
+            "--silent",
+            "--show-error",
+            "--request",
+            "POST",
+            "--connect-timeout",
+            "30",
+            "--max-time",
+            str(timeout),
+            "--header",
+            f"@{headers_path}",
+            "--form",
+            f"file=@{media};type={mime_type}",
+            "--form-string",
+            f"model_id={model}",
+            "--form-string",
+            f"diarize={str(diarize).lower()}",
+            "--form-string",
+            f"tag_audio_events={str(tag_audio_events).lower()}",
+            "--form-string",
+            "timestamps_granularity=word",
+            "--output",
+            str(response_path),
+            "--write-out",
+            "%{http_code}",
+        ]
+        if language.lower() != "auto":
+            command.extend(["--form-string", f"language_code={language}"])
+        if num_speakers > 0:
+            command.extend(["--form-string", f"num_speakers={num_speakers}"])
+        command.append(API_URL)
+
+        result = subprocess.run(
+            command,
+            text=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            check=False,
+        )
+        if result.returncode != 0:
+            detail = result.stderr.strip() or f"curl exit code {result.returncode}"
+            raise RuntimeError(f"ElevenLabs request failed: {detail}")
+        try:
+            status = int(result.stdout.strip())
+        except ValueError as exc:
+            raise RuntimeError(
+                f"curl returned an invalid HTTP status: {result.stdout!r}"
+            ) from exc
+        response_text = (
+            response_path.read_text(encoding="utf-8", errors="replace")
+            if response_path.exists()
+            else ""
+        )
+        if status < 200 or status >= 300:
+            raise RuntimeError(
+                f"ElevenLabs returned HTTP {status}: {response_text[:2000]}"
+            )
+        try:
+            parsed = json.loads(response_text)
+        except json.JSONDecodeError as exc:
+            raise RuntimeError(f"ElevenLabs returned invalid JSON: {exc}") from exc
+        if not isinstance(parsed, dict):
+            raise RuntimeError("ElevenLabs returned an unexpected response shape")
+        return parsed
+
+
+def resolve_transport(requested: str) -> str:
+    if requested != "auto":
+        return requested
+    if sys.platform == "darwin" and shutil.which("curl"):
+        return "curl"
+    return "requests"
+
+
+def compress_speech_audio(video: Path, output: Path) -> None:
+    ffmpeg = shutil.which("ffmpeg")
+    if ffmpeg is None:
+        raise RuntimeError("ffmpeg is required for --compress-audio")
+    result = subprocess.run(
+        [
+            ffmpeg,
+            "-hide_banner",
+            "-loglevel",
+            "error",
+            "-nostdin",
+            "-y",
+            "-i",
+            str(video),
+            "-vn",
+            "-ac",
+            "1",
+            "-ar",
+            "16000",
+            "-b:a",
+            "64k",
+            str(output),
+        ],
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        check=False,
+    )
+    if result.returncode != 0 or not output.is_file() or output.stat().st_size < 100:
+        detail = result.stderr.strip()[-2000:]
+        raise RuntimeError(f"ffmpeg audio extraction failed: {detail}")
 
 
 def write_text_atomically(path: Path, text: str) -> None:
@@ -316,11 +468,13 @@ def main() -> int:
     pending: list[tuple[Path, Path]] = []
     for video in videos:
         output = transcript_path(video)
-        if output.exists() and not args.force:
+        output_is_complete = output.is_file() and output.stat().st_size >= 100
+        if output_is_complete and not args.force:
             print(f"skip: {video.name} (already has {output.name})")
         else:
             pending.append((video, output))
-            print(f"pending: {video.name} -> {output.name}")
+            reason = " (replacing incomplete file)" if output.exists() else ""
+            print(f"pending: {video.name} -> {output.name}{reason}")
 
     if not videos:
         print("No matching videos found.")
@@ -341,20 +495,44 @@ def main() -> int:
         )
         return 2
 
+    transport = resolve_transport(args.transport)
+    if transport == "curl" and shutil.which("curl") is None:
+        print("error: curl transport selected but curl is unavailable", file=sys.stderr)
+        return 2
+    if args.compress_audio and shutil.which("ffmpeg") is None:
+        print("error: --compress-audio requires ffmpeg", file=sys.stderr)
+        return 2
+    transcriber = (
+        transcribe_with_curl if transport == "curl" else transcribe_with_requests
+    )
+    print(f"HTTPS transport: {transport}")
+
     failures = 0
     for index, (video, output) in enumerate(pending, start=1):
-        print(f"[{index}/{len(pending)}] Uploading {video.name} ...", flush=True)
+        print(f"[{index}/{len(pending)}] Preparing {video.name} ...", flush=True)
         try:
-            result = transcribe_video(
-                video,
-                api_key=api_key,
-                model=args.model,
-                language=args.language,
-                num_speakers=args.num_speakers,
-                diarize=not args.no_diarize,
-                tag_audio_events=not args.no_audio_events,
-                timeout=args.timeout,
-            )
+            with tempfile.TemporaryDirectory(
+                prefix="berlitz-scribe-audio-"
+            ) as temp_name:
+                media = video
+                if args.compress_audio:
+                    media = Path(temp_name) / f"{video.stem}.mp3"
+                    compress_speech_audio(video, media)
+                    print(
+                        f"        compressed upload: {media.stat().st_size / 1024 / 1024:.1f} MiB",
+                        flush=True,
+                    )
+                print(f"        uploading with ElevenLabs Scribe ...", flush=True)
+                result = transcriber(
+                    media,
+                    api_key=api_key,
+                    model=args.model,
+                    language=args.language,
+                    num_speakers=args.num_speakers,
+                    diarize=not args.no_diarize,
+                    tag_audio_events=not args.no_audio_events,
+                    timeout=args.timeout,
+                )
             write_text_atomically(output, format_transcript(result))
             if args.save_json:
                 json_path = output.with_suffix(".json")

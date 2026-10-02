@@ -1,0 +1,122 @@
+Your main speaking bottleneck is **putting familiar words into a sentence quickly**, especially location, duration, and who you speak to. You already used **我没吃过四川火锅、我们每个月做一次、我不会打网球** correctly. Prioritize the patterns below over memorizing every housing term.
+
+These corrections refer to Speaker 1. Without audio, transcription errors can only be flagged as likely.
+
+1. **Put location before the action: 在……＋verb**
+   
+   You said: “喜欢做菜家里”“San Jose住在。”
+   
+   Natural: **喜欢在家里做菜。／我们以前住在San Jose。**
+   
+   For a sequence: **今天早上我们去了Costco，回家以后我就开始工作。**
+   
+   “在来家的时候” is unclear in the transcript; **回家以后** expresses the intended sequence.
+
+2. **Put duration after the verb**
+   
+   You said: “我们在公寓四年”“我们六个星期住在……日本，也韩国。”
+   
+   Natural: **我们在公寓里住了四年。／我们在日本和韩国一共住了六个星期。**
+   
+   Pattern: **在＋place＋住了＋duration**. 一共 means “in total”; it avoids implying six weeks in each country.
+
+3. **Use 了 for a specific event; 过 for experience**
+   
+   You said: “我们去过超市” while describing that morning.
+   
+   Better here: **今天早上我们去了超市。**
+   
+   Compare: **我去过日本。** “I’ve been to Japan.”
+   
+   **2024年我们去了日本和韩国。** describes the particular trip. Dates can occur with 过 too; this is a choice of emphasis, not an absolute rule.
+
+4. **Use 没 for something you didn’t do; 不 for habits or intentions**
+   
+   You said: “我不做这个,” then explained that you had no time; later, “不看了很多。”
+   
+   Natural: **我没做作业，因为没有时间。／我没看很多房子。**
+   
+   **我不做这个** can sound like “I don’t do this” or “I won’t do this,” which explains the teacher’s reaction. Use **没＋verb**, without completed-action 了.
+
+5. **Separate frequency from quantity**
+   
+   You said: “我不吃很多俄罗斯菜。”
+   
+   If you mean “not often”: **我现在不常吃俄罗斯菜。**
+   
+   **不吃很多** concerns amount; **不常／不经常** concerns frequency. Keep your correct pattern: **我们每个月做一次罗宋汤。**
+
+6. **Use 会 for learned skills; 能 for ability or tolerance**
+   
+   You said: “我可以做罗宋汤。”
+   
+   More precise for knowing how: **我会做罗宋汤。**
+   
+   **我能吃辣的菜，但我太太不能吃很辣的菜。** is natural for tolerance.
+   
+   For the renovation discussion: **我会刷墙，但不会铺地板，所以找人来做。** Use **刷墙** for painting walls, **铺地板** for laying flooring, and **找人做……** for hiring someone—not 买人.
+
+7. **Describe adjectives directly; put 一点 after them**
+   
+   You said: “沙加缅度是好”“Walmart也是好”“一点小……家。”
+   
+   Natural: **Sacramento很好。／Walmart也不错。／我想买小一点的房子。**
+   
+   Ordinary adjective descriptions usually do not need 是. 很 does not always mean an emphatic “very.”
+   
+   For comparison: **我觉得住在现在的房子里比住在公寓里好。**
+
+8. **Use complete chunks for quantities and measurements**
+   
+   You said: “两楼”“这个房子是二十年岁”“去Costco是十五分。”
+   
+   Natural:
+   - **我的房子有两层。** Two stories. **我在二楼。** On the second floor.
+   - **这栋房子建了二十年了。** Built twenty years ago; 岁 is normally for people’s or animals’ ages.
+   - **开车去Costco要十五分钟。** 要＋duration = “takes.”
+   
+   Keep these questions distinct: **房子有多大？** → 平方米；**这条路有多长？** → 米；**这栋楼有多高？** → 米。The lesson itself later uses **平方米** for housing area; the teacher’s earlier 平方尺 explanation was misleading.
+
+9. **Put 跟＋person before 说话**
+   
+   You said: “我能说跟你”“不能说其他的人。”
+   
+   Natural: **我能跟你说中文，但是跟其他人说中文时，我不知道怎么说。**
+   
+   For the neighbor: **我跟邻居说过两三次中文。**
+   
+   Useful classroom rescue phrases: **这个用中文怎么说？／你能再说一遍吗？／这两个词的意思一样吗？** These let you keep talking while searching for a word.
+
+10. **Use 只要……就…… for your family-and-friends point**
+    
+    Your sentence became tangled around “我不管……在哪里住在……如果……”
+    
+    Natural: **对我来说，朋友和家人最重要。只要有朋友和家人在身边，住在哪里都可以。**
+    
+    只要……就…… means “as long as …, then ….” Learn this shorter version first; you can later add **不管住在哪里……** (“no matter where I live”).
+
+**Transcription cautions**
+
+- **拉面条／辣的面条、叫／脚、同一次／同意思** may reflect transcription or pronunciation confusion. The text cannot establish which.
+- Written **他／她／他们／她们** cannot reveal a spoken mistake: their pronunciations are identical.
+- **资和园** in the housing list likely represents **四合院**; verify the lesson text before memorizing it.
+- The “here” exchange does **not** establish that you intended a north–south comparison. Likewise, the conflicting place name “San Fernando” and the unclear time-zone passage should not be used to infer personal facts.
+- You eventually clarified that **三十分钟 referred to the flight**, not high-speed rail. **五万美元 was the price reduction**, not the house price.
+- **买物业／每月买……** recurs and is likely a real verb-choice issue: say **交费用／每个月交240美元的HOA费**. HOA fees and Chinese 物业费 are not exact equivalents.
+
+The most useful small vocabulary set is **邻居** (neighbor), **附近** (nearby), **方便** (convenient), **修** (repair), **找人** (hire/find someone), **交费** (pay fees), **车位** (parking space), and **车库** (garage). **装修** means renovating or fitting out; **修** is the everyday verb for fixing something broken.
+
+**Say-aloud drills**
+
+Read each aloud, then repeat without looking. These are practice sentences based on the lesson, not additional personal claims.
+
+1. 今天早上我们去了超市。回家以后，我就开始工作。
+2. 我们在公寓里住了四年。我们在日本和韩国一共住了六个星期。
+3. 我去过日本。我没吃过四川火锅。
+4. 我没做作业，因为没有时间。
+5. 我现在不常吃俄罗斯菜。我们每个月做一次罗宋汤。
+6. 我会做罗宋汤。我能吃辣的菜。
+7. 我会刷墙，但不会铺地板，所以找人来做。
+8. 我的房子有两层。我现在在二楼。开车去Costco要十五分钟。
+9. 我跟邻居说过两三次中文。这个用中文怎么说？你能再说一遍吗？
+10. 对我来说，朋友和家人最重要。只要他们在身边，住在哪里都可以。

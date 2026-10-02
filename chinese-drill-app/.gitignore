@@ -3,5 +3,9 @@ audio/*.tmp
 data/sentences.draft.json
 build/*.json
 dist/*.json
+collections/*/build/*.json
+collections/*/dist/*.json
+collections/*/data/progress.json
+collections/*/audio/*.tmp
 __pycache__/
 *.pyc

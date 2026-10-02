@@ -115,6 +115,11 @@ python3 scripts/build_app_data.py
 
 # Or run every stage in sequence.
 python3 scripts/run_pipeline.py
+
+# Run an isolated Berlitz 4 collection with all three speakers.
+python3 scripts/run_pipeline.py \
+  --collection collections/berlitz4 \
+  --speaker-variants
 ```
 
 Generation is checkpointed by lesson. Rerunning Stage 1 skips completed dates

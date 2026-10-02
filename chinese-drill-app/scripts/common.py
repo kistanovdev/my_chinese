@@ -13,10 +13,13 @@ from typing import Any
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DATA_DIR = PROJECT_ROOT / "data"
-BUILD_DIR = PROJECT_ROOT / "build"
-DIST_DIR = PROJECT_ROOT / "dist"
-AUDIO_DIR = PROJECT_ROOT / "audio"
+COLLECTION_ROOT = Path(
+    os.environ.get("CHINESE_DRILL_COLLECTION_DIR", str(PROJECT_ROOT))
+).expanduser().resolve()
+DATA_DIR = COLLECTION_ROOT / "data"
+BUILD_DIR = COLLECTION_ROOT / "build"
+DIST_DIR = COLLECTION_ROOT / "dist"
+AUDIO_DIR = COLLECTION_ROOT / "audio"
 GENERATED_DIR = DATA_DIR / "generated"
 SCHEMA_DIR = PROJECT_ROOT / "schemas"
 PROMPT_DIR = PROJECT_ROOT / "prompts"
@@ -24,7 +27,9 @@ PROMPT_DIR = PROJECT_ROOT / "prompts"
 
 def load_dotenv(path: Path | None = None) -> None:
     """Load a small KEY=VALUE dotenv file without replacing exported values."""
-    dotenv_path = path or PROJECT_ROOT / ".env"
+    dotenv_path = path or COLLECTION_ROOT / ".env"
+    if not dotenv_path.is_file() and path is None:
+        dotenv_path = PROJECT_ROOT / ".env"
     if not dotenv_path.is_file():
         return
 
@@ -102,7 +107,7 @@ def lesson_paths(lesson: str) -> tuple[Path, Path]:
     source_directory, config = source_configuration()
     transcript = source_directory / f"{lesson}{config['transcript_suffix']}"
     analysis = source_directory / f"{lesson}{config['analysis_suffix']}"
-    if not transcript.is_file():
+    if not transcript.is_file() and not config.get("transcript_optional", False):
         raise FileNotFoundError(f"Transcript not found: {transcript}")
     if not analysis.is_file():
         raise FileNotFoundError(f"Analysis not found: {analysis}")
@@ -145,4 +150,3 @@ def require_string_list(value: Any, field: str) -> list[str]:
         raise ValueError(f"{field} must be a non-empty array")
     result = [require_string(item, f"{field}[]") for item in value]
     return list(dict.fromkeys(result))
-

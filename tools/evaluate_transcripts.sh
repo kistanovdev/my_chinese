@@ -162,10 +162,19 @@ for transcript in "${transcripts[@]}"; do
 
   output_file="$evaluation_folder/$lesson_date-04-transcription-analysis.txt"
 
-  if [[ -e "$output_file" && "$force" == false ]]; then
+  output_size=0
+  if [[ -f "$output_file" ]]; then
+    output_size=$(wc -c <"$output_file")
+  fi
+
+  if [[ "$output_size" -ge 100 && "$force" == false ]]; then
     printf '[skip] %s already exists\n' "$(basename "$output_file")"
     ((skipped += 1))
     continue
+  fi
+
+  if [[ -e "$output_file" && "$force" == false ]]; then
+    printf '[repair] %s is incomplete and will be replaced\n' "$(basename "$output_file")"
   fi
 
   printf '[%d/%d] Evaluating %s\n' "$((processed + skipped + 1))" "$total" "$transcript_name"

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -50,6 +51,19 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--dry-run", action="store_true", help="Print stage commands without running them"
     )
+    parser.add_argument(
+        "--collection",
+        type=Path,
+        help=(
+            "Use an isolated collection directory containing data/sources.json; "
+            "all generated, build, audio, and dist files stay beneath it"
+        ),
+    )
+    parser.add_argument(
+        "--speaker-variants",
+        action="store_true",
+        help="Also generate every non-primary speaker in data/voices.json",
+    )
     return parser.parse_args()
 
 
@@ -71,6 +85,13 @@ def run_stage(name: str, command: list[str], dry_run: bool) -> None:
 
 def main() -> int:
     args = parse_args()
+    if args.collection:
+        collection = args.collection.expanduser().resolve()
+        sources = collection / "data" / "sources.json"
+        if not sources.is_file():
+            raise RuntimeError(f"Collection sources file not found: {sources}")
+        os.environ["CHINESE_DRILL_COLLECTION_DIR"] = str(collection)
+        print(f"Collection: {collection}")
     python = sys.executable
 
     generate = [python, str(SCRIPT_DIR / "generate_sentences.py")]
@@ -98,6 +119,13 @@ def main() -> int:
     run_stage("Compile and deduplicate", compile_command, args.dry_run)
     if not args.skip_audio:
         run_stage("Generate ElevenLabs audio", audio, args.dry_run)
+        if args.speaker_variants:
+            variants = [python, str(SCRIPT_DIR / "synthesize_voice_variants.py")]
+            if args.force_audio:
+                variants.append("--force")
+            if args.audio_limit is not None:
+                variants.extend(["--limit", str(args.audio_limit)])
+            run_stage("Generate additional speaker audio", variants, args.dry_run)
     run_stage("Build app data", build, args.dry_run)
 
     print("\nPipeline complete." if not args.dry_run else "\nDry run complete.")
@@ -110,4 +138,3 @@ if __name__ == "__main__":
     except RuntimeError as error:
         print(f"Error: {error}", file=sys.stderr)
         raise SystemExit(1)
-

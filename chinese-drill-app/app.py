@@ -86,7 +86,9 @@ def default_progress() -> dict[str, Any]:
     }
 
 
-def validate_deck(value: Any) -> dict[str, Any]:
+def validate_deck(
+    value: Any, audio_directory: Path = AUDIO_DIRECTORY
+) -> dict[str, Any]:
     if not isinstance(value, dict):
         raise ValueError("Deck must be a JSON object")
     sentences = value.get("sentences")
@@ -109,7 +111,7 @@ def validate_deck(value: Any) -> dict[str, Any]:
             missing_audio.append(sentence_id)
             continue
         filename = Path(audio_url).name
-        audio_path = AUDIO_DIRECTORY / filename
+        audio_path = audio_directory / filename
         if not audio_path.is_file() or audio_path.stat().st_size < 100:
             missing_audio.append(sentence_id)
         variants = sentence.get("audio_variants", [])
@@ -121,7 +123,7 @@ def validate_deck(value: Any) -> dict[str, Any]:
             variant_url = variant.get("audio")
             if not isinstance(variant_url, str) or not variant_url.startswith("/audio/"):
                 raise ValueError(f"Deck sentence {sentence_id} has an invalid variant path")
-            variant_path = AUDIO_DIRECTORY / Path(variant_url).name
+            variant_path = audio_directory / Path(variant_url).name
             if not variant_path.is_file() or variant_path.stat().st_size < 100:
                 raise ValueError(f"Deck sentence {sentence_id} references missing variant audio")
 
@@ -208,10 +210,16 @@ def validate_progress(value: Any, deck_ids: set[str]) -> dict[str, Any]:
 
 
 class DrillApplication:
-    def __init__(self, deck_path: Path, progress_path: Path):
+    def __init__(
+        self,
+        deck_path: Path,
+        progress_path: Path,
+        audio_directory: Path = AUDIO_DIRECTORY,
+    ):
         self.deck_path = deck_path
         self.progress_path = progress_path
-        self.deck = validate_deck(read_json(deck_path))
+        self.audio_directory = audio_directory
+        self.deck = validate_deck(read_json(deck_path), audio_directory)
         self.deck_ids = {sentence["id"] for sentence in self.deck["sentences"]}
         self.lock = threading.Lock()
         if progress_path.exists():
@@ -343,7 +351,7 @@ def handler_factory(application: DrillApplication) -> type[BaseHTTPRequestHandle
                 if Path(filename).name != filename or not filename.endswith(".mp3"):
                     self.send_error_json(HTTPStatus.BAD_REQUEST, "Invalid audio path")
                     return
-                self.serve_file(AUDIO_DIRECTORY / filename, immutable=True)
+                self.serve_file(application.audio_directory / filename, immutable=True)
                 return
             static_path = STATIC_FILES.get(path)
             if static_path is not None:
@@ -388,6 +396,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--check", action="store_true", help="Validate data and exit")
     parser.add_argument("--deck", type=Path, default=DECK_PATH)
     parser.add_argument("--progress", type=Path, default=DEFAULT_PROGRESS_PATH)
+    parser.add_argument("--audio-directory", type=Path, default=AUDIO_DIRECTORY)
     return parser.parse_args()
 
 
@@ -395,7 +404,8 @@ def main() -> int:
     args = parse_args()
     deck_path = args.deck.expanduser().resolve()
     progress_path = args.progress.expanduser().resolve()
-    application = DrillApplication(deck_path, progress_path)
+    audio_directory = args.audio_directory.expanduser().resolve()
+    application = DrillApplication(deck_path, progress_path, audio_directory)
     sentence_count = len(application.deck["sentences"])
     if args.check:
         print(f"App data is valid: {sentence_count} sentences and audio files.")

@@ -61,7 +61,11 @@ def build_prompt(lesson: str, transcript: Path, analysis: Path) -> str:
     instructions = (PROMPT_DIR / "generate_sentences.txt").read_text(
         encoding="utf-8"
     )
-    transcript_text = transcript.read_text(encoding="utf-8-sig")
+    transcript_text = (
+        transcript.read_text(encoding="utf-8-sig")
+        if transcript.is_file()
+        else "[No raw transcript is available for this lesson. Use only the analysis.]"
+    )
     analysis_text = analysis.read_text(encoding="utf-8-sig")
     return (
         f"{instructions.rstrip()}\n\n"
@@ -206,4 +210,3 @@ if __name__ == "__main__":
     except (FileNotFoundError, RuntimeError, ValueError) as error:
         print(f"Error: {error}", file=sys.stderr)
         raise SystemExit(1)
-

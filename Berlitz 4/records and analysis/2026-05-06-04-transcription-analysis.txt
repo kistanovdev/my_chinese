@@ -1,0 +1,91 @@
+Your main speaking bottleneck is **putting familiar words into the right order while retrieving them**. You often corrected yourself successfully: 在家工作、开车回家、两千人、越来越多 and 被车撞了. Practice these as complete chunks.
+
+I treat Speaker 1 as you. Without audio, transcription and pronunciation errors cannot always be separated.
+
+### Ten high-value corrections and structures
+
+1. **Put location before the action**  
+   “工作在家” → **在家工作**  
+   “我在沙加缅度……住在” → **我住在沙加缅度。**  
+   Pattern: **谁 + 在哪里 + 做什么**; for residence, **谁 + 住在 + 地方**.  
+   Useful extension: **我每个月去公司两次。开车去公司要两个小时。**
+
+2. **Use 回 for returning; 住 for staying overnight**  
+   “开车去我的家” → **开车回家。**  
+   “我在 Cupertino 睡觉” → **我在 Cupertino 住一晚。** if you mean staying overnight.  
+   睡觉 means “sleep”; 住一晚 means “stay one night.” Your exact travel days and departure time remain unclear.
+
+3. **Express liking both options with 都 / 也**  
+   “我喜欢一样，跟我一样” → **两个我都喜欢。**  
+   “我都喜欢去公司，也……工作在家” → **我喜欢去公司，也喜欢在家工作。**  
+   If you mean *equally*: **去公司和在家工作，我一样喜欢。**
+
+4. **Learn whole verb phrases: 开会、说话、修车**  
+   “跟同事有会” → **跟同事开会。**  
+   “我想说……人” → **我想跟别人说话。**  
+   “做修” → **修车。**  
+   **跟 + 人 + 动作** is especially useful: 跟同事开会、跟朋友聊天.  
+   For requesting vocabulary: **“sometimes”用中文怎么说？**
+
+5. **Distinguish permission, necessity and restriction**  
+   **我可以在家工作。** = I’m allowed to work from home.  
+   **我只能在家工作。** = I can *only* work from home.  
+   Your “我只能在家工作” likely changed your intended meaning, given that you also described office visits.  
+   “你一定去公司” → **你一定要去公司。 / 你必须去公司。** if attendance is required.
+
+6. **Separate 不, 没 and 过**  
+   “我的车不坏了 / 没坏了” → **我的车没坏。** if it wasn’t damaged.  
+   “2018年我不看中国的车” → **2018年，我没看到中国的车。**  
+   - **不**: habits, preferences or refusal — 我不骑摩托车。  
+   - **没**: something didn’t happen — 我没看到。  
+   - **过**: prior experience — 我看过。 / 我没看过。  
+   
+   **没看到这个字** means you didn’t see it on that occasion; **没见过这个字** means it is unfamiliar.
+
+7. **Use 有点 + adjective; verb + 一点**  
+   “一点快” → **有点快。**  
+   “痛一点” → **有点痛。** if you mean “it hurts a little.”  
+   “唱歌一点” → **唱一点歌。**  
+   有点 describes a degree, often something undesirable. 一点 after a verb can indicate a small amount; **慢一点** means “a little slower.”
+
+8. **Describe how someone acts with 得**  
+   “加州人不……开车很好” → **我觉得加州有些人开车开得不太好。**  
+   Pattern: **动作 + 得 + 描述** — 开得快、说得慢、做得好.  
+   Also: **开汽车，骑自行车，骑摩托车。**  
+   You already used 越来越多 correctly; extend it to **车做得越来越好了。**
+
+9. **Keep the action in a 被 sentence**  
+   “过马路的老太太被自行车了” → **过马路的老太太被自行车撞了。**  
+   Pattern: **受到影响的人/东西 + 被 + 动作的执行者 + 动作**.  
+   Compare: **一辆车撞了我的车。 → 我的车被另一辆车撞了。**  
+   The missing 撞 could be a transcription omission; later you produced **老人被自行车撞了** correctly.
+
+10. **Use age and duration chunks; preserve uncertainty**  
+    “四年、五年” → **四岁、五岁。** for age.  
+    “我在医院……一个星期住在” → **我在医院住了一个星期。**  
+    **我不记得了。** = I don’t remember.  
+    **我记不清了，可能住了几个星期。** = I don’t remember clearly; perhaps a few weeks.  
+    Here **我应该住院** can sound like “I should be hospitalized.” Use 可能 when recalling uncertain facts. When asked whether the engineer resells cars, **我不知道** fits better than **我没有意见** (“I have no objection/opinion”).
+
+### Transcription cautions
+
+- **“做五份”“无发”“九斤山”** are unclear. “九斤山” likely represents **旧金山**, supported by your saying “San Francisco”; the factory comparison itself is not clear enough to reconstruct.
+- **“短了”** likely represents **断了** in the fracture dialogue. These have different tones: 短 *duǎn* = short; 断 *duàn* = break. Audio would be needed to judge your pronunciation.
+- **铲 / 惨 / 三** appear during a discussion of characters on screen. Treat these as uncertain transcription or reading confusion, rather than established speaking mistakes.
+- **公里 = kilometer; 公斤 = kilogram; 英里 = mile.** The English words may have been mistranscribed, but the teacher’s agreement does not resolve the confusion.
+- **硬体** is a regional term for hardware, not a mistake; **硬件** is the usual mainland term. “线样体” likely represents **腺样体**, but that specialist word need not be a study priority.
+
+### Say-aloud drills
+
+Say each sentence once while reading, then again without looking. These are practice sentences, not additional claims about your life.
+
+1. 我在家工作。我每个月去公司两次。  
+2. 开车去公司要两个小时。我开车回家。  
+3. 我喜欢去公司，也喜欢在家工作。  
+4. 我跟同事开会。有时候，我想跟别人说话。  
+5. 我可以在家工作，但是今天必须去公司。  
+6. 我看过交通事故，但是没看到事故是怎么发生的。  
+7. 我的车没坏。另一辆车坏了，还没修好。  
+8. 我一个人开车的时候，开得有点快。有家人在车上，我就开得慢一点。  
+9. 一辆车撞了他的自行车。他的自行车被车撞了。  
+10. 我小时候住过院，但是住了多久，我记不清了。
