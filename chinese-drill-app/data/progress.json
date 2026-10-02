@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updated_at": "2026-10-02T05:09:13+00:00",
+  "updated_at": "2026-10-02T06:19:12+00:00",
   "settings": {
     "session_size": 10,
     "repetitions": 3,
     "playback_speed": 1,
-    "voice_mode": "original"
+    "voice_mode": "varied"
   },
   "stats": {
-    "total_reviews": 22,
+    "total_reviews": 24,
     "sessions_completed": 2,
     "last_session": "2026-10-02T05:09:13.510Z"
   },
@@ -304,6 +304,34 @@
         "again": 0,
         "hard": 1,
         "good": 0,
+        "easy": 0
+      }
+    },
+    "berlitz3-sentence-024bb1ce47df": {
+      "seen": 1,
+      "box": 1,
+      "streak": 1,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-02T06:18:37.231Z",
+      "next_due": "2026-10-05T06:18:37.231Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 1,
+        "easy": 0
+      }
+    },
+    "berlitz3-sentence-02a286d2ce20": {
+      "seen": 1,
+      "box": 1,
+      "streak": 1,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-02T06:19:11.998Z",
+      "next_due": "2026-10-05T06:19:11.998Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 1,
         "easy": 0
       }
     }

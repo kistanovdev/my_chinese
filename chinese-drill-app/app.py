@@ -22,6 +22,10 @@ from urllib.parse import unquote, urlparse
 PROJECT_ROOT = Path(__file__).resolve().parent
 WEB_DIRECTORY = PROJECT_ROOT / "web"
 AUDIO_DIRECTORY = PROJECT_ROOT / "audio"
+COLLECTION_AUDIO_DIRECTORIES = {
+    "berlitz3": PROJECT_ROOT / "collections" / "berlitz3" / "audio",
+    "berlitz4": PROJECT_ROOT / "collections" / "berlitz4" / "audio",
+}
 DECK_PATH = PROJECT_ROOT / "dist" / "deck.json"
 DEFAULT_PROGRESS_PATH = PROJECT_ROOT / "data" / "progress.json"
 MAX_PROGRESS_BYTES = 2_000_000
@@ -86,6 +90,26 @@ def default_progress() -> dict[str, Any]:
     }
 
 
+def resolve_audio_path(audio_url: Any, audio_directory: Path) -> Path:
+    if not isinstance(audio_url, str) or not audio_url.startswith("/audio/"):
+        raise ValueError("Invalid audio path")
+    relative = audio_url.removeprefix("/audio/")
+    parts = relative.split("/")
+    if any(not part or part in {".", ".."} for part in parts):
+        raise ValueError("Invalid audio path")
+    if len(parts) == 1:
+        directory = audio_directory
+        filename = parts[0]
+    elif len(parts) == 2 and parts[0] in COLLECTION_AUDIO_DIRECTORIES:
+        directory = COLLECTION_AUDIO_DIRECTORIES[parts[0]]
+        filename = parts[1]
+    else:
+        raise ValueError("Invalid audio path")
+    if Path(filename).name != filename or not filename.endswith(".mp3"):
+        raise ValueError("Invalid audio path")
+    return directory / filename
+
+
 def validate_deck(
     value: Any, audio_directory: Path = AUDIO_DIRECTORY
 ) -> dict[str, Any]:
@@ -107,11 +131,11 @@ def validate_deck(
             raise ValueError(f"Duplicate deck sentence ID: {sentence_id}")
         ids.add(sentence_id)
         audio_url = sentence.get("audio")
-        if not isinstance(audio_url, str) or not audio_url.startswith("/audio/"):
+        try:
+            audio_path = resolve_audio_path(audio_url, audio_directory)
+        except ValueError:
             missing_audio.append(sentence_id)
             continue
-        filename = Path(audio_url).name
-        audio_path = audio_directory / filename
         if not audio_path.is_file() or audio_path.stat().st_size < 100:
             missing_audio.append(sentence_id)
         variants = sentence.get("audio_variants", [])
@@ -121,9 +145,10 @@ def validate_deck(
             if not isinstance(variant, dict):
                 raise ValueError(f"Deck sentence {sentence_id} has an invalid audio variant")
             variant_url = variant.get("audio")
-            if not isinstance(variant_url, str) or not variant_url.startswith("/audio/"):
+            try:
+                variant_path = resolve_audio_path(variant_url, audio_directory)
+            except ValueError:
                 raise ValueError(f"Deck sentence {sentence_id} has an invalid variant path")
-            variant_path = audio_directory / Path(variant_url).name
             if not variant_path.is_file() or variant_path.stat().st_size < 100:
                 raise ValueError(f"Deck sentence {sentence_id} references missing variant audio")
 
@@ -347,11 +372,15 @@ def handler_factory(application: DrillApplication) -> type[BaseHTTPRequestHandle
                     self.send_json(application.progress)
                 return
             if path.startswith("/audio/"):
-                filename = unquote(path[len("/audio/") :])
-                if Path(filename).name != filename or not filename.endswith(".mp3"):
+                audio_url = f"/audio/{unquote(path[len('/audio/') :])}"
+                try:
+                    audio_path = resolve_audio_path(
+                        audio_url, application.audio_directory
+                    )
+                except ValueError:
                     self.send_error_json(HTTPStatus.BAD_REQUEST, "Invalid audio path")
                     return
-                self.serve_file(application.audio_directory / filename, immutable=True)
+                self.serve_file(audio_path, immutable=True)
                 return
             static_path = STATIC_FILES.get(path)
             if static_path is not None:

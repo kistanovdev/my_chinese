@@ -1,7 +1,7 @@
 # Chinese Drill App
 
-A small, local-first speaking drill app built from the learner's Berlitz 5
-lesson transcripts and evaluations.
+A small, local-first speaking drill app built from the learner's Berlitz 3,
+4, and 5 lesson transcripts and evaluations.
 
 The app's job is deliberately narrow:
 
@@ -14,9 +14,9 @@ The app's job is deliberately narrow:
 
 ## Current status
 
-The Python content pipeline is implemented, the Berlitz 5 source set is
-inventoried, and the first local practice app is implemented. The current deck
-contains 202 sentences with 202 cached ElevenLabs MP3 files.
+The Python content pipeline and local practice app are implemented. The default
+app combines all three course levels into one deck containing 696 drills. Each
+card has three cached ElevenLabs recordings.
 
 ## Launch the app
 
@@ -37,6 +37,7 @@ practice.
 The default speaker setting preserves the original Mr. Chen recordings. Choose
 **Varied speakers** in Session Setup to rotate through one Beijing Mandarin male
 voice and two Taiwan Mandarin female voices without changing card progress.
+The lesson chip on each card shows both its lesson date and Berlitz level.
 
 ## Proposed MVP
 
@@ -115,6 +116,9 @@ python3 scripts/build_app_data.py
 
 # Or run every stage in sequence.
 python3 scripts/run_pipeline.py
+
+# Rebuild the single combined Level 3 + 4 + 5 app after changing any deck.
+python3 scripts/merge_levels.py
 
 # Run an isolated Berlitz 4 collection with all three speakers.
 python3 scripts/run_pipeline.py \

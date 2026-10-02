@@ -3,6 +3,7 @@ from __future__ import annotations
 import sys
 import tempfile
 import unittest
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -15,6 +16,7 @@ from app import (  # noqa: E402
     DrillApplication,
     default_progress,
     parse_range_header,
+    resolve_audio_path,
     validate_progress,
 )
 
@@ -58,6 +60,18 @@ class AppTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             parse_range_header("bytes=100-110", 100)
 
+    def test_audio_path_resolver_supports_collections_and_rejects_traversal(self) -> None:
+        self.assertEqual(
+            resolve_audio_path("/audio/example.mp3", PROJECT_ROOT / "audio"),
+            PROJECT_ROOT / "audio" / "example.mp3",
+        )
+        self.assertEqual(
+            resolve_audio_path("/audio/berlitz3/example.mp3", PROJECT_ROOT / "audio"),
+            PROJECT_ROOT / "collections" / "berlitz3" / "audio" / "example.mp3",
+        )
+        with self.assertRaises(ValueError):
+            resolve_audio_path("/audio/berlitz3/../example.mp3", PROJECT_ROOT / "audio")
+
     def test_progress_round_trip_is_persisted(self) -> None:
         with tempfile.TemporaryDirectory() as temp_name:
             progress_path = Path(temp_name) / "progress.json"
@@ -77,6 +91,21 @@ class AppTests(unittest.TestCase):
             application.save_progress(progress)
             reloaded = DrillApplication(DECK_PATH, progress_path)
             self.assertEqual(reloaded.progress["cards"][sentence_id]["seen"], 1)
+
+    def test_default_deck_combines_all_berlitz_levels(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_name:
+            application = DrillApplication(
+                DECK_PATH, Path(temp_name) / "progress.json"
+            )
+        sentences = application.deck["sentences"]
+        self.assertEqual(len(sentences), 696)
+        self.assertEqual(
+            Counter(sentence.get("level") for sentence in sentences),
+            Counter({3: 244, 4: 250, 5: 202}),
+        )
+        self.assertTrue(
+            all(len(sentence.get("audio_variants", [])) == 3 for sentence in sentences)
+        )
 
 
 if __name__ == "__main__":

@@ -247,7 +247,9 @@ function prepareCurrentCard() {
   elements.cardPosition.textContent = `${state.currentIndex + 1} of ${state.queue.length}`;
   elements.progressFill.style.width = `${(state.completedInSession / Math.max(1, state.queue.length)) * 100}%`;
   const lessons = [...new Set(sentence.sources.map((source) => source.lesson))];
-  elements.lessonChip.textContent = lessons.length === 1 ? `Lesson ${lessons[0]}` : `${lessons.length} lessons`;
+  const lessonLabel = lessons.length === 1 ? `Lesson ${lessons[0]}` : `${lessons.length} lessons`;
+  const levelLabel = sentence.level ? `Berlitz ${sentence.level}` : "Berlitz";
+  elements.lessonChip.textContent = `${lessonLabel} · ${levelLabel}`;
   elements.focusList.textContent = sentence.focus.join(" · ");
   elements.scenarioText.textContent = sentence.scenario;
   elements.chineseText.textContent = sentence.chinese;
