@@ -1,1095 +1,1501 @@
 {
   "version": 1,
-  "updated_at": "2026-10-02T18:19:39+00:00",
+  "updated_at": "2026-10-16T17:37:08+00:00",
   "settings": {
-    "session_size": 1,
+    "session_size": 30,
     "repetitions": 3,
     "playback_speed": 1,
-    "voice_mode": "original",
-    "record_after_sequence": true
+    "voice_mode": "varied",
+    "record_after_sequence": false
   },
   "stats": {
-    "total_reviews": 79,
-    "sessions_completed": 8,
-    "last_session": "2026-10-02T18:19:39.436Z"
+    "total_reviews": 265,
+    "sessions_completed": 15,
+    "last_session": "2026-10-16T17:37:08.262Z"
   },
   "cards": {
     "sentence-0019e6366f13": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-01T23:36:14.646Z",
-      "next_due": "2026-10-02T23:36:14.646Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-03T07:55:11.378Z",
+      "next_due": "2026-10-17T07:55:11.378Z",
       "ratings": {
         "again": 0,
         "hard": 1,
         "good": 0,
-        "easy": 0
+        "easy": 1
       }
     },
     "sentence-012efa2e6de0": {
-      "seen": 2,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-01T23:48:41.797Z",
-      "next_due": "2026-10-04T23:48:41.797Z",
+      "seen": 4,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:26:10.391Z",
+      "next_due": "2026-11-15T17:26:10.391Z",
       "ratings": {
         "again": 1,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "sentence-021a91780400": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-01T23:39:01.046Z",
-      "next_due": "2026-10-02T23:39:01.046Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-03T18:45:07.445Z",
+      "next_due": "2026-10-17T18:45:07.445Z",
       "ratings": {
         "again": 0,
         "hard": 1,
         "good": 0,
-        "easy": 0
+        "easy": 1
       }
     },
     "sentence-027c4737e2b9": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-01T23:39:59.746Z",
-      "next_due": "2026-10-02T23:39:59.746Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-03T18:45:35.218Z",
+      "next_due": "2026-10-17T18:45:35.218Z",
       "ratings": {
         "again": 0,
         "hard": 1,
         "good": 0,
-        "easy": 0
+        "easy": 1
       }
     },
     "sentence-049d4fa0e9bb": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-01T23:43:48.363Z",
-      "next_due": "2026-10-02T23:43:48.363Z",
+      "seen": 4,
+      "box": 4,
+      "streak": 4,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:15:02.443Z",
+      "next_due": "2026-11-14T07:15:02.443Z",
       "ratings": {
         "again": 0,
-        "hard": 1,
-        "good": 0,
-        "easy": 0
+        "hard": 2,
+        "good": 1,
+        "easy": 1
       }
     },
     "sentence-0687491f6e50": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-01T23:44:19.497Z",
-      "next_due": "2026-10-04T23:44:19.497Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:25:43.121Z",
+      "next_due": "2026-11-15T17:25:43.121Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "sentence-0934a04b2e44": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-01T23:44:34.263Z",
-      "next_due": "2026-10-04T23:44:34.263Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-05T05:11:12.715Z",
+      "next_due": "2026-10-19T05:11:12.715Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 1,
-        "easy": 0
+        "easy": 1
       }
     },
     "sentence-0c63ec0c44d6": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-01T23:45:46.831Z",
-      "next_due": "2026-10-02T23:45:46.831Z",
+      "seen": 4,
+      "box": 3,
+      "streak": 4,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-15T07:15:25.363Z",
+      "next_due": "2026-10-29T07:15:25.363Z",
       "ratings": {
         "again": 0,
-        "hard": 1,
-        "good": 0,
+        "hard": 2,
+        "good": 2,
         "easy": 0
       }
     },
     "sentence-0d6620328ab3": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-01T23:46:57.947Z",
-      "next_due": "2026-10-02T23:46:57.947Z",
+      "seen": 3,
+      "box": 3,
+      "streak": 3,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-15T07:07:44.633Z",
+      "next_due": "2026-10-29T07:07:44.633Z",
       "ratings": {
         "again": 0,
         "hard": 1,
-        "good": 0,
+        "good": 2,
         "easy": 0
       }
     },
     "sentence-118341c4436c": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-01T23:48:22.047Z",
-      "next_due": "2026-10-02T23:48:22.047Z",
+      "seen": 4,
+      "box": 4,
+      "streak": 4,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:35:56.279Z",
+      "next_due": "2026-11-15T17:35:56.279Z",
       "ratings": {
         "again": 0,
-        "hard": 1,
-        "good": 0,
-        "easy": 0
+        "hard": 2,
+        "good": 1,
+        "easy": 1
       }
     },
     "sentence-12fd9739927a": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-01T23:53:06.594Z",
-      "next_due": "2026-10-04T23:53:06.594Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:26:38.622Z",
+      "next_due": "2026-11-15T17:26:38.622Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "sentence-132468d3755c": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T04:56:42.660Z",
-      "next_due": "2026-10-05T04:56:42.660Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-07T17:50:03.973Z",
+      "next_due": "2026-10-21T17:50:03.973Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 1,
-        "easy": 0
+        "easy": 1
       }
     },
     "sentence-1560277c4f38": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T04:57:59.952Z",
-      "next_due": "2026-10-05T04:57:59.952Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-07T17:50:26.686Z",
+      "next_due": "2026-10-21T17:50:26.686Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 1,
-        "easy": 0
+        "easy": 1
       }
     },
     "sentence-15ee3f65f72a": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T04:59:52.353Z",
-      "next_due": "2026-10-03T04:59:52.353Z",
+      "seen": 4,
+      "box": 4,
+      "streak": 4,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:36:20.055Z",
+      "next_due": "2026-11-15T17:36:20.055Z",
       "ratings": {
         "again": 0,
-        "hard": 1,
-        "good": 0,
-        "easy": 0
+        "hard": 2,
+        "good": 1,
+        "easy": 1
       }
     },
     "sentence-17138e98309c": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T05:00:24.445Z",
-      "next_due": "2026-10-05T05:00:24.445Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-07T17:50:57.404Z",
+      "next_due": "2026-10-21T17:50:57.404Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 1,
-        "easy": 0
+        "easy": 1
       }
     },
     "sentence-199ac17f4f8e": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T05:04:23.830Z",
-      "next_due": "2026-10-03T05:04:23.830Z",
+      "seen": 4,
+      "box": 4,
+      "streak": 4,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:23:49.693Z",
+      "next_due": "2026-11-15T17:23:49.693Z",
       "ratings": {
         "again": 0,
-        "hard": 1,
-        "good": 0,
-        "easy": 0
+        "hard": 2,
+        "good": 1,
+        "easy": 1
       }
     },
     "sentence-1dda54811da4": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T05:04:57.471Z",
-      "next_due": "2026-10-05T05:04:57.471Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-07T17:51:20.776Z",
+      "next_due": "2026-10-21T17:51:20.776Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 1,
-        "easy": 0
+        "easy": 1
       }
     },
     "sentence-2444bfef8254": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T05:05:56.197Z",
-      "next_due": "2026-10-05T05:05:56.197Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-07T17:51:44.340Z",
+      "next_due": "2026-10-21T17:51:44.340Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 1,
-        "easy": 0
+        "easy": 1
       }
     },
     "sentence-248a272ad689": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T05:07:44.931Z",
-      "next_due": "2026-10-05T05:07:44.931Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-07T17:52:12.487Z",
+      "next_due": "2026-10-21T17:52:12.487Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 1,
-        "easy": 0
+        "easy": 1
       }
     },
     "sentence-24fee1657bb4": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T05:08:27.181Z",
-      "next_due": "2026-10-05T05:08:27.181Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-07T17:52:39.110Z",
+      "next_due": "2026-10-21T17:52:39.110Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 1,
-        "easy": 0
+        "easy": 1
       }
     },
     "sentence-25dbb6aa56f8": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T05:09:13.506Z",
-      "next_due": "2026-10-03T05:09:13.506Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:09:08.331Z",
+      "next_due": "2026-11-14T07:09:08.331Z",
       "ratings": {
         "again": 0,
         "hard": 1,
-        "good": 0,
-        "easy": 0
+        "good": 1,
+        "easy": 1
       }
     },
     "berlitz3-sentence-024bb1ce47df": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T06:18:37.231Z",
-      "next_due": "2026-10-05T06:18:37.231Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:28:46.781Z",
+      "next_due": "2026-11-15T17:28:46.781Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "berlitz3-sentence-02a286d2ce20": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T06:19:11.998Z",
-      "next_due": "2026-10-05T06:19:11.998Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-07T17:53:25.734Z",
+      "next_due": "2026-10-21T17:53:25.734Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 1,
-        "easy": 0
+        "easy": 1
       }
     },
     "berlitz3-sentence-044ce29b1158": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T06:25:36.432Z",
-      "next_due": "2026-10-05T06:25:36.432Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-07T17:53:46.122Z",
+      "next_due": "2026-10-21T17:53:46.122Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 1,
-        "easy": 0
+        "easy": 1
       }
     },
     "berlitz3-sentence-058e56b4ab6e": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
       "last_rating": "easy",
-      "last_reviewed": "2026-10-02T06:25:57.915Z",
-      "next_due": "2026-10-09T06:25:57.915Z",
+      "last_reviewed": "2026-10-10T04:04:20.142Z",
+      "next_due": "2026-11-09T04:04:20.142Z",
       "ratings": {
         "again": 0,
         "hard": 0,
+        "good": 0,
+        "easy": 2
+      }
+    },
+    "berlitz3-sentence-05f7bf5684e2": {
+      "seen": 4,
+      "box": 3,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-05T04:55:41.180Z",
+      "next_due": "2026-10-19T04:55:41.180Z",
+      "ratings": {
+        "again": 1,
+        "hard": 2,
         "good": 0,
         "easy": 1
       }
     },
-    "berlitz3-sentence-05f7bf5684e2": {
-      "seen": 2,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T06:32:29.932Z",
-      "next_due": "2026-10-03T06:32:29.932Z",
-      "ratings": {
-        "again": 1,
-        "hard": 1,
-        "good": 0,
-        "easy": 0
-      }
-    },
     "berlitz3-sentence-062d8021af6f": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T06:28:17.590Z",
-      "next_due": "2026-10-03T06:28:17.590Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-03T18:50:05.588Z",
+      "next_due": "2026-10-17T18:50:05.588Z",
       "ratings": {
         "again": 0,
         "hard": 1,
         "good": 0,
-        "easy": 0
+        "easy": 1
       }
     },
     "berlitz3-sentence-066aa659fc28": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T06:28:52.882Z",
-      "next_due": "2026-10-03T06:28:52.882Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-03T18:50:29.261Z",
+      "next_due": "2026-10-17T18:50:29.261Z",
       "ratings": {
         "again": 0,
         "hard": 1,
         "good": 0,
-        "easy": 0
+        "easy": 1
       }
     },
     "berlitz3-sentence-090f39daf45a": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T06:30:51.423Z",
-      "next_due": "2026-10-03T06:30:51.423Z",
+      "seen": 3,
+      "box": 3,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-05T04:55:14.290Z",
+      "next_due": "2026-10-19T04:55:14.290Z",
       "ratings": {
         "again": 0,
-        "hard": 1,
+        "hard": 2,
         "good": 0,
-        "easy": 0
+        "easy": 1
       }
     },
     "berlitz3-sentence-0a4468306b62": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T06:31:31.348Z",
-      "next_due": "2026-10-05T06:31:31.348Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:29:09.311Z",
+      "next_due": "2026-11-15T17:29:09.311Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "berlitz3-sentence-0b53e0519f03": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T06:31:56.215Z",
-      "next_due": "2026-10-05T06:31:56.215Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:29:30.009Z",
+      "next_due": "2026-11-15T17:29:30.009Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "berlitz4-sentence-d0639fea9d60": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T06:47:43.147Z",
-      "next_due": "2026-10-03T06:47:43.147Z",
+      "seen": 3,
+      "box": 3,
+      "streak": 3,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-15T07:09:37.116Z",
+      "next_due": "2026-10-29T07:09:37.116Z",
       "ratings": {
         "again": 0,
         "hard": 1,
-        "good": 0,
+        "good": 2,
         "easy": 0
       }
     },
     "sentence-dad2dc1e1bff": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T06:50:05.455Z",
-      "next_due": "2026-10-05T06:50:05.455Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:29:54.236Z",
+      "next_due": "2026-11-15T17:29:54.236Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "berlitz3-sentence-ad60811a612f": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
       "last_rating": "easy",
-      "last_reviewed": "2026-10-02T06:50:48.107Z",
-      "next_due": "2026-10-09T06:50:48.107Z",
+      "last_reviewed": "2026-10-10T04:04:54.479Z",
+      "next_due": "2026-11-09T04:04:54.479Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 0,
-        "easy": 1
+        "easy": 2
       }
     },
     "berlitz4-sentence-d29a93ea0176": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T06:51:55.547Z",
-      "next_due": "2026-10-05T06:51:55.547Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:30:20.996Z",
+      "next_due": "2026-11-15T17:30:20.996Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "berlitz4-sentence-b37bbd767060": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
       "last_rating": "easy",
-      "last_reviewed": "2026-10-02T06:52:26.204Z",
-      "next_due": "2026-10-09T06:52:26.204Z",
+      "last_reviewed": "2026-10-10T04:05:19.833Z",
+      "next_due": "2026-11-09T04:05:19.833Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 0,
-        "easy": 1
+        "easy": 2
       }
     },
     "sentence-f64a63da5f89": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
       "last_rating": "easy",
-      "last_reviewed": "2026-10-02T06:54:27.412Z",
-      "next_due": "2026-10-09T06:54:27.412Z",
+      "last_reviewed": "2026-10-10T04:05:44.976Z",
+      "next_due": "2026-11-09T04:05:44.976Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 0,
-        "easy": 1
+        "easy": 2
       }
     },
     "sentence-be1d54f6af3c": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
+      "seen": 3,
+      "box": 2,
+      "streak": 3,
       "last_rating": "good",
-      "last_reviewed": "2026-10-02T06:55:00.812Z",
-      "next_due": "2026-10-05T06:55:00.812Z",
+      "last_reviewed": "2026-10-10T04:02:00.604Z",
+      "next_due": "2026-10-17T04:02:00.604Z",
       "ratings": {
         "again": 0,
-        "hard": 0,
-        "good": 1,
+        "hard": 1,
+        "good": 2,
         "easy": 0
       }
     },
     "sentence-f42e4810de9b": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T06:55:41.620Z",
-      "next_due": "2026-10-05T06:55:41.620Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:30:47.171Z",
+      "next_due": "2026-11-15T17:30:47.171Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "berlitz4-sentence-5ad84ce053c4": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T06:56:37.070Z",
-      "next_due": "2026-10-05T06:56:37.070Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:31:10.319Z",
+      "next_due": "2026-11-15T17:31:10.319Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "berlitz4-sentence-ef5f305b6d5f": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T06:57:12.044Z",
-      "next_due": "2026-10-05T06:57:12.044Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:31:36.415Z",
+      "next_due": "2026-11-15T17:31:36.415Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "sentence-e2b187996745": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
+      "seen": 3,
+      "box": 2,
+      "streak": 3,
       "last_rating": "good",
-      "last_reviewed": "2026-10-02T07:01:00.210Z",
-      "next_due": "2026-10-05T07:01:00.210Z",
+      "last_reviewed": "2026-10-10T04:02:34.324Z",
+      "next_due": "2026-10-17T04:02:34.324Z",
       "ratings": {
         "again": 0,
-        "hard": 0,
-        "good": 1,
+        "hard": 1,
+        "good": 2,
         "easy": 0
       }
     },
     "berlitz3-sentence-473a2b68a973": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
+      "seen": 3,
+      "box": 2,
+      "streak": 3,
       "last_rating": "good",
-      "last_reviewed": "2026-10-02T07:01:36.668Z",
-      "next_due": "2026-10-05T07:01:36.668Z",
+      "last_reviewed": "2026-10-10T04:02:55.883Z",
+      "next_due": "2026-10-17T04:02:55.883Z",
       "ratings": {
         "again": 0,
-        "hard": 0,
-        "good": 1,
+        "hard": 1,
+        "good": 2,
         "easy": 0
       }
     },
     "berlitz4-sentence-b698aff5bb28": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T07:03:09.609Z",
-      "next_due": "2026-10-05T07:03:09.609Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:31:59.715Z",
+      "next_due": "2026-11-15T17:31:59.715Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "berlitz4-sentence-0282b7091df7": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T07:05:22.799Z",
-      "next_due": "2026-10-03T07:05:22.799Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-03T18:53:00.579Z",
+      "next_due": "2026-10-17T18:53:00.579Z",
       "ratings": {
         "again": 0,
         "hard": 1,
         "good": 0,
-        "easy": 0
+        "easy": 1
       }
     },
     "sentence-6eb1aed0990a": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T07:06:41.399Z",
-      "next_due": "2026-10-03T07:06:41.399Z",
+      "seen": 3,
+      "box": 3,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-05T05:00:11.193Z",
+      "next_due": "2026-10-19T05:00:11.193Z",
       "ratings": {
         "again": 0,
-        "hard": 1,
+        "hard": 2,
         "good": 0,
-        "easy": 0
+        "easy": 1
       }
     },
     "berlitz4-sentence-bc3b66faa46a": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T17:20:51.099Z",
-      "next_due": "2026-10-05T17:20:51.099Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:32:26.667Z",
+      "next_due": "2026-11-15T17:32:26.667Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "sentence-799d91d26222": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T17:21:40.378Z",
-      "next_due": "2026-10-05T17:21:40.378Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:32:48.040Z",
+      "next_due": "2026-11-15T17:32:48.040Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "berlitz3-sentence-99511dc4a718": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
+      "seen": 3,
+      "box": 2,
+      "streak": 3,
       "last_rating": "good",
-      "last_reviewed": "2026-10-02T17:22:56.413Z",
-      "next_due": "2026-10-05T17:22:56.413Z",
+      "last_reviewed": "2026-10-10T04:03:25.314Z",
+      "next_due": "2026-10-17T04:03:25.314Z",
       "ratings": {
         "again": 0,
-        "hard": 0,
-        "good": 1,
+        "hard": 1,
+        "good": 2,
         "easy": 0
       }
     },
     "berlitz4-sentence-e8102c147216": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T17:23:34.097Z",
-      "next_due": "2026-10-05T17:23:34.097Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:33:11.725Z",
+      "next_due": "2026-11-15T17:33:11.725Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "berlitz4-sentence-f059e4e6fed2": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T17:24:07.046Z",
-      "next_due": "2026-10-05T17:24:07.046Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:33:36.392Z",
+      "next_due": "2026-11-15T17:33:36.392Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "sentence-5af0364991a1": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T17:26:49.464Z",
-      "next_due": "2026-10-03T17:26:49.464Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-03T18:54:14.579Z",
+      "next_due": "2026-10-17T18:54:14.579Z",
       "ratings": {
         "again": 0,
         "hard": 1,
         "good": 0,
-        "easy": 0
+        "easy": 1
       }
     },
     "berlitz4-sentence-ac275238d8bf": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T17:28:00.864Z",
-      "next_due": "2026-10-03T17:28:00.864Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:09:56.768Z",
+      "next_due": "2026-11-14T07:09:56.768Z",
       "ratings": {
         "again": 0,
         "hard": 1,
-        "good": 0,
-        "easy": 0
+        "good": 1,
+        "easy": 1
       }
     },
     "sentence-66949dac68ad": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T17:29:09.148Z",
-      "next_due": "2026-10-03T17:29:09.148Z",
+      "seen": 4,
+      "box": 4,
+      "streak": 4,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:24:18.313Z",
+      "next_due": "2026-11-15T17:24:18.313Z",
       "ratings": {
         "again": 0,
-        "hard": 1,
-        "good": 0,
-        "easy": 0
+        "hard": 2,
+        "good": 1,
+        "easy": 1
       }
     },
     "berlitz3-sentence-702dbbc8b3ed": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T17:29:54.982Z",
-      "next_due": "2026-10-05T17:29:54.982Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:34:03.295Z",
+      "next_due": "2026-11-15T17:34:03.295Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "berlitz3-sentence-e8e5d50e7374": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T17:30:55.982Z",
-      "next_due": "2026-10-05T17:30:55.982Z",
+      "seen": 4,
+      "box": 3,
+      "streak": 4,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:14:31.656Z",
+      "next_due": "2026-10-29T07:14:31.656Z",
       "ratings": {
         "again": 0,
-        "hard": 0,
+        "hard": 2,
         "good": 1,
-        "easy": 0
+        "easy": 1
       }
     },
     "sentence-cff197dea941": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T17:32:26.932Z",
-      "next_due": "2026-10-05T17:32:26.932Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:34:27.853Z",
+      "next_due": "2026-11-15T17:34:27.853Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "berlitz4-sentence-e697734373d0": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "good",
-      "last_reviewed": "2026-10-02T17:33:03.816Z",
-      "next_due": "2026-10-05T17:33:03.816Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:34:54.566Z",
+      "next_due": "2026-11-15T17:34:54.566Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
-        "easy": 0
+        "good": 2,
+        "easy": 1
       }
     },
     "berlitz4-sentence-6cfb8e2e1811": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T17:34:01.566Z",
-      "next_due": "2026-10-03T17:34:01.566Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:10:18.162Z",
+      "next_due": "2026-11-14T07:10:18.162Z",
       "ratings": {
         "again": 0,
         "hard": 1,
-        "good": 0,
-        "easy": 0
+        "good": 1,
+        "easy": 1
       }
     },
     "sentence-f05b13cc9cca": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
       "last_rating": "good",
-      "last_reviewed": "2026-10-02T17:34:37.432Z",
-      "next_due": "2026-10-05T17:34:37.432Z",
+      "last_reviewed": "2026-10-09T23:08:36.038Z",
+      "next_due": "2026-10-16T23:08:36.038Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
+        "good": 2,
         "easy": 0
       }
     },
     "sentence-3ba86f3f9994": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
       "last_rating": "easy",
-      "last_reviewed": "2026-10-02T17:35:06.449Z",
-      "next_due": "2026-10-09T17:35:06.449Z",
+      "last_reviewed": "2026-10-10T04:06:08.510Z",
+      "next_due": "2026-11-09T04:06:08.510Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 0,
-        "easy": 1
+        "easy": 2
       }
     },
     "berlitz3-sentence-54cfc382cdd3": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
       "last_rating": "easy",
-      "last_reviewed": "2026-10-02T17:40:35.188Z",
-      "next_due": "2026-10-09T17:40:35.188Z",
+      "last_reviewed": "2026-10-10T04:06:31.640Z",
+      "next_due": "2026-11-09T04:06:31.640Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 0,
-        "easy": 1
+        "easy": 2
       }
     },
     "berlitz3-sentence-4283cd3ada28": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
-      "last_rating": "easy",
-      "last_reviewed": "2026-10-02T17:41:19.651Z",
-      "next_due": "2026-10-09T17:41:19.651Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-14T08:37:44.166Z",
+      "next_due": "2026-10-28T08:37:44.166Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 0,
+        "good": 1,
         "easy": 1
       }
     },
     "sentence-883b69a5cc23": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
-      "last_rating": "easy",
-      "last_reviewed": "2026-10-02T17:41:47.455Z",
-      "next_due": "2026-10-09T17:41:47.455Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-15T07:04:02.797Z",
+      "next_due": "2026-10-29T07:04:02.797Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 0,
+        "good": 1,
         "easy": 1
       }
     },
     "berlitz4-sentence-156002e33c40": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
-      "last_rating": "easy",
-      "last_reviewed": "2026-10-02T17:42:08.584Z",
-      "next_due": "2026-10-09T17:42:08.584Z",
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-15T07:04:22.402Z",
+      "next_due": "2026-10-29T07:04:22.402Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 0,
+        "good": 1,
         "easy": 1
       }
     },
     "berlitz4-sentence-f973b4f6ee7a": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
       "last_rating": "easy",
-      "last_reviewed": "2026-10-02T17:42:39.704Z",
-      "next_due": "2026-10-09T17:42:39.704Z",
+      "last_reviewed": "2026-10-15T07:04:42.847Z",
+      "next_due": "2026-11-14T07:04:42.847Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 0,
-        "easy": 1
+        "easy": 2
       }
     },
     "berlitz4-sentence-153192a188f6": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
       "last_rating": "good",
-      "last_reviewed": "2026-10-02T18:06:11.310Z",
-      "next_due": "2026-10-05T18:06:11.310Z",
+      "last_reviewed": "2026-10-09T23:09:15.961Z",
+      "next_due": "2026-10-16T23:09:15.961Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
+        "good": 2,
         "easy": 0
       }
     },
     "berlitz3-sentence-27fe8e14a278": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
       "last_rating": "good",
-      "last_reviewed": "2026-10-02T18:06:50.927Z",
-      "next_due": "2026-10-05T18:06:50.927Z",
+      "last_reviewed": "2026-10-09T23:09:43.783Z",
+      "next_due": "2026-10-16T23:09:43.783Z",
       "ratings": {
         "again": 0,
         "hard": 0,
-        "good": 1,
+        "good": 2,
         "easy": 0
       }
     },
     "sentence-f50a27f3fdef": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
       "last_rating": "easy",
-      "last_reviewed": "2026-10-02T18:07:19.311Z",
-      "next_due": "2026-10-09T18:07:19.311Z",
+      "last_reviewed": "2026-10-15T07:05:02.213Z",
+      "next_due": "2026-11-14T07:05:02.213Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 0,
-        "easy": 1
+        "easy": 2
       }
     },
     "sentence-be39bb9cbfce": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
       "last_rating": "easy",
-      "last_reviewed": "2026-10-02T18:10:07.763Z",
-      "next_due": "2026-10-09T18:10:07.763Z",
+      "last_reviewed": "2026-10-15T07:05:26.482Z",
+      "next_due": "2026-11-14T07:05:26.482Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 0,
-        "easy": 1
+        "easy": 2
       }
     },
     "berlitz4-sentence-852e85c04412": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
       "last_rating": "easy",
-      "last_reviewed": "2026-10-02T18:11:31.817Z",
-      "next_due": "2026-10-09T18:11:31.817Z",
+      "last_reviewed": "2026-10-15T07:05:46.630Z",
+      "next_due": "2026-11-14T07:05:46.630Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 0,
-        "easy": 1
+        "easy": 2
       }
     },
     "berlitz4-sentence-d7b41474b1c2": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
       "last_rating": "easy",
-      "last_reviewed": "2026-10-02T18:14:18.016Z",
-      "next_due": "2026-10-09T18:14:18.016Z",
+      "last_reviewed": "2026-10-15T07:06:09.698Z",
+      "next_due": "2026-11-14T07:06:09.698Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 0,
-        "easy": 1
+        "easy": 2
       }
     },
     "sentence-c66b03a76bed": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
-      "last_rating": "hard",
-      "last_reviewed": "2026-10-02T18:14:52.133Z",
-      "next_due": "2026-10-03T18:14:52.133Z",
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:10:39.350Z",
+      "next_due": "2026-11-14T07:10:39.350Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 1,
+        "easy": 1
+      }
+    },
+    "berlitz3-sentence-d15aa402a679": {
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:06:34.197Z",
+      "next_due": "2026-11-14T07:06:34.197Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 0,
+        "easy": 2
+      }
+    },
+    "sentence-dd507e08ca67": {
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:06:53.722Z",
+      "next_due": "2026-11-14T07:06:53.722Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 0,
+        "easy": 2
+      }
+    },
+    "berlitz3-sentence-3ea20e9c8049": {
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:35:29.479Z",
+      "next_due": "2026-11-15T17:35:29.479Z",
       "ratings": {
         "again": 0,
         "hard": 1,
         "good": 0,
-        "easy": 0
-      }
-    },
-    "berlitz3-sentence-d15aa402a679": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
-      "last_rating": "easy",
-      "last_reviewed": "2026-10-02T18:15:14.100Z",
-      "next_due": "2026-10-09T18:15:14.100Z",
-      "ratings": {
-        "again": 0,
-        "hard": 0,
-        "good": 0,
-        "easy": 1
-      }
-    },
-    "sentence-dd507e08ca67": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
-      "last_rating": "easy",
-      "last_reviewed": "2026-10-02T18:15:35.450Z",
-      "next_due": "2026-10-09T18:15:35.450Z",
-      "ratings": {
-        "again": 0,
-        "hard": 0,
-        "good": 0,
-        "easy": 1
-      }
-    },
-    "berlitz3-sentence-3ea20e9c8049": {
-      "seen": 1,
-      "box": 2,
-      "streak": 1,
-      "last_rating": "easy",
-      "last_reviewed": "2026-10-02T18:16:13.701Z",
-      "next_due": "2026-10-09T18:16:13.701Z",
-      "ratings": {
-        "again": 0,
-        "hard": 0,
-        "good": 0,
-        "easy": 1
+        "easy": 2
       }
     },
     "berlitz4-sentence-ce03063ff499": {
-      "seen": 1,
-      "box": 1,
-      "streak": 1,
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
       "last_rating": "good",
-      "last_reviewed": "2026-10-02T18:19:39.421Z",
-      "next_due": "2026-10-05T18:19:39.421Z",
+      "last_reviewed": "2026-10-09T23:10:18.514Z",
+      "next_due": "2026-10-16T23:10:18.514Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 2,
+        "easy": 0
+      }
+    },
+    "berlitz4-sentence-39158f4f7762": {
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-05T05:00:55.269Z",
+      "next_due": "2026-10-19T05:00:55.269Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 0,
+        "easy": 1
+      }
+    },
+    "sentence-ce6b676370dc": {
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:10:57.668Z",
+      "next_due": "2026-11-14T07:10:57.668Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 0,
+        "easy": 2
+      }
+    },
+    "berlitz4-sentence-3a0602111bc5": {
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-05T05:01:20.461Z",
+      "next_due": "2026-10-19T05:01:20.461Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 0,
+        "easy": 1
+      }
+    },
+    "berlitz3-sentence-246fde43d45a": {
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:11:31.523Z",
+      "next_due": "2026-11-14T07:11:31.523Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 0,
+        "easy": 2
+      }
+    },
+    "berlitz3-sentence-c5553a93f235": {
+      "seen": 3,
+      "box": 4,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:24:43.723Z",
+      "next_due": "2026-11-15T17:24:43.723Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 1,
+        "easy": 1
+      }
+    },
+    "berlitz4-sentence-bf7398633164": {
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-10T03:58:03.424Z",
+      "next_due": "2026-10-17T03:58:03.424Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 2,
+        "easy": 0
+      }
+    },
+    "berlitz4-sentence-122db967e4ad": {
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:11:55.265Z",
+      "next_due": "2026-11-14T07:11:55.265Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 0,
+        "easy": 2
+      }
+    },
+    "berlitz3-sentence-76886120e0aa": {
+      "seen": 4,
+      "box": 3,
+      "streak": 4,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:13:26.934Z",
+      "next_due": "2026-10-29T07:13:26.934Z",
+      "ratings": {
+        "again": 0,
+        "hard": 3,
+        "good": 0,
+        "easy": 1
+      }
+    },
+    "sentence-36badae1f301": {
+      "seen": 3,
+      "box": 3,
+      "streak": 3,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-16T17:25:20.680Z",
+      "next_due": "2026-10-30T17:25:20.680Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 2,
+        "easy": 0
+      }
+    },
+    "berlitz4-sentence-5e38e367c250": {
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:12:21.635Z",
+      "next_due": "2026-11-14T07:12:21.635Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 0,
+        "easy": 2
+      }
+    },
+    "berlitz3-sentence-248dfb828394": {
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-10T03:58:28.190Z",
+      "next_due": "2026-10-17T03:58:28.190Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 2,
+        "easy": 0
+      }
+    },
+    "berlitz4-sentence-c57de9fcfd20": {
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:12:41.261Z",
+      "next_due": "2026-11-14T07:12:41.261Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 0,
+        "easy": 2
+      }
+    },
+    "berlitz4-sentence-0af9d45e9af7": {
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:13:04.852Z",
+      "next_due": "2026-11-14T07:13:04.852Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 0,
+        "easy": 2
+      }
+    },
+    "sentence-79ddd57026e8": {
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:27:01.076Z",
+      "next_due": "2026-11-15T17:27:01.076Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 0,
+        "easy": 2
+      }
+    },
+    "berlitz3-sentence-a10a5637b3d3": {
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-10T03:58:54.925Z",
+      "next_due": "2026-10-17T03:58:54.925Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 2,
+        "easy": 0
+      }
+    },
+    "berlitz4-sentence-9a9496b98fcc": {
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-10T03:59:14.739Z",
+      "next_due": "2026-10-17T03:59:14.739Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 2,
+        "easy": 0
+      }
+    },
+    "sentence-e78c1d7038fe": {
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-09T23:11:20.211Z",
+      "next_due": "2026-10-16T23:11:20.211Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 1,
+        "easy": 0
+      }
+    },
+    "sentence-4f0a1f23367d": {
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-10T03:59:34.869Z",
+      "next_due": "2026-10-17T03:59:34.869Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 2,
+        "easy": 0
+      }
+    },
+    "sentence-b37015a60465": {
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-10T03:56:46.612Z",
+      "next_due": "2026-10-17T03:56:46.612Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 1,
+        "easy": 0
+      }
+    },
+    "berlitz3-sentence-9b8e46b38722": {
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-10T04:00:05.410Z",
+      "next_due": "2026-10-17T04:00:05.410Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 2,
+        "easy": 0
+      }
+    },
+    "sentence-65d2c64c539c": {
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-10T04:00:28.689Z",
+      "next_due": "2026-10-17T04:00:28.689Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 2,
+        "easy": 0
+      }
+    },
+    "sentence-74c0b3f284a3": {
+      "seen": 3,
+      "box": 3,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:13:49.644Z",
+      "next_due": "2026-10-29T07:13:49.644Z",
+      "ratings": {
+        "again": 0,
+        "hard": 2,
+        "good": 0,
+        "easy": 1
+      }
+    },
+    "sentence-38a0af36eb0a": {
+      "seen": 2,
+      "box": 3,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-10T04:00:52.454Z",
+      "next_due": "2026-10-24T04:00:52.454Z",
       "ratings": {
         "again": 0,
         "hard": 0,
         "good": 1,
+        "easy": 1
+      }
+    },
+    "sentence-9603d004aed2": {
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-10T04:01:16.066Z",
+      "next_due": "2026-10-17T04:01:16.066Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 2,
         "easy": 0
+      }
+    },
+    "berlitz3-sentence-5deafc4536ac": {
+      "seen": 2,
+      "box": 4,
+      "streak": 2,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:28:23.804Z",
+      "next_due": "2026-11-15T17:28:23.804Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 0,
+        "easy": 2
+      }
+    },
+    "sentence-b6e0ea890add": {
+      "seen": 2,
+      "box": 2,
+      "streak": 2,
+      "last_rating": "good",
+      "last_reviewed": "2026-10-10T03:57:35.246Z",
+      "next_due": "2026-10-17T03:57:35.246Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 1,
+        "easy": 0
+      }
+    },
+    "berlitz3-sentence-976b8c3a5eb5": {
+      "seen": 3,
+      "box": 3,
+      "streak": 3,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-15T07:14:11.544Z",
+      "next_due": "2026-10-29T07:14:11.544Z",
+      "ratings": {
+        "again": 0,
+        "hard": 1,
+        "good": 1,
+        "easy": 1
+      }
+    },
+    "berlitz4-sentence-2c37be11426a": {
+      "seen": 1,
+      "box": 2,
+      "streak": 1,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:36:43.361Z",
+      "next_due": "2026-10-23T17:36:43.361Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 0,
+        "easy": 1
+      }
+    },
+    "berlitz4-sentence-36e2f20c6aa8": {
+      "seen": 1,
+      "box": 2,
+      "streak": 1,
+      "last_rating": "easy",
+      "last_reviewed": "2026-10-16T17:37:08.249Z",
+      "next_due": "2026-10-23T17:37:08.249Z",
+      "ratings": {
+        "again": 0,
+        "hard": 0,
+        "good": 0,
+        "easy": 1
       }
     }
   }
